@@ -1,0 +1,1 @@
+O VIIAH deve ser capaz de converter texto em audio par aos caso em que o cliente quiser receber um audio pelo whatsApp

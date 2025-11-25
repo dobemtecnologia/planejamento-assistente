@@ -1,0 +1,12 @@
+# Arquivos com credenciais e secrets
+**/client_secret_*.json
+**/id's*.txt
+**/*secret*.json
+**/*client_secret*.json
+
+# Arquivos específicos com credenciais
+agenteCalendar/client_secret_*.json
+agenteCalendar/id's*.txt
+agenteEmail/client_secret_*.json
+agenteEmail/id's*.txt
+

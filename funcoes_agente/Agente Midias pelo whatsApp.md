@@ -1,0 +1,1 @@
+O VIIAH deve ser capaz de enviar midias (audio, imagem e video) pelo whatsApp
