@@ -13,3 +13,5 @@ agenteCalendar/id's*.txt
 agenteEmail/client_secret_*.json
 agenteEmail/id's*.txt
 
+# Arquivos de conversas que podem conter credenciais
+chatgpt/conversations.json
