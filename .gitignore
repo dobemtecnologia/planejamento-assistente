@@ -1,3 +1,6 @@
+# Pasta com arquivos que não devem ser commitados
+nao-commitar/
+
 # Arquivos com credenciais e secrets
 **/client_secret_*.json
 **/id's*.txt
