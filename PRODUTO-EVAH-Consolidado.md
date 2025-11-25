@@ -107,6 +107,8 @@ O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Va
 
 **Tecnologias:**
 - Whisper API ou OpenAI para transcrição
+- OpenAI Vision ou modelo customizado para leitura de imagens
+- Playwright / Puppeteer / Cheerio para web scraping
 
 ### 2.6 Consultas na Tabela FIPE
 **Funcionalidades:**
@@ -125,6 +127,90 @@ O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Va
 - Integração direta com fluxos de atendimento e processos internos
 - Evita conflitos de horários
 - Garante registro e acompanhamento de compromissos
+- Atualizar compromissos
+- Remarcar eventos
+- Cancelar eventos
+- Enviar lembretes e solicitações de confirmação
+
+### 2.8 Gestão de Arquivos via Google Drive
+**Funcionalidades:**
+- Permite que o AIVAH gerencie arquivos no Google Drive do cliente
+- Upload, download e organização de arquivos
+- Controle de permissões via API oficial Google Drive
+- Integração direta com fluxos de atendimento
+
+### 2.9 Identificação de Conteúdo de Imagens
+**Funcionalidades:**
+- Permite que o AIVAH analise imagens enviadas por usuários
+- Reconhecimento de elementos visuais, textos ou padrões relevantes
+- Uso de OCR (reconhecimento óptico de caracteres) para extrair texto de imagens
+- Consulta de produtos semelhantes com base em imagens
+- Extração de dados visuais (modelo, tipo, cor) de veículos ou produtos
+
+### 2.10 Consulta de Produtos no Estoque do ERP
+**Funcionalidades:**
+- Permite que o AIVAH consulte em tempo real a disponibilidade de produtos no ERP
+- Exibe quantidade, localização e status do estoque
+- Integração direta com VIAH ERP (Odoo) ou ERP do cliente
+- Consultas via API com segurança e controle de acesso
+
+### 2.11 Consulta de Detalhes de Produto
+**Funcionalidades:**
+- Habilita o AIVAH a retornar informações específicas de um produto com base na seleção do usuário
+- Descrição, especificações técnicas, preços e variantes
+- Consulta de mídias dos produtos do Odoo
+- Apresentação de informações enriquecidas (veículos, serviços, etc.)
+
+### 2.12 Exibição de Fotos de Produtos
+**Funcionalidades:**
+- Capacita o AIVAH a apresentar imagens associadas ao produto consultado
+- Melhora a experiência visual do atendimento
+- Consulta de mídias dos produtos do ERP
+
+### 2.13 Wiki de Empresa
+**Funcionalidades:**
+- Determina todas as informações da empresa
+- Base de conhecimento integrada ao assistente
+- Permite respostas baseadas em informações institucionais
+
+### 2.14 Cálculo de Financiamento
+**Funcionalidades:**
+- Permite simular condições de pagamento em tempo real
+- Oferece transparência e agilidade na negociação
+- Calcula parcelas, juros e prazos de forma personalizada
+- Considera regras da instituição financeira
+- Integração com taxas e condições de parceiros financeiros
+- Apresentação clara e personalizada durante o atendimento
+- Apoio à decisão de compra do cliente, sem precisar sair da conversa
+
+### 2.15 Comparador de Preços para Avaliar Valor do Bem de Entrada
+**Funcionalidades:**
+- Avaliação do bem a ser dado como pagamento, ou parte do pagamento no valor total de compra
+- Útil para negociações de carros, motos, imóveis
+- Comparação de valores de mercado
+
+### 2.16 Direcionamento para Atendentes por Ordem Programada
+**Funcionalidades:**
+- Deve ser definida uma lista de vendedores ordenada por um período pré-definido (em dias)
+- O ciclo se repete quando chega no último vendedor
+- Rotação da ordem dos vendedores para ter o máximo de oportunidades para cada um
+- Distribuição equitativa de leads entre a equipe
+
+### 2.17 Conversão e Transcrição de Mensagens
+**Funcionalidades:**
+- Processo automatizado para converter e transcrever diferentes formatos de mensagens recebidas
+- **Áudio para texto:** Reconhecimento automático da fala para transformar mensagens de voz em texto legível e pesquisável
+- **Texto para áudio:** Síntese de voz para transformar mensagens escritas em áudio, facilitando o consumo em diferentes contextos
+- **Transcrição de PDFs:** Extração de texto de documentos PDF para consulta rápida e integração com fluxos automatizados
+- **Identificação e transcrição de imagens:** Uso de OCR (reconhecimento óptico de caracteres) para extrair texto de imagens enviadas pelo cliente
+- Garante acessibilidade, melhor entendimento e agilidade no atendimento
+
+### 2.18 Configuração Vinculada ao Domínio do Cliente
+**Funcionalidades:**
+- Permite que o AIVAH funcione sob um subdomínio do cliente
+- SSL e identidade visual personalizada
+- Requer configuração de DNS (CNAME ou A record)
+- Personalização completa da experiência do cliente
 
 ---
 
@@ -205,6 +291,49 @@ O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Va
 - Adaptar-se à realidade do negócio do cliente
 - Personalizar fluxos conforme segmento
 - Ajustar linguagem e abordagem
+- Personalização de acordo com a atividade comercial do cliente (imobiliária, escritórios de serviços e consultoria diversas, venda de automóveis)
+
+### 3.11 Agente Wiki de Empresa
+**Funcionalidades:**
+- Determina todas as informações da empresa
+- Base de conhecimento integrada
+- Respostas baseadas em informações institucionais
+
+### 3.12 Agente Cálculo de Financiamento
+**Funcionalidades:**
+- Simulação de condições de pagamento em tempo real
+- Cálculo de parcelas, juros e prazos
+- Integração com taxas de parceiros financeiros
+- Apresentação durante o atendimento
+
+### 3.13 Agente Comparador de Preços
+**Funcionalidades:**
+- Avaliação do bem a ser dado como pagamento
+- Comparação de valores de mercado
+- Útil para negociações de carros, motos, imóveis
+
+### 3.14 Agente Direcionamento para Atendentes
+**Funcionalidades:**
+- Lista de vendedores ordenada por período pré-definido
+- Rotação automática de vendedores
+- Distribuição equitativa de oportunidades
+- Ciclo que se repete automaticamente
+
+### 3.15 Agente Gateway de Pagamento (Detalhado)
+**Funcionalidades:**
+- Permite processar transações dentro do fluxo de atendimento
+- Suporte a diferentes métodos de pagamento (cartão, Pix, boleto, etc.)
+- Integração transparente com o CRM e ERP
+- Confirmações em tempo real dentro do atendimento
+- Segurança e conformidade com padrões de mercado
+- Útil para vendas online ou presenciais
+- Integração com múltiplos provedores (exemplo: PagSeguro)
+
+### 3.16 Agente Assistente Corporativo
+**Funcionalidades:**
+- Assistente específico para o logista (empresa) para gerenciar áreas da empresa via agente
+- Permite que a empresa gerencie suas próprias áreas através do assistente
+- Automação de processos internos da empresa
 
 ---
 
@@ -240,15 +369,41 @@ O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Va
 **Fluxo Geral:**
 1. **1_Main_EntradaMensagem** - Entrada de texto, áudio ou imagem
 2. **2_TratamentoMensagem** - Converte áudio, texto, imagem em texto limpo
+   - Se áudio: transcreve para texto
+   - Se imagem: (futuramente) extrai dados visuais
+   - Se link: reconhece URL e categoriza como scraping
+   - Encaminha texto para o orquestrador
 3. **3_Orquestrador** - Detecta a intenção do cliente
+   - Usa IA para identificar a intenção do cliente:
+     - Saudação
+     - Consulta de veículo/produto
+     - Interesse com base em mídia
+     - Agendamento
+     - Registro ou atualização de lead
+   - Retorna JSON com `agente_destino` e `mensagem`
 4. **4_RoteadorDeAgentes** - Direciona para o agente correto
+   - Usa switch para redirecionar ao fluxo certo com base em `agente_destino`
 5. **Agentes Específicos:**
-   - 5_AgenteBoasVindas
-   - 6_AgenteConsultaVeiculos
-   - 7_AgenteWebScraping
-   - 8_AgenteAgendamento
-   - 9_AgenteCRM
-   - 10_AgenteDesconhecido (Fallback)
+   - 5_AgenteBoasVindas - Envia mensagem de saudação personalizada
+   - 6_AgenteConsultaVeiculos - Responde com produtos filtrados do banco
+   - 7_AgenteWebScraping - Extrai dados de anúncios enviados e consulta banco
+   - 8_AgenteAgendamento - Agenda horário com cliente
+   - 9_AgenteCRM - Cria e atualiza lead no Odoo
+   - 10_AgenteDesconhecido (Fallback) - Mensagem genérica ou encaminha para atendimento humano
+
+**Organização dos Flows no N8N:**
+- **Workflows Principais:**
+  - `1_Main_EntradaMensagem`
+  - `2_TratamentoMensagem`
+  - `3_Orquestrador`
+  - `4_RoteadorDeAgentes`
+- **Subworkflows (Agentes):**
+  - `Agentes/BoasVindas`
+  - `Agentes/ConsultaVeiculos`
+  - `Agentes/WebScraping`
+  - `Agentes/Agendamento`
+  - `Agentes/CRM`
+  - `Agentes/Fallback`
 
 ### 4.3 Camadas da Arquitetura
 1. **Camada de Entrada (Front-End de Comunicação)**
@@ -306,25 +461,48 @@ O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Va
 ### 5.2 Dores que o EVAH Resolve
 
 **Problemas Operacionais:**
-- Tempo de resposta lento
-- Sobrecarga da equipe de atendimento
-- Dificuldade em atender fora do horário comercial
-- Alto custo com equipe de suporte
-- Baixa escalabilidade
+- Tempo de resposta lento - clientes esperam respostas imediatas, mas sem chatbot dependem de disponibilidade humana
+- Sobrecarga da equipe de atendimento - atendentes precisam lidar com perguntas repetitivas e simples
+- Dificuldade em atender fora do horário comercial - sem IA, o atendimento pode parar à noite, fins de semana e feriados
+- Alto custo com equipe de suporte - necessidade de contratar mais pessoas para suprir a demanda
+- Baixa escalabilidade - quando o volume de clientes cresce, o atendimento humano pode não acompanhar
+- 80% das perguntas são repetitivas e podem ser automatizadas (IBM)
+- Até 70% das dúvidas poderiam ser automatizadas (Typebot)
+- Agentes perdem 30% do tempo trocando de ferramentas (HBR)
+- 60% do tempo gasto em tarefas repetitivas (McKinsey)
 
 **Problemas de Experiência do Cliente:**
-- Frustração do cliente (demora, falta de agilidade)
-- Perda de oportunidades de venda
-- Atendimento inconsistente
-- Falta de personalização
-- Menor conveniência
+- Frustração do cliente - demora, falta de agilidade ou indisponibilidade desmotivam
+- Perda de oportunidades de venda - clientes que não recebem resposta rápida podem desistir
+  - 60% dos clientes desistem se não recebem resposta em até 1 hora (Zendesk)
+  - Resposta rápida qualifica 7x mais leads (HBR)
+  - Atraso de 5 minutos reduz 400% as chances de conversão (HBR)
+  - 78% dos clientes compram da primeira empresa que responde
+- Atendimento inconsistente - cada atendente pode responder de um jeito, sem padronização
+- Falta de personalização - sem histórico integrado, o cliente precisa repetir informações várias vezes
+  - 91% preferem marcas que oferecem personalização (Accenture)
+  - 72% esperam que a empresa conheça histórico de interações (Salesforce)
+  - 61% mudam de empresa após experiência ruim (Zendesk)
+- Menor conveniência - clientes modernos preferem resolver rápido via WhatsApp, site ou redes sociais
 
 **Problemas Estratégicos:**
-- Menor competitividade
-- Falta de dados sobre clientes
-- Dificuldade em nutrir leads
-- Imagem antiquada da empresa
-- Menor fidelização
+- Menor competitividade - concorrentes que usam IA conseguem ser mais rápidos, baratos e eficazes
+- Falta de dados sobre clientes - sem chatbot, a empresa perde registros automáticos de dúvidas, interesses e objeções
+  - Sem CRM, 79% dos leads se perdem (HubSpot)
+  - Empresas com métricas melhoram satisfação em 60% (McKinsey)
+  - Empresas orientadas por dados crescem 23x mais rápido (McKinsey)
+- Dificuldade em nutrir leads - sem automação, fica mais difícil transformar curiosos em compradores
+- Imagem antiquada da empresa - ausência de inovação pode passar a impressão de empresa "parada no tempo"
+- Menor fidelização - clientes que não têm suporte ágil podem migrar para concorrentes
+
+**Estatísticas de Impacto:**
+- 60% das empresas afirmam perder vendas por falhas no atendimento
+- A falta de integração entre sistemas pode aumentar em até 30% o custo operacional
+- Negócios que não utilizam automação gastam, em média, o dobro de tempo em tarefas repetitivas
+- Perda de até 20% da receita por sistemas isolados (Forrester)
+- 20-30% menos produtividade (Deloitte)
+- Custos de TI aumentam 15-25% (IDC)
+- Duplicidade de dados gera até 20% de perda anual
 
 ---
 
@@ -376,12 +554,51 @@ O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Va
 - Precisa ter ferramenta que faça tratamento da mensagem antes de passar para os agentes
 - Reorganizar os sub-agentes para atendimento
 - Configurar memória RAG na EVAH
+- Ajustar o Evah para apresentar o produto de forma intuitiva, com exemplos
+- Criar base de prompts para abastecimento
+- Configurar memória de contexto
+- Organizar e finalizar os agentes do assistente
+- Organizar o fluxo de atendimento guiado, para coleta de dados
+- Definir apresentação oficial do Evah
+- Explicar claramente o que o Evah faz
+- Descrever as principais funcionalidades
+- Criar lista de casos de uso
 
 ### 7.3 Funcionalidades Futuras
 - Assistente específico para o logista (empresa) para gerenciar áreas da empresa via agente
 - Integração com agenda de vendedores
 - Melhorias em interpretação de imagens
 - Expansão de integrações
+- Implementar fallback com IA generativa
+- Ajustar fluxo de memória contextual
+- Testar com clientes reais
+- Finalizar os workflows faltantes
+
+### 7.4 Caso de Uso Específico: BiraBot (Bira Veículos)
+**Contexto:**
+Aiva (nome técnico), apresentado aos clientes como **BiraBot**, é um assistente virtual desenvolvido para realizar **atendimento automatizado em empresas de venda de veículos**.
+
+**Foco:**
+- Atendimento inicial com boas-vindas
+- Entendimento do interesse do cliente
+- Consulta de veículos disponíveis
+- Registro e atualização de leads no CRM (Odoo)
+- Agendamento de visitas
+- Interpretação de mídia (áudio, imagem, link)
+- Consulta baseada em links (web scraping)
+
+**Objetivos Específicos:**
+- Detectar e responder a saudações como "bom dia", "boa tarde", "olá", etc.
+- Apresentar-se como BiraBot e explicar sua função
+- Identificar tipo de veículo desejado
+- Extrair informações como: marca/modelo, tipo (SUV, hatch, sedan...), ano mínimo e máximo, faixa de preço
+- Integrar com agente que consulta banco de dados
+- Apresentar resultados baseados nos filtros coletados
+- Criar lead no início do atendimento
+- Atualizar lead à medida que mais dados são fornecidos
+- Perguntar disponibilidade do cliente
+- Registrar data e hora sugerida
+- (Futuramente) integrar com agenda de vendedores
 
 ---
 
@@ -425,6 +642,28 @@ O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Va
 ### 9.4 VIAH Connect
 - Conexão com canais externos
 - Integração com APIs de mercado
+- Atua como ponte entre canais externos e os módulos internos do VIAH
+- Conecta WhatsApp, Instagram, Facebook, Telegram e outros canais ao ecossistema
+
+### 9.5 VIAH Maestro (n8n)
+- Núcleo de automações inteligentes do ecossistema VIAH
+- Permite criar, gerenciar e executar fluxos complexos
+- Conecta múltiplos sistemas, canais e processos empresariais
+- Design modular e escalável
+- Automatiza operação com flexibilidade, agilidade e precisão
+- Otimiza resultados e garante controle total
+
+### 9.6 VIAH Code
+- Serviços de desenvolvimento personalizados
+- Criação de regras de negócio específicas para cada negócio
+- Via APIs, banco de dados e webapp
+- Criação de Componentes Exclusivos
+- Integrações com Sistemas Legados ou Proprietários
+- Extensão de Fluxos e Automações Complexas
+- Personalização de Interface e Experiência Conversacional
+- Criação de APIs Customizadas
+- Suporte a Projetos Especiais e Provas de Conceito
+- Gerenciamento de Ciclo de Vida do Código
 
 ---
 
@@ -916,6 +1155,66 @@ Solicite uma demonstração gratuita e veja como o AIVAH pode aumentar suas vend
 - Garantir estabilidade e confiabilidade
 - Focar em casos de uso principais
 - Demonstrar valor imediato
+- Nome e identidade clara (`VIAH` como framework, `AIVAH` como exemplo aplicado)
+- Demonstração funcional que mostre valor imediato
+- Capacidade de modularização (usar só o que o cliente precisa)
+- Resolução de problemas reais
+
+### 11.4 Objetivo do Projeto
+Entregar uma **solução vendável, funcional e escalável** nas mãos do vendedor. O framework VIAH permite montar soluções sob medida para resolver as dores reais do processo comercial.
+
+### 11.5 Posicionamento Estratégico
+O VIAH é pensado para **crescer com o cliente**: Empresas podem começar com um módulo como o `AIVAH` e, conforme amadurecem, escalar para soluções mais completas. Isso reduz barreiras de entrada, acelera a implementação e aumenta a retenção no longo prazo.
+
+### 11.6 Identidade Visual
+- Logo: "aivah - Assistente Inteligente de vendas"
+- Apresentação pode variar conforme cliente (ex: BiraBot para Bira Veículos)
+
+### 11.7 Processo de Implantação
+**Etapas Principais:**
+1. **API Integração com WhatsApp:**
+   - Criar uma instância na AWS para implantar a EvolutionAPI
+   - Configurar a instância (docker, swarm, portainer, traefik...)
+   - Implantar a Stack via yml
+   - Criar e registrar um subdomínio único para disponibilizar a API
+   - Opção: Evolution API (gratuita) ou API oficial da Meta (exige número verificado + cobrança por conversa)
+
+2. **Integrações com Outros Canais:**
+   - API Integração com Instagram
+   - API Integração com Telegram (Gratuito)
+   - API Integração com Facebook (Gratuito)
+   - API Integração com WebChat
+
+3. **Configuração e Personalização:**
+   - Configuração vinculada ao domínio do cliente
+   - Integração com API de inteligência Artificial (Custos variáveis)
+   - Integração com Google calendar
+   - Integração com Google Drive
+   - Implantação do Typebot (Atendimento guiado)
+   - Integração com VIAH ERP para consulta de produtos
+   - Desenvolvimento de fluxos de negócio
+   - Personalização do Assistente
+
+4. **Conversão e Transcrição:**
+   - Implementar processo automatizado para converter e transcrever diferentes formatos de mensagens
+
+### 11.8 Custos e Preços (Referência)
+**Componentes Principais:**
+- Typebot (Hospedagem automática): R$ 100,00
+- Typebot (Widget em sites): R$ 100,00
+- Agentes IA (vários): R$ 0,02 por uso (OpenAI)
+- Atendimento WhatsApp (Evolution API): R$ 100,00
+- Atendimento WhatsApp (Meta Oficial): R$ 0,03 por conversa
+- Atendimento Instagram: R$ 0,03 por conversa
+- Atendimento Facebook Messenger: R$ 0,03 por conversa
+- Atendimento Telegram: R$ 100,00
+- Atendimento WebChat: R$ 82,20
+- Assistentes de IA: R$ 500,00
+- Hospedagem Onpremise: R$ 82,20 por serviço
+- Banco de dados (RDS): R$ 100,00
+- Gateway de Pagamento: R$ 3,50 (exemplo: PagSeguro)
+
+**Nota:** Valores são referências e podem variar conforme configuração e uso.
 
 ---
 
