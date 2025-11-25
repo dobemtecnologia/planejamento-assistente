@@ -428,20 +428,490 @@ O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Va
 
 ---
 
-## 📝 10. NOTAS E OBSERVAÇÕES
+## 📝 10. ROTEIRO DE LANDING PAGE
 
-### 10.1 Nomenclatura
+> **Objetivo:** Criar uma landing page persuasiva que destaque os pontos fortes do AIVAH e convença clientes potenciais a contratar o assistente virtual.
+
+### 10.1 Estrutura da Landing Page
+
+#### SEÇÃO 1: HERO / ABERTURA IMPACTANTE
+**Título Principal (H1):**
+```
+Transforme Seu Atendimento em Vendas com Inteligência Artificial
+```
+
+**Subtítulo:**
+```
+O AIVAH é o assistente virtual que atende seus clientes 24/7, qualifica leads automaticamente e aumenta suas vendas enquanto você foca no que realmente importa.
+```
+
+**CTA Principal:**
+- Botão: "Quero Transformar Meu Atendimento" / "Solicitar Demonstração Gratuita"
+- Botão secundário: "Ver Como Funciona"
+
+**Elemento Visual:**
+- Vídeo de demonstração (30-60 segundos) ou animação do AIVAH em ação
+- Estatísticas em destaque: "Atendimento 24/7", "Resposta em segundos", "Aumento de 40% em conversões"
+
+#### SEÇÃO 2: O PROBLEMA (DORES DO CLIENTE)
+**Título:**
+```
+Você está perdendo vendas enquanto dorme?
+```
+
+**Conteúdo:**
+- **Dores principais:**
+  - Clientes desistem porque não recebem resposta rápida
+  - Equipe sobrecarregada com perguntas repetitivas
+  - Leads se perdem sem follow-up adequado
+  - Atendimento limitado a horário comercial
+  - Dificuldade em escalar o atendimento
+
+**Estatísticas de impacto:**
+- "60% dos clientes desistem se não recebem resposta em até 1 hora"
+- "80% das perguntas são repetitivas e podem ser automatizadas"
+- "Empresas com chatbot convertem 7x mais leads"
+
+**CTA de transição:**
+- "Descubra como o AIVAH resolve isso"
+
+#### SEÇÃO 3: A SOLUÇÃO (APRESENTAÇÃO DO AIVAH)
+**Título:**
+```
+AIVAH: Seu Assistente Virtual Inteligente que Trabalha 24/7
+```
+
+**Subtítulo:**
+```
+Mais que um chatbot. Um assistente completo que entende, qualifica, vende e fideliza seus clientes.
+```
+
+**Diferenciais principais (3-4 cards):**
+
+**Card 1: Inteligência Real**
+- "Atendimento com IA avançada (ChatGPT, Gemini, Watson)"
+- "Entende contexto, sentimentos e intenções do cliente"
+- "Respostas personalizadas e naturais"
+
+**Card 2: Multi-Canal**
+- "Atende no WhatsApp, Instagram, Facebook, Telegram e WebChat"
+- "Todas as conversas centralizadas em um só lugar"
+- "Experiência consistente em todos os canais"
+
+**Card 3: Automação Inteligente**
+- "Qualifica e registra leads automaticamente no CRM"
+- "Agenda compromissos no Google Calendar"
+- "Consulta produtos, estoque e informações em tempo real"
+
+**Card 4: Integração Total**
+- "Conecta com seu ERP, CRM e sistemas existentes"
+- "Gerencia arquivos no Google Drive"
+- "Extrai dados de sites externos quando necessário"
+
+**CTA:**
+- "Quero ver o AIVAH em ação"
+
+#### SEÇÃO 4: COMO FUNCIONA (DEMONSTRAÇÃO)
+**Título:**
+```
+Veja o AIVAH em Ação
+```
+
+**Fluxo de demonstração (3-4 passos visuais):**
+
+**Passo 1: Cliente chega**
+- "Cliente envia mensagem via WhatsApp"
+- "AIVAH responde instantaneamente com boas-vindas personalizadas"
+
+**Passo 2: Inteligência em ação**
+- "AIVAH identifica a intenção do cliente"
+- "Consulta produtos no ERP em tempo real"
+- "Apresenta opções personalizadas"
+
+**Passo 3: Qualificação automática**
+- "Coleta informações do cliente de forma natural"
+- "Registra lead automaticamente no CRM"
+- "Agenda visita ou reunião no Google Calendar"
+
+**Passo 4: Conversão**
+- "Cliente recebe todas as informações necessárias"
+- "Lead qualificado é direcionado para o vendedor"
+- "Venda é fechada com mais agilidade"
+
+**Elemento Visual:**
+- Screenshots ou vídeo animado mostrando o fluxo
+- Timeline visual do processo
+
+**CTA:**
+- "Quero uma demonstração personalizada"
+
+#### SEÇÃO 5: RECURSOS PRINCIPAIS (DESTAQUES)
+**Título:**
+```
+Tudo que você precisa em um assistente inteligente
+```
+
+**Grid de recursos (organizado por categorias):**
+
+##### 🤖 **Inteligência Artificial**
+- **Atendimento com IA:** ChatGPT, Gemini, Watson - respostas contextuais e análise de sentimentos
+- **Identificação de intenção:** Sabe quando o cliente quer comprar, tirar dúvidas ou apenas se apresentar
+- **Contexto de conversação:** Lembra de tudo que foi dito, mantendo a conversa coerente e personalizada
+
+##### 📱 **Multi-Canal**
+- **WhatsApp (Evolution API):** Rápido e flexível para começar
+- **WhatsApp (Meta Oficial):** Conformidade total e recursos exclusivos
+- **Instagram:** Atende DMs e interações
+- **Facebook Messenger:** Integração nativa
+- **Telegram:** API gratuita e poderosa
+- **WebChat:** Widget no seu site
+
+##### 🔄 **Automações Inteligentes**
+- **Gestão de Leads no CRM:** Cria, atualiza e promove leads automaticamente
+- **Agendamentos:** Sincroniza com Google Calendar
+- **Gestão de Arquivos:** Upload, download e organização no Google Drive
+- **Web Scraping:** Extrai dados de sites em tempo real
+
+##### 🎯 **Integração com Sistemas**
+- **Consulta de Produtos:** Verifica estoque e detalhes no ERP
+- **Exibição de Fotos:** Mostra imagens dos produtos
+- **Consulta FIPE:** Valores atualizados de veículos
+- **Processamento Multimídia:** Recebe áudios e analisa imagens
+
+##### 👥 **Atendimento Humanizado**
+- **Atendimento Guiado:** Fluxos personalizados no Typebot
+- **Redirecionamento Inteligente:** Transfere para humano quando necessário
+- **Análise de Sentimentos:** Identifica quando o cliente precisa de atenção especial
+
+**CTA:**
+- "Quero conhecer todos os recursos"
+
+#### SEÇÃO 6: BENEFÍCIOS E RESULTADOS
+**Título:**
+```
+Resultados Reais para Seu Negócio
+```
+
+**Benefícios em números (cards com estatísticas):**
+
+**Card 1: Atendimento 24/7**
+- "Nunca perca uma venda por falta de resposta"
+- "Atenda clientes mesmo fora do horário comercial"
+- "Aumente sua disponibilidade sem aumentar custos"
+
+**Card 2: Qualificação Automática**
+- "Leads qualificados automaticamente no CRM"
+- "Reduza tempo de qualificação manual em 80%"
+- "Aumente a taxa de conversão de leads"
+
+**Card 3: Escalabilidade**
+- "Atenda múltiplos clientes simultaneamente"
+- "Sem limites de atendimentos por dia"
+- "Cresça sem precisar contratar mais atendentes"
+
+**Card 4: Redução de Custos**
+- "Reduza custos com equipe de atendimento"
+- "Automatize 80% das perguntas repetitivas"
+- "ROI positivo em menos de 3 meses"
+
+**Card 5: Experiência do Cliente**
+- "Respostas instantâneas e personalizadas"
+- "Atendimento consistente em todos os canais"
+- "Cliente nunca precisa repetir informações"
+
+**Card 6: Dados e Insights**
+- "Histórico completo de todas as interações"
+- "Relatórios de desempenho e conversão"
+- "Dados para tomar decisões estratégicas"
+
+**CTA:**
+- "Quero esses resultados no meu negócio"
+
+#### SEÇÃO 7: CASOS DE SUCESSO / DEPOIMENTOS
+**Título:**
+```
+Empresas que já transformaram seu atendimento com o AIVAH
+```
+
+**Case 1: Bira Veículos**
+- "Aumento de 40% em agendamentos de visitas"
+- "Redução de 60% no tempo de resposta"
+- "Leads qualificados automaticamente no CRM"
+
+**Depoimento:**
+> "O AIVAH revolucionou nosso atendimento. Agora atendemos 24/7 e nunca perdemos um lead. A integração com nosso sistema foi perfeita." - [Nome do Cliente]
+
+**Case 2: [Outro cliente]**
+- Métricas e resultados específicos
+- Depoimento em vídeo ou texto
+
+**Elemento Visual:**
+- Logos dos clientes
+- Screenshots de resultados
+- Vídeos de depoimentos (se disponível)
+
+**CTA:**
+- "Quero ser o próximo case de sucesso"
+
+#### SEÇÃO 8: DIFERENCIAIS COMPETITIVOS
+**Título:**
+```
+Por que escolher o AIVAH?
+```
+
+**Comparativo (tabela ou cards):**
+
+**Diferencial 1: Inteligência Real**
+- "Não é apenas um chatbot com respostas prontas"
+- "IA avançada que entende contexto e intenções"
+- "Aprende e se adapta ao seu negócio"
+
+**Diferencial 2: Integração Completa**
+- "Conecta com seus sistemas existentes (ERP, CRM)"
+- "Não precisa trocar tudo que você já tem"
+- "Funciona com o que você já usa"
+
+**Diferencial 3: Multi-Canal Unificado**
+- "Um assistente para todos os canais"
+- "Histórico centralizado"
+- "Experiência consistente"
+
+**Diferencial 4: Personalização Total**
+- "Adaptado ao seu negócio e segmento"
+- "Fluxos personalizados para suas necessidades"
+- "Linguagem e tom da sua marca"
+
+**Diferencial 5: Suporte e Evolução**
+- "Equipe técnica especializada"
+- "Atualizações constantes"
+- "Suporte contínuo"
+
+**CTA:**
+- "Quero conhecer os diferenciais"
+
+#### SEÇÃO 9: COMO COMEÇAR (PROCESSO)
+**Título:**
+```
+Comece a transformar seu atendimento em 3 passos simples
+```
+
+**Passo 1: Demonstração**
+- "Agende uma demonstração gratuita"
+- "Veja o AIVAH funcionando com seus dados reais"
+- "Entenda como se adapta ao seu negócio"
+
+**Passo 2: Personalização**
+- "Nossa equipe configura o AIVAH para seu negócio"
+- "Integramos com seus sistemas existentes"
+- "Treinamos sua equipe"
+
+**Passo 3: Lançamento**
+- "AIVAH começa a atender seus clientes"
+- "Monitoramento e ajustes contínuos"
+- "Suporte dedicado"
+
+**Timeline:**
+- "De 7 a 15 dias para estar funcionando"
+
+**CTA:**
+- "Quero começar agora"
+
+#### SEÇÃO 10: PLANOS E INVESTIMENTO
+**Título:**
+```
+Planos que se adaptam ao seu negócio
+```
+
+**Estrutura de planos (3 opções):**
+
+**Plano Básico:**
+- Ideal para pequenas empresas
+- Recursos essenciais
+- Até X atendimentos/mês
+- Preço: R$ X/mês
+
+**Plano Intermediário:**
+- Ideal para empresas em crescimento
+- Recursos completos
+- Até X atendimentos/mês
+- Preço: R$ X/mês
+- **Mais popular**
+
+**Plano Avançado:**
+- Ideal para grandes empresas
+- Recursos ilimitados
+- Atendimentos ilimitados
+- Preço: R$ X/mês
+
+**O que está incluído em todos os planos:**
+- ✅ Atendimento 24/7
+- ✅ Multi-canal (WhatsApp, Instagram, etc.)
+- ✅ Integração com CRM
+- ✅ Suporte técnico
+- ✅ Atualizações
+
+**CTA:**
+- "Quero ver os planos detalhados"
+- "Falar com um especialista"
+
+#### SEÇÃO 11: PERGUNTAS FREQUENTES (FAQ)
+**Título:**
+```
+Dúvidas Frequentes
+```
+
+**Perguntas principais:**
+
+1. **Quanto tempo leva para implementar o AIVAH?**
+   - Resposta sobre o processo e timeline
+
+2. **Preciso ter algum sistema específico?**
+   - Resposta sobre integrações e compatibilidade
+
+3. **O AIVAH substitui minha equipe de atendimento?**
+   - Resposta sobre complementaridade e redirecionamento
+
+4. **Como funciona a integração com meu CRM/ERP?**
+   - Resposta sobre APIs e conectores
+
+5. **Posso personalizar o AIVAH para meu negócio?**
+   - Resposta sobre customização e adaptação
+
+6. **Quais são os custos adicionais?**
+   - Resposta sobre custos de APIs e infraestrutura
+
+7. **O AIVAH funciona em outros idiomas?**
+   - Resposta sobre suporte multilíngue
+
+8. **Como é o suporte técnico?**
+   - Resposta sobre suporte e SLA
+
+#### SEÇÃO 12: CTA FINAL / FORMULÁRIO DE CONTATO
+**Título:**
+```
+Pronto para transformar seu atendimento?
+```
+
+**Subtítulo:**
+```
+Solicite uma demonstração gratuita e veja como o AIVAH pode aumentar suas vendas
+```
+
+**Formulário de contato:**
+- Nome completo
+- E-mail
+- Telefone/WhatsApp
+- Nome da empresa
+- Segmento de atuação
+- Quantidade de atendimentos/mês (estimativa)
+- Mensagem (opcional)
+
+**Benefícios do formulário:**
+- "Demonstração gratuita"
+- "Sem compromisso"
+- "Resposta em até 24 horas"
+
+**Informações de contato alternativas:**
+- WhatsApp: [número]
+- E-mail: [email]
+- Telefone: [telefone]
+
+**Garantias/Prova social:**
+- "Mais de X empresas já confiam no AIVAH"
+- "Satisfação garantida"
+- "Suporte dedicado"
+
+#### SEÇÃO 13: RODAPÉ
+**Elementos:**
+- Logo da Dobem Tecnologia
+- Links importantes:
+  - Sobre nós
+  - Cases de sucesso
+  - Blog/Recursos
+  - Contato
+- Redes sociais
+- Política de privacidade
+- Termos de uso
+- Copyright
+
+### 10.2 Elementos Visuais Recomendados
+
+**Imagens e Vídeos:**
+- Vídeo de demonstração do AIVAH (30-60s)
+- Screenshots do assistente em ação
+- Infográficos dos benefícios
+- Ícones para cada funcionalidade
+- Animações sutis de interação
+
+**Cores e Estilo:**
+- Paleta profissional e moderna
+- Destaque para CTAs (botões de ação)
+- Tipografia clara e legível
+- Espaçamento generoso
+- Design responsivo (mobile-first)
+
+### 10.3 Métricas de Conversão
+
+**Elementos para rastrear:**
+- Cliques no CTA principal
+- Visualizações do vídeo
+- Preenchimentos do formulário
+- Tempo na página
+- Taxa de rejeição
+- Scroll depth (até onde o usuário rola)
+
+**Testes A/B sugeridos:**
+- Diferentes títulos hero
+- Cores dos botões CTA
+- Posicionamento do formulário
+- Textos de benefícios
+- Ordem das seções
+
+### 10.4 Otimizações SEO
+
+**Palavras-chave principais:**
+- Assistente virtual inteligente
+- Chatbot com IA
+- Atendimento automatizado
+- Qualificação de leads automática
+- Assistente virtual WhatsApp
+
+**Meta tags:**
+- Título: "AIVAH - Assistente Virtual Inteligente que Aumenta Suas Vendas"
+- Descrição: "Transforme seu atendimento com IA. Atendimento 24/7, qualificação automática de leads e integração completa. Solicite demonstração gratuita."
+
+### 10.5 Notas de Implementação
+
+**Prioridades para MVP:**
+1. Hero section com CTA forte
+2. Seção de problemas/dores
+3. Apresentação do AIVAH
+4. Recursos principais
+5. Formulário de contato
+
+**Melhorias futuras:**
+- Calculadora de ROI
+- Chatbot de demonstração na própria página
+- Comparativo com concorrentes
+- Blog com cases detalhados
+- Área de login para clientes
+
+---
+
+## 📝 11. NOTAS E OBSERVAÇÕES
+
+### 11.1 Nomenclatura
 - Há variação entre "AIVAH" e "EVAH" nos documentos
 - "AIVAH" parece ser o nome técnico
 - "EVAH" parece ser o nome comercial/apresentação
 - Pode ter nomes customizados por cliente (ex: BiraBot)
 
-### 10.2 Adaptabilidade
+### 11.2 Adaptabilidade
 - O EVAH deve ser capaz de se adaptar à realidade do negócio do cliente
 - Personalização por segmento e contexto
 - Flexibilidade para diferentes casos de uso
 
-### 10.3 Foco no MVP
+### 11.3 Foco no MVP
 - Priorizar funcionalidades essenciais
 - Garantir estabilidade e confiabilidade
 - Focar em casos de uso principais
