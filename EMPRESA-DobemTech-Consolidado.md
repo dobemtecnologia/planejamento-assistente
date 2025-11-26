@@ -105,18 +105,18 @@ Brasil
 
 ## 🛠️ 4. PRODUTOS E SOLUÇÕES
 
-### 4.1 Ecossistema VIAH
-O **VIAH** é um framework modular que integra sistemas de atendimento, automação e gestão comercial, oferecendo uma solução robusta em um ecossistema unificado e escalável.
+### 4.1 Ecossistema EVAH
+O **EVAH** é um framework modular que integra sistemas de atendimento, automação e gestão comercial, oferecendo uma solução robusta em um ecossistema unificado e escalável.
 
 **Módulos Principais:**
-- **VIAH Assistant (AIVAH/EVAH)** - Assistente conversacional com IA
-- **VIAH ERP** - Gestão administrativa, financeira e operacional (baseado em Odoo)
-- **VIAH Omni** - Experiência omnichannel (baseado em Chatwoot)
-- **VIAH Connect** - Integrações e conectores
-- **VIAH Conductor** - Orquestrador de automações (n8n)
-- **VIAH Code** - Desenvolvimento personalizado
+- **Evah Assistant** - Assistente inteligente padrão da plataforma EVAH
+- **EVAH ERP** - Gestão administrativa, financeira e operacional (baseado em Odoo)
+- **EVAH Omni** - Experiência omnichannel (baseado em Chatwoot)
+- **EVAH Connect** - Integrações e conectores
+- **EVAH Conductor** - Orquestrador de automações (n8n)
+- **EVAH Code** - Desenvolvimento personalizado
 
-### 4.2 EVAH/AIVAH (Produto Principal)
+### 4.2 Evah Assistant (Assistente Padrão da Plataforma EVAH)
 Assistente Inteligente de Vendas Automatizado para Humanos. Produto principal da empresa, foco do MVP.
 
 ### 4.6 Prime Assistant (Produto Anterior/Alternativo)
@@ -212,7 +212,7 @@ Oferecer soluções integradas para os clientes utilizando aplicações open sou
 - Automação para suporte
 
 ### 5.3 Planos de Serviços
-**Estrutura de Planos (VIAH):**
+**Estrutura de Planos (EVAH):**
 - **Plano MVC** - Dedicado a empresas que ainda não possuem um produto desenvolvido mas já possuem um plano de negócio bem definido
 - **Plano Startup** - Dedicado a empresas que já desenvolveram seu produto ou serviço e definiram seu plano de negócio e precisam de soluções que possam dar suporte a outras áreas da empresa que ainda estão sendo estruturadas
 - **Plano Aceleração** - Dedicado a empresas que já estão atuando no mercado, já possuem clientes e receita recorrente. Mas ainda não conseguiram criar uma estrutura necessária para trazer mais velocidade para o negócio, onde integrar as áreas da empresa seja necessário para que essa aceleração já aconteça
@@ -586,8 +586,8 @@ Com um orçamento de R$10 por dia, aumentar o número de seguidores nos perfis d
 - [ ] Trabalhar em contrato de prestação de serviço para o cliente final
 
 ### 11.7 Implementação Interna
-- [ ] Implantar a AIVAH (Evee) na Dobem Tech
-- [ ] Colocar o WebChat no site integrado ao AIVAH
+- [ ] Implantar a Evah Assistant (Evee) na Dobem Tech
+- [ ] Colocar o WebChat no site integrado ao Evah Assistant
 
 ---
 
@@ -634,7 +634,7 @@ Com um orçamento de R$10 por dia, aumentar o número de seguidores nos perfis d
 - **Transformação digital completa** - Personalidade digital do negócio
 
 ### 13.4 Benchmark e Concorrência
-- Há menção à necessidade de fazer um benchmark entre a VIAH e possíveis concorrentes da Dobem com soluções semelhantes
+- Há menção à necessidade de fazer um benchmark entre a EVAH e possíveis concorrentes da Dobem com soluções semelhantes
 - Identificar e analisar concorrentes no mercado de soluções de automação, chatbots e ERPs
 
 ### 13.5 Relacionamento com Dobem Contabilidade

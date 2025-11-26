@@ -1,6 +1,6 @@
 ### **Visão Geral**
 
-O VIAH é um framework modular que integra sistemas de atendimento, automação e gestão comercial em um ecossistema unificado e escalável. Seus módulos trabalham em conjunto para:
+O EVAH é um framework modular que integra sistemas de atendimento, automação e gestão comercial em um ecossistema unificado e escalável. Seus módulos trabalham em conjunto para:
 
 * Suportar automações baseadas em fluxos pré-definidos  
 * Integrar ferramentas de mercado com flexibilidade  
@@ -11,19 +11,19 @@ Tudo o que o seu negócio precisa em um só lugar — com eficiência, personali
 
 ### **Módulos do Ecossistema**
 
-* VIAH Assistant (AIVAH): agente conversacional com IA focado em atendimento, vendas e suporte  
-* VIAH ERP: gestão administrativa, financeira e operacional integrada  
-* VIAH Omni: experiência omnichannel e roteamento inteligente  
-* VIAH Connect: integrações e conectores com sistemas de mercado  
-* VIAH Code: framework e assets para customizações e extensões
+* EVAH Assistant (Evah Assistant): agente conversacional com IA focado em atendimento, vendas e suporte  
+* EVAH ERP: gestão administrativa, financeira e operacional integrada  
+* EVAH Omni: experiência omnichannel e roteamento inteligente  
+* EVAH Connect: integrações e conectores com sistemas de mercado  
+* EVAH Code: framework e assets para customizações e extensões
 
 ---
 
-## **AIVAH — Assistente Inteligente de Vendas Automatizado para Humanos**
+## **Evah Assistant — Assistente Inteligente de Vendas Automatizado para Humanos**
 
 ### **Visão Geral**
 
-O AIVAH é o agente conversacional com IA do ecossistema VIAH. Atua de forma estratégica e supervisionada, combinando modalidades complementares para garantir atendimento, vendas e suporte mais ágeis, inteligentes e adaptáveis. Compreende contextos complexos, aplica regras de negócio personalizadas e integra-se a múltiplos sistemas para potencializar a jornada do cliente.
+O Evah Assistant é o agente conversacional com IA do ecossistema EVAH. Atua de forma estratégica e supervisionada, combinando modalidades complementares para garantir atendimento, vendas e suporte mais ágeis, inteligentes e adaptáveis. Compreende contextos complexos, aplica regras de negócio personalizadas e integra-se a múltiplos sistemas para potencializar a jornada do cliente.
 
 ### **Integração Multicanal**
 
@@ -90,14 +90,14 @@ Sincroniza e gerencia eventos diretamente no Google Calendar.
 
 ---
 
-## **VIAH ERP — Gestão Integrada**
+## **EVAH ERP — Gestão Integrada**
 
-Módulo opcional de gestão administrativa, financeira e operacional, totalmente integrado ao ecossistema VIAH. Ideal para empresas que não possuem ERP ou desejam modernizar o atual, com foco em:
+Módulo opcional de gestão administrativa, financeira e operacional, totalmente integrado ao ecossistema EVAH. Ideal para empresas que não possuem ERP ou desejam modernizar o atual, com foco em:
 
 * Operações financeiras e administrativas  
 * Processos operacionais e controles  
 * Modularidade e evolução contínua  
-* Integração nativa com os demais módulos VIAH
+* Integração nativa com os demais módulos EVAH
 
 ---
 
@@ -150,8 +150,8 @@ Com a praticidade do Odoo, sua empresa tem controle administrativo, financeiro e
 ## **Ajustes e recomendações editoriais**
 
 * Ortografia e consistência: correções em “Assistent” → “Assistant”, “Trás” → “Traz”, remoção de duplicações como “cliente cliente”.  
-* Padronização de nomes: uso consistente de “VIAH Assistant (AIVAH)” e títulos de módulos.  
+* Padronização de nomes: uso consistente de “EVAH Assistant (Evah Assistant)” e títulos de módulos.  
 * Tom e clareza: frases mais objetivas, benefícios em bullets e linguagem centrada em valor.  
-* Estrutura: hierarquia com seções e subtítulos; agrupamento de capacidades do AIVAH.  
-* Próximos passos sugeridos: adicionar descrições curtas de “VIAH Omni”, “VIAH Connect” e “VIAH Code” para completar o portfólio.
+* Estrutura: hierarquia com seções e subtítulos; agrupamento de capacidades do Evah Assistant.  
+* Próximos passos sugeridos: adicionar descrições curtas de “EVAH Omni”, “EVAH Connect” e “EVAH Code” para completar o portfólio.
 

@@ -1,4 +1,4 @@
-# VIAH – Vendas Inteligentes Automatizadas e Humanizadas
+# EVAH – Vendas Inteligentes Automatizadas e Humanizadas
 
 ## Framework Modular para Atendimento e Gestão Comercial
 
@@ -6,23 +6,23 @@
 
 ## 1\. Introdução
 
-O **VIAH** é um framework modular que integra sistemas de atendimento, automação e gestão comercial, oferecendo uma solução robusta em um ecossistema unificado e escalável. Seus módulos trabalham juntos para suportar automações baseadas em fluxos pré-definidos e integrar diversas ferramentas de mercado, garantindo maior controle operacional, além de proporcionar uma experiência humanizada ao cliente com o uso das melhores inteligências artificiais disponíveis.
+O **EVAH** é um framework modular que integra sistemas de atendimento, automação e gestão comercial, oferecendo uma solução robusta em um ecossistema unificado e escalável. Seus módulos trabalham juntos para suportar automações baseadas em fluxos pré-definidos e integrar diversas ferramentas de mercado, garantindo maior controle operacional, além de proporcionar uma experiência humanizada ao cliente com o uso das melhores inteligências artificiais disponíveis.
 
 #### **Principais módulos:**
 
-    • **VIAH Assistent AIVAH** – Assistente Inteligente de Vendas Automatizado para Humanos.  
-    • **VIAH ERP** – Sistemas administrativos e financeiros  
-    • **VIAH Omni** – Central de Gerenciamento Omnichannel de Atendimento  
-    • **VIAH Connect** – Módulo de integração que conecta canais externos, como WhatsApp, e sistemas externos ao ecossistema **VIAH**  
-    • **VIAH Maestro** – Orquestrador de automações inteligentes utilizando n8n (a ferramenta que automatiza o processo).  
-    • **VIAH Code** – Serviços de desenvolvimento personalizados para criar regras de negócio específicas para cada negócio via APIs, banco de dados e webapp, entre outros.
+    • **EVAH Assistent Evah Assistant** – Assistente Inteligente de Vendas Automatizado para Humanos.  
+    • **EVAH ERP** – Sistemas administrativos e financeiros  
+    • **EVAH Omni** – Central de Gerenciamento Omnichannel de Atendimento  
+    • **EVAH Connect** – Módulo de integração que conecta canais externos, como WhatsApp, e sistemas externos ao ecossistema **EVAH**  
+    • **EVAH Maestro** – Orquestrador de automações inteligentes utilizando n8n (a ferramenta que automatiza o processo).  
+    • **EVAH Code** – Serviços de desenvolvimento personalizados para criar regras de negócio específicas para cada negócio via APIs, banco de dados e webapp, entre outros.
 
 ## **2\. Módulos**
 
-### **2.1 VIAH Assistent AIVAH Assistente Inteligente de Vendas Automatizado para Humanos.**
+### **2.1 EVAH Assistent Evah Assistant Assistente Inteligente de Vendas Automatizado para Humanos.**
 
-O **AIVAH** é o assistente conversacional com inteligência artificial da solução **VIAH**. Projetado para operar de forma inteligente e supervisionada, ele atua em duas modalidades complementares — otimizando processos de atendimento, vendas e suporte com alta adaptabilidade.  
-Capaz de compreender contextos complexos, aplicar regras de negócio personalizadas e integrar-se a múltiplos sistemas, o **AIVAH** é um agente estratégico no relacionamento com o cliente, promovendo uma experiência fluida e humanizada dentro do ecossistema **VIAH**.
+O **Evah Assistant** é o assistente conversacional com inteligência artificial da solução **EVAH**. Projetado para operar de forma inteligente e supervisionada, ele atua em duas modalidades complementares — otimizando processos de atendimento, vendas e suporte com alta adaptabilidade.  
+Capaz de compreender contextos complexos, aplicar regras de negócio personalizadas e integrar-se a múltiplos sistemas, o **Evah Assistant** é um agente estratégico no relacionamento com o cliente, promovendo uma experiência fluida e humanizada dentro do ecossistema **EVAH**.
 
 #### Funcionalidades Principais:
 
@@ -58,7 +58,7 @@ Capaz de compreender contextos complexos, aplicar regras de negócio personaliza
   * Encaminhamentos e notificações internas
 
 * Encaminhamento Inteligente para Agentes Humanos  
-  Realiza a transição para atendimento humano mantendo o histórico, o contexto e os dados coletados, seja via VIAH Omni ou plataforma integrada.
+  Realiza a transição para atendimento humano mantendo o histórico, o contexto e os dados coletados, seja via EVAH Omni ou plataforma integrada.
 
 * Redirecionamento Estratégico de Jornada  
   Identifica quando há necessidade de suporte avançado ou mudança de rota, redirecionando o cliente para um fluxo mais adequado.
@@ -83,7 +83,7 @@ Capaz de compreender contextos complexos, aplicar regras de negócio personaliza
   Ajusta automaticamente o tom de comunicação (formal, técnico ou amigável) com base no canal e no perfil do cliente.
 
 * Orquestração Multi-Função (Comercial, Suporte e Pós-venda)  
-  Um único AIVAH pode desempenhar múltiplos papéis de forma modular, alternando comportamentos conforme horário, contexto ou setor da empresa.
+  Um único Evah Assistant pode desempenhar múltiplos papéis de forma modular, alternando comportamentos conforme horário, contexto ou setor da empresa.
 
 * Agendamento Inteligente com Lógica Avançada de Capacidade  
   Aplica regras dinâmicas para priorização de agendas conforme urgência, SLA, campanha ativa ou tipo de serviço.  
@@ -107,9 +107,9 @@ Capaz de compreender contextos complexos, aplicar regras de negócio personaliza
 * Experiência Multi Empresa / Multimarcas com Personalidade Adaptável  
   Adapta tom de voz, vocabulário, identidade e comportamento conforme a marca ou unidade da empresa que o cliente estiver acessando.
 
-### **2.2 VIAH Omni – Central de Gerenciamento Omnichannel de Atendimento (Chatwoot)**
+### **2.2 EVAH Omni – Central de Gerenciamento Omnichannel de Atendimento (Chatwoot)**
 
-O **VIAH** Omni é a central de gerenciamento omnichannel baseada na plataforma Chatwoot, integrada ao ecossistema **VIAH** para oferecer um atendimento unificado, eficiente e supervisionado. Ele possibilita que atendentes humanos assumam o controle das conversas iniciadas nos canais digitais, garantindo continuidade, qualidade e personalização no relacionamento com o cliente.
+O **EVAH** Omni é a central de gerenciamento omnichannel baseada na plataforma Chatwoot, integrada ao ecossistema **EVAH** para oferecer um atendimento unificado, eficiente e supervisionado. Ele possibilita que atendentes humanos assumam o controle das conversas iniciadas nos canais digitais, garantindo continuidade, qualidade e personalização no relacionamento com o cliente.
 
 #### Funcionalidades Principais:
 
@@ -142,13 +142,13 @@ O **VIAH** Omni é a central de gerenciamento omnichannel baseada na plataforma 
     Histórico analítico para avaliação contínua da qualidade do atendimento
 
 * **Integração e Extensibilidade**  
-  * APIs abertas para integração com módulos VIAH, ERP e CRM  
+  * APIs abertas para integração com módulos EVAH, ERP e CRM  
   * Webhooks para captura de eventos e automações avançadas  
   * Suporte para plugins e extensões customizadas
 
-### **2.3 VIAH Connect – Módulo de integração que conecta canais**
+### **2.3 EVAH Connect – Módulo de integração que conecta canais**
 
-O **VIAH** Connect é o módulo responsável por integrar canais externos, como WhatsApp, e sistemas externos ao ecossistema **VIAH**, utilizando a Evolution API. Esta integração permite a comunicação fluida e sincronizada entre plataformas, centralizando o atendimento e otimizando processos.
+O **EVAH** Connect é o módulo responsável por integrar canais externos, como WhatsApp, e sistemas externos ao ecossistema **EVAH**, utilizando a Evolution API. Esta integração permite a comunicação fluida e sincronizada entre plataformas, centralizando o atendimento e otimizando processos.
 
 #### Funcionalidades Principais
 
@@ -176,9 +176,9 @@ O **VIAH** Connect é o módulo responsável por integrar canais externos, como 
   * Suporte para plugins e extensões, permitindo a personalização das funcionalidades conforme as necessidades do cliente.  
   * APIs abertas para integração com outros sistemas e ferramentas.
 
-### **2.4 VIAH Maestro – Orquestrador de automações inteligentes utilizando n8n**
+### **2.4 EVAH Maestro – Orquestrador de automações inteligentes utilizando n8n**
 
-O **VIAH Conductor** é o núcleo de automações inteligentes do ecossistema **VIAH**, utilizando a plataforma open source **n8n** para criar, gerenciar e executar fluxos complexos que integram múltiplos sistemas, canais e processos empresariais. Seu design modular e escalável permite que a operação seja automatizada com alta flexibilidade, garantindo agilidade, controle e precisão.
+O **EVAH Conductor** é o núcleo de automações inteligentes do ecossistema **EVAH**, utilizando a plataforma open source **n8n** para criar, gerenciar e executar fluxos complexos que integram múltiplos sistemas, canais e processos empresariais. Seu design modular e escalável permite que a operação seja automatizada com alta flexibilidade, garantindo agilidade, controle e precisão.
 
 #### Funcionalidades Principais
 
@@ -186,7 +186,7 @@ O **VIAH Conductor** é o núcleo de automações inteligentes do ecossistema **
   Ambiente intuitivo para montar fluxos de automação através de uma interface drag-and-drop, sem necessidade de programação avançada.
 
 * **Integração Nativa com Sistemas e APIs**  
-  Conexão direta com ERP (como Odoo), CRM, bancos de dados, ferramentas de comunicação (WhatsApp via VIAH Connect), e serviços externos via APIs REST e Webhooks.
+  Conexão direta com ERP (como Odoo), CRM, bancos de dados, ferramentas de comunicação (WhatsApp via EVAH Connect), e serviços externos via APIs REST e Webhooks.
 
 * **Processamento e Transformação de Dados**  
   Capacidade de manipular, transformar e validar dados recebidos antes de enviá-los para outros sistemas, assegurando integridade e conformidade.
@@ -230,19 +230,19 @@ O **VIAH Conductor** é o núcleo de automações inteligentes do ecossistema **
 * Suporte Omnichannel  
   Gerencia fluxos que envolvem diferentes canais simultaneamente, garantindo que a operação mantenha consistência e integração total.
 
-### **2.5 VIAH Code – Serviços de desenvolvimento personalizados**
+### **2.5 EVAH Code – Serviços de desenvolvimento personalizados**
 
-O módulo **VIAH Code** é responsável por atender demandas específicas que não se enquadram em soluções prontas do ecossistema **VIAH**. Atua como uma camada de extensão flexível, oferecendo serviços sob medida para personalização, automação avançada e integração de sistemas legados ou proprietários.
+O módulo **EVAH Code** é responsável por atender demandas específicas que não se enquadram em soluções prontas do ecossistema **EVAH**. Atua como uma camada de extensão flexível, oferecendo serviços sob medida para personalização, automação avançada e integração de sistemas legados ou proprietários.
 
 #### Funcionalidades principais
 
 ##### 🔹 Criação de Componentes Exclusivos
 
-* Desenvolvimento de funcionalidades específicas para atender requisitos únicos do cliente, respeitando os padrões e diretrizes do VIAH.
+* Desenvolvimento de funcionalidades específicas para atender requisitos únicos do cliente, respeitando os padrões e diretrizes do EVAH.
 
 ##### 🔹 Integrações com Sistemas Legados ou Proprietários
 
-* Conexão de ERPs, CRMs, bancos de dados, ou APIs internas com os módulos do VIAH, utilizando protocolos seguros e escaláveis.
+* Conexão de ERPs, CRMs, bancos de dados, ou APIs internas com os módulos do EVAH, utilizando protocolos seguros e escaláveis.
 
 ##### 🔹 Extensão de Fluxos e Automações Complexas
 
@@ -254,7 +254,7 @@ O módulo **VIAH Code** é responsável por atender demandas específicas que n�
 
 ##### 🔹 Criação de APIs Customizadas
 
-* Desenvolvimento de APIs RESTful para facilitar a comunicação entre o VIAH e sistemas externos que não possuem conectores diretos.
+* Desenvolvimento de APIs RESTful para facilitar a comunicação entre o EVAH e sistemas externos que não possuem conectores diretos.
 
 ##### **🔹** Suporte a Projetos Especiais e Provas de Conceito
 
@@ -264,11 +264,11 @@ O módulo **VIAH Code** é responsável por atender demandas específicas que n�
 
 * Controle de versões, testes automatizados e boas práticas de deploy, garantindo a estabilidade e evolução contínua das personalizações.
 
-###  **2.6 VIAH ERP – Sistemas administrativos e financeiros**
+###  **2.6 EVAH ERP – Sistemas administrativos e financeiros**
 
-O VIAH ERP é um módulo opcional de gestão administrativa, financeira e operacional. Totalmente integrado ao ecossistema VIAH, oferece funcionalidades robustas e modulares para empresas que não possuem ou desejam modernizar seu sistema atual.
+O EVAH ERP é um módulo opcional de gestão administrativa, financeira e operacional. Totalmente integrado ao ecossistema EVAH, oferece funcionalidades robustas e modulares para empresas que não possuem ou desejam modernizar seu sistema atual.
 
-**Importante:** Caso o cliente já possua um ERP próprio, não há qualquer impedimento. O **VIAH** integra-se a sistemas externos por meio de conectores nativos ou personalizados via Evolution API.
+**Importante:** Caso o cliente já possua um ERP próprio, não há qualquer impedimento. O **EVAH** integra-se a sistemas externos por meio de conectores nativos ou personalizados via Evolution API.
 
 #### **Núcleos Funcionais**
 

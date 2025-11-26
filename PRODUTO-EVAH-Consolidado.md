@@ -1,19 +1,20 @@
-# 📦 PRODUTO EVAH/AIVAH - Informações Consolidadas
+# 📦 PLATAFORMA EVAH E EVAH ASSISTANT - Informações Consolidadas
 
-> **Objetivo:** Este documento consolida todas as informações sobre o produto EVAH/AIVAH (assistente virtual) extraídas dos arquivos do projeto.
+> **Objetivo:** Este documento consolida todas as informações sobre a plataforma EVAH e o Evah Assistant (assistente virtual padrão) extraídas dos arquivos do projeto.
 
 ---
 
 ## 🎯 1. DEFINIÇÃO E CONCEITO DO PRODUTO
 
 ### 1.1 Nome e Identidade
-- **Nome Técnico:** AIVAH (Assistente Inteligente de Vendas Automatizado para Humanos)
-- **Nome Comercial:** EVAH (Ecossistema de Valor Automatizado para Humanos)
-- **Apresentação ao Cliente:** Pode variar (ex: BiraBot para Bira Veículos)
-- **Framework Base:** VIAH (Vendas Inteligentes Automatizadas para Humanos)
+- **EVAH** = Plataforma completa de IA (sistema completo que integra módulos, agentes, fluxos, orquestração, integrações e recursos avançados de atendimento)
+- **Evah Assistant** = Assistente inteligente padrão da plataforma EVAH
+- **Apresentação ao Cliente:** Cada cliente pode personalizar sua própria assistente (ex: BiraBot para Bira Veículos) sem impactar a identidade principal da plataforma EVAH
 
 ### 1.2 Visão Geral
-O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Vai além de uma assistente conversacional: integra módulos, conecta sistemas, automatiza fluxos e coordena operações em um ponto único entre **VIAH ERP**, automações e serviços externos.
+**EVAH** é a plataforma completa de IA que integra módulos, agentes, fluxos, orquestração, integrações e recursos avançados de atendimento.
+
+**Evah Assistant** é a assistente inteligente padrão da plataforma EVAH. Vai além de uma assistente conversacional: integra módulos, conecta sistemas, automatiza fluxos e coordena operações em um ponto único entre **EVAH ERP**, automações e serviços externos.
 
 **Principais Características:**
 - Consolida informações
@@ -23,10 +24,10 @@ O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Va
 - Acelera rotinas
 - Mantém tudo alinhado para que o time foque no que realmente exige análise, decisão e relacionamento
 
-### 1.3 Posicionamento no Ecossistema VIAH
-- **VIAH** = Framework modular completo
-- **EVAH/AIVAH** = Assistente conversacional inteligente (produto principal)
-- Pode ser usado como módulo do VIAH ou como solução independente
+### 1.3 Posicionamento Estratégico
+- **EVAH** = Plataforma completa de IA (sistema completo)
+- **Evah Assistant** = Assistente inteligente padrão da plataforma (produto principal)
+- Cada cliente pode personalizar sua própria assistente sem impactar a identidade principal da plataforma EVAH
 
 ---
 
@@ -134,14 +135,14 @@ O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Va
 
 ### 2.8 Gestão de Arquivos via Google Drive
 **Funcionalidades:**
-- Permite que o AIVAH gerencie arquivos no Google Drive do cliente
+- Permite que o Evah Assistant gerencie arquivos no Google Drive do cliente
 - Upload, download e organização de arquivos
 - Controle de permissões via API oficial Google Drive
 - Integração direta com fluxos de atendimento
 
 ### 2.9 Identificação de Conteúdo de Imagens
 **Funcionalidades:**
-- Permite que o AIVAH analise imagens enviadas por usuários
+- Permite que o Evah Assistant analise imagens enviadas por usuários
 - Reconhecimento de elementos visuais, textos ou padrões relevantes
 - Uso de OCR (reconhecimento óptico de caracteres) para extrair texto de imagens
 - Consulta de produtos semelhantes com base em imagens
@@ -149,21 +150,21 @@ O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Va
 
 ### 2.10 Consulta de Produtos no Estoque do ERP
 **Funcionalidades:**
-- Permite que o AIVAH consulte em tempo real a disponibilidade de produtos no ERP
+- Permite que o Evah Assistant consulte em tempo real a disponibilidade de produtos no ERP
 - Exibe quantidade, localização e status do estoque
-- Integração direta com VIAH ERP (Odoo) ou ERP do cliente
+- Integração direta com EVAH ERP (Odoo) ou ERP do cliente
 - Consultas via API com segurança e controle de acesso
 
 ### 2.11 Consulta de Detalhes de Produto
 **Funcionalidades:**
-- Habilita o AIVAH a retornar informações específicas de um produto com base na seleção do usuário
+- Habilita o Evah Assistant a retornar informações específicas de um produto com base na seleção do usuário
 - Descrição, especificações técnicas, preços e variantes
 - Consulta de mídias dos produtos do Odoo
 - Apresentação de informações enriquecidas (veículos, serviços, etc.)
 
 ### 2.12 Exibição de Fotos de Produtos
 **Funcionalidades:**
-- Capacita o AIVAH a apresentar imagens associadas ao produto consultado
+- Capacita o Evah Assistant a apresentar imagens associadas ao produto consultado
 - Melhora a experiência visual do atendimento
 - Consulta de mídias dos produtos do ERP
 
@@ -207,7 +208,7 @@ O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Va
 
 ### 2.18 Configuração Vinculada ao Domínio do Cliente
 **Funcionalidades:**
-- Permite que o AIVAH funcione sob um subdomínio do cliente
+- Permite que o Evah Assistant funcione sob um subdomínio do cliente
 - SSL e identidade visual personalizada
 - Requer configuração de DNS (CNAME ou A record)
 - Personalização completa da experiência do cliente
@@ -407,19 +408,19 @@ O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Va
 
 ### 4.3 Camadas da Arquitetura
 1. **Camada de Entrada (Front-End de Comunicação)**
-   - WhatsApp, Webchat (VIAH Chat)
+   - WhatsApp, Webchat (EVAH Chat)
    
 2. **Camada de Inteligência**
-   - VIAH Chat (Typebot) - Interface guiada
-   - VIAH AIVAH - Assistente de IA
+   - EVAH Chat (Typebot) - Interface guiada
+   - Evah Assistant - Assistente de IA
    
 3. **Camada de Automações**
-   - VIAH Conductor (n8n) - Executa lógicas de negócio
-   - VIAH Connect - Ponte entre canais externos e módulos internos
+   - EVAH Conductor (n8n) - Executa lógicas de negócio
+   - EVAH Connect - Ponte entre canais externos e módulos internos
    
 4. **Camada de Backend e Gestão**
-   - VIAH Omni (Chatwoot) - Atendentes humanos
-   - VIAH ERP (Odoo) - Registro e gestão
+   - EVAH Omni (Chatwoot) - Atendentes humanos
+   - EVAH ERP (Odoo) - Registro e gestão
 
 ---
 
@@ -554,13 +555,13 @@ O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Va
 - Precisa ter ferramenta que faça tratamento da mensagem antes de passar para os agentes
 - Reorganizar os sub-agentes para atendimento
 - Configurar memória RAG na EVAH
-- Ajustar o Evah para apresentar o produto de forma intuitiva, com exemplos
+- Ajustar o Evah Assistant para apresentar o produto de forma intuitiva, com exemplos
 - Criar base de prompts para abastecimento
 - Configurar memória de contexto
 - Organizar e finalizar os agentes do assistente
 - Organizar o fluxo de atendimento guiado, para coleta de dados
-- Definir apresentação oficial do Evah
-- Explicar claramente o que o Evah faz
+- Definir apresentação oficial do Evah Assistant
+- Explicar claramente o que o Evah Assistant faz
 - Descrever as principais funcionalidades
 - Criar lista de casos de uso
 
@@ -621,39 +622,39 @@ Aiva (nome técnico), apresentado aos clientes como **BiraBot**, é um assistent
 
 ---
 
-## 🔄 9. INTEGRAÇÕES COM OUTROS MÓDULOS VIAH
+## 🔄 9. INTEGRAÇÕES COM OUTROS MÓDULOS EVAH
 
-### 9.1 VIAH ERP (Odoo)
+### 9.1 EVAH ERP (Odoo)
 - Integração nativa para consulta de produtos
 - Registro de leads e oportunidades
 - Consulta de estoque e pedidos
 - Sincronização de dados
 
-### 9.2 VIAH Omni (Chatwoot)
+### 9.2 EVAH Omni (Chatwoot)
 - Encaminhamento para atendimento humano
 - Histórico centralizado
 - Gestão de conversas
 
-### 9.3 VIAH Conductor (n8n)
+### 9.3 EVAH Conductor (n8n)
 - Execução de automações
 - Orquestração de fluxos
 - Integração com sistemas externos
 
-### 9.4 VIAH Connect
+### 9.4 EVAH Connect
 - Conexão com canais externos
 - Integração com APIs de mercado
-- Atua como ponte entre canais externos e os módulos internos do VIAH
+- Atua como ponte entre canais externos e os módulos internos do EVAH
 - Conecta WhatsApp, Instagram, Facebook, Telegram e outros canais ao ecossistema
 
-### 9.5 VIAH Maestro (n8n)
-- Núcleo de automações inteligentes do ecossistema VIAH
+### 9.5 EVAH Maestro (n8n)
+- Núcleo de automações inteligentes do ecossistema EVAH
 - Permite criar, gerenciar e executar fluxos complexos
 - Conecta múltiplos sistemas, canais e processos empresariais
 - Design modular e escalável
 - Automatiza operação com flexibilidade, agilidade e precisão
 - Otimiza resultados e garante controle total
 
-### 9.6 VIAH Code
+### 9.6 EVAH Code
 - Serviços de desenvolvimento personalizados
 - Criação de regras de negócio específicas para cada negócio
 - Via APIs, banco de dados e webapp
@@ -669,7 +670,7 @@ Aiva (nome técnico), apresentado aos clientes como **BiraBot**, é um assistent
 
 ## 📝 10. ROTEIRO DE LANDING PAGE
 
-> **Objetivo:** Criar uma landing page persuasiva que destaque os pontos fortes do AIVAH e convença clientes potenciais a contratar o assistente virtual.
+> **Objetivo:** Criar uma landing page persuasiva que destaque os pontos fortes do Evah Assistant e convença clientes potenciais a contratar o assistente virtual.
 
 ### 10.1 Estrutura da Landing Page
 
@@ -681,7 +682,7 @@ Transforme Seu Atendimento em Vendas com Inteligência Artificial
 
 **Subtítulo:**
 ```
-O AIVAH é o assistente virtual que atende seus clientes 24/7, qualifica leads automaticamente e aumenta suas vendas enquanto você foca no que realmente importa.
+O Evah Assistant é o assistente virtual que atende seus clientes 24/7, qualifica leads automaticamente e aumenta suas vendas enquanto você foca no que realmente importa.
 ```
 
 **CTA Principal:**
@@ -689,7 +690,7 @@ O AIVAH é o assistente virtual que atende seus clientes 24/7, qualifica leads a
 - Botão secundário: "Ver Como Funciona"
 
 **Elemento Visual:**
-- Vídeo de demonstração (30-60 segundos) ou animação do AIVAH em ação
+- Vídeo de demonstração (30-60 segundos) ou animação do Evah Assistant em ação
 - Estatísticas em destaque: "Atendimento 24/7", "Resposta em segundos", "Aumento de 40% em conversões"
 
 #### SEÇÃO 2: O PROBLEMA (DORES DO CLIENTE)
@@ -712,12 +713,12 @@ Você está perdendo vendas enquanto dorme?
 - "Empresas com chatbot convertem 7x mais leads"
 
 **CTA de transição:**
-- "Descubra como o AIVAH resolve isso"
+- "Descubra como o Evah Assistant resolve isso"
 
-#### SEÇÃO 3: A SOLUÇÃO (APRESENTAÇÃO DO AIVAH)
+#### SEÇÃO 3: A SOLUÇÃO (APRESENTAÇÃO DO Evah Assistant)
 **Título:**
 ```
-AIVAH: Seu Assistente Virtual Inteligente que Trabalha 24/7
+Evah Assistant: Seu Assistente Virtual Inteligente que Trabalha 24/7
 ```
 
 **Subtítulo:**
@@ -748,22 +749,22 @@ Mais que um chatbot. Um assistente completo que entende, qualifica, vende e fide
 - "Extrai dados de sites externos quando necessário"
 
 **CTA:**
-- "Quero ver o AIVAH em ação"
+- "Quero ver o Evah Assistant em ação"
 
 #### SEÇÃO 4: COMO FUNCIONA (DEMONSTRAÇÃO)
 **Título:**
 ```
-Veja o AIVAH em Ação
+Veja o Evah Assistant em Ação
 ```
 
 **Fluxo de demonstração (3-4 passos visuais):**
 
 **Passo 1: Cliente chega**
 - "Cliente envia mensagem via WhatsApp"
-- "AIVAH responde instantaneamente com boas-vindas personalizadas"
+- "Evah Assistant responde instantaneamente com boas-vindas personalizadas"
 
 **Passo 2: Inteligência em ação**
-- "AIVAH identifica a intenção do cliente"
+- "Evah Assistant identifica a intenção do cliente"
 - "Consulta produtos no ERP em tempo real"
 - "Apresenta opções personalizadas"
 
@@ -869,7 +870,7 @@ Resultados Reais para Seu Negócio
 #### SEÇÃO 7: CASOS DE SUCESSO / DEPOIMENTOS
 **Título:**
 ```
-Empresas que já transformaram seu atendimento com o AIVAH
+Empresas que já transformaram seu atendimento com o Evah Assistant
 ```
 
 **Case 1: Bira Veículos**
@@ -878,7 +879,7 @@ Empresas que já transformaram seu atendimento com o AIVAH
 - "Leads qualificados automaticamente no CRM"
 
 **Depoimento:**
-> "O AIVAH revolucionou nosso atendimento. Agora atendemos 24/7 e nunca perdemos um lead. A integração com nosso sistema foi perfeita." - [Nome do Cliente]
+> "O Evah Assistant revolucionou nosso atendimento. Agora atendemos 24/7 e nunca perdemos um lead. A integração com nosso sistema foi perfeita." - [Nome do Cliente]
 
 **Case 2: [Outro cliente]**
 - Métricas e resultados específicos
@@ -895,7 +896,7 @@ Empresas que já transformaram seu atendimento com o AIVAH
 #### SEÇÃO 8: DIFERENCIAIS COMPETITIVOS
 **Título:**
 ```
-Por que escolher o AIVAH?
+Por que escolher o Evah Assistant?
 ```
 
 **Comparativo (tabela ou cards):**
@@ -936,16 +937,16 @@ Comece a transformar seu atendimento em 3 passos simples
 
 **Passo 1: Demonstração**
 - "Agende uma demonstração gratuita"
-- "Veja o AIVAH funcionando com seus dados reais"
+- "Veja o Evah Assistant funcionando com seus dados reais"
 - "Entenda como se adapta ao seu negócio"
 
 **Passo 2: Personalização**
-- "Nossa equipe configura o AIVAH para seu negócio"
+- "Nossa equipe configura o Evah Assistant para seu negócio"
 - "Integramos com seus sistemas existentes"
 - "Treinamos sua equipe"
 
 **Passo 3: Lançamento**
-- "AIVAH começa a atender seus clientes"
+- "Evah Assistant começa a atender seus clientes"
 - "Monitoramento e ajustes contínuos"
 - "Suporte dedicado"
 
@@ -1001,25 +1002,25 @@ Dúvidas Frequentes
 
 **Perguntas principais:**
 
-1. **Quanto tempo leva para implementar o AIVAH?**
+1. **Quanto tempo leva para implementar o Evah Assistant?**
    - Resposta sobre o processo e timeline
 
 2. **Preciso ter algum sistema específico?**
    - Resposta sobre integrações e compatibilidade
 
-3. **O AIVAH substitui minha equipe de atendimento?**
+3. **O Evah Assistant substitui minha equipe de atendimento?**
    - Resposta sobre complementaridade e redirecionamento
 
 4. **Como funciona a integração com meu CRM/ERP?**
    - Resposta sobre APIs e conectores
 
-5. **Posso personalizar o AIVAH para meu negócio?**
+5. **Posso personalizar o Evah Assistant para meu negócio?**
    - Resposta sobre customização e adaptação
 
 6. **Quais são os custos adicionais?**
    - Resposta sobre custos de APIs e infraestrutura
 
-7. **O AIVAH funciona em outros idiomas?**
+7. **O Evah Assistant funciona em outros idiomas?**
    - Resposta sobre suporte multilíngue
 
 8. **Como é o suporte técnico?**
@@ -1033,7 +1034,7 @@ Pronto para transformar seu atendimento?
 
 **Subtítulo:**
 ```
-Solicite uma demonstração gratuita e veja como o AIVAH pode aumentar suas vendas
+Solicite uma demonstração gratuita e veja como o Evah Assistant pode aumentar suas vendas
 ```
 
 **Formulário de contato:**
@@ -1056,7 +1057,7 @@ Solicite uma demonstração gratuita e veja como o AIVAH pode aumentar suas vend
 - Telefone: [telefone]
 
 **Garantias/Prova social:**
-- "Mais de X empresas já confiam no AIVAH"
+- "Mais de X empresas já confiam no Evah Assistant"
 - "Satisfação garantida"
 - "Suporte dedicado"
 
@@ -1076,7 +1077,7 @@ Solicite uma demonstração gratuita e veja como o AIVAH pode aumentar suas vend
 ### 10.2 Elementos Visuais Recomendados
 
 **Imagens e Vídeos:**
-- Vídeo de demonstração do AIVAH (30-60s)
+- Vídeo de demonstração do Evah Assistant (30-60s)
 - Screenshots do assistente em ação
 - Infográficos dos benefícios
 - Ícones para cada funcionalidade
@@ -1116,7 +1117,7 @@ Solicite uma demonstração gratuita e veja como o AIVAH pode aumentar suas vend
 - Assistente virtual WhatsApp
 
 **Meta tags:**
-- Título: "AIVAH - Assistente Virtual Inteligente que Aumenta Suas Vendas"
+- Título: "Evah Assistant - Assistente Virtual Inteligente que Aumenta Suas Vendas"
 - Descrição: "Transforme seu atendimento com IA. Atendimento 24/7, qualificação automática de leads e integração completa. Solicite demonstração gratuita."
 
 ### 10.5 Notas de Implementação
@@ -1124,7 +1125,7 @@ Solicite uma demonstração gratuita e veja como o AIVAH pode aumentar suas vend
 **Prioridades para MVP:**
 1. Hero section com CTA forte
 2. Seção de problemas/dores
-3. Apresentação do AIVAH
+3. Apresentação do Evah Assistant
 4. Recursos principais
 5. Formulário de contato
 
@@ -1140,13 +1141,13 @@ Solicite uma demonstração gratuita e veja como o AIVAH pode aumentar suas vend
 ## 📝 11. NOTAS E OBSERVAÇÕES
 
 ### 11.1 Nomenclatura
-- Há variação entre "AIVAH" e "EVAH" nos documentos
-- "AIVAH" parece ser o nome técnico
+- Há variação entre "Evah Assistant" e "EVAH" nos documentos
+- "Evah Assistant" parece ser o nome técnico
 - "EVAH" parece ser o nome comercial/apresentação
 - Pode ter nomes customizados por cliente (ex: BiraBot)
 
 ### 11.2 Adaptabilidade
-- O EVAH deve ser capaz de se adaptar à realidade do negócio do cliente
+- O Evah Assistant deve ser capaz de se adaptar à realidade do negócio do cliente
 - Personalização por segmento e contexto
 - Flexibilidade para diferentes casos de uso
 
@@ -1155,19 +1156,19 @@ Solicite uma demonstração gratuita e veja como o AIVAH pode aumentar suas vend
 - Garantir estabilidade e confiabilidade
 - Focar em casos de uso principais
 - Demonstrar valor imediato
-- Nome e identidade clara (`VIAH` como framework, `AIVAH` como exemplo aplicado)
+- Nome e identidade clara (`EVAH` como framework, `Evah Assistant` como exemplo aplicado)
 - Demonstração funcional que mostre valor imediato
 - Capacidade de modularização (usar só o que o cliente precisa)
 - Resolução de problemas reais
 
 ### 11.4 Objetivo do Projeto
-Entregar uma **solução vendável, funcional e escalável** nas mãos do vendedor. O framework VIAH permite montar soluções sob medida para resolver as dores reais do processo comercial.
+Entregar uma **solução vendável, funcional e escalável** nas mãos do vendedor. O framework EVAH permite montar soluções sob medida para resolver as dores reais do processo comercial.
 
 ### 11.5 Posicionamento Estratégico
-O VIAH é pensado para **crescer com o cliente**: Empresas podem começar com um módulo como o `AIVAH` e, conforme amadurecem, escalar para soluções mais completas. Isso reduz barreiras de entrada, acelera a implementação e aumenta a retenção no longo prazo.
+O EVAH é pensado para **crescer com o cliente**: Empresas podem começar com um módulo como o `Evah Assistant` e, conforme amadurecem, escalar para soluções mais completas. Isso reduz barreiras de entrada, acelera a implementação e aumenta a retenção no longo prazo.
 
 ### 11.6 Identidade Visual
-- Logo: "aivah - Assistente Inteligente de vendas"
+- Logo: "Evah Assistant - Assistente Inteligente de vendas"
 - Apresentação pode variar conforme cliente (ex: BiraBot para Bira Veículos)
 
 ### 11.7 Processo de Implantação
@@ -1191,7 +1192,7 @@ O VIAH é pensado para **crescer com o cliente**: Empresas podem começar com um
    - Integração com Google calendar
    - Integração com Google Drive
    - Implantação do Typebot (Atendimento guiado)
-   - Integração com VIAH ERP para consulta de produtos
+   - Integração com EVAH ERP para consulta de produtos
    - Desenvolvimento de fluxos de negócio
    - Personalização do Assistente
 

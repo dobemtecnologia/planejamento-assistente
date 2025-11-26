@@ -4,8 +4,8 @@
 > **Empresa:** Dobem Tecnologia  
 > **Data:** 2025  
 > **Versão:** 2.0 - Consolidado  
-> **Baseado em:** Análise profunda dos arquivos consolidados, fluxogramas Miro e documentação do produto EVAH/AIVAH  
-> **Produto Principal:** EVAH/AIVAH/VIAH - Assistente Virtual Inteligente
+> **Baseado em:** Análise profunda dos arquivos consolidados, fluxogramas Miro e documentação da plataforma EVAH  
+> **Produto Principal:** EVAH Platform (com Evah Assistant) - Plataforma de IA Completa
 
 ---
 
@@ -15,7 +15,7 @@ A **Dobem Tecnologia** é uma startup de tecnologia que desenvolve e comercializ
 
 **Diferencial:** Ao invés de vender software genérico (SaaS horizontal), a Dobem vende **fluxos de otimização de operação** especializados por setor, criando agentes de IA personalizados que automatizam processos únicos de cada cliente.
 
-**Produto Principal:** EVAH/AIVAH (Ecossistema de Valor Automatizado para Humanos / Assistente Inteligente de Vendas Automatizado para Humanos), parte do framework modular VIAH (Vendas Inteligentes Automatizadas e Humanizadas).
+**Produto Principal:** **EVAH** (Plataforma de IA) - Sistema completo que integra módulos, agentes, fluxos, orquestração, integrações e recursos avançados de atendimento. A assistente padrão da plataforma é o **Evah Assistant**.
 
 **Visão:** Ser referência em **Vertical AI** no Brasil, transformando a forma como empresas automatizam seus processos através de agentes de IA especializados e ecossistemas integrados.
 
@@ -109,16 +109,15 @@ A Dobem Tecnologia não oferece soluções genéricas, mas sim:
 
 ---
 
-## 🤖 2. ANÁLISE DETALHADA DO PRODUTO EVAH/AIVAH
+## 🤖 2. ANÁLISE DETALHADA DA PLATAFORMA EVAH E EVAH ASSISTANT
 
 ### 2.1 Definição e Conceito
 
-**Nome Técnico:** AIVAH (Assistente Inteligente de Vendas Automatizado para Humanos)  
-**Nome Comercial:** EVAH (Ecossistema de Valor Automatizado para Humanos)  
-**Apresentação ao Cliente:** Pode variar (ex: BiraBot para Bira Veículos)  
-**Framework Base:** VIAH (Vendas Inteligentes Automatizadas para Humanos)
+**EVAH** é a plataforma completa de IA que integra módulos, agentes, fluxos, orquestração, integrações e recursos avançados de atendimento.
 
-O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Vai além de uma assistente conversacional: integra módulos, conecta sistemas, automatiza fluxos e coordena operações em um ponto único entre **VIAH ERP**, automações e serviços externos.
+**Evah Assistant** é a assistente inteligente padrão da plataforma EVAH. Vai além de uma assistente conversacional: integra módulos, conecta sistemas, automatiza fluxos e coordena operações em um ponto único entre **EVAH ERP**, automações e serviços externos.
+
+**Apresentação ao Cliente:** Cada cliente pode personalizar sua própria assistente (ex: BiraBot para Bira Veículos) sem impactar a identidade principal da plataforma EVAH.
 
 **Principais Características:**
 - Consolida informações de múltiplas fontes
@@ -141,16 +140,16 @@ O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Va
 - Qualquer canal que o cliente queira integrar
 
 **2. Camada de Inteligência**
-- **VIAH Chat (Typebot)** - Interface guiada para atendimento estruturado
-- **VIAH AIVAH** - Assistente de IA com processamento de linguagem natural
+- **EVAH Chat (Typebot)** - Interface guiada para atendimento estruturado
+- **Evah Assistant** - Assistente de IA com processamento de linguagem natural
 
 **3. Camada de Automações**
-- **VIAH Conductor (n8n)** - Executa lógicas de negócio e workflows
-- **VIAH Connect** - Ponte entre canais externos e módulos internos
+- **EVAH Conductor (n8n)** - Executa lógicas de negócio e workflows
+- **EVAH Connect** - Ponte entre canais externos e módulos internos
 
 **4. Camada de Backend e Gestão**
-- **VIAH Omni (Chatwoot)** - Atendentes humanos e gestão omnichannel
-- **VIAH ERP (Odoo)** - Registro e gestão de dados
+- **EVAH Omni (Chatwoot)** - Atendentes humanos e gestão omnichannel
+- **EVAH ERP (Odoo)** - Registro e gestão de dados
 
 #### 2.2.2 Fluxo de Processamento de Mensagens
 
@@ -250,7 +249,7 @@ O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Va
 - Melhora acessibilidade
 
 **Análise de Imagens:**
-- Permite que o AIVAH analise imagens enviadas por usuários
+- Permite que o Evah Assistant analise imagens enviadas por usuários
 - Reconhecimento de elementos visuais, textos ou padrões relevantes
 - Uso de OCR (reconhecimento óptico de caracteres) para extrair texto
 - Consulta de produtos semelhantes com base em imagens
@@ -287,7 +286,7 @@ O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Va
 - Enviar lembretes e solicitações de confirmação
 
 **Google Drive:**
-- Permite que o AIVAH gerencie arquivos no Google Drive do cliente
+- Permite que o Evah Assistant gerencie arquivos no Google Drive do cliente
 - Upload, download e organização de arquivos
 - Controle de permissões via API oficial Google Drive
 - Integração direta com fluxos de atendimento
@@ -301,7 +300,7 @@ O **EVAH/AIVAH** é a camada central de inteligência da plataforma **VIAH**. Va
 **Consulta de Produtos no ERP:**
 - Consulta em tempo real a disponibilidade de produtos no ERP
 - Exibe quantidade, localização e status do estoque
-- Integração direta com VIAH ERP (Odoo) ou ERP do cliente
+- Integração direta com EVAH ERP (Odoo) ou ERP do cliente
 - Consultas via API com segurança e controle de acesso
 - Consulta detalhes completos de produtos
 - Exibição de fotos de produtos
@@ -548,7 +547,7 @@ Aiva (nome técnico), apresentado aos clientes como **BiraBot**, é um assistent
    - Integração com Google calendar
    - Integração com Google Drive
    - Implantação do Typebot (Atendimento guiado)
-   - Integração com VIAH ERP para consulta de produtos
+   - Integração com EVAH ERP para consulta de produtos
    - Desenvolvimento de fluxos de negócio
    - Personalização do Assistente
 
@@ -671,44 +670,44 @@ Aiva (nome técnico), apresentado aos clientes como **BiraBot**, é um assistent
 
 ## 🏗️ 4. ARQUITETURA DO PRODUTO
 
-### 4.1 Framework VIAH (Vendas Inteligentes Automatizadas e Humanizadas)
+### 4.1 Framework EVAH (Vendas Inteligentes Automatizadas e Humanizadas)
 
 **Estrutura Modular:**
 
 ```
-VIAH Framework
+EVAH Platform
 │
-├── AIVAH (Assistente Virtual Inteligente)
+├── Evah Assistant (Assistente Virtual Inteligente)
 │   ├── Typebot (Atendimento guiado)
 │   ├── Agentes de IA especializados
 │   ├── Integrações (WhatsApp, Instagram, Telegram, etc.)
 │   └── Processamento de mensagens (texto, áudio, imagem)
 │
-├── VIAH ERP (Odoo)
+├── EVAH ERP (Odoo)
 │   ├── CRM
 │   ├── Vendas
 │   ├── Finanças
 │   ├── Inventário
 │   └── Módulos adicionais conforme necessidade
 │
-├── VIAH Omni (Chatwoot)
+├── EVAH Omni (Chatwoot)
 │   ├── Gestão omnichannel
 │   ├── Atendimento humano
 │   ├── Relatórios e métricas
 │   └── Integrações
 │
-├── VIAH Maestro (n8n)
+├── EVAH Maestro (n8n)
 │   ├── Automações
 │   ├── Workflows personalizados
 │   └── Orquestração de processos
 │
-├── VIAH Connect
+├── EVAH Connect
 │   └── Integrações externas
 │
-├── VIAH Conductor
+├── EVAH Conductor
 │   └── Orquestração avançada
 │
-└── VIAH Code
+└── EVAH Code
     └── Desenvolvimento customizado
 ```
 
@@ -770,7 +769,7 @@ Assistente
 #### **Plano PRO – Para negócios em crescimento**
 
 **Inclui:**
-- AIVAH completo
+- Evah Assistant completo
 - Orquestrador inteligente (Maestro básico)
 - IA treinada com base do cliente
 - 5 integrações externas
@@ -860,7 +859,7 @@ Assistente
 | Atendimento Telegram | Adesão | R$ 100,00 |
 | Atendimento WebChat | Adesão | R$ 82,20 |
 
-### 5.6 Módulo VIAH ERP (Odoo)
+### 5.6 Módulo EVAH ERP (Odoo)
 
 **Instalação e Implantação:**
 - Instalação do Odoo: R$ 4.000,00
@@ -879,7 +878,7 @@ Assistente
 
 **Licenças Odoo:** R$ 49,00/mês (base)
 
-### 5.7 Módulo VIAH Omni (Chatwoot)
+### 5.7 Módulo EVAH Omni (Chatwoot)
 
 | Componente | Valor |
 |------------|-------|
@@ -899,7 +898,7 @@ Assistente
 | Visualização ao vivo | R$ 13,56 |
 | Relatórios diversos | R$ 13,56 cada |
 
-### 5.8 Módulo VIAH Maestro (n8n)
+### 5.8 Módulo EVAH Maestro (n8n)
 
 **Workflows Personalizados:** R$ 120,00
 
@@ -946,7 +945,7 @@ Assistente
 
 **Estrutura:**
 1. **Setup Inicial (One-time):** Kits de R$ 3.000 ou implantação customizada
-2. **Mensalidade Base:** Módulos escolhidos (AIVAH, ERP, Omni, Maestro)
+2. **Mensalidade Base:** Módulos escolhidos (Evah Assistant, ERP, Omni, Maestro)
 3. **Custos Variáveis:** Uso de APIs, agentes, workflows adicionais
 4. **Hospedagem:** Conforme modelo escolhido (SaaS ou Onpremise)
 5. **Suporte:** Valor variável conforme plano
@@ -983,7 +982,7 @@ Retorna valores do plano
 - Não é "tudo ou nada"
 - Escalabilidade conforme necessidade
 - Redução de custos iniciais
-- Framework VIAH permite crescimento gradual
+- Framework EVAH permite crescimento gradual
 
 ### 6.3 Setup Rápido (Menos de 48h)
 - Kits pré-configurados por setor
@@ -1110,7 +1109,7 @@ Retorna valores do plano
 - Landing pages por setor
 - Demonstrações online
 - Formulários de contato
-- Chatbot próprio (AIVAH)
+- Chatbot próprio (Evah Assistant)
 
 **2. Redes Sociais**
 - LinkedIn (B2B)
@@ -1215,7 +1214,7 @@ Retorna valores do plano
 - E-commerce
 - Outros setores
 
-**Demonstrações em vídeo de AIVAH funcionando**
+**Demonstrações em vídeo do Evah Assistant funcionando**
 - Vídeos curtos mostrando funcionalidades
 - Simulações reais de atendimento
 - Comparativos antes/depois
@@ -1236,9 +1235,9 @@ Retorna valores do plano
 **Máquina de vendas inbound**
 - Captação de leads qualificados
 - Nutrição automática
-- Qualificação com AIVAH
+- Qualificação com Evah Assistant
 
-**SDR + AIVAH para qualificação automática**
+**SDR + Evah Assistant para qualificação automática**
 - Uso do próprio produto para qualificar leads
 - Automação do processo de vendas
 - Redução de tempo de ciclo
@@ -1286,7 +1285,7 @@ Retorna valores do plano
 ### 10.5 Expansão Vertical
 
 **Novos Módulos:**
-- Desenvolver novos módulos VIAH
+- Desenvolver novos módulos EVAH
 - Expandir funcionalidades
 - Integrações adicionais
 - Novos agentes
@@ -1370,7 +1369,7 @@ Conforme escalar, ampliar:
 - Taxa de ativação dos assistentes
 - Tempo médio de atendimento automatizado
 - SLA de respostas automáticas
-- Conversão de leads do AIVAH
+- Conversão de leads do Evah Assistant
 - Número de agentes ativos por cliente
 - Uso de APIs e funcionalidades
 
@@ -1446,7 +1445,7 @@ Ser referência em **Vertical AI** no Brasil, transformando a forma como empresa
 ### 14.2 Objetivos de Curto Prazo (6-12 meses)
 
 **Produto:**
-- Finalizar MVP do EVAH/AIVAH
+- Finalizar MVP da plataforma EVAH e Evah AssistantH/Evah Assistant
 - Criar mais kits por setor
 - Desenvolver biblioteca de agentes
 - Melhorar documentação
@@ -1487,13 +1486,13 @@ Ser referência em **Vertical AI** no Brasil, transformando a forma como empresa
 
 ## 🔥 15. PITCH RESUMIDO DA STARTUP
 
-A **Dobem Tecnologia** desenvolve a plataforma **VIAH**, um framework modular de assistentes inteligentes que automatiza vendas, atendimento e processos internos.
+A **Dobem Tecnologia** desenvolve a plataforma **EVAH**, um framework modular de assistentes inteligentes que automatiza vendas, atendimento e processos internos.
 
 Utilizamos **IA multiagente, integrações corporativas e um poderoso orquestrador** para permitir que empresas de qualquer setor atendam clientes 24h por dia, com eficiência humana — e velocidade de máquina.
 
 **Diferencial:** Não vendemos software genérico. Vendemos **fluxos de otimização de operação** especializados por setor, criando agentes de IA personalizados que automatizam processos únicos de cada cliente.
 
-**Resultado:** Empresas que implementam o VIAH aumentam vendas, reduzem custos operacionais e escalam sem precisar contratar mais pessoas.
+**Resultado:** Empresas que implementam o EVAH aumentam vendas, reduzem custos operacionais e escalam sem precisar contratar mais pessoas.
 
 **Exemplo Real:** Bira Veículos aumentou 40% em agendamentos e reduziu 60% no tempo de resposta com o BiraBot (EVAH).
 

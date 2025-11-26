@@ -9,7 +9,7 @@
 
 ## 📊 Resumo
 
-- **Conversas sobre PRODUTO (EVAH/AIVAH):** 36
+- **Conversas sobre PRODUTO (Evah Assistant):** 36
 - **Conversas sobre EMPRESA (Dobem Tecnologia):** 57
 - **Conversas sobre AMBOS:** 38
 
@@ -23,7 +23,7 @@
 
 Me dê nomes de Assistentes virtuais femininos que estão aderentes ao nosso produto EVAH 
 
-Perfeito 👍 — antes de te dar sugestões, só pra confirmar: o **EVAH** é a sigla de **“Assistente Virtual de Atendimento Humano”**, certo? (Ou está derivado de **AIVAH – Assistente Inteligente de Vendas Automatizado para Humanos**?)  
+Perfeito 👍 — antes de te dar sugestões, só pra confirmar: o **EVAH** é a sigla de **“Assistente Virtual de Atendimento Humano”**, certo? (Ou está derivado de **Evah Assistant – Assistente Inteligente de Vendas Automatizado para Humanos**?)  
 Assim eu posso alinhar o conceito dos nomes.  
 
 Mas já te antecipo uma lista inicial de **nomes femininos aderentes ao conceito EVAH**, com estilos variados (tecnológicos, elegantes e humanos):  
@@ -32,7 +32,7 @@ Mas já te antecipo uma lista inicial de **nomes femininos aderentes ao conceito
 
 ### 💡 **Sugestões inspiradas em tecnologia + empatia humana**
 1. **EVAH** – (mantém o nome original, pode virar a marca principal)  
-2. **Aiva** – forma curta, suave e fácil de lembrar (já usada em AIVAH)  
+2. **Aiva** – forma curta, suave e fácil de lembrar (já usada em Evah Assistant)  
 3. **Liah** – lembra “liaison” (conexão), transmite proximidade e empatia  
 4. **Nirah** – mistura de “neural” + som feminino  
 5. **Tayra** – soa moderna, sintética e humana  
@@ -165,7 +165,7 @@ Eu sugiro estruturar os testes como se fossem **roteiros de simulação de clien
 
 ---
 
-### 6. Dores e soluções AIVAH
+### 6. Dores e soluções Evah Assistant
 
 ```
 
@@ -280,7 +280,7 @@ Em outras palavras, em vez de ter várias soluções isoladas (cada uma resolven
 
 ---
 
-### 9. Branch · Dores e soluções AIVAH
+### 9. Branch · Dores e soluções Evah Assistant
 
 ```
 
@@ -728,15 +728,15 @@ Você precisa de um serviço **Traefik** na sua stack (ou em outra
 
 ---
 
-### 18. Informações sobre AIVAH
+### 18. Informações sobre Evah Assistant
 
 ```
 
-Me informe o que você sabe sobre meu assistente de IA AIVAH 
+Me informe o que você sabe sobre meu assistente de IA Evah Assistant 
 
-Pelo que já conversamos, o **AIVAH** é o seu **Assistente Inteligente de Vendas Automatizado para Humanos**. Aqui está o que eu tenho registrado sobre ele:  
+Pelo que já conversamos, o **Evah Assistant** é o seu **Assistente Inteligente de Vendas Automatizado para Humanos**. Aqui está o que eu tenho registrado sobre ele:  
 
-- 🧠 **Significado**: AIVAH = *Assistente Inteligente de Vendas Automatizado para Humanos*.  
+- 🧠 **Significado**: Evah Assistant = *Assistente Inteligente de Vendas Automatizado para Humanos*.  
 - 🎯 **Objetivo**: atuar como um assistente de vendas que ajuda empresas a automatizar processos de atendimento, qualificação de leads, captação de informações e suporte ao cliente.  
 - 🔧 **Funcionalidades previstas**:  
   - Atendimento automatizado via chat (WhatsApp, Telegram, etc.).  
@@ -745,11 +745,11 @@ Pelo que já conversamos, o **AIVAH** é o seu **Assistente Inteligente de Venda
   - Suporte em consultas de produtos ou serviços.  
   - Possibilidade de integração com CRM (como Odoo).  
   - Capacidade de seguir fluxos de atendimento predefinidos **e/ou** usar inteligência artificial para dar respostas personalizadas.  
-  - Pode atuar em conjunto com outros módulos da sua solução **VIAH**, como ERP, Omni (omnichannel), Connect (integrações), Maestro (orquestração) e Code (desenvolvimento personalizado).  
+  - Pode atuar em conjunto com outros módulos da sua solução **EVAH**, como ERP, Omni (omnichannel), Connect (integrações), Maestro (orquestração) e Code (desenvolvimento personalizado).  
 
 📌 Ele é parte central da sua visão de solução de automação inteligente, servindo como a “porta de entrada” para clientes em jornadas de vendas, suporte e relacionamento.  
 
-Quer que eu organize isso em um **documento de apresentação** do AIVAH (tipo um one-pager comercial) ou prefere que eu faça um **mapa visual das funcionalidades**?
+Quer que eu organize isso em um **documento de apresentação** do Evah Assistant (tipo um one-pager comercial) ou prefere que eu faça um **mapa visual das funcionalidades**?
 Quando o cliente faz uma pergunta e o orquestrador enviar para AgenteFallback não tenho resposta. Preciso que você crie um prompt que esteja ´reparado para responder a qualquer dúvida do cliente em relação a empresa do cliente. 
 
 Entendi 👍  
@@ -781,17 +781,17 @@ Ou seja: **todo lead já foi um suspect**, mas nem todo suspect vira lead.
 
 Se quiser, posso te passar um **fluxo visual** mostrando onde o *suspect* fica no funil de vendas.
 Olá, GPT. Seguinte, eu estou querendo criar um funil de vendas e eu tenho um produto que a gente chama aqui de VIA. Você já deve conhecer porque eu tenho perguntado para você sobre isso. Pois é, a gente está querendo criar um funil de vendas para o VIA, que é uma solução que tem assistente virtual, CRM, etc. Então, qual é um funil de vendas interessante? Quero que você me dê os estágios e a descrição de cada estágio e como eu devo usar eles.
-Certo — vamos estruturar um **funil de vendas específico para o VIAH** (sua solução com assistente virtual, CRM, omnichannel e integrações) de um jeito que facilite sua prospecção, qualificação e conversão.  
+Certo — vamos estruturar um **funil de vendas específico para o EVAH** (sua solução com assistente virtual, CRM, omnichannel e integrações) de um jeito que facilite sua prospecção, qualificação e conversão.  
 
 Vou criar algo **prático**, com estágios claros, descrição de cada um e como você pode trabalhar cada fase.  
 
 ---
 
-## **Funil de Vendas para o VIAH**
+## **Funil de Vendas para o EVAH**
 *(de Suspect até Cliente Ativo)*
 
 ### **1. Suspect (Prospecção Inicial)**
-**O que é:** Lista de empresas ou contatos que **podem** se beneficiar do VIAH, mas ainda não foram abordados ou qualificados.  
+**O que é:** Lista de empresas ou contatos que **podem** se beneficiar do EVAH, mas ainda não foram abordados ou qualificados.  
 **Ação:**  
 - Pesquisar segmentos ideais (ex.: concessionárias, e-commerce, empresas de serviços).  
 - Criar lista de contatos usando LinkedIn, e
@@ -799,7 +799,7 @@ Vou criar algo **prático**, com estágios claros, descrição de cada um e como
 
 ---
 
-### 20. Estrutura de precificação VIAH
+### 20. Estrutura de precificação EVAH
 
 ```
 
@@ -807,12 +807,12 @@ Estou precisando fazer um orçamento para um cliente de uma solução que chamo 
 Estou precisando encontrar uma metrica, uma maneira de precificar essa solução. 
 Ela é dividida em modulos: 
 
-    • VIAH Assistent AIVAH – Assistente Inteligente de Vendas Automatizado para Humanos.
-    • VIAH ERP – Sistemas administrativos e financeiros
-    • VIAH Omni – Central de Gerenciamento Omnichannel de Atendimento
-    • VIAH Connect – Módulo de integração que conecta canais externos, como WhatsApp, e sistemas externos ao ecossistema VIAH
-    • VIAH Maestro – Orquestrador de automações inteligentes utilizando n8n (a ferramenta que automatiza o processo).
-    • VIAH Code – Serviços de desenvolvimento personalizados para criar regras de negócio específicas para cada negócio via APIs, banco de dados e webapp, entre outros.
+    • EVAH Assistent Evah Assistant – Assistente Inteligente de Vendas Automatizado para Humanos.
+    • EVAH ERP – Sistemas administrativos e financeiros
+    • EVAH Omni – Central de Gerenciamento Omnichannel de Atendimento
+    • EVAH Connect – Módulo de integração que conecta canais externos, como WhatsApp, e sistemas externos ao ecossistema EVAH
+    • EVAH Maestro – Orquestrador de automações inteligentes utilizando n8n (a ferramenta que automatiza o processo).
+    • EVAH Code – Serviços de desenvolvimento personalizados para criar regras de negócio específicas para cada negócio via APIs, banco de dados e webapp, entre outros.
 
 
 Cada modulo possui suas funcionalidades:
@@ -843,7 +843,7 @@ Atendimento via canal Facebook
 Atendimento via canal Telegram
 Atendimento via canal WebChat (chat do site)
 
-VIAH ERP:
+EVAH ERP:
 
 Site
 E-commerce
@@ -866,7 +866,7 @@ Controle de
 
 ---
 
-## 🤖 Conversas sobre PRODUTO (EVAH/AIVAH)
+## 🤖 Conversas sobre PRODUTO (Evah Assistant)
 
 ### 1. Criar request para Zep
 
@@ -1049,13 +1049,13 @@ A palavra **“iavah”** sozinha não tem um significado conhecido em **malgaxe
 
 Mas há **duas possibilidades** dependendo do contexto em que você viu:  
 
-1. 🔹 **Se for um nome próprio ou sigla**, pode ser algo criado (como “AIVAH”, que você mesmo já usa — *Assistente Inteligente de Vendas Automatizado para Humanos*).  
-   Nesse caso, “iavah” pode ser uma **variação estilizada de “AIVAH”**, apenas escrita de forma diferente.  
+1. 🔹 **Se for um nome próprio ou sigla**, pode ser algo criado (como “Evah Assistant”, que você mesmo já usa — *Assistente Inteligente de Vendas Automatizado para Humanos*).  
+   Nesse caso, “iavah” pode ser uma **variação estilizada de “Evah Assistant”**, apenas escrita de forma diferente.  
 
 2. 🔹 **Se for de origem bíblica ou hebraica**, pode ser uma **variação de “Javé” ou “Yahweh”**, que é o nome de Deus no Antigo Testamento em hebraico (יהוה — YHWH).  
    Em algumas transliterações antigas ou dialetos, “Iavah” aparece como uma forma alternativa de “Yavé” ou “Jehovah”.  
 
-Você pode me dizer onde encontrou “iavah”? Assim posso confirmar se o sentido é religioso, linguístico ou uma sigla como “AIVAH”.
+Você pode me dizer onde encontrou “iavah”? Assim posso confirmar se o sentido é religioso, linguístico ou uma sigla como “Evah Assistant”.
 
 ```
 
@@ -1609,22 +1609,22 @@ Aqui estão as principais funcionalidades dele:
 
 resolva o erro:
 
-=SE((C6 == 'Ativo'); 'Módulos VIAH'!G5; 0)
+=SE((C6 == 'Ativo'); 'Módulos EVAH'!G5; 0)
 
 Esse erro acontece porque no **Excel** (e no Google Sheets também) a sintaxe que você usou está errada.  
 Em fórmulas, não se usa `==` nem aspas simples desse jeito. O correto é:
 
 ```excel
-=SE(C6="Ativo";'Módulos VIAH'!G5;0)
+=SE(C6="Ativo";'Módulos EVAH'!G5;0)
 ```
 
 📌 Diferenças corrigidas:  
 1. **Comparação** → no Excel/Sheets usa-se `=` e não `==`.  
 2. **Texto** → deve estar entre aspas duplas (`"Ativo"`).  
-3. **Referência de aba** → `'Módulos VIAH'!G5` está correto (as aspas simples só são usadas porque o nome da aba tem espaço).
+3. **Referência de aba** → `'Módulos EVAH'!G5` está correto (as aspas simples só são usadas porque o nome da aba tem espaço).
 
 👉 Essa fórmula significa:  
-- Se o valor da célula **C6** for exatamente `"Ativo"`, retorna o valor da célula **G5** da planilha **Módulos VIAH**.  
+- Se o valor da célula **C6** for exatamente `"Ativo"`, retorna o valor da célula **G5** da planilha **Módulos EVAH**.  
 - Caso contrário, retorna **0**.  
 
 Quer que eu adapte também para funcionar no **Google Sheets em português** (com `SE`) e no **Excel em inglês** (`IF`)?
@@ -1789,7 +1789,7 @@ Configuração vinculada ao dominio do cliente
 Integração com API de inteligência Artificial  (Custos variaveis)
 Integração com Google calendar 
 Implantação do  Typebot (Atendimento guiado) 
-Integração com VIAH ERP para consulta de produtos 
+Integração com EVAH ERP para consulta de produtos 
 Desenvolvimento de fluxos de negócio 
 Personalização do Assistente
 
@@ -4112,54 +4112,54 @@ Terraform planned the following actions, but then encountered a problem:
 
 ---
 
-## 📋 Características Detalhadas do AIVAH
+## 📋 Características Detalhadas do Evah Assistant
 
 ### Funcionalidades Principais
 
 #### Atendimento com IA
-- Conecta o AIVAH a serviços avançados de IA, como OpenAI (ChatGPT), Google Gemini, IBM Watson e outros. Permite geração contextual de respostas, análise de sentimentos, interpretação de dados estruturados e não estruturados, além de automações dinâmicas e inteligentes.
+- Conecta o Evah Assistant a serviços avançados de IA, como OpenAI (ChatGPT), Google Gemini, IBM Watson e outros. Permite geração contextual de respostas, análise de sentimentos, interpretação de dados estruturados e não estruturados, além de automações dinâmicas e inteligentes.
 
 #### Atendimento Guiado
 - Personalização de fluxos específicos no Typebot para coleta de informações, preenchimento de agendas, validações e outras automações essenciais ao atendimento guiado.
 
 #### Agendamentos via Google Calendar
-- Sincroniza e gerencia eventos no Google Calendar via API oficial Google. Permite criação, consulta e notificações via fluxos do AIVAH.
+- Sincroniza e gerencia eventos no Google Calendar via API oficial Google. Permite criação, consulta e notificações via fluxos do Evah Assistant.
 
 #### Gestão de arquivos via Google Drive
-- Permite que o AIVAH gerencie arquivos no Google Drive do cliente, com upload, download, organização e controle de permissões via API oficial Google Drive.
+- Permite que o Evah Assistant gerencie arquivos no Google Drive do cliente, com upload, download, organização e controle de permissões via API oficial Google Drive.
 
 #### Consultas Web (Web Scraping)
-- Permite ao AIVAH extrair dados de páginas web em tempo real para alimentar fluxos com informações externas, como preços, prazos, status ou disponibilidade de serviços.
+- Permite ao Evah Assistant extrair dados de páginas web em tempo real para alimentar fluxos com informações externas, como preços, prazos, status ou disponibilidade de serviços.
 
 #### Gestão Automática de Leads no CRM
-- **Criar automaticamente oportunidades de Lead no CRM:** Habilita o AIVAH a registrar novos leads diretamente no CRM do cliente com base em interações, formulários ou gatilhos específicos.
-- **Atualizar automaticamente oportunidades de Lead no CRM:** Permite que o AIVAH altere dados de oportunidades existentes no CRM conforme novas informações são coletadas nos fluxos.
-- **Promover automaticamente oportunidades de Lead no CRM:** Garante que o AIVAH avance automaticamente leads no funil de vendas do CRM, respeitando critérios pré-definidos de qualificação.
+- **Criar automaticamente oportunidades de Lead no CRM:** Habilita o Evah Assistant a registrar novos leads diretamente no CRM do cliente com base em interações, formulários ou gatilhos específicos.
+- **Atualizar automaticamente oportunidades de Lead no CRM:** Permite que o Evah Assistant altere dados de oportunidades existentes no CRM conforme novas informações são coletadas nos fluxos.
+- **Promover automaticamente oportunidades de Lead no CRM:** Garante que o Evah Assistant avance automaticamente leads no funil de vendas do CRM, respeitando critérios pré-definidos de qualificação.
 
 #### Processamento Multimídia
-- **Recebimento de mensagens em áudio:** Capacita o AIVAH a receber mensagens de voz enviadas pelos usuários em canais compatíveis, armazenando e processando o conteúdo.
-- **Capacidade de identificar o conteúdo de imagens:** Permite que o AIVAH analise imagens enviadas por usuários, reconhecendo elementos visuais, textos ou padrões relevantes para o atendimento.
+- **Recebimento de mensagens em áudio:** Capacita o Evah Assistant a receber mensagens de voz enviadas pelos usuários em canais compatíveis, armazenando e processando o conteúdo.
+- **Capacidade de identificar o conteúdo de imagens:** Permite que o Evah Assistant analise imagens enviadas por usuários, reconhecendo elementos visuais, textos ou padrões relevantes para o atendimento.
 
 #### Inteligência e Contexto
-- **Redirecionamento para atendente humano quando necessário:** Garante que o AIVAH identifique contextos em que a interação requer intervenção humana e transfira o atendimento para um operador da equipe em tempo real.
+- **Redirecionamento para atendente humano quando necessário:** Garante que o Evah Assistant identifique contextos em que a interação requer intervenção humana e transfira o atendimento para um operador da equipe em tempo real.
 - **Capacidade de identificar a intenção do usuário:** Quando o bot é capaz de saber se o usuário está querendo um produto ou serviço específico ou simplesmente está se apresentando.
-- **Capacidade de manter contexto de conversação:** Garante que o AIVAH entenda e memorize informações fornecidas durante a conversa, mantendo coerência entre interações e personalizando o atendimento.
+- **Capacidade de manter contexto de conversação:** Garante que o Evah Assistant entenda e memorize informações fornecidas durante a conversa, mantendo coerência entre interações e personalizando o atendimento.
 
 #### Integração com ERP
-- **Consulta produtos no estoque do ERP:** Permite que o AIVAH consulte em tempo real a disponibilidade de produtos no ERP do cliente, exibindo quantidade, localização e status do estoque.
-- **Consulta detalhes de um produto selecionado pelo usuário:** Habilita o AIVAH a retornar informações específicas de um produto com base na seleção do usuário, como descrição, especificações técnicas, preços e variantes.
-- **Exibe fotos de um produto:** Capacita o AIVAH a apresentar imagens associadas ao produto consultado, melhorando a experiência visual do atendimento.
+- **Consulta produtos no estoque do ERP:** Permite que o Evah Assistant consulte em tempo real a disponibilidade de produtos no ERP do cliente, exibindo quantidade, localização e status do estoque.
+- **Consulta detalhes de um produto selecionado pelo usuário:** Habilita o Evah Assistant a retornar informações específicas de um produto com base na seleção do usuário, como descrição, especificações técnicas, preços e variantes.
+- **Exibe fotos de um produto:** Capacita o Evah Assistant a apresentar imagens associadas ao produto consultado, melhorando a experiência visual do atendimento.
 
 #### Consultas Especializadas
-- **Consulta tabela FIPE do veículo:** Permite ao AIVAH retornar valores atualizados de veículos conforme a Tabela FIPE, útil para negociações, simulações e cotações automotivas.
+- **Consulta tabela FIPE do veículo:** Permite ao Evah Assistant retornar valores atualizados de veículos conforme a Tabela FIPE, útil para negociações, simulações e cotações automotivas.
 
 #### Canais de Atendimento
-- **Atendimento via canal WhatsApp (Evolution API):** Integra o AIVAH ao WhatsApp usando a Evolution API, com suporte a mensagens, envio e recebimento de mídias e automações. É ágil para implantar, flexível e compatível com diferentes cenários de atendimento, utilizando provedores intermediários.
-- **Atendimento via canal WhatsApp (Meta - API Oficial WhatsApp):** Conecta o AIVAH à API oficial do WhatsApp (Meta), mantendo os mesmos recursos de mensagens e mídias, mas com vantagens adicionais: conformidade total com as políticas do WhatsApp, acesso a recursos exclusivos liberados primeiro na API oficial e suporte direto via provedores autorizados. Ideal para operações que exigem alto nível de governança e relacionamento corporativo com a Meta.
-- **Atendimento via canal Instagram:** Capacita o AIVAH a atender diretamente via mensagens do Instagram, respondendo a DMs, interações com stories e gatilhos de publicações.
-- **Atendimento via canal Facebook Messenger:** Integra o AIVAH ao Messenger do Facebook via API oficial, permitindo envio e recebimento de mensagens, execução de fluxos automatizados e encaminhamento para atendente humano.
-- **Atendimento via canal Telegram:** Integra o AIVAH ao Telegram via API oficial gratuita, permitindo envio e recebimento de mensagens, execução de fluxos automatizados e encaminhamento para atendente humano quando necessário.
-- **Atendimento via canal WebChat (chat do site):** Integra o AIVAH a widgets de chat em sites (WebChat), permitindo conversas em tempo real com visitantes, execução de fluxos automatizados, coleta de dados e redirecionamento para atendentes humanos quando necessário.
+- **Atendimento via canal WhatsApp (Evolution API):** Integra o Evah Assistant ao WhatsApp usando a Evolution API, com suporte a mensagens, envio e recebimento de mídias e automações. É ágil para implantar, flexível e compatível com diferentes cenários de atendimento, utilizando provedores intermediários.
+- **Atendimento via canal WhatsApp (Meta - API Oficial WhatsApp):** Conecta o Evah Assistant à API oficial do WhatsApp (Meta), mantendo os mesmos recursos de mensagens e mídias, mas com vantagens adicionais: conformidade total com as políticas do WhatsApp, acesso a recursos exclusivos liberados primeiro na API oficial e suporte direto via provedores autorizados. Ideal para operações que exigem alto nível de governança e relacionamento corporativo com a Meta.
+- **Atendimento via canal Instagram:** Capacita o Evah Assistant a atender diretamente via mensagens do Instagram, respondendo a DMs, interações com stories e gatilhos de publicações.
+- **Atendimento via canal Facebook Messenger:** Integra o Evah Assistant ao Messenger do Facebook via API oficial, permitindo envio e recebimento de mensagens, execução de fluxos automatizados e encaminhamento para atendente humano.
+- **Atendimento via canal Telegram:** Integra o Evah Assistant ao Telegram via API oficial gratuita, permitindo envio e recebimento de mensagens, execução de fluxos automatizados e encaminhamento para atendente humano quando necessário.
+- **Atendimento via canal WebChat (chat do site):** Integra o Evah Assistant a widgets de chat em sites (WebChat), permitindo conversas em tempo real com visitantes, execução de fluxos automatizados, coleta de dados e redirecionamento para atendentes humanos quando necessário.
 
 ---
 

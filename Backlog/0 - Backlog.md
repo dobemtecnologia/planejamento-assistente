@@ -168,9 +168,9 @@ Trabalhar em um contrato de prestação de serviço para o cliente final
 
 Fazer SEO do site
 
-Implantar a AIVAH (Evee)  na Dobem Tech
+Implantar a Evah Assistant (Evee)  na Dobem Tech
 
-Colocar o WebChat no site integrado ao AIVAH
+Colocar o WebChat no site integrado ao Evah Assistant
 
 Quando é mandado um texto em duas linhas, ele dá falha pois interpreta errado:
 

@@ -1,11 +1,11 @@
-# VIAH –  Proposta Comercial Bira Veículos - Plano de Implantação
+# EVAH –  Proposta Comercial Bira Veículos - Plano de Implantação
 
 ---
 
-                                                                                             VIAH – Vendas Inteligentes Automatizadas e Humanizadas
+                                                                                             EVAH – Vendas Inteligentes Automatizadas e Humanizadas
 
                        Módulo / funcionalidade                                                    Descrição Atividade                                Preço Implantação        Hospedágem            Preço Suporte   Status   MVP
-1   VIAH Assistent AIVAH
+1   EVAH Assistent Evah Assistant
                                                                                                                                                                          Gratuita (Evolution API)
                                                                        - Criar uma instancia na AWS para implantar a EvolutionAPI
                                                                                                                                                                          ou API oficial da Meta =
@@ -19,10 +19,10 @@
     API Integração com Telegran                                                                                                                                              Gratuito/ OBS:
     API Integração com Facebook                                                                                                                                              Gratuito/ OBS:
     API Integração com WebChat
-                                                                        Permite que o AIVAH funcione sob um subdomínio do cliente, com SSL e
+                                                                        Permite que o Evah Assistant funcione sob um subdomínio do cliente, com SSL e
     Configuração vinculada ao dominio do cliente                       identidade visual personalizada. Requer configuração de DNS (CNAME ou
                                                                                                         A record).
-                                                                       Conecta o AIVAH a serviços avançados de IA, como OpenAI (ChatGPT),
+                                                                       Conecta o Evah Assistant a serviços avançados de IA, como OpenAI (ChatGPT),
                                                                          Google Gemini, IBM Watson e outros. Permite geração contextual de
     Integração com API de inteligência Artificial (Custos variaveis)
                                                                        respostas, análise de sentimentos, interpretação de dados estruturados e
@@ -31,7 +31,7 @@
     Integração com Google Drive
     Implantação do Typebot (Atendimento guiado)
                                                                          Consulta e inserção de produtos, leads, dados financeiros e outros
-    Integração com VIAH ERP para consulta de produtos                  módulos via API do ERP VIAH, com segurança, controle de acesso e logs
+    Integração com EVAH ERP para consulta de produtos                  módulos via API do ERP EVAH, com segurança, controle de acesso e logs
                                                                                                    para auditoria.
     Desenvolvimento de fluxos de negócio
                                                                        Personalização de acordo com a atividade comercial do cliente (imobiliaria,
@@ -56,26 +56,26 @@
 
 
 
-2   VIAH ERP (odoo, outro)
+2   EVAH ERP (odoo, outro)
     Instalação do Odoo                                                                                                                                                                               R$ 4.000,00
     Implatação do Odoo
     Treinamento
-3   VIAH Omni (chatwoot)
+3   EVAH Omni (chatwoot)
 
 
 
 
-4   VIAH Connect
+4   EVAH Connect
 
 
 
 
-5   VIAH Conductor
+5   EVAH Conductor
 
 
 
 
-6   VIAH Code
+6   EVAH Code
     Criação de Componentes Exclusivos
     Integrações com Sistemas Legados ou Proprietários
     Extensão de Fluxos e Automações Complexas

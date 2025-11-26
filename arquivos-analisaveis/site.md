@@ -9,13 +9,13 @@
 
 ### Vendas Inteligentes Automatizadas para Humanos
 
-O **VIAH** é um framework modular que integra sistemas de atendimento, automação e gestão comercial, oferecendo uma solução robusta em um ecossistema unificado e escalável.
+O **EVAH** é um framework modular que integra sistemas de atendimento, automação e gestão comercial, oferecendo uma solução robusta em um ecossistema unificado e escalável.
 
 ### EVAH - Ecossistema de Valor Automatizado para Humanos
 
-**EVAH** é a camada central de inteligência da plataforma **VIAH**.
+**EVAH** é a camada central de inteligência da plataforma **EVAH**.
 
-Vai além de uma assistente conversacional: integra módulos, conecta sistemas, automatiza fluxos e coordena operações em um ponto único entre **VIAH ERP**, automações e serviços externos. Consolida informações, organiza processos e antecipa necessidades. Em vez de substituir o operador humano, atua como suporte inteligente — acelerando rotinas e mantendo tudo alinhado para que o time foque no que realmente exige análise, decisão e relacionamento.
+Vai além de uma assistente conversacional: integra módulos, conecta sistemas, automatiza fluxos e coordena operações em um ponto único entre **EVAH ERP**, automações e serviços externos. Consolida informações, organiza processos e antecipa necessidades. Em vez de substituir o operador humano, atua como suporte inteligente — acelerando rotinas e mantendo tudo alinhado para que o time foque no que realmente exige análise, decisão e relacionamento.
 
 ### Desenvolvimento de Software
 
@@ -23,9 +23,9 @@ Vai além de uma assistente conversacional: integra módulos, conecta sistemas, 
 
 Desenvolvemos aplicativos, webapps, APIs e sites sob medida, combinando tecnologia, design e performance para levar seu negócio ao próximo nível.
 
-### VIAH ERP
+### EVAH ERP
 
-O **VIAH ERP** é um módulo opcional de gestão administrativa, financeira e operacional. Totalmente integrado ao ecossistema **VIAH**, oferece funcionalidades robustas e modulares para empresas que não possuem ou desejam modernizar seu sistema atual.
+O **EVAH ERP** é um módulo opcional de gestão administrativa, financeira e operacional. Totalmente integrado ao ecossistema **EVAH**, oferece funcionalidades robustas e modulares para empresas que não possuem ou desejam modernizar seu sistema atual.
 
 ### E-Commerce
 
@@ -66,13 +66,13 @@ Ed. Vitta Office - Av. Rômulo Maiorana, n° 700 - Marco, Belém - PA, 66093-672
 
 ---
 
-## 2. Página EVAH/AIVAH - https://dobemtecnologia.com/aivah
+## 2. Página Evah Assistant - https://dobemtecnologia.com/evah-assistant
 
 ### EVAH - Ecossistema de Valor Automatizado para Humanos
 
-**EVAH** é a camada central de inteligência da plataforma **VIAH**.
+**EVAH** é a camada central de inteligência da plataforma **EVAH**.
 
-Vai além de uma assistente conversacional: integra módulos, conecta sistemas, automatiza fluxos e coordena operações em um ponto único entre **VIAH ERP**, automações e serviços externos. Consolida informações, organiza processos e antecipa necessidades. Em vez de substituir o operador humano, atua como suporte inteligente — acelerando rotinas e mantendo tudo alinhado para que o time foque no que realmente exige análise, decisão e relacionamento.
+Vai além de uma assistente conversacional: integra módulos, conecta sistemas, automatiza fluxos e coordena operações em um ponto único entre **EVAH ERP**, automações e serviços externos. Consolida informações, organiza processos e antecipa necessidades. Em vez de substituir o operador humano, atua como suporte inteligente — acelerando rotinas e mantendo tudo alinhado para que o time foque no que realmente exige análise, decisão e relacionamento.
 
 ### Integração Multicanal
 
@@ -153,11 +153,11 @@ Facilitando o gerenciamento de agendas, evitando conflitos e garantindo que comp
 
 ---
 
-## 3. Página VIAH - https://dobemtecnologia.com/viah
+## 3. Página EVAH - https://dobemtecnologia.com/viah
 
-### VIAH - Vendas Inteligentes Automatizadas para Humanos
+### EVAH - Vendas Inteligentes Automatizadas para Humanos
 
-O **VIAH** é um framework modular que integra sistemas de atendimento, automação e gestão comercial, oferecendo uma solução robusta em um ecossistema unificado e escalável. Seus módulos trabalham juntos para suportar automações baseadas em fluxos pré-definidos e integrar diversas ferramentas de mercado, garantindo maior controle operacional, além de proporcionar uma experiência humanizada ao cliente com o uso das melhores inteligências artificiais disponíveis.
+O **EVAH** é um framework modular que integra sistemas de atendimento, automação e gestão comercial, oferecendo uma solução robusta em um ecossistema unificado e escalável. Seus módulos trabalham juntos para suportar automações baseadas em fluxos pré-definidos e integrar diversas ferramentas de mercado, garantindo maior controle operacional, além de proporcionar uma experiência humanizada ao cliente com o uso das melhores inteligências artificiais disponíveis.
 
 #### Suporte ao cliente 24/7
 
@@ -185,39 +185,39 @@ Nossa plataforma acompanha a evolução do seu negócio. Novos processos, usuár
 
 ### Tudo o que o seu negócio precisa em um só lugar
 
-Conheça os principais recursos do VIAH, pensados para unir **eficiência, personalização e crescimento sustentável**. Cada funcionalidade foi criada para apoiar sua operação de forma prática e estratégica, garantindo mais valor para a sua equipe e para os seus clientes.
+Conheça os principais recursos do EVAH, pensados para unir **eficiência, personalização e crescimento sustentável**. Cada funcionalidade foi criada para apoiar sua operação de forma prática e estratégica, garantindo mais valor para a sua equipe e para os seus clientes.
 
 #### Desenvolvimento de Software
 
-#### VIAH Omni
+#### EVAH Omni
 
-#### VIAH ERP
+#### EVAH ERP
 
 #### EVAH Assistent
 
-#### VIAH Maestro
+#### EVAH Maestro
 
 ### EVAH - Ecossistema de Valor Automatizado para Humanos
 
-**EVAH** é a camada central de inteligência da plataforma **VIAH**.
+**EVAH** é a camada central de inteligência da plataforma **EVAH**.
 
-Vai além de uma assistente conversacional: integra módulos, conecta sistemas, automatiza fluxos e coordena operações em um ponto único entre **VIAH ERP**, automações e serviços externos. Consolida informações, organiza processos e antecipa necessidades. Em vez de substituir o operador humano, atua como suporte inteligente — acelerando rotinas e mantendo tudo alinhado para que o time foque no que realmente exige análise, decisão e relacionamento.
+Vai além de uma assistente conversacional: integra módulos, conecta sistemas, automatiza fluxos e coordena operações em um ponto único entre **EVAH ERP**, automações e serviços externos. Consolida informações, organiza processos e antecipa necessidades. Em vez de substituir o operador humano, atua como suporte inteligente — acelerando rotinas e mantendo tudo alinhado para que o time foque no que realmente exige análise, decisão e relacionamento.
 
-### Toda a praticidade do VIAH ERP para total controle do seu negócio
+### Toda a praticidade do EVAH ERP para total controle do seu negócio
 
-O **VIAH ERP** é um módulo opcional de gestão administrativa, financeira e operacional. Totalmente integrado ao ecossistema VIAH, oferece funcionalidades robustas e modulares para empresas que não possuem ou desejam modernizar seu sistema atual.
+O **EVAH ERP** é um módulo opcional de gestão administrativa, financeira e operacional. Totalmente integrado ao ecossistema EVAH, oferece funcionalidades robustas e modulares para empresas que não possuem ou desejam modernizar seu sistema atual.
 
-### O VIAH Omni integra seus canais para uma experiência de atendimento completa e eficiente
+### O EVAH Omni integra seus canais para uma experiência de atendimento completa e eficiente
 
-O **VIAH Omni** conecta sua empresa aos canais digitais e aos sistemas do ecossistema **VIAH** com comunicação fluida e sincronizada. Com suporte à API oficial do WhatsApp e à Evolution API, você centraliza atendimentos e otimiza processos em um único lugar. Baseado no Chatwoot, o **VIAH Omni** unifica conversas de WhatsApp, e-mail e outros canais, oferecendo histórico completo, automações, relatórios e colaboração em tempo real. E tudo isso pode ser integrado à nossa assistente **EVAH**, garantindo uma operação ainda mais ágil, inteligente e personalizada.
+O **EVAH Omni** conecta sua empresa aos canais digitais e aos sistemas do ecossistema **EVAH** com comunicação fluida e sincronizada. Com suporte à API oficial do WhatsApp e à Evolution API, você centraliza atendimentos e otimiza processos em um único lugar. Baseado no Chatwoot, o **EVAH Omni** unifica conversas de WhatsApp, e-mail e outros canais, oferecendo histórico completo, automações, relatórios e colaboração em tempo real. E tudo isso pode ser integrado à nossa assistente **EVAH**, garantindo uma operação ainda mais ágil, inteligente e personalizada.
 
-### Com o VIAH Maestro, automatize sua operação com inteligência e precisão
+### Com o EVAH Maestro, automatize sua operação com inteligência e precisão
 
-O **VIAH Maestro** é o núcleo de automações do ecossistema **VIAH**, permitindo criar, gerenciar e executar fluxos complexos que conectam múltiplos sistemas, canais e processos empresariais. Com design modular e escalável, automatiza sua operação com flexibilidade, agilidade e precisão, otimizando resultados e garantindo controle total.
+O **EVAH Maestro** é o núcleo de automações do ecossistema **EVAH**, permitindo criar, gerenciar e executar fluxos complexos que conectam múltiplos sistemas, canais e processos empresariais. Com design modular e escalável, automatiza sua operação com flexibilidade, agilidade e precisão, otimizando resultados e garantindo controle total.
 
 ### Com **Desenvolvimento de Software**, sua operação recebe soluções sob medida e integrações feitas para o seu negócio.
 
-Com **Desenvolvimento de Software**, podemos personalizar funcionalidades e até criar soluções completas, além de integrações com sistemas legados, automações e APIs sob medida. Essa camada estende o ecossistema **VIAH** e dá ao negócio a flexibilidade necessária para construir exatamente o que precisa.
+Com **Desenvolvimento de Software**, podemos personalizar funcionalidades e até criar soluções completas, além de integrações com sistemas legados, automações e APIs sob medida. Essa camada estende o ecossistema **EVAH** e dá ao negócio a flexibilidade necessária para construir exatamente o que precisa.
 
 ---
 
@@ -245,7 +245,7 @@ Com **Desenvolvimento de Software**, podemos personalizar funcionalidades e até
 
 ---
 
-## 8. Página VIAH ERP - https://dobemtecnologia.com/viah-erp
+## 8. Página EVAH ERP - https://dobemtecnologia.com/viah-erp
 
 *Conteúdo a ser preenchido quando disponível*
 

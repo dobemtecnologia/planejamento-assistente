@@ -1,6 +1,6 @@
 ## 
 
-# **Assistente de IA chamada AIVAH atende as seguintes dores:**
+# **Assistente de IA chamada Evah Assistant atende as seguintes dores:**
 
 ### **🔻 Problemas Operacionais**
 
@@ -111,7 +111,7 @@
 
 ---
 
-# **O VIAH (Ecossistema de soluções) resolve:**
+# **O EVAH (Ecossistema de soluções) resolve:**
 
 ### **📌 Problemas Operacionais**
 

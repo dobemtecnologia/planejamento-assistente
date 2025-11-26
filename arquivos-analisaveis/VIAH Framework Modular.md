@@ -1,24 +1,24 @@
-# 📦 VIAH – Framework Modular para Atendimento e Gestão Comercial
+# 📦 EVAH – Framework Modular para Atendimento e Gestão Comercial
 
-## 🧱 O que é o VIAH?
+## 🧱 O que é o EVAH?
 
-`VIAH` é um **framework modular** criado para transformar o modo como empresas capturam, atendem e convertem seus leads. 
+`EVAH` é um **framework modular** criado para transformar o modo como empresas capturam, atendem e convertem seus leads. 
 Ele serve como base para soluções personalizadas de **automação, atendimento e gestão comercial**, adaptável ao porte e maturidade do negócio.
 
-> Com o VIAH, o negócio começa enxuto e cresce com inteligência, mantendo eficiência, escala e flexibilidade.
+> Com o EVAH, o negócio começa enxuto e cresce com inteligência, mantendo eficiência, escala e flexibilidade.
 
 ---
 
-## 🤖 AIVAH – O Chatbot Inteligente do VIAH
+## 🤖 Evah Assistant – O Chatbot Inteligente do EVAH
 
-- `AIVAH` é o **assistente conversacional inteligente** desenvolvido sobre o framework VIAH.
+- `Evah Assistant` é o **assistente conversacional inteligente** desenvolvido sobre o framework EVAH.
 - Atua como linha de frente no atendimento:
   - Captura de leads
   - Qualificação automatizada
   - Agendamento de visitas
   - Direcionamento para atendimento humano
 - Pode ser utilizado:
-  - ✅ Como **módulo do VIAH**
+  - ✅ Como **módulo do EVAH**
   - ✅ Como **solução independente**, ideal para quem quer só automatizar atendimento
 
 ---
@@ -27,8 +27,8 @@ Ele serve como base para soluções personalizadas de **automação, atendimento
 
 | Módulo         | Descrição                                                                  |
 |----------------|----------------------------------------------------------------------------|
-| `VIAH (core)`  | Lógica de negócio, orquestração de dados e integração entre componentes    |
-| `AIVAH`        | Chatbot inteligente integrado com Typebot, n8n e APIs externas             |
+| `EVAH (core)`  | Lógica de negócio, orquestração de dados e integração entre componentes    |
+| `Evah Assistant`        | Chatbot inteligente integrado com Typebot, n8n e APIs externas             |
 | Integrações    | Conexões com ERP, WhatsApp, site, redes sociais, formulários               |
 | Automações     | Agendamentos, notificações, propostas, CRM, fluxo de vendas                |
 
@@ -37,20 +37,20 @@ Ele serve como base para soluções personalizadas de **automação, atendimento
 ## 🎯 Objetivo do Projeto
 
 Entregar uma **solução vendável, funcional e escalável** nas mãos do vendedor. 
-O framework VIAH permite montar soluções sob medida para resolver as dores reais do processo comercial.
+O framework EVAH permite montar soluções sob medida para resolver as dores reais do processo comercial.
 
 ---
 
 ## ✅ O que o MVP precisa ter para ser considerado vendável?
 
-- Nome e identidade clara (`VIAH` como framework, `AIVAH` como exemplo aplicado)
+- Nome e identidade clara (`EVAH` como framework, `Evah Assistant` como exemplo aplicado)
 - Demonstração funcional que mostre valor imediato
 - Capacidade de modularização (usar só o que o cliente precisa)
 - Resolução de problemas reais (ver abaixo)
 
 ---
 
-## 🚨 Dores que o VIAH resolve (M. Aversão)
+## 🚨 Dores que o EVAH resolve (M. Aversão)
 
 ### Ineficiências comuns:
 - ❌ Falta de controle no atendimento ao cliente
@@ -71,7 +71,7 @@ O framework VIAH permite montar soluções sob medida para resolver as dores rea
 
 ## 🎥 Demonstração do Produto/Solução
 
-### Exemplo com `AIVAH` (chatbot):
+### Exemplo com `Evah Assistant` (chatbot):
 1. Atendimento inicial humanizado
 2. Qualificação automática do lead
 3. Sugestão de horários disponíveis
@@ -104,8 +104,8 @@ O framework VIAH permite montar soluções sob medida para resolver as dores rea
 
 ## 🧠 Observação Estratégica
 
-> O VIAH é pensado para **crescer com o cliente**: 
-Empresas podem começar com um módulo como o `AIVAH` e, conforme amadurecem, escalar para soluções mais completas. 
+> O EVAH é pensado para **crescer com o cliente**: 
+Empresas podem começar com um módulo como o `Evah Assistant` e, conforme amadurecem, escalar para soluções mais completas. 
 Isso reduz barreiras de entrada, acelera a implementação e aumenta a retenção no longo prazo.
 
 ---
@@ -114,7 +114,7 @@ Isso reduz barreiras de entrada, acelera a implementação e aumenta a retençã
 
 - Chatwoot: Gestor de atendimento
 
-- AIVAH: Chatboot com atendimento guiado e com inteligencia artificial de "n" possibilidades- recepcionista, agendador, consultor e por ai vai.
+- Evah Assistant: Chatboot com atendimento guiado e com inteligencia artificial de "n" possibilidades- recepcionista, agendador, consultor e por ai vai.
 
 - Evolution API: Funcionara como integrador ao whatsapp basicamente
 
@@ -125,4 +125,4 @@ Isso reduz barreiras de entrada, acelera a implementação e aumenta a retençã
 - Personalização de acordo com cada cliente para cada segmento
 ___
 
-Fazer um benchmark entre a VIAH e possíveis concorrentes da Dobem com soluções semelhantes
+Fazer um benchmark entre a EVAH e possíveis concorrentes da Dobem com soluções semelhantes
