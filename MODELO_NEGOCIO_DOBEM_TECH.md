@@ -14,57 +14,61 @@
 
 **Por que a startup existe?**
 
-A Dobem Tecnologia existe para **transformar empresas por meio de um ecossistema integrado** que une soluções consolidadas à Inteligência Artificial. Nascemos do desejo de construir algo maior que um negócio: um propósito que honra valores de caráter, fé e legado, servindo ao Reino de Deus através do trabalho diário.
+O propósito principal da Dobem Tecnologia é **trazer mais otimização para o negócio do cliente e mais agilidade no desenvolvimento de software**.
 
-**Nossa razão de ser:**
-- Desenvolver e entregar soluções inovadoras e funcionais que impactem positivamente a vida das pessoas
-- Atuar com excelência e propósito, guiados pela ética, verdade e compromisso de servir
-- Unir tecnologia e humanidade para fazer negócios prosperarem, pessoas se desenvolverem e famílias alcançarem mais estabilidade e oportunidades
-- Transformar esforço em legado, negócios em instrumentos de bem e deixar marcas que atravessem gerações
+**Nossa missão fundamental:**
 
-**Qual mudança no mercado ela quer produzir?**
+Acreditamos que **software open source tem a capacidade de acelerar a entrega de valor**. Ao invés de passar meses ou anos desenvolvendo uma solução e depois ter que integrá-la com outras — criando sites, apps, ERPs que ficam isolados — usamos soluções consolidadas e as integramos de forma inteligente.
 
-Queremos transformar a forma como empresas automatizam seus processos, eliminando a necessidade de escolher entre soluções genéricas que não se adaptam ao negócio ou sistemas complexos que exigem reformulação completa da operação.
+**O problema que observamos:**
 
-**A mudança que queremos criar:**
-- Democratizar a automação inteligente para pequenas e médias empresas
-- Eliminar a desconexão entre sistemas isolados que geram ineficiência e perda de dados
-- Reduzir a complexidade tecnológica, oferecendo soluções que se adaptam ao negócio do cliente (não o contrário)
-- Criar um mercado onde empresas possam começar pequeno e escalar conforme crescem, sem precisar trocar de plataforma
+Quando empresas precisam de soluções tecnológicas, geralmente:
+1. Desenvolvem soluções do zero (meses ou anos)
+2. Precisam integrar com outras soluções existentes
+3. Criam sistemas em momentos diferentes (site, app, ERP)
+4. Resultado: **sistemas isolados** que não se comunicam, gerando ineficiência
+
+**Nossa solução:**
+
+Criamos um **ecossistema integrado**, orquestrado por **assistentes de IA especializados** (Vertical AI) que unem todos os sistemas da empresa.
+
+**Qual mudança no mercado queremos produzir?**
+
+- **Aceleração:** Entregar soluções funcionais em semanas, não em anos (usando open source)
+- **Fim dos sistemas isolados:** Ecossistema totalmente integrado desde o início
+- **Operacionalização real:** Agentes que não apenas respondem, mas executam ações práticas
 
 ---
 
 ### 1.2 Visão de Futuro (5–10 anos)
 
+**Nossa crença fundamental:**
+
+> **"Não acreditamos em sistemas isolados. Sistemas isolados são ineficientes. Precisamos estar integrados."**
+
 **Como o produto ou tecnologia muda a vida do cliente?**
 
-No futuro, empresas de todos os tamanhos terão sua **Personalidade Digital** completa: um assistente inteligente que conhece profundamente o negócio, integra todos os sistemas, automatiza processos complexos e atende clientes 24/7 de forma natural e humanizada.
+No futuro, empresas terão um **ecossistema totalmente integrado**, orquestrado por **assistentes de IA especializados** (Vertical AI) que **operacionalizam ações práticas** — não são apenas chatbots que respondem, mas agentes que consultam sistemas, atualizam dados, criam registros e tomam decisões operacionais.
 
-**Mudanças na vida do cliente:**
-- **Empresários e gestores:** Focarão em estratégia e relacionamento, não em operações repetitivas. Terão dados em tempo real para decisões mais inteligentes.
-- **Equipes:** Reduzirão significativamente tarefas manuais e repetitivas, focando no que realmente exige criatividade e análise humana.
-- **Clientes finais:** Receberão atendimento instantâneo, personalizado e consistente, em qualquer canal, a qualquer hora, com respostas precisas e relevantes.
-- **Famílias:** Empresários terão mais tempo para dedicar à família, enquanto o negócio opera de forma eficiente e escalável.
+**Mudanças principais:**
+- **Fim da espera por integrações:** Sistemas funcionam juntos desde o início
+- **Decisões baseadas em dados reais:** Acesso imediato a informações consolidadas
+- **Automação end-to-end:** Processos automatizados de ponta a ponta
+- **Equipes focadas no essencial:** Agentes executam rotinas; pessoas focam em estratégia e relacionamento
+- **Atendimento 24/7 inteligente:** Respostas instantâneas e precisas, sem espera
 
 **Como o setor será quando a solução estiver amplamente adotada?**
 
-O setor de automação empresarial será completamente transformado:
+**Hoje é só o começo.** O mercado se transformará:
 
-**Mudanças no mercado:**
-- **Fim da era de sistemas genéricos:** Empresas não aceitarão mais soluções que não se adaptam ao seu modelo de negócio único.
-- **Vertical AI será o padrão:** Assistentes de IA especializados por setor e personalizados por empresa substituirão chatbots genéricos.
-- **Ecossistemas integrados dominarão:** Empresas buscarão plataformas modulares que crescem com elas, não soluções isoladas que precisam ser trocadas.
-- **Automação acessível para PMEs:** Tecnologias avançadas de IA estarão disponíveis para empresas de todos os portes, não apenas grandes corporações.
-- **Pessoalidade Digital como diferencial:** Empresas sem uma identidade digital integrada e inteligente estarão em desvantagem competitiva.
+1. **Vertical AI como padrão:** Assistentes especializados por setor substituem chatbots genéricos
+2. **Sistemas isolados obsoletos:** Integração será requisito mínimo, não diferencial
+3. **Agentes operacionais:** A distinção entre "responder" e "executar" desaparecerá
+4. **Eficiência através de conectividade:** Empresas competitivas terão tudo conectado e integrado
 
 **Nossa visão estratégica:**
-> "Acreditamos que o futuro não pertence a sistemas isolados, mas a ecossistemas integrados."
 
-**Posicionamento futuro:**
-- Seremos referência em **Vertical AI** no Brasil
-- Estaremos presentes em milhares de empresas que transformaram suas operações através do ecossistema EVAH
-- Empresários brasileiros terão acesso a tecnologias de ponta, customizadas para suas realidades específicas
-- Família, negócios e inovação caminharão juntos, promovendo prosperidade sustentável para as próximas gerações
+> "O futuro pertence a ecossistemas totalmente integrados, orquestrados por assistentes de IA especializados (Vertical AI) que operacionalizam ações práticas. Empresas que adotam essa abordagem hoje terão vantagem competitiva insuperável."
 
 ---
 
@@ -72,38 +76,43 @@ O setor de automação empresarial será completamente transformado:
 
 **Que crença orienta o produto?**
 
-> **"Acreditamos que a automação conversacional com IA especializada será o principal canal de vendas e relacionamento dentro de 5 anos. Empresas que não se adaptarem a essa realidade perderão relevância competitiva."**
+> **"Acreditamos que assistentes de IA (Vertical AI) integrados através de software, APIs e protocolos — conectando ERP, banco de dados, CRM e documentos da empresa — podem não apenas responder questões, mas principalmente OPERACIONALIZAR ações práticas de forma muito mais eficiente do que sistemas isolados ou assistentes genéricos."**
+
+**Nossa tese sobre Vertical AI:**
+
+Desenvolvemos **agentes autônomos especializados** que se integram com todo o universo tecnológico da empresa. Esses agentes são o **orquestrador do ecossistema integrado**, unindo sistemas que antes estavam isolados.
+
+**Capacidades dos Agentes:**
+- Integram com ERP, bancos de dados, CRM e documentos específicos da empresa
+- Respondem questões com informações reais e atualizadas
+- **Executam ações práticas:** Consultam sistemas, criam registros, atualizam dados, agendam compromissos, tomam decisões operacionais
+
+**A diferença fundamental:**
+
+> **Não são apenas chatbots que respondem — são agentes que OPERACIONALIZAM.**
+
+Assim como o Cursor não apenas responde sobre código, mas edita arquivos e executa ações, nossos assistentes executam ações práticas dentro dos sistemas da empresa.
+
+**Exemplos:**
+- Consulta produto no ERP → Retorna informação → Cria pedido automaticamente
+- Consulta agenda → Agenda visita → Envia confirmação
+- Consulta base de conhecimento → Responde dúvida → Registra no CRM
 
 **Nossas crenças fundamentais:**
 
-1. **Não vendemos software, vendemos otimização de operação**
-   - Acreditamos que empresas não precisam de mais sistemas genéricos, mas de fluxos de otimização especializados por setor
-   - Cada negócio é único e merece automação que se adapta a ele (não o contrário)
+1. **Sistemas isolados são ineficientes** — Criam fricção, perda de tempo e erros
+2. **Software open source acelera entrega** — Soluções funcionais em semanas, não em anos
+3. **Integração profunda = eficiência real** — Acesso direto aos dados permite respostas precisas e ações práticas
+4. **Vertical AI > IA genérica** — Agentes especializados criam valor real e mensurável
+5. **Operacionalização é o diferencial** — Executar ações, não apenas informar
+6. **Hoje é só o começo** — Janela de oportunidade para vantagem competitiva
 
-2. **Vertical AI é o futuro da automação empresarial**
-   - Assistentes genéricos são limitados; o futuro está em agentes de IA especializados e personalizados
-   - IA que conhece profundamente o negócio do cliente supera qualquer solução genérica
+**Teses:**
 
-3. **Ecossistemas integrados eliminam a complexidade tecnológica**
-   - Sistemas isolados criam ineficiência; integração nativa resolve isso
-   - Empresas devem começar pequeno e escalar, sem precisar trocar de plataforma
-
-4. **A automação deve ser acessível para PMEs**
-   - Tecnologias avançadas não devem ser exclusivas de grandes empresas
-   - PMEs podem e devem competir usando as mesmas ferramentas que grandes corporações
-
-5. **Tecnologia com propósito transforma vidas**
-   - Inovação tecnológica deve servir a propósitos maiores: prosperidade, desenvolvimento humano e valores familiares
-   - Negócios podem ser instrumentos de bem quando guiados por valores sólidos
-
-**Tese de mercado:**
-> "Acreditamos que empresas que adotam automação inteligente e integrada hoje estarão significativamente à frente da concorrência em 5 anos. A janela de oportunidade para se posicionar como líder nessa transformação está aberta agora."
-
-**Tese de produto:**
-> "Acreditamos que o EVAH, com sua abordagem modular e especialização vertical, é a melhor forma de empresas transformarem suas operações sem perder sua identidade e processos únicos."
-
-**Tese de timing:**
-> "Acreditamos que o momento é agora: mudanças tecnológicas (IA generativa), comportamentais (clientes exigem respostas instantâneas) e de mercado (competitividade aumentada) criam uma janela única para adoção de soluções como o EVAH."
+- **Produto:** "O EVAH integra assistentes com sistemas da empresa E operacionaliza ações práticas. Não é chatbot genérico — é agente que executa ações reais."
+- **Mercado:** "Empresas que adotam assistentes integrados e operacionais hoje terão vantagem competitiva duradoura."
+- **Timing:** "Agora é o momento: IA generativa, protocolos acessíveis e necessidade de eficiência criam oportunidade perfeita."
+- **Abordagem:** "Usar open source consolidado e criar ecossistemas integrados desde o início, orquestrados por assistentes especializados."
 
 ---
 
