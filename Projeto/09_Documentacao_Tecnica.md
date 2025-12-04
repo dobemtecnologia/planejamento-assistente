@@ -859,5 +859,37 @@ O Typebot não possui suporte nativo para entrada de áudio — ele trabalha com
 
 ---
 
+
+# 🖥️ Infraestrutura e Tecnologia
+
+### Infraestrutura Cloud
+
+- **Servidores AWS** - Infraestrutura principal na nuvem
+- **AWS ECS (Elastic Container Service)** - Orquestração de containers
+  - Cluster: `dobemtech-cluster`
+  - Task Family: `dobemtech-task`
+  - Log Group: `/ecs/dobemtech`
+- **Monitoramento de custos e desempenho** - Acompanhamento contínuo dos serviços AWS
+- **Lambdas AWS** - Email de disparo
+- **Terraform** - Infraestrutura como código
+- **Traefik** - Proxy reverso e load balancer (configurado para múltiplos domínios)
+
+### Domínios e URLs
+
+- **Domínio Principal:** dobemtecnologia.com
+- **Domínios Alternativos:** dobemtech.com, www.dobemtech.com
+- **Subdomínios Configurados:**
+  - odoo.dobemtech.com
+  - www.dobemtecnologia.com
+  - erp.dobemtecnologia.com
+
+### Segurança e Monitoramento
+
+- Armazenamento seguro de credenciais (cofre de senhas adequado)
+- Centralização de emails de acordo com os Alias em todas as aplicações
+- Uptime Kuma para monitoramento de APIs, sites, etc.
+- Monitoramento contínuo de custos e desempenho AWS
+
+
 *Documento consolidado de documentação técnica*
 *Última atualização: Dezembro 2025*
