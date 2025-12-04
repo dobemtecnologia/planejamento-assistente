@@ -221,7 +221,9 @@ A EVAH é construída sobre tecnologias consolidadas e open source, garantindo e
 * **Playwright/Puppeteer:** Web scraping headless
 * **Cheerio:** Parsing HTML eficiente
 
-### 8. Arquitetura Modular em Camadas
+### Arquitetura Modular em Camadas
+
+> **[NOTA DE PRODUÇÃO: Substituir este diagrama abaixo por uma versão visual profissional desenvolvida no Figma ou Canva para a versão final do PDF]**
 
 ```
 ┌─────────────────┐
@@ -241,8 +243,60 @@ A EVAH é construída sobre tecnologias consolidadas e open source, garantindo e
 └─────────────────┘
 ```
 
-> **[NOTA DE PRODUÇÃO: Substituir este diagrama abaixo por uma versão visual profissional desenvolvida no Figma ou Canva para a versão final do PDF]**
+### Segurança e Conformidade
 
+* **Criptografia:** Dados em trânsito e repouso com padrões bancários
+* **Isolamento:** Bancos de dados segregados por cliente
+* **Auditoria:** Logs detalhados de todas as interações para compliance
+* **Backup:** Estratégia multi-região com recuperação automática
+* **LGPD:** Conformidade total com regulamentação brasileira de dados
+
+---
+
+## 8. Investimento e ROI: Planos Estratégicos
+
+### Modelos de Contratação
+
+Nossa estrutura de preços foi desenhada para acompanhar o crescimento da sua empresa, eliminando custos surpresa e simplificando a gestão financeira.
+
+#### 🚀 Plano START
+*Ideal para pequenas empresas iniciando a automação do atendimento.*
+* **Evah Assistant:** Configuração Essencial
+* **Canais:** WhatsApp (1 número) + WebChat
+* **Omnichannel:** Acesso para até 3 atendentes
+* **Agentes Inclusos:** Transcrição de Áudio + Wiki Empresarial
+* **Suporte:** Horário Comercial
+
+#### 📈 Plano GROWTH
+*Para empresas em expansão que precisam de inteligência de vendas e CRM.*
+* **Evah Assistant:** Configuração Avançada (IA + Guiado)
+* **Canais:** WhatsApp, Instagram e Facebook
+* **Integração:** Conexão nativa com **EVAH ERP** e **CRM**
+* **Agentes Inclusos:** Todos do Start + **Agente CRM**, **Calendar** e **Qualificação de Leads**
+* **Suporte:** Prioritário 12/7
+
+#### 🏢 Plano SCALE (Enterprise)
+*Para operações robustas que exigem personalização total e alto volume.*
+* **Evah Assistant:** Full Custom (Treinamento dedicado)
+* **Canais:** Ilimitados (Múltiplos números)
+* **Orquestração:** Acesso ao **EVAH Maestro** para automações complexas
+* **Agentes Inclusos:** Todos + **Gateway de Pagamento**, **Web Scraping** e **Direcionamento Inteligente**
+* **Infraestrutura:** Servidor Dedicado e Banco de Dados Isolado
+* **Suporte:** Gerente de Conta Dedicado
+
+> *Consulte nossa equipe comercial para valores detalhados de setup e mensalidade de cada plano.*
+
+### Cálculo de ROI Típico
+
+**Cenário:** Empresa de médio porte (50 funcionários) com atendimento atual custando R$ 15.000/mês.
+
+**Investimento EVAH (Estimado):** R$ 2.500/mês
+**Economia Projetada:**
+- **Redução de equipe:** R$ 8.000/mês (40% das tarefas automatizadas)
+- **Aumento de vendas:** R$ 12.000/mês (+25% conversão por resposta rápida)
+- **Redução de perdas:** R$ 3.000/mês (leads não perdidos)
+
+**Resultado:** **ROI de 920% no primeiro ano** | Payback em **30 dias**
 
 ---
 
@@ -257,3 +311,31 @@ Não vendemos software. Vendemos **tempo**, **eficiência** e **crescimento**.
 *Ecossistema de Valor Automatizado para Humanos.*
 
 ---
+
+## 10. Próximos Passos e Garantias
+
+### Nossa Garantia
+* **Setup Garantido:** Se não funcionar em 30 dias, devolvemos o investimento.
+* **SLA Empresarial:** 99,9% de disponibilidade garantida.
+* **Suporte Dedicado:** Equipe técnica especializada pronta para atender.
+
+### Como Começar
+1. **Diagnóstico Gratuito:** Avaliação da sua operação atual.
+2. **Prova de Conceito:** Teste prático do impacto na sua empresa.
+3. **Setup Completo:** Sua operação automatizada em semanas.
+
+### Fale Conosco
+**Agende uma demonstração gratuita hoje mesmo:**
+
+📱 **WhatsApp:** +55 91 98353-8941
+📧 **E-mail:** [email protected]
+🌐 **Site:** www.dobemtecnologia.com
+
+📍 **Endereço:** Ed. Vitta Office - Av. Rômulo Maiorana, 700 - Marco, Belém - PA
+
+---
+**Referências de Mercado:**
+* *Zendesk: Relatório de Tendências da Experiência do Cliente.*
+* *Harvard Business Review (HBR): The Short Life of Online Leads.*
+* *McKinsey & Company: The social economy: Unlocking value and productivity through social technologies.*
+* *Salesforce: State of the Connected Customer.*
