@@ -174,8 +174,9 @@ A Dobem Tecnologia oferece:
   - Task Family: `dobemtech-task`
   - Log Group: `/ecs/dobemtech`
 - **Monitoramento de custos e desempenho** - Acompanhamento contínuo dos serviços AWS
-- **Lambdas AWS** - Email de disparo
-- **Terraform** - Infraestrutura como código
+- **Lambdas AWS** - Email de disparo (hostiger)
+- **Repositório para stacks** - Gerenciamento de configurações de infraestrutura
+- **Terraform** - Infraestrutura como código (mencionado em configurações)
 - **Traefik** - Proxy reverso e load balancer (configurado para múltiplos domínios)
 
 ### Domínios e URLs
@@ -187,24 +188,62 @@ A Dobem Tecnologia oferece:
   - erp.dobemtecnologia.com
 
 ### Segurança e Monitoramento
-- Armazenamento seguro de credenciais
-- Centralização de emails e aliases
+- Armazenamento seguro de credenciais (cofre de senhas adequado)
+- Centralização de emails de acordo com os Alias em todas as aplicações
 - Uptime Kuma para monitoramento de APIs, sites, etc.
 - Monitoramento contínuo de custos e desempenho AWS
+- Mudar email de disparo das lambdas da AWS
 
 ## 🌐 Presença Digital
 
 ### Website Institucional
 - **URL Principal:** https://dobemtecnologia.com
-- **Estrutura do Site:**
-  - Página Inicial (Home)
-  - Soluções
-  - Serviços
-  - Desenvolvimento de Software
-  - Contato
-  - Sobre Nós
-  - Planos
-  - Cases
+- **Fonte:** Extraído do site em 2025
+
+#### Estrutura do Site Atual
+
+**Páginas Existentes:**
+- **Página Inicial:** https://dobemtecnologia.com/inicio
+  - Seção: "Vendas Inteligentes Automatizadas para Humanos"
+  - Seção: "Conheça nosso time de especialistas"
+  - Seção: "Planos e Preços"
+  - Seção: "Sua parceira de negócios"
+  - Seção: "Clientes que confiam em nós"
+- **Página Evah Assistant:** https://dobemtecnologia.com/evah-assistant
+- **Página EVAH:** https://dobemtecnologia.com/viah
+- **Página ERP:** https://dobemtecnologia.com/erp (conteúdo a ser preenchido)
+- **Página Fábrica de Software:** https://dobemtecnologia.com/fabrica-de-software (conteúdo a ser preenchido)
+- **Página Sobre Nós:** https://dobemtecnologia.com/about-us (conteúdo a ser preenchido)
+- **Página Cases:** https://dobemtecnologia.com/cases (conteúdo a ser preenchido)
+- **Página EVAH ERP:** https://dobemtecnologia.com/viah-erp (conteúdo a ser preenchido)
+- **Página E-Commerce:** https://dobemtecnologia.com/e-commerce (conteúdo a ser preenchido)
+
+#### Estrutura Proposta (Revisada)
+
+**Página Inicial (Home):**
+- **Título Impactante:** "A tecnologia certa pode transformar seu negócio"
+- **Subtítulo:** "A Dobem Tecnologia transforma sua operação com soluções ágeis e customizadas."
+- **Botão de Ação:** "Conheça Nossas Soluções" ou "Fale com um Especialista"
+- **Seções:**
+  - Quem Somos
+  - Nossas Soluções
+  - Nossos Serviços
+  - Depoimentos / Cases de Sucesso
+  - Chamada Final para Ação
+
+**Páginas Principais:**
+- Soluções
+- Serviços
+- Desenvolvimento de Software
+- Contato
+- Sobre Nós
+- Planos
+- Cases
+
+#### Conteúdo do Rodapé do Site
+- **Mensagem:** "Sua parceira de negócios - A poucos passos de você, oferecendo soluções para seu negócio. Passe na nossa unidade e descubra como podemos transformar sua empresa."
+- **Copyright:** © dobem tecnologia
+- **Nota:** Distribuído por Odoo - O #1 e-Commerce de código aberto
 
 ### Posicionamento Digital
 - **Frase de Impacto:** "Mais que sistemas, entregamos resultados! Criamos um ecossistema tecnológico que acelera empresas para empresas acelerarem seus resultados."
@@ -214,7 +253,8 @@ A Dobem Tecnologia oferece:
 ## 🏆 Cases e Clientes
 
 ### Clientes que Confiam em Nós
-Estamos entre os melhores do setor.
+- Estamos entre os melhores do setor
+- Mensagem no site: "Clientes que confiam em nós"
 
 ### Cases Conhecidos
 - **Bira Veículos** - Implementação do BiraBot (Aiva/EVAH)
@@ -222,6 +262,9 @@ Estamos entre os melhores do setor.
   - Redução de 60% no tempo de resposta
   - Atendimento 24/7 automatizado
 - **Dobem Contabilidade** - Demonstração de uso do assistente virtual
+
+### Páginas do Site Relacionadas
+- **Página Cases:** https://dobemtecnologia.com/cases (conteúdo a ser preenchido)
 
 ### Demonstrações (MVP)
 - Vídeo curto do Evah em atendimento
@@ -255,6 +298,114 @@ Estamos entre os melhores do setor.
 - **Automação personalizada** - Desenvolvimento de automações específicas para cada negócio
 - **Foco em resultados** - "Mais que sistemas, entregamos resultados"
 - **Transformação digital completa** - Personalidade digital do negócio
+
+## 📋 Tarefas e Backlog da Empresa
+
+### Marketing Digital
+- [ ] Redes Sociais (criação de perfis)
+- [ ] Conteúdo Institucional
+- [ ] Promoção e Produtos
+- [ ] Campanhas focadas no Evah
+
+### Site
+- [ ] Configurar formulário de contato
+- [ ] Ajustar menu e estrutura
+- [ ] Atualizar informações institucionais
+- [ ] Destacar Evah como produto principal
+- [ ] Criar páginas de soluções
+- [ ] Implementar SEO
+- [ ] Linkar redes sociais
+
+### E-Commerce
+- [ ] Preparar e-commerce de demonstração com no mínimo 10 produtos (MVP)
+- [ ] Criar página básica do e-commerce
+- [ ] Mostrar integração com Evah
+
+### CRM
+- [ ] Estruturar nosso próprio CRM
+
+### Documentação e Materiais
+- [ ] Apresentação institucional da Dobem (Canva)
+- [ ] Vídeos demonstrativos
+- [ ] Materiais de marketing
+- [ ] Documentação técnica
+
+### Operações
+- [ ] Criar repositório para as stacks
+- [ ] Armazenar logins e senhas em cofre adequado
+- [ ] Mudar email de disparo das lambdas da AWS
+- [ ] Manter monitoramento da AWS
+- [ ] Trabalhar em contrato de prestação de serviço para o cliente final
+
+### Implementação Interna
+- [ ] Implantar a Evah Assistant (Evee) na Dobem Tech
+- [ ] Colocar o WebChat no site integrado ao Evah Assistant
+
+## 🛠️ Melhorias Necessárias no Site
+
+### Configurações
+- Configurar formulário de contato para receber email
+- MENU - Soluções > Serviços
+- Alterar telefone genérico para número do Elton
+- PLANOS - Definir recursos de cada plano
+- FÁBRICA DE SOFTWARE - Mudar para "Desenvolvimento de Software"
+
+### Institucional
+- Fazer alterações no nome do assistente de "Aivah" para "Evah"
+- Atualizar "Sobre Nós" (texto mais humano e direto)
+- Colocar vídeo de demonstração do Evah
+- Finalizar apresentação institucional da Dobem
+
+### Produtos
+- Destacar Evah como produto principal na home
+- Listar funcionalidades do Evah de forma clara
+- Na seção Evah, mostrar como ela se integra às demais soluções
+- Criar materiais individuais para cada solução
+
+### CRM
+- Estruturar nosso próprio CRM
+
+### E-commerce
+- Criar página básica do e-commerce
+- Mostrar integração do e-commerce com o Evah
+
+### Planos de Serviços
+- Detalhar planos individuais
+- Criar apresentação simples e interativa dos planos
+
+### Redes Sociais
+- Linkar nossas redes em nosso site
+
+### SEO
+- Fazer SEO do site
+
+## 📝 Observações e Notas
+
+### Nomenclatura
+- Há variação entre "Dobem Tech" e "Dobem Tecnologia"
+- "Dobem Tech" parece ser mais informal
+- "Dobem Tecnologia" parece ser o nome oficial
+
+### Posicionamento
+- Hub de soluções tecnológicas
+- Foco em open source
+- Ecossistema integrado
+- Transformação digital
+
+### Relacionamento com Dobem Contabilidade
+- **Dobem Contabilidade** aparece como cliente/demonstração de uso
+- Pode haver relação entre as empresas (mesmo grupo ou parceria)
+- Utilizada como caso de demonstração do assistente virtual
+
+### Benchmark e Concorrência
+- Há menção à necessidade de fazer um benchmark entre a EVAH e possíveis concorrentes da Dobem com soluções semelhantes
+- Identificar e analisar concorrentes no mercado de soluções de automação, chatbots e ERPs
+
+### Infraestrutura - Notas Importantes
+- O domínio dobemtecnologia.com teve questões de expiração mencionadas (necessário verificar status atual)
+- Armazenar todos os logins e senhas em um cofre de senhas adequado
+- Centralizar emails de acordo com os Alias em todas as aplicações
+- Mudar email de disparo das lambdas da AWS
 
 ---
 

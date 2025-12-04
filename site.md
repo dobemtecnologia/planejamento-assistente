@@ -1,7 +1,9 @@
 # Conteúdo do Site - Dobem Tecnologia
 
-**Fonte:** https://dobemtecnologia.com  
-**Data de extração:** 2025
+---
+
+*Informações sobre estrutura e conteúdo do site movidas para Projeto/01_Empresa_Dobem_Tech.md*
+*Informações sobre produtos e soluções movidas para Projeto/02_Produtos_EVAH.md*
 
 ---
 
