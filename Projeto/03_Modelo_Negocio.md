@@ -1500,6 +1500,237 @@ A Dobem Tecnologia possui um **modelo de negócio diferenciado** que oferece:
 
 ---
 
+---
+
+## 🧱 ESTRUTURA OPERACIONAL
+
+### Equipe Inicial
+
+**Tech:**
+- Engenheiro de IA
+- Desenvolvedor Backend
+- Desenvolvedor N8N/Typebot
+- DevOps
+
+**Atendimento:**
+- Onboarding especializado
+- Suporte técnico
+- Customer Success
+
+**Venda:**
+- SDR (Sales Development Representative)
+- Closer (Fechador de negócios)
+- Account Manager
+
+**Produto:**
+- Designer UX
+- Product Manager
+- Analista de Soluções
+
+**Marketing:**
+- Tráfego pago
+- Conteúdo e SEO
+- Growth Marketing
+
+### Expansão Futura
+
+Conforme escalar, ampliar:
+- Suporte e Customer Success
+- Engenharia e desenvolvimento
+- Vendas e relacionamento
+- Marketing e crescimento
+
+---
+
+## 📈 ESTRATÉGIA DE CRESCIMENTO DETALHADA
+
+### Marketing
+
+**Conteúdo focado em automação e vendas:**
+- Blog com SEO otimizado
+- E-books e materiais ricos
+- Vídeos educativos no YouTube
+- Webinars periódicos
+
+**Casos reais por setor:**
+- Concessionárias (Bira Veículos)
+- Imobiliárias
+- Restaurantes e delivery
+- E-commerce
+- Outros setores
+
+**Demonstrações em vídeo do Evah Assistant funcionando:**
+- Vídeos curtos mostrando funcionalidades
+- Simulações reais de atendimento
+- Comparativos antes/depois
+
+**Landing pages por segmento:**
+- Páginas específicas para cada setor
+- Exemplos: Restaurantes, Concessionárias, Imobiliárias
+- Conteúdo personalizado por persona
+
+**Marketing Digital:**
+- Google Ads (Pesquisa e Display)
+- Facebook Ads e LinkedIn Ads
+- Remarketing
+- SEO orgânico
+
+### Vendas
+
+**Máquina de vendas inbound:**
+- Captação de leads qualificados
+- Nutrição automática
+- Qualificação com Evah Assistant
+
+**SDR + Evah Assistant para qualificação automática:**
+- Uso do próprio produto para qualificar leads
+- Automação do processo de vendas
+- Redução de tempo de ciclo
+
+**Parcerias com agências de marketing:**
+- Parcerias estratégicas
+- Co-marketing
+- Referências
+
+**Planos white-label para revendedores:**
+- Modelo de revenda
+- Parceiros especializados
+- Expansão de mercado
+
+### Retenção
+
+**Acompanhamento mensal:**
+- Check-ins regulares
+- Análise de uso
+- Identificação de oportunidades
+
+**Entrega de novos agentes e integrações:**
+- Expansão contínua de funcionalidades
+- Novos agentes especializados
+- Integrações adicionais
+
+**Comunidade e central de templates:**
+- Biblioteca de templates
+- Comunidade de usuários
+- Compartilhamento de melhores práticas
+
+**Suporte proativo:**
+- Identificação de problemas antes que ocorram
+- Sugestões de otimização
+- Treinamentos contínuos
+
+### Expansão Horizontal
+
+**Novos Setores:**
+- Identificar novos verticais
+- Desenvolver kits por setor
+- Criar cases de sucesso
+- Expandir portfólio
+
+### Expansão Vertical
+
+**Novos Módulos:**
+- Desenvolver novos módulos EVAH
+- Expandir funcionalidades
+- Integrações adicionais
+- Novos agentes
+
+### Expansão Geográfica
+
+**Mercados:**
+- Expansão regional
+- Expansão nacional
+- Expansão internacional (futuro)
+
+### Expansão de Conta
+
+**Upsell e Cross-sell:**
+- Adicionar módulos
+- Expandir uso
+- Serviços adicionais
+- Consultoria
+
+---
+
+## 🧩 DIFERENCIAIS COMPETITIVOS DETALHADOS
+
+### IA Multiagente (Poucas empresas oferecem)
+- Sistema de orquestração inteligente que coordena múltiplos agentes especializados
+- Cada agente focado em uma tarefa específica
+- Respostas mais precisas e contextuais
+- Modelo MPA (Multi-Process Agent)
+
+### Plataforma Modular (Cliente compra apenas o que precisa)
+- Não é "tudo ou nada"
+- Escalabilidade conforme necessidade
+- Redução de custos iniciais
+- Framework EVAH permite crescimento gradual
+
+### Setup Rápido (Menos de 48h)
+- Kits pré-configurados por setor
+- Templates de implementação
+- Onboarding acelerado
+- Timeline: De 7 a 15 dias para estar funcionando
+
+### Altamente Adaptável a Qualquer Setor
+- Vertical AI: especialização por setor
+- Agentes personalizados para cada negócio
+- Regras de negócio específicas
+- Adaptação à realidade do negócio do cliente
+
+### Conectado com N8N, WhatsApp e Sistemas Corporativos
+- Integração nativa com ferramentas open source consolidadas
+- Conectores prontos para sistemas populares
+- Flexibilidade de integração
+- Padronização de APIs do cliente
+
+### Pode Operar Totalmente Sozinho sem Intervenção Humana
+- Automação completa de atendimento
+- Qualificação e conversão de leads
+- Execução de processos internos
+- Atendimento 24/7
+
+### Memória Contextual Inteligente para Respostas Consistentes
+- Mantém contexto entre múltiplas interações
+- Personalização baseada em histórico
+- Coerência nas respostas
+- Sistema Zep para memória conversacional
+
+### Web Scraping + Análise de Imagens (Pouco comum em chatbots tradicionais)
+- Capacidades avançadas de processamento
+- Análise de conteúdo visual
+- Extração de dados de fontes externas
+- OCR e reconhecimento de imagens
+
+### Filosofia: "Não vendemos software, vendemos otimização de operação"
+- Foco em resultados, não em tecnologia
+- Soluções pensadas para cada negócio
+- Personalização total
+- Mapeamento completo de processos
+
+### Ecossistema Integrado
+- Tudo em um lugar: ERP + Assistente + Automação + Atendimento
+- Visão unificada do negócio
+- Dados centralizados
+- Integração nativa entre módulos
+
+### Vertical AI vs. SaaS Horizontal
+
+**Concorrentes Tradicionais:**
+- Chatbots genéricos
+- CRMs isolados
+- ERPs desconectados
+- Soluções pontuais
+
+**Dobem Tecnologia:**
+- ✅ Fluxos de otimização especializados por setor
+- ✅ Agentes de IA personalizados
+- ✅ Ecossistema integrado
+- ✅ Mapeamento completo de processos
+- ✅ Automação end-to-end
+
+---
+
 *Documento consolidado sobre modelo de negócio e estratégia*
 *Última atualização: Dezembro 2025*
 *Versão: 3.0 - Estratégico*

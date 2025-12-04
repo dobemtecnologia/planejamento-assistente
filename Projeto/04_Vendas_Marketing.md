@@ -479,5 +479,103 @@ gere o melhor retorno possível.
 
 
 
+---
+
+## 📢 CANAIS DE DISTRIBUIÇÃO
+
+### Canais Diretos
+
+**1. Site Institucional**
+- Landing pages por setor
+- Demonstrações online
+- Formulários de contato
+- Chatbot próprio (Evah Assistant)
+
+**2. Redes Sociais**
+- LinkedIn (B2B)
+- Instagram (casos de sucesso)
+- Facebook (anúncios)
+- YouTube (conteúdo educativo)
+
+**3. Marketing Digital**
+- Google Ads (pesquisa e display)
+- Facebook Ads
+- LinkedIn Ads
+- Remarketing
+
+**4. Conteúdo e Educação**
+- Blog com SEO
+- E-books e materiais ricos
+- Webinars
+- Vídeos educativos (YouTube)
+
+**5. Eventos e Networking**
+- Participação em eventos do setor
+- Apresentações
+- Networking
+
+### Canais Indiretos
+
+**1. Parcerias Estratégicas**
+- Empresas de setores específicos
+- Integradores
+- Consultorias
+
+**2. Referências**
+- Clientes satisfeitos
+- Cases de sucesso
+- Testemunhos
+
+**3. Marketplaces (Futuro)**
+- Plataformas de software
+- Diretórios B2B
+
+---
+
+## 🤝 RELACIONAMENTO COM CLIENTES
+
+### Fases do Relacionamento
+
+**1. Atração (Topo do Funil)**
+- Conteúdo educativo
+- Materiais gratuitos
+- Demonstrações
+- Webinars
+
+**2. Engajamento (Meio do Funil)**
+- Nutrição de leads (email marketing)
+- WhatsApp Business integrado
+- Vídeos personalizados (Loom)
+- Demonstrações interativas
+
+**3. Conversão**
+- Propostas personalizadas
+- Cálculo dinâmico de planos
+- Demonstrações práticas
+- Cases de sucesso
+
+**4. Fidelização e Expansão**
+- Suporte contínuo
+- Treinamentos
+- Atualizações e melhorias
+- Identificação de novas necessidades
+- Upsell de módulos adicionais
+
+### Suporte e Atendimento
+
+**Canais:**
+- Email
+- WhatsApp
+- Chat no site
+- Telefone (conforme plano)
+- Portal de suporte
+
+**Níveis de Suporte:**
+- Básico (incluso)
+- Premium (adicional)
+- Dedicado (enterprise)
+
+---
+
 *Documento consolidado sobre estratégias de vendas e marketing*
 *Última atualização: Dezembro 2025*

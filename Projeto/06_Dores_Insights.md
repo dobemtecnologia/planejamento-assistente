@@ -19,20 +19,43 @@
 * Dificuldade em atender fora do horário comercial – sem IA, o atendimento pode parar à noite, fins de semana e feriados
 * Alto custo com equipe de suporte – necessidade de contratar mais pessoas para suprir a demanda
 * Baixa escalabilidade – quando o volume de clientes cresce, o atendimento humano pode não acompanhar
+* 80% das perguntas são repetitivas e podem ser automatizadas (IBM)
+* Até 70% das dúvidas poderiam ser automatizadas (Typebot)
+* Agentes perdem 30% do tempo trocando de ferramentas (HBR)
+* 60% do tempo gasto em tarefas repetitivas (McKinsey)
 
 #### Problemas de Experiência do Cliente
 * Frustração do cliente – demora, falta de agilidade ou indisponibilidade desmotivam
 * Perda de oportunidades de venda – clientes que não recebem resposta rápida podem desistir
+  - 60% dos clientes desistem se não recebem resposta em até 1 hora (Zendesk)
+  - Resposta rápida qualifica 7x mais leads (HBR)
+  - Atraso de 5 minutos reduz 400% as chances de conversão (HBR)
+  - 78% dos clientes compram da primeira empresa que responde
 * Atendimento inconsistente – cada atendente pode responder de um jeito, sem padronização
 * Falta de personalização – sem histórico integrado, o cliente precisa repetir informações várias vezes
+  - 91% preferem marcas que oferecem personalização (Accenture)
+  - 72% esperam que a empresa conheça histórico de interações (Salesforce)
+  - 61% mudam de empresa após experiência ruim (Zendesk)
 * Menor conveniência – clientes modernos preferem resolver rápido via WhatsApp, site ou redes sociais
 
 #### Problemas Estratégicos
 * Menor competitividade – concorrentes que usam IA conseguem ser mais rápidos, baratos e eficazes
 * Falta de dados sobre clientes – sem chatbot, a empresa perde registros automáticos de dúvidas, interesses e objeções
+  - Sem CRM, 79% dos leads se perdem (HubSpot)
+  - Empresas com métricas melhoram satisfação em 60% (McKinsey)
+  - Empresas orientadas por dados crescem 23x mais rápido (McKinsey)
 * Dificuldade em nutrir leads – sem automação, fica mais difícil transformar curiosos em compradores
 * Imagem antiquada da empresa – ausência de inovação pode passar a impressão de empresa "parada no tempo"
 * Menor fidelização – clientes que não têm suporte ágil podem migrar para concorrentes
+
+#### Estatísticas de Impacto
+* 60% das empresas afirmam perder vendas por falhas no atendimento
+* Falta de integração entre sistemas aumenta em até 30% o custo operacional
+* Negócios sem automação gastam o dobro de tempo em tarefas repetitivas
+* Perda de até 20% da receita por sistemas isolados (Forrester)
+* 20-30% menos produtividade (Deloitte)
+* Custos de TI aumentam 15-25% (IDC)
+* Duplicidade de dados gera até 20% de perda anual
 
 ### Dores Resolvidas pelo Chatwoot
 

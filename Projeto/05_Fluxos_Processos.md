@@ -637,5 +637,181 @@ As empresas não precisam apenas de "um chatbot" ou "um CRM". Elas precisam de:
 
 ---
 
+---
+
+## ⚙️ INFRAESTRUTURA E TECNOLOGIA DETALHADA
+
+### Orquestração Inteligente (Maestro)
+
+**N8N para automações e workflows:**
+- Sistema de roteamento inteligente
+- Gestão de contexto e memória
+- Workflows personalizados e reutilizáveis
+- Integração entre múltiplos sistemas
+
+### Agentes Especializados (LLM + Regras + Fluxos)
+
+**Provedores de IA:**
+- OpenAI (ChatGPT) - Principal
+- Google Gemini - Alternativa
+- IBM Watson - Alternativa
+
+**Estrutura de Agentes:**
+- Agentes modulares e reutilizáveis
+- Regras de negócio personalizadas
+- Fluxos visuais no Typebot
+- Integração com sistemas corporativos
+
+### Memória Persistente
+
+**Sistema Zep:**
+- Memória de contexto conversacional
+- Bancos vetoriais para busca semântica
+- Histórico completo de interações
+- Personalização baseada em histórico
+
+### Automações
+
+**Ferramentas:**
+- N8N para workflows complexos
+- Typebot para conversas guiadas
+- Integração entre sistemas
+- Webhooks e APIs REST
+
+### APIs REST Padronizadas
+
+**Características:**
+- Padronização de APIs do cliente
+- Conectores prontos para sistemas populares
+- Documentação completa para desenvolvedores
+- Webhooks para eventos em tempo real
+
+### Conectores Prontos para CRM/ERP
+
+**Sistemas Suportados:**
+- Odoo (ERP e CRM)
+- Bling (ERP)
+- Omie (ERP)
+- Google Sheets
+- RD Station (Marketing)
+- E outros sistemas do mercado
+
+### Técnicas de Fine-tuning e Embeddings
+
+**Personalização:**
+- Treinamento com base de dados do cliente
+- Personalização de modelos de IA
+- Otimização contínua baseada em uso
+- Embeddings para busca semântica
+
+### Infraestrutura Cloud
+
+**Serviços AWS:**
+- EC2 (servidores virtuais)
+- ECS (containers)
+- RDS (banco de dados)
+- S3 (armazenamento)
+
+**Orquestração:**
+- Docker Swarm ou Kubernetes
+- Traefik (Proxy reverso)
+- Portainer (Gerenciamento de containers)
+- REDIS (Cache e filas)
+
+**Monitoramento:**
+- Uptime Kuma (monitoramento de disponibilidade)
+- Logs centralizados
+- Alertas automáticos
+
+### Modelos de Hospedagem
+
+**SaaS (Compartilhado):**
+- Infraestrutura gerenciada pela Dobem
+- Custo fixo mensal
+- Escalabilidade automática
+- Manutenção incluída
+
+**Onpremise (Dedicado):**
+- Infraestrutura dedicada ao cliente
+- Maior controle e segurança
+- Customização avançada
+- Custo variável conforme recursos
+
+---
+
+## 🏗️ ARQUITETURA DO PRODUTO EVAH
+
+### Framework EVAH (Vendas Inteligentes Automatizadas e Humanizadas)
+
+**Estrutura Modular:**
+
+```
+EVAH Platform
+│
+├── Evah Assistant (Assistente Virtual Inteligente)
+│   ├── Typebot (Atendimento guiado)
+│   ├── Agentes de IA especializados
+│   ├── Integrações (WhatsApp, Instagram, Telegram, etc.)
+│   └── Processamento de mensagens (texto, áudio, imagem)
+│
+├── EVAH ERP (Odoo)
+│   ├── CRM
+│   ├── Vendas
+│   ├── Finanças
+│   ├── Inventário
+│   └── Módulos adicionais conforme necessidade
+│
+├── EVAH Omni (Chatwoot)
+│   ├── Gestão omnichannel
+│   ├── Atendimento humano
+│   ├── Relatórios e métricas
+│   └── Integrações
+│
+├── EVAH Maestro (n8n)
+│   ├── Automações
+│   ├── Workflows personalizados
+│   └── Orquestração de processos
+│
+├── EVAH Connect
+│   └── Integrações externas
+│
+├── EVAH Conductor
+│   └── Orquestração avançada
+│
+└── EVAH Code
+    └── Desenvolvimento customizado
+```
+
+### Arquitetura de Agentes
+
+**Estrutura Modular de Agentes:**
+
+```
+Assistente
+├── Assistente Venda (Especializado)
+├── Orquestrador (n8n) - Coordenação central
+├── Agente A (Especializado)
+├── Agente B (Especializado)
+├── Agente C (Especializado)
+└── Agente de Negócio (Específico da empresa)
+    └── Aplica regras de negócio aqui ← DIFERENCIAL
+```
+
+**Agentes Disponíveis:**
+- Agente Calendar (Google Calendar)
+- Agente Drive (Google Drive)
+- Agente CRM (Gestão de Leads)
+- Agente Web Scraping
+- Agente Audio (Processamento de voz)
+- Agente Imagem (OCR e análise visual)
+- Agente ERP (Consulta produtos/estoque)
+- Agente FIPE (Consulta valores de veículos)
+- Agente Financiamento (Cálculo de parcelas)
+- Agente Wiki (Base de conhecimento)
+- Agente Corporativo
+- E outros conforme necessidade
+
+---
+
 *Documento consolidado sobre fluxos, processos e arquitetura técnica*
 *Última atualização: Dezembro 2025*
