@@ -2,7 +2,7 @@
 
 ---
 
-                Estrutura do Funil de Vendas da Dobem Tecnologia
+*Conteúdo movido para Projeto/04_Vendas_Marketing.md*
 
 
 
