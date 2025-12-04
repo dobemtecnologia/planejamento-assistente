@@ -403,5 +403,239 @@ Retorna valores do plano
 
 ---
 
+## 📊 ANÁLISE ESTRATÉGICA DOS FLUXOGRAMAS MIRO
+
+> **Fonte:** Análise profunda de 41 prints do quadro Miro  
+> **Data de análise:** 2025  
+> **Objetivo:** Compreender o modelo de negócio, fluxos operacionais e estratégias da Dobem Tecnologia
+
+---
+
+## 🎯 MODELO DE NEGÓCIO IDENTIFICADO: VERTICAL AI
+
+### Definição Estratégica
+
+A Dobem Tecnologia adota um **modelo de negócio Vertical AI**, que representa uma mudança fundamental de paradigma:
+
+**Não é SaaS tradicional:**
+- ❌ Não vende software como serviço genérico
+- ✅ Vende **fluxos de otimização de operação** especializados
+
+**Diferencial:**
+- Especialização em nichos específicos de mercado
+- Uso de Inteligência Artificial para automatizar processos únicos de cada setor
+- Adaptação a qualquer negócio, mas com profundidade vertical
+
+### Aplicação Prática: Caso Bira Veículos
+
+**O Problema:**
+No fluxo de operação de uma concessionária, existem várias tarefas repetitivas que são feitas por humanos porque não existe software capaz de atender aquela demanda específica.
+
+**A Solução:**
+Uma IA pode ser treinada para executar essas atividades, dividindo em pequenos agentes especializados que se integram para atender totalmente a demanda.
+
+**Exemplo Concreto:**
+- Extração de dados de uma carteira de habilitação
+- Salvar no banco de dados
+- Utilizar para formalizar contrato
+- Utilizar para financiamento
+- Utilizar para transferência do veículo
+
+**Requisito Fundamental:**
+Criar um fluxo de operação bem definido, onde a tarefa passa a ser previsível → logo mais possível de ser desenvolvida por uma IA.
+
+### Estratégia de Venda
+
+**Abordagem:**
+- Criar várias soluções integradas utilizando IA
+- Esse conjunto forma uma solução em um nicho específico de mercado
+- As possibilidades são infinitas
+
+**Valor Proposto:**
+"Fluxos de otimização de operação" ao invés de "software"
+
+---
+
+## 💡 CONCLUSÕES SOBRE O MODELO DE NEGÓCIO
+
+### Diferenciação Estratégica
+
+**1. Vertical AI vs. SaaS Horizontal:**
+- **Concorrentes tradicionais:** Oferecem soluções genéricas (chatbot, CRM, ERP)
+- **Dobem:** Oferece **fluxos de otimização** especializados por setor
+- **Vantagem:** Profundidade > Amplitude
+
+**2. Personalização Profunda:**
+- Não é "configuração" de software
+- É **criação de agentes especializados** para processos únicos do cliente
+- Cada cliente recebe uma solução adaptada ao seu negócio
+
+**3. Ecossistema vs. Produto:**
+- Não vende produtos isolados
+- Vende **ecossistemas integrados** (ERP + Assistente + Automação + Atendimento)
+- Valor agregado muito maior
+
+### Proposta de Valor Única
+
+**Para o Cliente:**
+- "Não vendemos software, vendemos otimização de operação"
+- "Automatizamos processos que só humanos faziam"
+- "Criamos agentes especializados para seu negócio"
+
+**Diferencial:**
+- Entendimento profundo do negócio do cliente
+- Mapeamento completo de processos
+- Automação de tarefas que pareciam impossíveis de automatizar
+
+### Análise de Preços e Estrutura Comercial
+
+**Kits de Produtos:**
+- **KIT SETUP STARTUP:** R$ 3.000,00
+- **KIT VENDA ATENDIMENTO:** R$ 3.000,00
+- **KIT SETUP PET:** R$ 3.000,00
+
+**Estrutura de Preços Modular:**
+- Componentes individuais com preços variáveis
+- Licenças Odoo: Custo variável
+- Número de workflows: Custo variável
+- Número de assistentes IA: Custo variável
+- APIs de IA: Custo variável (OpenAI, etc.)
+
+**Análise:**
+- **Modelo híbrido:** Setup inicial (kit) + custos variáveis (uso)
+- **Escalabilidade:** Cliente paga pelo que usa
+- **Flexibilidade:** Pode começar pequeno e escalar
+
+---
+
+## 🎯 DORES DO CLIENTE MAPEADAS
+
+### Problemas Operacionais Identificados
+
+**1. Falta de Visibilidade:**
+- Empresas não sabem como vendedores se relacionam com clientes
+- Não sabem se vendedores passam valores da empresa
+- Não sabem se vendedor está atendendo bem
+
+**2. Falta de Histórico:**
+- Histórico de negociações fica com o vendedor
+- Perda de informações importantes
+- Dificuldade em resgatar oportunidades perdidas
+
+**3. Falta de Gestão:**
+- Sem gestão de atendimento centralizada
+- Sem CRM para gerenciar oportunidades
+- Sem gestão de funil automatizada
+
+**4. Falta de Métricas:**
+- Não sabe quais campanhas convertem mais
+- Decisões sem base de dados
+- Sem controle automático de leads
+
+### Oportunidade de Mercado
+
+**Conclusão:**
+As empresas não precisam apenas de "um chatbot" ou "um CRM". Elas precisam de:
+- **Visibilidade** sobre o que acontece no atendimento
+- **Histórico** de todas as interações
+- **Automação** de processos repetitivos
+- **Métricas** para tomar decisões
+- **Controle** sobre leads e oportunidades
+
+**A Dobem resolve isso com um ecossistema integrado.**
+
+---
+
+## 💰 ANÁLISE DE VALOR ENTREGUE
+
+### Valor para o Cliente
+
+**Operacional:**
+- Automação de processos repetitivos
+- Redução de tempo de resposta
+- Disponibilidade 24/7
+- Escalabilidade sem contratar mais pessoas
+
+**Estratégico:**
+- Visibilidade sobre atendimento
+- Histórico completo de interações
+- Métricas para decisões
+- Controle sobre leads e oportunidades
+
+**Financeiro:**
+- Redução de custos operacionais
+- Aumento de conversão
+- Melhor gestão de leads
+- ROI mensurável
+
+### Diferenciação vs. Concorrentes
+
+**Concorrentes Tradicionais:**
+- Chatbots genéricos
+- CRMs isolados
+- ERPs desconectados
+- Soluções pontuais
+
+**Dobem Tecnologia:**
+- Ecossistema integrado
+- Automação end-to-end
+- Especialização por setor
+- Fluxos de otimização de operação
+
+---
+
+## 🚀 PRÓXIMOS PASSOS ESTRATÉGICOS
+
+### Desenvolvimento de Produto
+
+**Prioridades:**
+1. Finalizar MVP do EVAH
+2. Criar mais kits por setor (além dos 3 atuais)
+3. Desenvolver biblioteca de agentes reutilizáveis
+4. Melhorar documentação de processos
+
+### Go-to-Market
+
+**Estratégias:**
+1. Focar em setores específicos inicialmente
+2. Criar cases de sucesso (Bira Veículos como primeiro)
+3. Desenvolver materiais de venda por setor
+4. Parcerias estratégicas
+
+### Operações
+
+**Melhorias:**
+1. Padronizar processo de mapeamento de processos
+2. Criar templates de implementação
+3. Desenvolver ferramentas de cálculo de ROI
+4. Sistema de métricas e acompanhamento
+
+---
+
+## 📝 OBSERVAÇÕES FINAIS
+
+### Forças do Modelo
+
+1. **Diferenciação clara:** Vertical AI é único no mercado
+2. **Valor mensurável:** ROI tangível para clientes
+3. **Escalabilidade técnica:** Arquitetura moderna e flexível
+4. **Flexibilidade comercial:** Múltiplos modelos de preço
+
+### Desafios
+
+1. **Educação de mercado:** Cliente precisa entender o conceito de Vertical AI
+2. **Complexidade de venda:** Requer entendimento profundo do negócio do cliente
+3. **Tempo de implementação:** Mapear processos leva tempo
+4. **Dependência de expertise:** Requer equipe técnica especializada
+
+### Oportunidades
+
+1. **Mercado em crescimento:** IA e automação em alta
+2. **Dores reais:** Clientes têm problemas que a Dobem resolve
+3. **Diferenciação:** Poucos concorrentes com modelo similar
+4. **Escalabilidade:** Uma vez mapeado, pode replicar por setor
+
+---
+
 *Documento consolidado sobre fluxos, processos e arquitetura técnica*
 *Última atualização: Dezembro 2025*

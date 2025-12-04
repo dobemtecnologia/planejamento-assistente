@@ -154,17 +154,48 @@ Ed. Vitta Office - Av. Rômulo Maiorana, n° 700 - Marco, Belém - PA, 66093-672
 - **Subtítulo:** "A Dobem Tecnologia transforma sua operação com soluções ágeis e customizadas."
 - **Botão de Ação:** "Conheça Nossas Soluções" ou "Fale com um Especialista"
 - **Seções:**
-  - Quem Somos
-  - Nossas Soluções
-  - Nossos Serviços
-  - Depoimentos / Cases de Sucesso
-  - Chamada Final para Ação
+  - **Quem Somos:** Pequeno parágrafo sobre a missão da empresa, foco nas soluções open source e como elas resolvem os problemas dos clientes. Breve histórico, conquistas e certificados que agreguem credibilidade.
+  - **Nossas Soluções:** Introdução: "Nossas soluções são a integração perfeita de ferramentas open source para facilitar seu dia a dia." 3-4 soluções destacadas com imagens e links para páginas detalhadas. Tabela comparativa para facilitar a visualização das diferenças entre soluções. Vídeos demonstrativos opcionais para explicar cada solução.
+  - **Nossos Serviços:** Resumo dos serviços: "Implantação, Suporte, Consultoria e Desenvolvimento de Software." Links para as páginas de cada serviço.
+  - **Depoimentos / Cases de Sucesso:** Exibição de depoimentos de clientes e casos de sucesso.
+  - **Chamada Final para Ação:** Botões como "Entre em Contato" ou "Solicite uma Consultoria Gratuita". Integração com chatbot (se possível, o Automatic Messenger).
 
 **Páginas Principais:**
-- Soluções
-- Serviços
-- Desenvolvimento de Software
-- Contato
+
+**1. Página de Soluções:**
+- **Título:** "Soluções Personalizadas para Seu Negócio"
+- **Introdução:** "Integrando o melhor das soluções open source, criamos produtos que atendem às necessidades do seu setor."
+- **Lista de Soluções:** Cada solução com uma breve descrição, imagem e explicação do uso. Tabela comparativa para ajudar na escolha da solução mais adequada. Vídeos explicativos opcionais.
+- **Call to Action:** Botões para "Solicitar Demonstração" ou "Falar com um Especialista"
+
+**2. Página de Serviços:**
+- **Título:** "Serviços de Suporte e Consultoria para Seu Sucesso"
+- **Introdução:** "Oferecemos suporte completo para a implantação e personalização das soluções, além de consultoria especializada para transformar tecnologia em resultados."
+- **Seção de Serviços:**
+  - **Implantação:** Descrição detalhada do processo
+  - **Suporte:** Como é oferecido (online, telefone, presencial, SLA)
+  - **Consultoria:** Como personalizamos a tecnologia para cada negócio
+  - **Desenvolvimento de Software:** Criação de sistemas sob medida
+- **Tabela de Planos e Comparação de Serviços** (se aplicável)
+- **Call to Action:** "Solicitar Suporte" ou "Agendar Consultoria"
+
+**3. Página de Desenvolvimento de Software:**
+- **Título:** "Desenvolvimento Personalizado de Software"
+- **Introdução:** "Além das soluções prontas, também criamos sistemas sob medida para as necessidades do seu negócio."
+- **Descrição:** Processo de desenvolvimento (levantamento de requisitos, análise, desenvolvimento, integração)
+- **Exemplos de Projetos:** Estudos de caso reais para demonstrar expertise
+- **Call to Action:** "Fale com um Especialista" ou "Solicite uma Proposta"
+
+**4. Página de Contato:**
+- **Título:** "Entre em Contato com a Dobem Tecnologia"
+- **Formulário de Contato:** Nome, e-mail, mensagem
+- **Informações de Contato:** Telefone, e-mail, redes sociais
+- **Mapa:** Se houver localização física, incluir Google Maps
+- **FAQ:** Perguntas frequentes para esclarecer dúvidas antes do contato
+- **Chatbot (se possível, Automatic Messenger)** para respostas rápidas e atendimento instantâneo
+- **Call to Action:** "Envie sua Mensagem" ou "Agendar uma Reunião"
+
+**Outras Páginas:**
 - Sobre Nós
 - Planos
 - Cases

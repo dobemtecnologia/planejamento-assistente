@@ -132,11 +132,38 @@
 ## 📈 Dados de Mercado
 
 ### Estatísticas de Mercado
-- 80% das perguntas são repetitivas e podem ser automatizadas (IBM)
+
+**Atendimento:**
+- 60% das empresas afirmam perder vendas por falhas no atendimento
 - 60% dos clientes desistem se não recebem resposta em 1 hora (Zendesk)
 - Resposta rápida qualifica 7x mais leads (HBR)
+- Atraso de 5 minutos reduz 400% as chances de conversão (HBR)
 - 78% dos clientes compram da primeira empresa que responde
+
+**Automação e Produtividade:**
+- 80% das perguntas são repetitivas e podem ser automatizadas (IBM)
+- Até 70% das dúvidas poderiam ser automatizadas (Typebot)
+- Agentes perdem 30% do tempo trocando de ferramentas (HBR)
+- 60% do tempo gasto em tarefas repetitivas (McKinsey)
+- Negócios sem automação gastam o dobro de tempo em tarefas repetitivas
+
+**Experiência do Cliente:**
+- 91% preferem marcas que oferecem personalização (Accenture)
+- 72% esperam que a empresa conheça histórico de interações (Salesforce)
+- 61% mudam de empresa após experiência ruim (Zendesk)
+
+**Dados e Métricas:**
 - Empresas com métricas melhoram satisfação em 60% (McKinsey)
+- Sem CRM, 79% dos leads se perdem (HubSpot)
+- Sem integração, até 30% mais tempo perdido em relatórios (Gartner)
+- Empresas orientadas por dados crescem 23x mais rápido (McKinsey)
+
+**Sistemas Isolados:**
+- Perda de até 20% da receita (Forrester)
+- 20-30% menos produtividade (Deloitte)
+- Custos de TI aumentam 15-25% (IDC)
+- Duplicidade de dados gera até 20% de perda anual
+- Falta de integração entre sistemas aumenta em até 30% o custo operacional
 
 ### Dados sobre Sistemas Isolados
 - **Perda de oportunidades:** 60% dos clientes desistem se não recebem resposta em até 1 hora
