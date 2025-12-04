@@ -15,6 +15,14 @@
 
 ## 1. Empresa / Sobre a Dobem Tech
 
+---
+
+*⚠️ ATENÇÃO: Conteúdo sobre a empresa Dobem Tecnologia foi movido para Projeto/01_Empresa_Dobem_Tech.md*
+
+*As informações abaixo sobre DOBEM CONTABILIDADE são de uma empresa relacionada e foram mantidas como referência*
+
+---
+
 ### Arquivo: DOBEM.md
 
 # DOBEM

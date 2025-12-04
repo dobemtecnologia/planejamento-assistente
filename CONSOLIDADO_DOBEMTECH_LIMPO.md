@@ -1,6 +1,6 @@
 ## ÍNDICE DE TEMAS
 
-- 1. Empresa / Sobre a Dobem Tech
+- 1. Empresa / Sobre a Dobem Tech ⚠️ *Conteúdo movido para Projeto/01_Empresa_Dobem_Tech.md*
 - 2. Produtos / Soluções (EVAH, EVAH, Prime Assistant, etc.)
 - 3. Modelo de Negócio / Frameworks
 - 4. Funis e Estratégias de Vendas / Marketing

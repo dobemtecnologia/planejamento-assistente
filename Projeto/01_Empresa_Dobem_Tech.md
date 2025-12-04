@@ -36,6 +36,7 @@ Cada projeto que realizamos não é apenas uma solução entregue, mas um compro
 - **Tipo:** Startup de tecnologia / Hub de soluções tecnológicas
 - **Setor:** Tecnologia da Informação, Automação, IA
 - **Nomenclatura:** Há variação entre "Dobem Tech" (mais informal) e "Dobem Tecnologia" (nome oficial)
+- **Descrição Institucional:** "STARTUP QUE FAZ USO DA TECNOLOGIA PARA DESENVOLVER SOLUÇÕES PARA EMPRESAS QUE BUSCAM MELHORAR SEUS PROCESSOS ATRAVÉS DE TECNOLOGIA"
 
 ## 📈 Missão, Visão e Valores
 
@@ -391,11 +392,15 @@ A Dobem Tecnologia oferece:
 - Foco em open source
 - Ecossistema integrado
 - Transformação digital
+- Startup que desenvolve soluções para empresas melhorarem processos através de tecnologia
 
 ### Relacionamento com Dobem Contabilidade
 - **Dobem Contabilidade** aparece como cliente/demonstração de uso
 - Pode haver relação entre as empresas (mesmo grupo ou parceria)
 - Utilizada como caso de demonstração do assistente virtual
+- **Missão da Dobem Contabilidade:** "Fazer contadores felizes para manter empresas saudáveis"
+- **Proposta de Valor da Dobem Contabilidade:** "Conectamos contadores à empreendedores"
+- **Nota:** Dobem Contabilidade parece ser uma empresa relacionada ou do mesmo grupo, focada em soluções contábeis
 
 ### Benchmark e Concorrência
 - Há menção à necessidade de fazer um benchmark entre a EVAH e possíveis concorrentes da Dobem com soluções semelhantes
@@ -406,6 +411,29 @@ A Dobem Tecnologia oferece:
 - Armazenar todos os logins e senhas em um cofre de senhas adequado
 - Centralizar emails de acordo com os Alias em todas as aplicações
 - Mudar email de disparo das lambdas da AWS
+
+### Informações de Apresentação
+
+**Apresentação - Pick:**
+
+**Slide Institucional:**
+- "Mais que sistemas, entregamos resultados! Criamos um ecossistema tecnológico que acelera empresas para empresas acelerarem seus resultados."
+- "STARTUP QUE FAZ USO DA TECNOLOGIA PARA DESENVOLVER SOLUÇÕES PARA EMPRESAS QUE BUSCAM MELHORAR SEUS PROCESSOS ATRAVÉS DE TECNOLOGIA"
+
+**Como Funciona:**
+A empresa conecta empresas e contadores através de API e ERP, oferecendo:
+- **Prospecção**
+- **Atendimento**
+- **Área da Empresa**
+- **Gestor de Tarefas**
+
+**Proposta de Valor (Apresentação):**
+- Automatizar o atendimento ao cliente, deixando a equipe focar na atividade principal
+- Ferramenta que se adapta ao negócio trazendo mais retorno para a equipe de vendas
+- **Redução de Custos:** Chatbot gera economia diminuindo custos com atendimento via telefone, capital humano, criação e manutenção de apps
+- **Facilidade:** Comunicação simples e direta, sempre de fácil alcance ao cliente
+- **Agilidade:** Agilidade na comunicação da empresa com o cliente
+- **24/7:** ChatBot responde as dúvidas rapidamente, 24 horas por dia, 7 dias por semana
 
 ---
 

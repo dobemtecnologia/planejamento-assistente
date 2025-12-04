@@ -15,6 +15,12 @@
 
 ## 1. Empresa / Sobre a Dobem Tech
 
+---
+
+*⚠️ ATENÇÃO: Conteúdo sobre a empresa Dobem Tecnologia foi movido para Projeto/01_Empresa_Dobem_Tech.md*
+
+---
+
 ### Arquivo: definição empresa.md
 
 
