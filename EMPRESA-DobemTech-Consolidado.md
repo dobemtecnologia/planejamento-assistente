@@ -1,10 +1,10 @@
 # 🏢 EMPRESA DOBEM TECNOLOGIA - Informações Consolidadas
 
-> **Objetivo:** Este documento consolida todas as informações sobre a empresa Dobem Tecnologia extraídas dos arquivos do projeto.
-
 ---
 
-## 🎯 1. IDENTIDADE E PROPÓSITO
+*Conteúdo movido para Projeto/01_Empresa_Dobem_Tech.md*
+
+---
 
 ### 1.1 Nome e Identificação
 - **Nome:** Dobem Tecnologia (também referida como "Dobem Tech")
