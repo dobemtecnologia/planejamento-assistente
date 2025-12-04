@@ -115,10 +115,16 @@ A Evah Assistant conta com **15+ agentes especializados** que podem ser ativados
 #### 🚗 Setor Automotivo (Bira Veículos)
 **Cenário:** Concessionária precisava atender leads 24/7 e qualificar prospects.
 **Solução:** Evah Assistant especializada + Consulta FIPE + Web Scraping de usados.
-**Resultados:**
-* 📈 **+40%** em agendamentos de visitas.
-* ⚡ **-60%** no tempo médio de resposta.
-* 🎯 **100%** de qualificação automática de leads.
+
+> *"A EVAH revolucionou nosso atendimento. Reduzimos o tempo de resposta drasticamente e aumentamos os agendamentos em 40%. É como ter uma equipe trabalhando 24 horas por dia."*
+> — **Direção Bira Veículos**
+
+**Resultados Comprovados (Antes vs. Depois):**
+| Métrica | Antes do EVAH | Com EVAH | Melhoria |
+| :--- | :--- | :--- | :--- |
+| **Tempo de Resposta** | ~4 horas | **Instantâneo** | 📉 -99% |
+| **Agendamentos** | 20/semana | **28/semana** | 📈 +40% |
+| **Qualificação** | Manual (Lenta) | **Automática** | 🎯 100% |
 
 #### 🏠 Setor Imobiliário
 **Cenário:** Perda de oportunidades por demora na resposta de corretores.
@@ -150,9 +156,7 @@ A Evah Assistant conta com **15+ agentes especializados** que podem ser ativados
 
 ---
 
-## 7. Arquitetura Técnica e Tecnologias
-
-### Stack Tecnológico Detalhado
+## 7. Arquitetura Técnica
 
 A EVAH é construída sobre tecnologias consolidadas e open source, garantindo estabilidade, segurança e custo-efetividade.
 
@@ -199,6 +203,7 @@ A EVAH é construída sobre tecnologias consolidadas e open source, garantindo e
 └─────────────────┘
 ```
 
+
 ---
 
 ## 8. Investimento e ROI: Planos Estratégicos
@@ -244,7 +249,26 @@ Nossa estrutura de preços foi desenhada para acompanhar o crescimento da sua em
 
 ---
 
-## 10. Conclusão
+## 10. Perguntas Frequentes (FAQ)
+
+**Como sei se preciso da EVAH?**
+Se você perde vendas por demora na resposta ou tem uma equipe sobrecarregada com tarefas repetitivas, a EVAH é para você.
+
+**Quanto custa para começar?**
+Nossos planos começam a partir de R$ 900/mês, com garantia total de 30 dias.
+
+**Posso testar antes de comprar?**
+Sim! Oferecemos uma Prova de Conceito (PoC) para validar os resultados no seu negócio.
+
+**E se não funcionar para o meu negócio?**
+Nós garantimos a eficiência. Se em 30 dias a solução não entregar valor, devolvemos 100% do seu investimento. Risco zero.
+
+**Funciona para o meu setor?**
+Sim. A EVAH é uma plataforma "Vertical AI", treinada especificamente para o nicho de cada cliente (Varejo, Serviços, Imobiliário, Automotivo, etc.).
+
+---
+
+## 11. Conclusão
 
 A **EVAH** democratiza a tecnologia de elite.
 Entregamos para pequenas e médias empresas o poder de automação que antes era restrito a gigantes corporativos.
@@ -256,18 +280,18 @@ Não vendemos software. Vendemos **tempo**, **eficiência** e **crescimento**.
 
 ---
 
-## 11. Próximos Passos e Garantia Total
+## 12. Próximos Passos e Garantia Total
 
 ### 🛡️ Nossa Garantia de Risco Zero
 * **30 Dias de Teste:** Se a solução não trouxer eficiência, devolvemos 100% do valor do setup.
 * **SLA 99,9%:** Disponibilidade garantida em contrato.
 * **Suporte Dedicado:** Equipe técnica especializada pronta para atender.
 
-### 📅 Timeline de Implementação
-* **Semana 1:** Diagnóstico e planejamento.
-* **Semanas 2-3:** Configuração e integração.
-* **Semana 4:** Treinamento e testes.
-* **Semana 5:** Go-live e otimização.
+### 📅 Cronograma de Implementação
+1️⃣ **Semana 1:** Diagnóstico e Planejamento.
+2️⃣ **Semanas 2-3:** Configuração e Integração.
+3️⃣ **Semana 4:** Treinamento e Testes.
+4️⃣ **Semana 5:** Go-live e Otimização.
 
 ### 🎯 Pronto para transformar sua operação?
 Não deixe mais 60% dos seus clientes desistirem por falta de resposta.
