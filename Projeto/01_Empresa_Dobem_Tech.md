@@ -262,7 +262,6 @@ A Dobem Tecnologia oferece:
   - Aumento de 40% em agendamentos
   - Redução de 60% no tempo de resposta
   - Atendimento 24/7 automatizado
-- **Dobem Contabilidade** - Demonstração de uso do assistente virtual
 
 ### Páginas do Site Relacionadas
 - **Página Cases:** https://dobemtecnologia.com/cases (conteúdo a ser preenchido)
@@ -394,14 +393,6 @@ A Dobem Tecnologia oferece:
 - Transformação digital
 - Startup que desenvolve soluções para empresas melhorarem processos através de tecnologia
 
-### Relacionamento com Dobem Contabilidade
-- **Dobem Contabilidade** aparece como cliente/demonstração de uso
-- Pode haver relação entre as empresas (mesmo grupo ou parceria)
-- Utilizada como caso de demonstração do assistente virtual
-- **Missão da Dobem Contabilidade:** "Fazer contadores felizes para manter empresas saudáveis"
-- **Proposta de Valor da Dobem Contabilidade:** "Conectamos contadores à empreendedores"
-- **Nota:** Dobem Contabilidade parece ser uma empresa relacionada ou do mesmo grupo, focada em soluções contábeis
-
 ### Benchmark e Concorrência
 - Há menção à necessidade de fazer um benchmark entre a EVAH e possíveis concorrentes da Dobem com soluções semelhantes
 - Identificar e analisar concorrentes no mercado de soluções de automação, chatbots e ERPs
@@ -421,7 +412,7 @@ A Dobem Tecnologia oferece:
 - "STARTUP QUE FAZ USO DA TECNOLOGIA PARA DESENVOLVER SOLUÇÕES PARA EMPRESAS QUE BUSCAM MELHORAR SEUS PROCESSOS ATRAVÉS DE TECNOLOGIA"
 
 **Como Funciona:**
-A empresa conecta empresas e contadores através de API e ERP, oferecendo:
+A empresa conecta empresas através de API e ERP, oferecendo:
 - **Prospecção**
 - **Atendimento**
 - **Área da Empresa**

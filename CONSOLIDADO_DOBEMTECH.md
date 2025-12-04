@@ -19,18 +19,17 @@
 
 *⚠️ ATENÇÃO: Conteúdo sobre a empresa Dobem Tecnologia foi movido para Projeto/01_Empresa_Dobem_Tech.md*
 
-*As informações abaixo sobre DOBEM CONTABILIDADE são de uma empresa relacionada e foram mantidas como referência*
+*Conteúdo sobre DOBEM CONTABILIDADE foi removido conforme solicitação*
 
 ---
 
 ### Arquivo: DOBEM.md
 
-# DOBEM
-
 ---
 
-        DOBEM CONTABILIDADE
-Conectamos contadores à empreendedores
+*Conteúdo removido - relacionado a Dobem Contabilidade*
+
+---
                    #Missão
 
 
@@ -536,7 +535,7 @@ DESENVOLVER SOLUÇÕES PARA
                                    DOBEM
 
 
-EMPRESAS                                                                          CONTADORES
+EMPRESAS
                         API                                   ERP
 
 
@@ -1946,7 +1945,7 @@ Com essas soluções, sua empresa estará pronta para atender qualquer demanda, 
 Tarefas: 
 
 * Colocar a oferta no site de forma convidativa   
-* Fazer uma demonstração usando a Dobem contabilidade, Bira veiculos   
+* Fazer uma demonstração usando Bira veiculos   
 * Implantar no servidor 
 
  Serviços 
@@ -6201,13 +6200,13 @@ O EVAH ERP é um módulo opcional de gestão administrativa, financeira e operac
 ##### **🔹 Fiscal e Documental**
 
 * Emissão de NF-e, NFC-e e boletos diretamente no sistema.  
-* Cálculo e gestão de impostos com exportação para contador.  
+* Cálculo e gestão de impostos.  
 * Armazenamento digital de documentos fiscais e contratuais.
 
 ##### **🔹 Integrações Nativas**
 
 * Integração bancária (boletos, Pix, extratos).  
-* Exportação contábil para sistemas externos.  
+* Exportação para sistemas externos.  
 * Integração com marketplaces e ERPs externos via Evolution API.
 
 ##### **🔹 Relatórios Gerenciais**
