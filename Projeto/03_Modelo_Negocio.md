@@ -1854,6 +1854,107 @@ Retorna valores do plano
 
 ---
 
+## 💰 ESTRUTURA DE PRECIFICAÇÃO EVAH (Detalhada)
+
+### Módulos e Funcionalidades por Preço
+
+**EVAH Assistant (Evah Assistant) - Funcionalidades:**
+- Integração com API de inteligência Artificial
+- Integração com ERP
+- Agendamentos via Google Calendar
+- Gestão de arquivo via Google Drive
+- Consultas Web (Web Scraping)
+- Criar automaticamente oportunidades de Lead no CRM
+- Atualizar automaticamente oportunidades de Lead no CRM
+- Promover automaticamente oportunidades de Lead no CRM
+- Recebimento de mensagens em áudio
+- Capacidade de identificar o conteúdo de imagens
+- Atendimento guiado para captura de dados
+- Redirecionamento para atendente humano quando necessário
+- Capacidade de identificar a intenção inicial do usuário
+- Consulta produtos no estoque do ERP
+- Consulta detalhes de um produto selecionado pelo usuário
+- Exibe fotos de um produto
+- Consulta tabela FIPE do veículo
+- Capacidade de manter contexto de conversação
+- Atendimento via canal WhatsApp
+- Atendimento via canal Instagram
+- Atendimento via canal Facebook
+- Atendimento via canal Telegram
+- Atendimento via canal WebChat (chat do site)
+
+**EVAH ERP - Módulos:**
+- Site
+- E-commerce
+- Blog
+- Vendas
+- CRM
+- Assinaturas
+- Locação
+- Financeiro
+- Faturamento
+- Despesas
+- Documentos
+- Planilhas
+- Assinatura de Documentos
+- Inventário
+- Manutenção
+- Compras
+- Controle de qualidade
+- E outros módulos conforme necessidade
+
+**EVAH Omni - Central de Gerenciamento Omnichannel de Atendimento**
+
+**EVAH Connect - Módulo de integração que conecta canais externos**
+
+**EVAH Maestro - Orquestrador de automações inteligentes utilizando n8n**
+
+**EVAH Code - Serviços de desenvolvimento personalizados**
+
+---
+
+## 🌐 CONCEITO DE ECOSSISTEMA DIGITAL
+
+### Definição
+
+Um **ecossistema digital** é um conjunto integrado de tecnologias, sistemas, ferramentas e processos que se comunicam entre si para gerar valor contínuo.
+
+Ele funciona de forma parecida com um ecossistema natural: cada elemento (ERP, CRM, chatbot, e-commerce, integrações, redes sociais, etc.) desempenha um papel específico, mas o **valor real surge da interação entre eles**.
+
+Em outras palavras, em vez de ter várias soluções isoladas (cada uma resolvendo apenas um pedaço do problema), um ecossistema digital **cria um ambiente conectado e inteligente**, onde dados fluem livremente, processos são automatizados e a experiência do usuário (cliente e empresa) é mais fluida.
+
+### Vantagens de ter um Ecossistema Digital
+
+1. **Integração de Dados e Processos**
+   - Informações não ficam presas em silos
+   - O CRM conversa com o ERP, o chatbot conversa com o atendimento, e tudo se retroalimenta
+
+2. **Automação e Eficiência Operacional**
+   - Redução de tarefas manuais e repetitivas
+   - Fluxos automáticos aumentam a produtividade e reduzem erros
+
+3. **Melhor Experiência do Cliente**
+   - Atendimento mais rápido, personalizado e disponível em múltiplos canais
+   - Jornada de compra e pós-venda integrada
+
+4. **Tomada de Decisão Baseada em Dados**
+   - Acesso a relatórios unificados em tempo real
+   - Inteligência analítica para prever demandas, otimizar estoque, planejar vendas e marketing
+
+5. **Escalabilidade e Crescimento Sustentável**
+   - Facilidade para adicionar novas soluções (ex: integração com marketplaces, apps, IA) sem quebrar a estrutura
+   - Cresce junto com a empresa
+
+6. **Redução de Custos e Aumento do ROI**
+   - Menos retrabalho, mais eficiência
+   - Aproveitamento máximo das ferramentas, já que tudo está conectado
+
+7. **Inovação Contínua**
+   - Capacidade de testar e implementar novas tecnologias rapidamente
+   - Adaptação às mudanças do mercado
+
+---
+
 *Documento consolidado sobre modelo de negócio e estratégia*
 *Última atualização: Dezembro 2025*
 *Versão: 3.0 - Estratégico*

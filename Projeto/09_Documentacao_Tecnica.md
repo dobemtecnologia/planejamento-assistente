@@ -711,5 +711,153 @@ Criar um fluxo de operação bem definido, onde a tarefa passa a ser previsível
 
 ---
 
+---
+
+## 🔧 INTEGRAÇÕES E APIs TÉCNICAS
+
+### API Zep (Memória Conversacional)
+
+**1. Criar um "session/user" no Zep:**
+```bash
+curl -X POST "https://SEU_ZEP_URL/api/v1/sessions" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "id": "cliente-123",
+    "metadata": {
+      "nome": "Nome do Cliente",
+      "origem": "WhatsApp"
+    }
+  }'
+```
+
+**2. Adicionar memória (message history):**
+```bash
+curl -X POST "https://SEU_ZEP_URL/api/v1/sessions/cliente-123/messages" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "role": "user",
+    "content": "Mensagem do usuário"
+  }'
+```
+
+**3. Buscar memória (histórico):**
+```bash
+curl -X GET "https://SEU_ZEP_URL/api/v1/sessions/cliente-123/messages?limit=50"
+```
+
+**4. Adicionar memória persistente (Zep Memory):**
+```bash
+curl -X POST "https://SEU_ZEP_URL/api/v1/sessions/cliente-123/memory" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "memory": "Informação persistente sobre o cliente"
+  }'
+```
+
+### Parar Fluxos n8n
+
+**1. Via interface do n8n (UI):**
+- Vá até **Executions** (ou **Execuções**)
+- Selecione todas as execuções em andamento (status "running")
+- Clique em **"Stop"** (ícone de ⏹️) para cada uma
+
+**2. Via API do n8n:**
+```bash
+# Listar execuções em andamento:
+curl -X GET http://localhost:5678/rest/executions?status=running
+
+# Parar uma execução específica:
+curl -X POST http://localhost:5678/rest/executions/:id/stop
+
+# Parar todas as execuções em loop:
+for id in $(curl -s http://localhost:5678/rest/executions?status=running | jq -r '.data[].id'); do
+  curl -X POST http://localhost:5678/rest/executions/$id/stop
+done
+```
+
+**3. Via terminal (forçando parada geral):**
+```bash
+# Docker:
+docker restart n8n
+
+# ou se não estiver em Docker:
+pm2 restart n8n
+# ou
+pkill -f n8n
+```
+
+### Manter Memória no n8n
+
+**1. Memória temporária (na mesma execução):**
+- Use variáveis de workflow (`$json`, `$binary`, etc.)
+- Dados persistem apenas durante a execução atual
+
+**2. Memória persistente (entre execuções):**
+- **Database (recomendado):** Use PostgreSQL, MySQL ou SQLite
+- **Google Sheets / Airtable:** Para dados estruturados
+- **Arquivos JSON:** Para armazenamento simples
+
+**3. Memória distribuída (com IA / chatbots):**
+- Use **Zep** para memória conversacional
+- Use **Redis** para cache rápido
+- Use **Vector databases** para busca semântica
+
+**4. Contexto dentro do workflow:**
+- Use nós de **Set** para armazenar variáveis
+- Use **Function** nodes para manipular dados
+- Use **Switch** nodes para roteamento baseado em contexto
+
+### Enviar Mensagem para Typebot
+
+**Exemplo em cURL:**
+```bash
+curl -X POST "https://typebotapi.bira.dev.biraveiculos.com.br/api/v1/typebots/cm868vsm300058qn4jof7or0b/preview/startChat" \
+-H "Content-Type: application/json" \
+-d '{"message":"Olá, quero iniciar uma conversa"}'
+```
+
+**Exemplo em Python (requests):**
+```python
+import requests
+
+url = "https://typebotapi.bira.dev.biraveiculos.com.br/api/v1/typebots/cm868vsm300058qn4jof7or0b/preview/startChat"
+payload = {
+    "message": "Olá, quero iniciar uma conversa"
+}
+headers = {
+    "Content-Type": "application/json"
+}
+
+response = requests.post(url, json=payload, headers=headers)
+print(response.status_code)
+print(response.json())
+```
+
+### Receber Áudio no Typebot
+
+**Problema:**
+O Typebot não possui suporte nativo para entrada de áudio — ele trabalha com mensagens de texto, botões, formulários, mas não tem um componente para interpretar ou processar áudios diretamente.
+
+**Solução alternativa: Transcrever o áudio antes de enviar ao Typebot**
+
+**Fluxo recomendado:**
+1. **Usuário envia áudio via WhatsApp**
+2. **Evolution API 2 recebe o áudio** (capturar a URL do arquivo de áudio via webhook)
+3. **Usar uma API de transcrição de voz** (Whisper API da OpenAI, ou Google Speech-to-Text) para converter o áudio em texto
+4. **O texto transcrito é enviado para o Typebot** como se fosse a mensagem do usuário
+
+**Ferramentas para transcrição:**
+- **Whisper API da OpenAI:** Endpoint `https://api.openai.com/v1/audio/transcriptions`
+- **Google Cloud Speech-to-Text:** Mais complexo de configurar, mas suporta múltiplos idiomas
+
+**Integração com N8N:**
+- Webhook do Evolution recebendo o áudio
+- Baixar o áudio (via HTTP Request)
+- Passar para o Whisper
+- Obter o texto transcrito
+- Enviar para o Typebot via Webhook ou API de entrada
+
+---
+
 *Documento consolidado de documentação técnica*
 *Última atualização: Dezembro 2025*

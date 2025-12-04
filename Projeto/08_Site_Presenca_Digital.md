@@ -337,5 +337,71 @@ A empresa conecta empresas através de API e ERP, oferecendo:
 
 ---
 
+---
+
+## 📱 CRIAÇÃO DE CONTAS META (Facebook/Instagram)
+
+### Passo a Passo para Criar Contas Empresariais
+
+**O que você vai precisar antes de começar:**
+- Conta Gmail (para usar no cadastro / verificação)
+- Logo da empresa (arquivo quadrado, preferível 320×320 px ou maior)
+- Uma imagem de capa (banner)
+- Nome da empresa, descrição curta, site (se tiver), telefone e e-mail de contato
+- 1 pessoa (você) como administrador (pode adicionar outros depois)
+
+### Facebook (Page / Meta)
+
+**1. Criar uma conta pessoal no Facebook (se ainda não tiver):**
+- Vá em **facebook.com** → *Criar nova conta*
+- Preencha nome, e-mail (Gmail), senha e confirme o e-mail
+- Obs: para criar e gerenciar uma *Página* você precisa de uma conta pessoal (a Página fica separada da sua conta pessoal)
+
+**2. Criar a Página da empresa:**
+- Faça login no Facebook com sua conta pessoal
+- No menu esquerdo, clique em **Páginas** → **Criar nova Página**
+- Preencha **Nome da Página**, **Categoria** (ex.: Empresa de tecnologia / Software), **Descrição curta**
+- Clique em **Criar Página** e siga os passos para adicionar foto de perfil, capa e informações
+
+**3. Adicionar imagens e informações essenciais:**
+- **Foto de perfil:** use o logo (quadrado)
+- **Foto de capa:** banner institucional
+- Ajuste o tamanho conforme recomendações do Facebook
+
+### Instagram (Conta Comercial)
+
+**1. Criar conta no Instagram:**
+- Baixe o app Instagram ou acesse instagram.com
+- Crie uma conta usando seu e-mail Gmail
+- Escolha um nome de usuário relacionado à empresa
+
+**2. Converter para conta comercial:**
+- Vá em **Configurações** → **Conta** → **Mudar para conta profissional**
+- Escolha entre **Criador** ou **Negócio**
+- Para empresas, escolha **Negócio**
+- Conecte com a Página do Facebook criada anteriormente
+
+**3. Completar perfil comercial:**
+- Adicione logo como foto de perfil
+- Preencha descrição da empresa
+- Adicione site, telefone e e-mail de contato
+- Configure categoria do negócio
+
+### Vantagens das Contas Comerciais
+
+**Facebook:**
+- Acesso a insights e métricas
+- Ferramentas de publicidade
+- Gerenciamento de comentários e mensagens
+- Integração com Instagram
+
+**Instagram:**
+- Insights de desempenho
+- Botão de ação (ligar, e-mail, direções)
+- Links em stories (com mais de 10k seguidores)
+- Promoções e anúncios
+
+---
+
 *Documento consolidado sobre presença digital*
 *Última atualização: Dezembro 2025*

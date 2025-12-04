@@ -89,6 +89,38 @@ A empresa conecta empresas através de API e ERP, oferecendo:
 - Gestão de clientes
 - Lembretes e notificações
 
+## 💡 NOMES DE ASSISTENTES EVAH
+
+### Sugestões de Nomes Femininos
+
+**Sugestões inspiradas em tecnologia + empatia humana:**
+1. **EVAH** – (mantém o nome original, pode virar a marca principal)
+2. **Aiva** – forma curta, suave e fácil de lembrar (já usada em Evah Assistant)
+3. **Liah** – lembra "liaison" (conexão), transmite proximidade e empatia
+4. **Nirah** – mistura de "neural" + som feminino
+5. **Tayra** – soa moderna, sintética e humana
+6. **Siah** – remete a inteligência e tem sonoridade tecnológica
+
+**Nomes com apelo de Inteligência Artificial / digital:**
+1. **Elyz** – derivado de "eliza", o primeiro chatbot da história
+2. **Kyra** – nome de som firme, comum em produtos de IA
+3. **Noah** – forma neutra, mas pode ser feminina e associada a futurismo
+4. **Miah** – simples, curto, lembra "IA" no final
+5. **Lunah** – evoca modernidade e sensibilidade (ideal para marcas de IA humanizadas)
+
+**Nomes mais humanos e empáticos (estilo "concierge"):**
+1. **Clara** – remete a clareza, atendimento e transparência
+2. **Sophia** – inteligência e sabedoria (raiz grega)
+3. **Isah** – forma curta, moderna e suave
+4. **Elen** – transmite serenidade e profissionalismo
+5. **Maia** – fluido, curto e agradável ao ouvido
+
+**Combinações ou derivados do nome EVAH:**
+1. **E.V.A.** – (Entidade Virtual de Atendimento / Evolução Virtual Assistida)
+2. **Evanna** – versão expandida e mais humanizada de EVAH
+3. **Evahly** – variação moderna, com sonoridade "tech"
+4. **Evaira**
+
 ## 🧩 Frameworks e Metodologias
 
 ### Conceito de Ecossistema Digital

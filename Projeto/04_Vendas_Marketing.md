@@ -577,5 +577,31 @@ gere o melhor retorno possível.
 
 ---
 
+---
+
+## 📊 FUNIL DE VENDAS PARA O EVAH
+
+### 1. Suspect (Prospecção Inicial)
+
+**Definição:**
+Um **Suspect** (suspeito) é um potencial cliente que ainda não foi qualificado. É alguém que demonstrou algum interesse ou foi identificado como potencial comprador, mas ainda não passou por um processo de qualificação para determinar se realmente tem necessidade, orçamento, autoridade e prazo (BANT) para comprar.
+
+**Características:**
+- Demonstrou interesse inicial (visitou site, baixou material, participou de evento)
+- Ainda não foi qualificado
+- Não sabemos se tem necessidade real, orçamento ou autoridade para decidir
+- Precisa passar por processo de qualificação
+
+**Exemplos:**
+- Visitante do site que preencheu formulário
+- Pessoa que baixou e-book ou material rico
+- Participante de webinar ou evento
+- Lead captado em campanha de marketing
+
+**Próximo passo:**
+Qualificar o suspect para transformá-lo em **Prospect** (prospecto qualificado)
+
+---
+
 *Documento consolidado sobre estratégias de vendas e marketing*
 *Última atualização: Dezembro 2025*
