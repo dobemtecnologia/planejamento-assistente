@@ -1129,7 +1129,300 @@ A Dobem Tecnologia utiliza uma stack de ferramentas open source consolidadas:
 
 ---
 
-## 📞 14. CONTATO E INFORMAÇÕES
+## 🔍 14. DETALHES TÉCNICOS E ARQUITETURA AVANÇADA
+
+### 14.1 Arquitetura Modular Detalhada do EVAH
+
+#### 14.1.1 Visão Geral do Fluxo de Funcionamento
+
+O funcionamento do **EVAH** é baseado em uma sequência inteligente de eventos que conecta clientes, automações, atendimento humano e sistemas de gestão:
+
+1. **Entrada do cliente:** Interações iniciadas via WhatsApp ou site são recebidas pelo **EVAH Connect** (Evolution API)
+2. **Condução conversacional:** O **EVAH Chat** (Typebot) guia o cliente por fluxos automatizados
+3. **Respostas inteligentes:** Quando necessário, o **Evah Assistant** assume o diálogo com IA avançada
+4. **Automação de tarefas:** O **EVAH Maestro** (n8n) executa ações como agendamentos ou notificações
+5. **Atendimento humano (opcional):** A conversa pode ser transferida para o **EVAH Omni** (Chatwoot)
+6. **Registro e gestão:** Todas as informações são integradas ao **EVAH ERP** (Odoo), garantindo controle operacional
+
+#### 14.1.2 Benefícios da Arquitetura Modular
+
+- Flexibilidade para adaptar regras e processos por cliente
+- Integração com ferramentas modernas via APIs abertas
+- Capacidade de automação total ou parcial de atendimentos
+- Centralização de dados em um núcleo de gestão confiável
+- Substituição ou evolução de módulos sem comprometer o ecossistema
+
+### 14.2 Arquitetura Modular no N8N - Detalhamento Técnico
+
+#### 14.2.1 Fluxo de Processamento de Mensagens
+
+**Organização dos Flows no N8N:**
+
+**Workflows Principais:**
+- `1_Main_EntradaMensagem` - Recebe mensagem (texto, áudio ou imagem)
+- `2_TratamentoMensagem` - Converte e processa:
+  - Se áudio: transcreve para texto (Whisper API)
+  - Se imagem: extrai dados visuais (OCR, análise visual)
+  - Se link: reconhece URL e categoriza como scraping
+  - Encaminha texto limpo para o orquestrador
+- `3_Orquestrador` - Detecta a intenção do cliente usando IA:
+  - Saudação
+  - Consulta de veículo/produto
+  - Interesse com base em mídia
+  - Agendamento
+  - Registro ou atualização de lead
+  - Retorna JSON com `agente_destino` e `mensagem`
+- `4_RoteadorDeAgentes` - Direciona para o agente correto:
+  - Usa switch para redirecionar ao fluxo certo com base em `agente_destino`
+
+**Subworkflows (Agentes):**
+- `Agentes/BoasVindas` - Envia mensagem de saudação personalizada
+- `Agentes/ConsultaVeiculos` - Responde com produtos filtrados do banco
+- `Agentes/WebScraping` - Extrai dados de anúncios enviados e consulta banco
+- `Agentes/Agendamento` - Agenda horário com cliente
+- `Agentes/CRM` - Cria e atualiza lead no Odoo
+- `Agentes/Fallback` - Mensagem genérica ou encaminha para atendimento humano
+
+### 14.3 Caso de Uso Detalhado: BiraBot (Bira Veículos)
+
+#### 14.3.1 Contexto Técnico
+
+**Aiva** (nome técnico), apresentado aos clientes como **BiraBot**, é um assistente virtual desenvolvido para realizar **atendimento automatizado em empresas de venda de veículos**.
+
+#### 14.3.2 Objetivos Específicos do BiraBot
+
+**Comunicação Inicial:**
+- Detectar e responder a saudações como "bom dia", "boa tarde", "olá", etc.
+- Apresentar-se como BiraBot e explicar sua função
+
+**Coleta de Interesse do Cliente:**
+- Identificar tipo de veículo desejado
+- Extrair informações como:
+  - Marca / modelo
+  - Tipo (SUV, hatch, sedan...)
+  - Ano mínimo e máximo
+  - Faixa de preço
+
+**Consulta de Veículos:**
+- Integrar com agente que consulta banco de dados
+- Apresentar resultados baseados nos filtros coletados
+
+**Registro e Qualificação de Lead:**
+- Integrar com CRM Odoo para:
+  - Criar lead no início do atendimento
+  - Atualizar lead à medida que mais dados são fornecidos
+
+**Agendamento de Visita:**
+- Perguntar disponibilidade do cliente
+- Registrar data e hora sugerida
+- (Futuramente: integrar com agenda de vendedores)
+
+**Interpretação Multimídia:**
+- **Áudio:**
+  - Transcrever voz em texto
+  - Passar texto para o orquestrador
+- **Imagem:**
+  - Extrair dados visuais (modelo, tipo, cor)
+  - Consultar no banco veículos semelhantes
+- **Link (Web Scraping):**
+  - Extrair dados de anúncios (OLX, Webmotors, etc.)
+  - Realizar consulta no banco com base nesses dados
+
+**Memória e Contexto:**
+- Usar memória (Zep) para manter o histórico do cliente
+- Exemplo: "Quero um carro de 2022" + depois "quero que seja SUV" → entender que busca é SUV de 2022
+
+#### 14.3.3 Tecnologias Utilizadas no BiraBot
+
+- **N8N** para orquestração modular
+- **Zep** para memória conversacional
+- **Whisper API** ou OpenAI para transcrição de voz
+- **OpenAI Vision** ou modelo customizado para leitura de imagens
+- **Playwright / Puppeteer / Cheerio** para scraping
+- **CRM Odoo** via API para lead tracking
+
+### 14.4 Componentes Detalhados e Preços
+
+#### 14.4.1 EVAH Assistant - Componentes e Valores
+
+| Componente | Descrição | Tipo Cobrança | Valor |
+|------------|-----------|---------------|-------|
+| Hospedagem automática em links do Typebot | Funcionalidade do Typebot que hospeda o bot e gera link direto | Pacote | R$ 100,00 |
+| Publicação como widget em sites | Inserir chatbot em sites via iframe ou script | Pacote | R$ 100,00 |
+| AgenteIA - Agendamentos via Google Calendar | Sincroniza e gerencia eventos no Google Calendar | Pacote | R$ 0,02 |
+| AgenteIA - Gestão de arquivos via Google Drive | Gerencia arquivos no Google Drive do cliente | Pacote | R$ 0,02 |
+| AgenteIA - Consultas Web (Web Scraping) | Extrai dados de páginas web em tempo real | Pacote | R$ 0,00 |
+| AgenteIA - Gestão Lead no CRM | Registra novos leads diretamente no CRM | Pacote | R$ 0,02 |
+| AgenteIA - Recebimento de mensagens em áudio | Recebe e processa mensagens de voz | Pacote | R$ 0,02 |
+| AgenteIA - Capacidade de identificar conteúdo de imagens | Analisa imagens enviadas por usuários | Pacote | R$ 0,02 |
+| AgenteIA - Redirecionamento para atendente humano | Transfere atendimento para operador quando necessário | Pacote | R$ 0,02 |
+| AgenteIA - Capacidade de identificar a intenção do usuário | Identifica a intenção do cliente na conversa | Pacote | R$ 0,02 |
+| AgenteIA - Gestão produtos no estoque do ERP | Consulta disponibilidade de produtos no ERP | Pacote | R$ 0,02 |
+| AgenteIA - Consulta detalhes de um produto | Retorna informações específicas de um produto | Pacote | R$ 0,02 |
+| AgenteIA - Exibe fotos de um produto | Apresenta imagens associadas ao produto | Pacote | R$ 0,02 |
+| AgenteIA - Consulta tabela FIPE do veículo | Retorna valores atualizados de veículos | Pacote | R$ 0,02 |
+| AgenteIA - Wiki de Empresa | Determina todas as informações da empresa | Pacote | R$ 0,02 |
+| AgenteIA - Cálculo de Financiamento | Simula condições de pagamento em tempo real | Pacote | R$ 0,02 |
+| AgenteIA - Gateway de Pagamento | Processa transações dentro do fluxo de atendimento | Demanda | R$ 3,50 |
+| AgenteIA - Direcionar para atendentes por ordem programada | Rotaciona vendedores automaticamente | Adesão | R$ 0,02 |
+| AgenteIA - Comparador de preços | Avalia valor do bem de entrada | Pacote | R$ 0,02 |
+| AgenteIA - Capacidade de manter contexto de conversação | Mantém coerência entre interações | Pacote | R$ 0,07 |
+| Atendimento via canal WhatsApp (Meta - API Oficial) | Conecta à API oficial do WhatsApp | Adesão | R$ 0,03 |
+| Atendimento via canal WhatsApp Evolution API | Integração via Evolution API | Pacote | R$ 100,00 |
+| Atendimento via canal Instagram | Atende via mensagens do Instagram | Adesão | R$ 0,03 |
+| Atendimento via canal Facebook Messenger | Integra ao Messenger do Facebook | Adesão | R$ 0,03 |
+| Atendimento via canal Telegram | Integra ao Telegram via API oficial | Adesão | R$ 100,00 |
+| Atendimento via canal WebChat | Integra a widgets de chat em sites | Adesão | R$ 82,20 |
+| Assistentes de IA | Assistente para uma determinada demanda | Pacote | R$ 500,00 |
+| Agente IA - Assistente Corporativo | Gerencia áreas da empresa via agente | Adesão | R$ 0,02 |
+
+#### 14.4.2 EVAH ERP - Módulos e Valores
+
+| Componente | Descrição | Valor |
+|------------|-----------|-------|
+| Site | Criador de Sites Enterprise | R$ 250,00 |
+| E-Commerce | Venda seus produtos online | R$ 500,00 |
+| Blog | | R$ 250,00 |
+| Vendas | De cotações a faturas | R$ 1,23 |
+| Restaurante | Extensões de restaurante para o ponto de venda | R$ 1,23 |
+| Faturamento | Faturas, pagamentos, acompanhamentos e sincronização bancária | R$ 1,23 |
+| CRM | Rastreie leads e feche oportunidades | R$ 1,23 |
+| Inventário | Gerencie suas atividades de estoque e logística | R$ 1,23 |
+| Financeiro (Licença) | Gerencie o financeiro e analítico | R$ 1,23 |
+| E outros módulos... | | R$ 1,23 |
+| Licenças | | R$ 49,00 |
+
+#### 14.4.3 EVAH Omni - Componentes e Valores
+
+| Componente | Descrição | Valor |
+|------------|-----------|-------|
+| Live-Chat Adaptável | Widgets de chat personalizados, multilíngue, suporte para emojis | R$ 500,00 |
+| Automações | Fluxo de automação personalizado com regras simples | R$ 13,56 |
+| Aplicativos Mobile | Gerencie conversas em qualquer lugar | R$ 13,56 |
+| Integrações | HubSpot, Zoho, Shopify, WooCommerce, Dialogflow, Slack, etc. | R$ 13,56 |
+| Contexto Ágil instantâneo | Formulários pré-chat para coletar informações | R$ 13,56 |
+| Central de Ajuda | Certificados SSL, categorias, suporte completo à API | R$ 13,56 |
+| Etiquetas | Organize conversas com rótulos | R$ 13,56 |
+| Equipes | Organize agentes em equipes | R$ 13,56 |
+| Notas de Contato | Anote informações importantes sobre contatos | R$ 13,56 |
+| Notas Privadas | Comunicação interna entre agentes | R$ 13,56 |
+| Segmentos de Contato | Organize contatos em segmentos | R$ 13,56 |
+| Horário Comercial | Defina horário de trabalho e mensagem de indisponibilidade | R$ 13,56 |
+| Registros de Autoria | Rastreamento abrangente de atividades | R$ 13,56 |
+| Visualização ao vivo | Veja status de conversas e agentes em tempo real | R$ 13,56 |
+| Relatórios diversos | Relatórios de conversa, agente, rótulos, CSAT, etc. | R$ 13,56 |
+
+#### 14.4.4 EVAH Maestro - Componentes e Valores
+
+| Componente | Descrição | Valor |
+|------------|-----------|-------|
+| Fluxos (Workflows) personalizados | Criação de workflows personalizados no n8n | R$ 120,00 |
+
+#### 14.4.5 EVAH Hospedagem/Infraestrutura
+
+| Serviço | Descrição | Valor |
+|---------|-----------|-------|
+| Atendimento via canal WhatsApp (Evolution API - Hospedagem) | Hospedagem da Evolution API | R$ 82,20 |
+| Hospedagem Onpremise ERP | Hospedagem dedicada do ERP | R$ 82,20 |
+| Hospedagem Onpremise Omni | Hospedagem dedicada do Omni | R$ 82,20 |
+| Hospedagem Onpremise Maestro | Hospedagem dedicada do Maestro | R$ 82,20 |
+| Guidado - Atendimento guiado (Hospedagem Typebot) | Hospedagem do Typebot | R$ 82,20 |
+| Banco de dados (RDS) | Banco de dados gerenciado | R$ 100,00 |
+
+### 14.5 Plano de Implantação Detalhado
+
+#### 14.5.1 EVAH Assistant - Etapas de Implantação
+
+**1. API Integração com WhatsApp:**
+- Criar uma instância na AWS para implantar a EvolutionAPI
+- Configurar a instância (docker, swarm, portainer, traefik...)
+- Implantar a Stack via yml
+- Criar e registrar um subdomínio único para disponibilizar a API
+- Opção: Evolution API (gratuita) ou API oficial da Meta (exige número verificado + cobrança por conversa)
+
+**2. Integrações com Outros Canais:**
+- API Integração com Instagram
+- API Integração com Telegram (Gratuito)
+- API Integração com Facebook (Gratuito)
+- API Integração com WebChat
+
+**3. Configuração e Personalização:**
+- Configuração vinculada ao domínio do cliente (SSL e identidade visual personalizada)
+- Integração com API de inteligência Artificial (Custos variáveis)
+  - Conecta o Evah Assistant a serviços avançados de IA, como OpenAI (ChatGPT), Google Gemini, IBM Watson
+  - Permite geração contextual de respostas, análise de sentimentos, interpretação de dados estruturados e não estruturados
+- Integração com Google calendar
+- Integração com Google Drive
+- Implantação do Typebot (Atendimento guiado)
+- Integração com EVAH ERP para consulta de produtos
+  - Consulta e inserção de produtos, leads, dados financeiros e outros módulos via API do ERP EVAH
+  - Segurança, controle de acesso e logs para auditoria
+- Desenvolvimento de fluxos de negócio
+- Personalização do Assistente
+  - Personalização de acordo com a atividade comercial do cliente (imobiliária, escritórios de serviços e consultoria diversas, venda de automóveis)
+
+**4. Conversão e Transcrição de Mensagens:**
+- Processo automatizado para converter e transcrever diferentes formatos de mensagens recebidas
+- **Áudio para texto:** Reconhecimento automático da fala para transformar mensagens de voz em texto legível e pesquisável
+- **Texto para áudio:** Síntese de voz para transformar mensagens escritas em áudio
+- **Transcrição de PDFs:** Extração de texto de documentos PDF para consulta rápida
+- **Identificação e transcrição de imagens:** Uso de OCR (reconhecimento óptico de caracteres) para extrair texto de imagens
+
+#### 14.5.2 EVAH ERP - Etapas de Implantação
+
+- Instalação do Odoo: R$ 4.000,00
+- Implantação do Odoo
+- Treinamento
+
+#### 14.5.3 EVAH Code - Serviços Disponíveis
+
+- Criação de Componentes Exclusivos
+- Integrações com Sistemas Legados ou Proprietários
+- Extensão de Fluxos e Automações Complexas
+- Personalização de Interface e Experiência Conversacional
+- Criação de APIs Customizadas
+- Suporte a Projetos Especiais e Provas de Conceito
+- Gerenciamento de Ciclo de Vida do Código
+
+### 14.6 Requisitos Técnicos Detalhados (Backlog)
+
+#### 14.6.1 Funcionalidades Prioritárias para MVP
+
+**Ajustes e Melhorias Necessárias:**
+- Quando é mandado um texto em duas linhas, dá falha (interpreta errado)
+- Quando o cliente manda texto com "aspas" dá erro no agente de transcrição
+- Precisa ter ferramenta que faça tratamento da mensagem antes de passar para os agentes
+- Reorganizar os sub-agentes para atendimento
+- Configurar memória RAG na EVAH
+- Ajustar o Evah Assistant para apresentar o produto de forma intuitiva, com exemplos
+- Criar base de prompts para abastecimento
+- Configurar memória de contexto
+- Organizar e finalizar os agentes do assistente
+- Organizar o fluxo de atendimento guiado, para coleta de dados
+
+**Agentes Essenciais para MVP:**
+- Agente Transcrição de mensagens (texto ↔ áudio)
+- Agente CRM
+- Agente Calendar
+- Fluxo de atendimento guiado para coleta de dados
+
+#### 14.6.2 Requisitos de Adaptabilidade
+
+- O EVAH deve ser capaz de se adaptar à realidade do negócio do cliente
+- O EVAH deve ser capaz de através do CEP solicitado ao cliente, detectar a localização do cliente pelo Google Maps
+- O EVAH precisa ter integração com a base de dados do Odoo para consultar os produtos
+- O EVAH precisa ter um componente que mostre mais detalhes do produto (veículo, serviço)
+- O EVAH deve ser capaz de enviar mídias (áudio, imagem e vídeo) pelo WhatsApp
+- O EVAH deve permitir pagamentos por API Gateway de pagamento
+- O EVAH deve ser capaz de converter texto em áudio para os casos em que o cliente quiser receber um áudio pelo WhatsApp
+- O EVAH deve ser capaz de criar um lead, qualificar
+- O EVAH deve ser capaz de redirecionar o atendimento para humano quando necessário ou iniciar um atendimento pelo bot quando o atendimento humano estiver indisponível
+- O EVAH deve ser capaz de consultar as mídias dos produtos do Odoo
+- Fazer um Assistente específico para o logista (empresa) para que ele seja capaz de gerenciar áreas da empresa via agente
+
+---
+
+## 📞 15. CONTATO E INFORMAÇÕES
 
 **Dobem Tecnologia**  
 Ed. Vitta Office  
