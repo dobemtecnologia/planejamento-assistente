@@ -1096,36 +1096,64 @@ A Dobem Tecnologia utiliza uma stack de ferramentas open source consolidadas:
 - Responde a perguntas frequentes
 - Soluciona questões básicas de forma eficiente
 - Perfeito para suporte ao cliente
+- Reduz o tempo de espera e melhora a experiência do usuário
 
 **2. Chatbot Flow integrado**
 - Conecta-se diretamente às APIs e bases de dados da empresa
 - Consulta informações em tempo real
 - Responde sobre disponibilidade de produtos ou status de pedidos
 - Proporciona serviço ágil e personalizado
+- Traz respostas na hora, proporcionando um serviço ágil e personalizado
 
 **3. Chatbot IA Advance**
 - Atendimento personalizado com IA avançada
 - Treinado com a base de dados da empresa
 - Responde automaticamente às perguntas dos clientes
 - Proporciona soluções rápidas e precisas, 24 horas por dia
+- Maximiza a satisfação do cliente e otimiza processos
 
 **4. Chatbot Full**
 - Combina fluxo estruturado com inteligência de IA
 - Começa com fluxo estruturado para interações comuns
 - Usa IA para resolver consultas mais complexas
 - Garante atendimento completo e adaptado
+- Flexibilidade que garante um atendimento completo, adaptado às necessidades do cliente
+
+### 13.6 Apresentação Comercial do Prime Assistant
+
+**Proposta de Valor:**
+Está difícil gerenciar o atendimento ao cliente? Precisa de uma solução que realmente se adapte ao seu negócio? Conheça o **Prime Assistant** da **DOBEM Tecnologia**!
+
+Diferente de outras soluções, o **Prime Assistant** foi criado por especialistas para centralizar múltiplos canais de atendimento em um só lugar. Com ele, você pode atender pelo WhatsApp, Instagram, e-mail e muito mais, garantindo controle total do seu atendimento. Além disso, ele utiliza fluxos automatizados para atender seus clientes 24 horas por dia, 7 dias por semana.
+
+**Benefícios:**
+- **Agilidade**: respostas rápidas e sem espera para seus clientes
+- **Redução de custos**: otimização de equipe com foco no que realmente importa
+- **Alta disponibilidade**: atendimento contínuo em todos os canais
+- **Desenvolvimento sob medida**: nossa equipe adapta a solução às necessidades específicas do seu negócio
+
+**Criação de Fluxo de Negócio:**
+Crie um fluxo de negócio rapidamente com interações automatizadas nas plataformas WhatsApp, Telegram e Messenger.
+
+**Tarefas de Implementação:**
+- Colocar a oferta no site de forma convidativa
+- Fazer uma demonstração usando a Bira Veículos
+- Implantar no servidor
+
+**Serviços:**
+- Implantação de soluções
 
 ### 13.5 Funcionalidades do Prime Assistant
 
 1. Permite realizar múltiplos atendimentos com apenas 1 conta de WhatsApp
-2. Permite a interação de vários atendentes com o mesmo cliente
+2. Permite a interação de vários atendentes com o mesmo cliente, através de uma plataforma de gestão de atendentes
 3. Permite a gestão de cada cliente a partir de sua integração via CRM
-4. Permite atendimentos automatizados através de fluxos pré-definidos
-5. Permite a integração com base de dados de produtos/serviços
-6. Permite realizar atendimento por IA utilizando ChatGPT
-7. Permite salvar dados do cliente em base de dados da empresa
-8. Permite integrar com API da empresa para procedimentos específicos
-9. Permite combinação de todas as alternativas para atendimento eficiente
+4. Permite atendimentos automatizados, a partir de fluxos de atendimento pré-definidos
+5. Permite a integração com a base de dados de produtos e/ou serviços da empresa para fornecimento de informações mais precisas da empresa no momento do atendimento
+6. Permite realizar atendimento por IA, utilizando ChatGPT, ou outras IAs de mercado
+7. Permite salvar os dados do cliente ou do atendimento em uma base de dados da empresa
+8. Permite integrar com API da empresa (se houver) para realizar procedimentos específicos do negócio do cliente como: calcular preços de produtos, serviços ou gerar relatórios, ou até mesmo enviar emails para clientes, entre outras coisas
+9. Permite a combinação de todas as alternativas citadas para realizar um atendimento mais eficiente
 
 ---
 
@@ -1583,6 +1611,63 @@ Plataforma digital que oferece serviços mais fáceis, dinâmicos e acessíveis 
 
 #### ERP
 Sistema de gestão empresarial completo.
+
+---
+
+## 📋 17. CARACTERÍSTICAS DETALHADAS DO EVAH ASSISTANT
+
+### 17.1 Funcionalidades Principais Detalhadas
+
+#### Atendimento com IA
+- Conecta o Evah Assistant a serviços avançados de IA, como OpenAI (ChatGPT), Google Gemini, IBM Watson e outros
+- Permite geração contextual de respostas, análise de sentimentos, interpretação de dados estruturados e não estruturados
+- Automações dinâmicas e inteligentes
+
+#### Atendimento Guiado
+- Personalização de fluxos específicos no Typebot para coleta de informações
+- Preenchimento de agendas, validações e outras automações essenciais ao atendimento guiado
+
+#### Agendamentos via Google Calendar
+- Sincroniza e gerencia eventos no Google Calendar via API oficial Google
+- Permite criação, consulta e notificações via fluxos do Evah Assistant
+
+#### Gestão de arquivos via Google Drive
+- Permite que o Evah Assistant gerencie arquivos no Google Drive do cliente
+- Upload, download, organização e controle de permissões via API oficial Google Drive
+
+#### Consultas Web (Web Scraping)
+- Permite ao Evah Assistant extrair dados de páginas web em tempo real
+- Alimenta fluxos com informações externas, como preços, prazos, status ou disponibilidade de serviços
+
+#### Gestão Automática de Leads no CRM
+- **Criar automaticamente oportunidades de Lead no CRM:** Habilita o Evah Assistant a registrar novos leads diretamente no CRM do cliente com base em interações, formulários ou gatilhos específicos
+- **Atualizar automaticamente oportunidades de Lead no CRM:** Permite que o Evah Assistant altere dados de oportunidades existentes no CRM conforme novas informações são coletadas nos fluxos
+- **Promover automaticamente oportunidades de Lead no CRM:** Garante que o Evah Assistant avance automaticamente leads no funil de vendas do CRM, respeitando critérios pré-definidos de qualificação
+
+#### Processamento Multimídia
+- **Recebimento de mensagens em áudio:** Capacita o Evah Assistant a receber mensagens de voz enviadas pelos usuários em canais compatíveis, armazenando e processando o conteúdo
+- **Capacidade de identificar o conteúdo de imagens:** Permite que o Evah Assistant analise imagens enviadas por usuários, reconhecendo elementos visuais, textos ou padrões relevantes para o atendimento
+
+#### Inteligência e Contexto
+- **Redirecionamento para atendente humano quando necessário:** Garante que o Evah Assistant identifique contextos em que a interação requer intervenção humana e transfira o atendimento para um operador da equipe em tempo real
+- **Capacidade de identificar a intenção do usuário:** Quando o bot é capaz de saber se o usuário está querendo um produto ou serviço específico ou simplesmente está se apresentando
+- **Capacidade de manter contexto de conversação:** Garante que o Evah Assistant entenda e memorize informações fornecidas durante a conversa, mantendo coerência entre interações e personalizando o atendimento
+
+#### Integração com ERP
+- **Consulta produtos no estoque do ERP:** Permite que o Evah Assistant consulte em tempo real a disponibilidade de produtos no ERP do cliente, exibindo quantidade, localização e status do estoque
+- **Consulta detalhes de um produto selecionado pelo usuário:** Habilita o Evah Assistant a retornar informações específicas de um produto com base na seleção do usuário, como descrição, especificações técnicas, preços e variantes
+- **Exibe fotos de um produto:** Capacita o Evah Assistant a apresentar imagens associadas ao produto consultado, melhorando a experiência visual do atendimento
+
+#### Consultas Especializadas
+- **Consulta tabela FIPE do veículo:** Permite ao Evah Assistant retornar valores atualizados de veículos conforme a Tabela FIPE, útil para negociações, simulações e cotações automotivas
+
+#### Canais de Atendimento
+- **Atendimento via canal WhatsApp (Evolution API):** Integra o Evah Assistant ao WhatsApp usando a Evolution API, com suporte a mensagens, envio e recebimento de mídias e automações. É ágil para implantar, flexível e compatível com diferentes cenários de atendimento, utilizando provedores intermediários
+- **Atendimento via canal WhatsApp (Meta - API Oficial WhatsApp):** Conecta o Evah Assistant à API oficial do WhatsApp (Meta), mantendo os mesmos recursos de mensagens e mídias, mas com vantagens adicionais: conformidade total com as políticas do WhatsApp, acesso a recursos exclusivos liberados primeiro na API oficial e suporte direto via provedores autorizados. Ideal para operações que exigem alto nível de governança e relacionamento corporativo com a Meta
+- **Atendimento via canal Instagram:** Capacita o Evah Assistant a atender diretamente via mensagens do Instagram, respondendo a DMs, interações com stories e gatilhos de publicações
+- **Atendimento via canal Facebook Messenger:** Integra o Evah Assistant ao Messenger do Facebook via API oficial, permitindo envio e recebimento de mensagens, execução de fluxos automatizados e encaminhamento para atendente humano
+- **Atendimento via canal Telegram:** Integra o Evah Assistant ao Telegram via API oficial gratuita, permitindo envio e recebimento de mensagens, execução de fluxos automatizados e encaminhamento para atendente humano quando necessário
+- **Atendimento via canal WebChat (chat do site):** Integra o Evah Assistant a widgets de chat em sites (WebChat), permitindo conversas em tempo real com visitantes, execução de fluxos automatizados, coleta de dados e redirecionamento para atendentes humanos quando necessário
 
 ---
 

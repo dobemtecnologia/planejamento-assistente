@@ -169,6 +169,7 @@ Um **métre** (ou *maître d'hôtel*, em francês) é a figura central do salão
 - DSL criada pelo JHipster para modelar aplicações de forma declarativa
 - Permite descrever entidades, relacionamentos, DTOs, serviços em um único arquivo
 - Gera automaticamente classes, repositórios, APIs REST e front-end
+- Exemplo de uso: Modelagem de entidades como Empresa, Solução, Módulo, Componente, Custo, Plano
 
 **Terraform:**
 - Infraestrutura como código
@@ -176,11 +177,81 @@ Um **métre** (ou *maître d'hôtel*, em francês) é a figura central do salão
 - Gerenciamento de stacks Docker Swarm
 - Integração com Portainer para gerenciamento de containers
 
+**Comandos Terraform:**
+1. **Inicializar:** `terraform init` - Baixa provedores e prepara diretório
+2. **Verificar plano:** `terraform plan` - Mostra o que será criado/alterado/destruído
+3. **Aplicar:** `terraform apply` - Aplica configuração (ou `terraform apply -auto-approve` para aplicar sem confirmação)
+4. **Destruir:** `terraform destroy` - Remove toda infraestrutura criada
+
+**Recursos AWS com Terraform:**
+- VPC (Virtual Private Cloud)
+- Internet Gateway
+- Subnets públicas
+- Route Tables
+- Security Groups
+- ECS Cluster
+- ECS Task Definition
+- IAM Roles
+- CloudWatch Log Groups
+
 **Docker Swarm:**
 - Orquestração de containers
 - Stacks para Traefik, Portainer, n8n, Odoo, etc.
 - Rede isolada para serviços
 - Volumes persistentes para dados
+
+**JHipster - Deploy e Configuração:**
+
+**Deploy via GitHub Actions para AWS ECS:**
+- Build da aplicação com Maven + Jib
+- Push da imagem Docker para Amazon ECR
+- Deploy automático para ECS Fargate
+- Configuração de secrets via GitHub Environments
+
+**Configuração do Banco de Dados PostgreSQL:**
+```yaml
+spring:
+  datasource:
+    url: jdbc:postgresql://DB_HOST:5432/NOME_BANCO
+    username: USUARIO
+    password: SENHA
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none  # nunca use create-drop em produção
+```
+
+**Deploy como JAR Standalone:**
+```bash
+java -jar myapp-0.0.1-SNAPSHOT.war --spring.profiles.active=prod
+```
+
+**Rodar em Background:**
+```bash
+nohup java -jar myapp.war --spring.profiles.active=prod > myapp.log 2>&1 &
+```
+
+**Erro de Tradução JHipster:**
+- A tarja vermelha "translation-not-found" indica que o JHipster não encontrou tradução para algum texto da interface
+- Não impede a aplicação de rodar, apenas mostra alerta de tradução ausente
+- Geralmente relacionado a páginas ou barra lateral de navegação
+- Solução: Adicionar traduções faltantes nos arquivos de i18n
+
+**Deploy ECS:**
+```bash
+aws ecs update-service \
+  --cluster dobemtech-cluster \
+  --service dobemtech-service \
+  --force-new-deployment
+```
+
+**Cálculo de Mensalidade de Planos:**
+- Estrutura: Solução → Módulos → Componentes → Custos
+- Cada componente pode ter 1 a N custos (tabela intermediária: custo_componente)
+- Cálculo: Soma dos custos dos componentes + Soma dos custos dos módulos
+- Módulos podem ter custos baseados em quantidade (ex: licenças de usuários)
+- Planos podem ter percentual de acréscimo ou descontos
 
 ### Estimativas e Cálculos
 
@@ -195,6 +266,214 @@ Um **métre** (ou *maître d'hôtel*, em francês) é a figura central do salão
 - Soma dos custos dos módulos
 - Percentual de acréscimo do plano
 - Descontos por período de pagamento
+
+**Estrutura de Cálculo:**
+- **Entidades:** Solução → Módulos → Componentes → Custos
+- **Tabela intermediária:** custo_componente (relacionamento N:N entre Componente e Custo)
+- **Cálculo por plano:** Soma dos custos dos componentes + Soma dos custos dos módulos
+- **Custos variáveis por plano:** Quantidade de recursos muda entre planos (ex: 1.000, 10.000, 100.000 requisições)
+- **Custos de módulos:** Podem ser baseados em quantidade (ex: licenças de usuários = quantidade × custo_unitário)
+
+**Exemplo de Cálculo:**
+- Plano Básico: 1.000 requisições × custo por requisição
+- Plano Intermediário: 10.000 requisições × custo por requisição
+- Plano Avançado: 100.000 requisições × custo por requisição
+- Módulo com licenças: 10 licenças × R$ 100,00 = R$ 1.000,00/mês
+
+### Código e Snippets Técnicos
+
+**Terraform - Network Configuration:**
+```hcl
+resource "aws_vpc" "main" {
+  cidr_block = "10.0.0.0/16"
+}
+
+resource "aws_internet_gateway" "igw" {
+  vpc_id = aws_vpc.main.id
+}
+
+resource "aws_subnet" "public" {
+  vpc_id                  = aws_vpc.main.id
+  cidr_block              = "10.0.1.0/24"
+  map_public_ip_on_launch = true
+}
+
+resource "aws_route_table" "public" {
+  vpc_id = aws_vpc.main.id
+  route {
+    cidr_block = "0.0.0.0/0"
+    gateway_id = aws_internet_gateway.igw.id
+  }
+}
+
+resource "aws_security_group" "ecs_sg" {
+  vpc_id = aws_vpc.main.id
+  ingress {
+    from_port   = 8080
+    to_port     = 8080
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+  egress {
+    from_port   = 0
+    to_port     = 0
+    protocol    = "-1"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+}
+```
+
+**Terraform - ECS Configuration:**
+```hcl
+resource "aws_ecs_cluster" "main" {
+  name = "dobemtech-cluster"
+}
+
+resource "aws_iam_role" "ecs_task_execution" {
+  name = "ecsTaskExecutionRole"
+  assume_role_policy = jsonencode({
+    Version = "2012-10-17"
+    Statement = [{
+      Effect = "Allow"
+      Principal = { Service = "ecs-tasks.amazonaws.com" }
+      Action = "sts:AssumeRole"
+    }]
+  })
+}
+
+resource "aws_cloudwatch_log_group" "ecs" {
+  name              = "/ecs/dobemtech"
+  retention_in_days = 7
+}
+
+resource "aws_ecs_task_definition" "app" {
+  family                   = "dobemtech-task"
+  network_mode             = "awsvpc"
+  requires_compatibilities = ["FARGATE"]
+  cpu                      = "512"
+  memory                   = "1024"
+  execution_role_arn       = aws_iam_role.ecs_task_execution.arn
+  # ... outras configurações
+}
+```
+
+**GitHub Actions - Deploy para AWS ECS:**
+```yaml
+name: Deploy dobemtech to AWS ECS
+
+on:
+  push:
+    branches: ['main']
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: PROD_AWS
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Build Docker image
+        run: |
+          ./mvnw -Pprod clean verify jib:dockerBuild \
+            -Djib.to.image=api-gestao-plano-empresa:latest
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
+
+      - name: Build, tag, and push image to ECR
+        run: |
+          IMAGE_REPO="${{ steps.login-ecr.outputs.registry }}/api-gestao-plano-empresa:latest"
+          docker tag api-gestao-plano-empresa:latest $IMAGE_REPO
+          docker push $IMAGE_REPO
+
+      - name: Deploy to ECS
+        run: |
+          aws ecs update-service \
+            --cluster dobemtech-cluster \
+            --service dobemtech-service \
+            --force-new-deployment
+```
+
+**JHipster - Configuração Spring Boot:**
+```yaml
+spring:
+  datasource:
+    url: jdbc:postgresql://DB_HOST:5432/NOME_BANCO
+    username: USUARIO
+    password: SENHA
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none  # nunca use create-drop em produção
+```
+
+**JDL - Exemplo de Modelagem:**
+```jdl
+entity Empresa {
+  nome String
+  cnpj String
+}
+
+entity Solucao {
+  nome String
+  descricao String
+}
+
+entity Modulo {
+  nome String
+  descricao String
+}
+
+entity Componente {
+  nome String
+  tipo String
+}
+
+entity Custo {
+  nome String
+  valor Decimal
+  tipo String
+}
+
+relationship ManyToOne {
+  Solucao to Modulo
+  Modulo to Componente
+}
+
+relationship ManyToMany {
+  Componente to Custo
+}
+```
+
+### Notas e Observações Técnicas
+
+**Erro de Tradução JHipster:**
+- A tarja vermelha "translation-not-found" indica tradução ausente
+- Não impede a aplicação de rodar
+- Geralmente relacionado a páginas ou barra lateral de navegação
+- Solução: Adicionar traduções faltantes nos arquivos de i18n
+
+**Troubleshooting Terraform:**
+- Erro ao criar Internet Gateway: Verificar se VPC já existe
+- Erro ao criar Route Table: Verificar associação com subnet
+- Erro ao criar Security Group: Verificar regras de ingress/egress
 
 ---
 
