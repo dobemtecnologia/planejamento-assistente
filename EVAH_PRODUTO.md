@@ -442,7 +442,7 @@ O EVAH ERP é um módulo opcional de gestão administrativa, financeira e operac
 ##### **🔹 Fiscal e Documental**
 
 * Emissão de NF-e, NFC-e e boletos diretamente no sistema.  
-* Cálculo e gestão de impostos com exportação para contador.  
+* Cálculo e gestão de impostos com exportação.  
 * Armazenamento digital de documentos fiscais e contratuais.
 
 ##### **🔹 Integrações Nativas**
@@ -567,7 +567,7 @@ B1.8    Fabricação II (Licença)                                      Ordens d
 
                                 Componente                                                                              Descrição                                                          Tipo cobrança          Qual custo                            Custos               Valor custo            Req Ref
 B1.9    Inventário                                 Gerencie suas atividades de estoque e logística                                                                                                                                                                              R$ 1,23
-B1.10   Financeiro (Licença)                       Gerencie a contabilidade financeira e analítica                                                                                                                                                                              R$ 1,23
+B1.10   Financeiro (Licença)                       Gerencie o financeiro e analítico                                                                                                                                                                              R$ 1,23
 B1.11   Conhecimento                               Centralize, gerencie, compartilhe e amplie sua biblioteca de conhecimentos                                                                                                                                                   R$ 1,23
 B1.12   Compras                                    Pedidos de compra, licitações e acordos                                                                                                                                                                                      R$ 1,23
 B1.13   Ponto de Venda                             Interface de PDV fácil de usar para lojas e restaurantes                                                                                                                                                                     R$ 1,23

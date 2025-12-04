@@ -1995,7 +1995,7 @@ Isso significa que, mesmo que você tenha contribuído sobre salários maiores, 
 Se quiser saber **quanto você efetivamente receberá na aposentadoria**, o valor pode variar bastante conforme fatores como tempo de contribuição, média salarial e as regras específicas (como a Reforma da Previdência de 2019). Uma boa ideia é:
 
 1. Consultar o **Meu INSS** (site ou app).
-2. Usar simuladores disponíveis por lá ou em contabilidade especializada.
+2. Usar simuladores disponíveis por lá ou em serviços especializados.
 
 Quer que eu te ajude com isso também? 😊
 Calcule salário liquido do bruto 3000
@@ -2788,7 +2788,7 @@ Aqui estão os caminhos possíveis:
 ---
 
 ### 🔹 1. Usando Faturas Parceladas (nativo no Odoo)
-- No **Accounting (Contabilidade)** → crie uma **fatura** para o cliente.  
+- No **Accounting (Financeiro)** → crie uma **fatura** para o cliente.  
 - Em vez de definir um único vencimento, você pode:  
   - **Configurar condições de pagamento** com múltiplas parcelas (ex.: 30/60/90 dias).  
   - O Odoo gera automaticamente as linhas de pagamento na fatura.  
@@ -2820,7 +2820,7 @@ Exemplo: módulos como **Payment Installments** ou **POS Credit Sales**.
 ### 🔹 4. Crediário no **Ponto de Venda (POS)**
 Se for uso em loja:  
 - Existe módulo **POS Credit** que permite vender no PDV e lançar o valor como **crediário para pagamento futuro**.  
-- O cliente paga parcelas depois, controladas pelo módulo de **contabilidade**.  
+- O cliente paga parcelas depois, controladas pelo módulo financeiro.  
 
 ---
 

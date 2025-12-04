@@ -62,7 +62,7 @@ Com essas soluções, sua empresa estará pronta para atender qualquer demanda, 
 Tarefas: 
 
 * Colocar a oferta no site de forma convidativa   
-* Fazer uma demonstração usando a Dobem contabilidade, Bira veiculos   
+* Fazer uma demonstração usando a Bira veículos   
 * Implantar no servidor 
 
  Serviços 

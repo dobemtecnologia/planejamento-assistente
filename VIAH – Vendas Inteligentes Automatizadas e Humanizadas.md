@@ -301,7 +301,7 @@ O EVAH ERP é um módulo opcional de gestão administrativa, financeira e operac
 ##### **🔹 Fiscal e Documental**
 
 * Emissão de NF-e, NFC-e e boletos diretamente no sistema.  
-* Cálculo e gestão de impostos com exportação para contador.  
+* Cálculo e gestão de impostos com exportação.  
 * Armazenamento digital de documentos fiscais e contratuais.
 
 ##### **🔹 Integrações Nativas**

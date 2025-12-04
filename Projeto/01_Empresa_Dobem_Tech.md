@@ -147,7 +147,7 @@ A Dobem Tecnologia oferece:
 
 #### Gestão de Negócio (ERP)
 - **Vendas:** CRM, Vendas, Assinatura de Documentos
-- **Finanças:** Contabilidade, Faturamento
+- **Finanças:** Faturamento
 - **Inventário e Fabricação**
 - **Recursos Humanos:** Folha de Pagamento, Recrutamento, Avaliações
 - **Marketing:** Email Marketing, Automação, Eventos

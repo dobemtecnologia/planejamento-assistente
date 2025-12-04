@@ -49,7 +49,7 @@ CHATBOT                            ÁREADA
 DOBEM                              EMPRESA
 Automatização do                   Plataforma digital que
 atendimento ao                     oferece serviços
-cliente de forma                   contábeis mais fáceis,
+cliente de forma                   mais fáceis,
 interativa para que                dinâmicos e acessíveis
 ele possa ter a                    para pequenas e
 melhor experiência                 microempresas.

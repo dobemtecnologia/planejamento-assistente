@@ -1844,7 +1844,7 @@ Com essas soluções, sua empresa estará pronta para atender qualquer demanda, 
 Tarefas: 
 
 * Colocar a oferta no site de forma convidativa   
-* Fazer uma demonstração usando a Dobem contabilidade, Bira veiculos   
+* Fazer uma demonstração usando a Bira veículos   
 * Implantar no servidor 
 
  Serviços 
@@ -2059,7 +2059,6 @@ Objetivo Geral:  Oferecer soluções integradas para os clientes utilizando apli
     * **Vendas:** Gerencie cotações, pedidos e faturas.​  
     * **Assinatura de Documentos:** Assine documentos eletronicamente.​[Odoo](https://www.odoo.com/pt_BR/page/all-apps?utm_source=chatgpt.com)  
     * **Finanças:**  
-    * **Contabilidade:** Controle financeiro completo, incluindo contas a pagar e a receber.​  
     * **Faturamento:** Emita faturas e gerencie pagamentos.​  
     * **Inventário e Fabricação:**  
     * **Inventário:** Gerencie estoques e operações logísticas.​  
@@ -2162,7 +2161,6 @@ Objetivo Geral:  Oferecer soluções integradas para os clientes utilizando apli
     * **Vendas:** Gerencie cotações, pedidos e faturas.​  
     * **Assinatura de Documentos:** Assine documentos eletronicamente.​[Odoo](https://www.odoo.com/pt_BR/page/all-apps?utm_source=chatgpt.com)  
     * **Finanças:**  
-    * **Contabilidade:** Controle financeiro completo, incluindo contas a pagar e a receber.​  
     * **Faturamento:** Emita faturas e gerencie pagamentos.​  
     * **Inventário e Fabricação:**  
     * **Inventário:** Gerencie estoques e operações logísticas.​  
@@ -6099,7 +6097,7 @@ O EVAH ERP é um módulo opcional de gestão administrativa, financeira e operac
 ##### **🔹 Fiscal e Documental**
 
 * Emissão de NF-e, NFC-e e boletos diretamente no sistema.  
-* Cálculo e gestão de impostos com exportação para contador.  
+* Cálculo e gestão de impostos com exportação.  
 * Armazenamento digital de documentos fiscais e contratuais.
 
 ##### **🔹 Integrações Nativas**
@@ -6226,7 +6224,7 @@ B1.8    Fabricação II (Licença)                                      Ordens d
 
                                 Componente                                                                              Descrição                                                          Tipo cobrança          Qual custo                            Custos               Valor custo            Req Ref
 B1.9    Inventário                                 Gerencie suas atividades de estoque e logística                                                                                                                                                                              R$ 1,23
-B1.10   Financeiro (Licença)                       Gerencie a contabilidade financeira e analítica                                                                                                                                                                              R$ 1,23
+B1.10   Financeiro (Licença)                       Gerencie o financeiro e analítico                                                                                                                                                                              R$ 1,23
 B1.11   Conhecimento                               Centralize, gerencie, compartilhe e amplie sua biblioteca de conhecimentos                                                                                                                                                   R$ 1,23
 B1.12   Compras                                    Pedidos de compra, licitações e acordos                                                                                                                                                                                      R$ 1,23
 B1.13   Ponto de Venda                             Interface de PDV fácil de usar para lojas e restaurantes                                                                                                                                                                     R$ 1,23
@@ -8807,7 +8805,7 @@ Isso significa que, mesmo que você tenha contribuído sobre salários maiores, 
 Se quiser saber **quanto você efetivamente receberá na aposentadoria**, o valor pode variar bastante conforme fatores como tempo de contribuição, média salarial e as regras específicas (como a Reforma da Previdência de 2019). Uma boa ideia é:
 
 1. Consultar o **Meu INSS** (site ou app).
-2. Usar simuladores disponíveis por lá ou em contabilidade especializada.
+2. Usar simuladores disponíveis por lá ou em serviços especializados.
 
 Quer que eu te ajude com isso também? 😊
 Calcule salário liquido do bruto 3000
@@ -9600,7 +9598,7 @@ Aqui estão os caminhos possíveis:
 ---
 
 ### 🔹 1. Usando Faturas Parceladas (nativo no Odoo)
-- No **Accounting (Contabilidade)** → crie uma **fatura** para o cliente.  
+- No **Accounting (Financeiro)** → crie uma **fatura** para o cliente.  
 - Em vez de definir um único vencimento, você pode:  
   - **Configurar condições de pagamento** com múltiplas parcelas (ex.: 30/60/90 dias).  
   - O Odoo gera automaticamente as linhas de pagamento na fatura.  
@@ -9632,7 +9630,7 @@ Exemplo: módulos como **Payment Installments** ou **POS Credit Sales**.
 ### 🔹 4. Crediário no **Ponto de Venda (POS)**
 Se for uso em loja:  
 - Existe módulo **POS Credit** que permite vender no PDV e lançar o valor como **crediário para pagamento futuro**.  
-- O cliente paga parcelas depois, controladas pelo módulo de **contabilidade**.  
+- O cliente paga parcelas depois, controladas pelo módulo financeiro.  
 
 ---
 
@@ -13267,7 +13265,7 @@ Isso significa que, mesmo que você tenha contribuído sobre salários maiores, 
 Se quiser saber **quanto você efetivamente receberá na aposentadoria**, o valor pode variar bastante conforme fatores como tempo de contribuição, média salarial e as regras específicas (como a Reforma da Previdência de 2019). Uma boa ideia é:
 
 1. Consultar o **Meu INSS** (site ou app).
-2. Usar simuladores disponíveis por lá ou em contabilidade especializada.
+2. Usar simuladores disponíveis por lá ou em serviços especializados.
 
 Quer que eu te ajude com isso também? 😊
 Calcule salário liquido do bruto 3000
@@ -14060,7 +14058,7 @@ Aqui estão os caminhos possíveis:
 ---
 
 ### 🔹 1. Usando Faturas Parceladas (nativo no Odoo)
-- No **Accounting (Contabilidade)** → crie uma **fatura** para o cliente.  
+- No **Accounting (Financeiro)** → crie uma **fatura** para o cliente.  
 - Em vez de definir um único vencimento, você pode:  
   - **Configurar condições de pagamento** com múltiplas parcelas (ex.: 30/60/90 dias).  
   - O Odoo gera automaticamente as linhas de pagamento na fatura.  
@@ -14092,7 +14090,7 @@ Exemplo: módulos como **Payment Installments** ou **POS Credit Sales**.
 ### 🔹 4. Crediário no **Ponto de Venda (POS)**
 Se for uso em loja:  
 - Existe módulo **POS Credit** que permite vender no PDV e lançar o valor como **crediário para pagamento futuro**.  
-- O cliente paga parcelas depois, controladas pelo módulo de **contabilidade**.  
+- O cliente paga parcelas depois, controladas pelo módulo financeiro.  
 
 ---
 
