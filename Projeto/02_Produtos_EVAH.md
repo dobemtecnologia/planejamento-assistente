@@ -1422,7 +1422,171 @@ O funcionamento do **EVAH** é baseado em uma sequência inteligente de eventos 
 
 ---
 
-## 📞 15. CONTATO E INFORMAÇÕES
+## 📱 15. DESCRIÇÕES PARA SITE E MARKETING
+
+### 15.1 Descrição Principal do EVAH para Site
+
+**EVAH - Ecossistema de Valor Automatizado para Humanos**
+
+**EVAH** é a camada central de inteligência da plataforma **EVAH**.
+
+Vai além de uma assistente conversacional: integra módulos, conecta sistemas, automatiza fluxos e coordena operações em um ponto único entre **EVAH ERP**, automações e serviços externos. Consolida informações, organiza processos e antecipa necessidades. Em vez de substituir o operador humano, atua como suporte inteligente — acelerando rotinas e mantendo tudo alinhado para que o time foque no que realmente exige análise, decisão e relacionamento.
+
+### 15.2 Benefícios e Diferenciais para Apresentação
+
+#### Suporte ao cliente 24/7
+Conte com canais automatizados que funcionam 24/7 e uma equipe pronta para ajudar nos horários de atendimento. Assim, você nunca fica sem resposta.
+
+#### Experiência intuitiva e humanizada
+Interface simples, clara e agradável, pensada para que qualquer pessoa possa usar sem barreiras técnicas. Tecnologia acessível, eficiente e feita para pessoas.
+
+#### Personalização ao seu estilo
+Cada detalhe pode ser ajustado para refletir a identidade e a forma de trabalho da sua empresa, garantindo flexibilidade, controle e exclusividade.
+
+#### Confiabilidade que inspira confiança
+Garantimos estabilidade e alto desempenho contínuo, com mínima chance de interrupções e respostas rápidas. Sua operação segue firme, segura e previsível.
+
+#### Desempenho que impulsiona resultados
+Velocidade e eficiência para executar tarefas sem desperdício de recursos. Isso significa mais produtividade para sua equipe e maior satisfação para seus clientes.
+
+#### Crescimento sem limites
+Nossa plataforma acompanha a evolução do seu negócio. Novos processos, usuários e altos volumes de dados são absorvidos sem necessidade de substituições — sempre pronta para o próximo passo.
+
+### 15.3 Descrições Detalhadas dos Componentes para Site
+
+#### 15.3.1 Integração Multicanal
+
+A **EVAH** conecta-se de forma inteligente a múltiplos canais de comunicação — WhatsApp, Instagram, Facebook Messenger, Telegram e WebChat do site — garantindo que todas as interações sejam gerenciadas de maneira centralizada.
+
+- Centralização de mensagens de todos os canais
+- Execução de fluxos automatizados consistentes
+- Encaminhamento para atendentes humanos quando necessário
+- Integração com processos internos e automações do negócio
+
+A **EVAH** garante um atendimento integrado e consistente, entregando respostas rápidas e personalizadas em todos os canais.
+
+#### 15.3.2 Atendimento com IA
+
+O componente de Atendimento com IA conecta a **EVAH** a serviços de inteligência artificial de ponta, como OpenAI (ChatGPT), Google Gemini e IBM Watson. Ele possibilita gerar respostas contextuais, analisar sentimentos e interpretar dados estruturados ou não estruturados. Além disso, habilita automações dinâmicas que tornam a experiência mais fluida e inteligente.
+
+- Geração de respostas contextualizadas e naturais
+- Análise de sentimentos em tempo real
+- Interpretação de diferentes tipos de dados
+- Automação dinâmica de processos dentro da conversa
+
+Como resultado temos um atendimento inteligente, personalizado e eficiente, que eleva o nível da interação com seu cliente.
+
+#### 15.3.3 Atendimento Guiado
+
+Nessa modalidade **EVAH** conduz o cliente por fluxos personalizados, garantindo clareza e eficiência. Ele coleta informações, realiza validações, preenche agendas e executa automações essenciais ao atendimento. É excelente para formulários, fichas e coletas de informações de acordo com o seu negócio.
+
+- A **EVAH** adapta fluxos conversacionais conforme a necessidade da empresa
+- Coleta inteligente de dados em tempo real
+- Validações automatizadas durante a interação
+- Integração com agendas e processos internos
+
+Uma coleta de informações organizada e sem falhas, reduzindo retrabalho e acelerando processos essenciais do seu negócio.
+
+#### 15.3.4 Consultas via Web Scraping
+
+Nesse momento, **EVAH** acessa páginas externas e extrai dados em tempo real, trazendo informações atualizadas diretamente para a conversa. Ele pode coletar preços, prazos, status ou disponibilidade de serviços, enriquecendo o atendimento com dados externos confiáveis.
+
+- Extração de informações de sites e portais em tempo real
+- Apoio a consultas de preços, prazos, status e disponibilidade
+- Integração direta às automações do atendimento
+- Dados externos transformados em respostas imediatas
+
+Assim a **EVAH** garante que o cliente receba informações precisas e atualizadas, sem depender de buscas manuais.
+
+#### 15.3.5 Transcrições de Áudio para Texto
+
+Com este componente, a **EVAH** recebe mensagens de voz enviadas pelos usuários em canais compatíveis e as transforma em texto, permitindo que o conteúdo seja interpretado e processado dentro do atendimento.
+
+- Transcrição automática de áudios em texto
+- Compreensão do conteúdo para integração em fluxos e automações
+- Suporte a múltiplos canais de comunicação
+- Armazenamento seguro das mensagens para consultas futuras
+
+Transformando mensagens de voz em informações acionáveis, facilitando a interação e registro de dados sem depender de digitação manual.
+
+#### 15.3.6 Consultas na Tabela FIPE
+
+**EVAH** busca informações atualizadas diretamente da **Tabela FIPE**, oferecendo dados precisos para negociações, simulações e cotações automotivas.
+
+- Busca de preços atualizados de veículos
+- Suporte a consultas rápidas durante o atendimento
+- Integração com fluxos de vendas e negociações
+- Informação confiável para decisões comerciais
+
+Com isso, a **EVAH** garante que o cliente tenha acesso a dados precisos de veículos, agilizando simulações e cotações sem depender de buscas externas.
+
+#### 15.3.7 Agendamentos via Google Calendar
+
+O **EVAH** sincroniza e gerencia eventos diretamente no **Google Calendar**, permitindo criar compromissos, consultar horários e enviar notificações dentro dos fluxos de atendimento.
+
+- Criação de eventos de forma automática
+- Consulta rápida de horários disponíveis
+- Notificações integradas para clientes e equipe
+- Integração direta com fluxos de atendimento e processos internos
+
+Facilitando o gerenciamento de agendas, evitando conflitos e garantindo que compromissos importantes sejam registrados e acompanhados de forma eficiente.
+
+### 15.4 Descrições dos Módulos para Site
+
+#### 15.4.1 EVAH ERP
+
+**Toda a praticidade do EVAH ERP para total controle do seu negócio**
+
+O **EVAH ERP** é um módulo opcional de gestão administrativa, financeira e operacional. Totalmente integrado ao ecossistema EVAH, oferece funcionalidades robustas e modulares para empresas que não possuem ou desejam modernizar seu sistema atual.
+
+#### 15.4.2 EVAH Omni
+
+**O EVAH Omni integra seus canais para uma experiência de atendimento completa e eficiente**
+
+O **EVAH Omni** conecta sua empresa aos canais digitais e aos sistemas do ecossistema **EVAH** com comunicação fluida e sincronizada. Com suporte à API oficial do WhatsApp e à Evolution API, você centraliza atendimentos e otimiza processos em um único lugar. Baseado no Chatwoot, o **EVAH Omni** unifica conversas de WhatsApp, e-mail e outros canais, oferecendo histórico completo, automações, relatórios e colaboração em tempo real. E tudo isso pode ser integrado à nossa assistente **EVAH**, garantindo uma operação ainda mais ágil, inteligente e personalizada.
+
+#### 15.4.3 EVAH Maestro
+
+**Com o EVAH Maestro, automatize sua operação com inteligência e precisão**
+
+O **EVAH Maestro** é o núcleo de automações do ecossistema **EVAH**, permitindo criar, gerenciar e executar fluxos complexos que conectam múltiplos sistemas, canais e processos empresariais. Com design modular e escalável, automatiza sua operação com flexibilidade, agilidade e precisão, otimizando resultados e garantindo controle total.
+
+#### 15.4.4 Desenvolvimento de Software
+
+**Com Desenvolvimento de Software, sua operação recebe soluções sob medida e integrações feitas para o seu negócio.**
+
+Com **Desenvolvimento de Software**, podemos personalizar funcionalidades e até criar soluções completas, além de integrações com sistemas legados, automações e APIs sob medida. Essa camada estende o ecossistema **EVAH** e dá ao negócio a flexibilidade necessária para construir exatamente o que precisa.
+
+### 15.5 Proposta de Valor para Apresentação
+
+**Automatizar o atendimento ao cliente. Deixando sua equipe focar na sua atividade principal e nos seus produtos e serviços. Com uma ferramenta que se adapta ao seu negócio trazendo mais retorno para sua equipe de vendas.**
+
+#### Redução de Custos
+Um chatbot gera economia para sua empresa, diminuindo custos com atendimento via telefone, capital humano, criação e manutenção de apps, entre outras vantagens.
+
+#### Facilidade
+Sua comunicação se torna mais simples e direta, sempre de fácil alcance ao seu cliente.
+
+#### Agilidade
+Agilidade na comunicação da empresa com o cliente.
+
+#### 24/7
+ChatBot Responde as dúvidas rapidamente, 24 horas por dia, 7 dias por semana!
+
+### 15.6 Produtos Dobem - Resumo para Apresentação
+
+#### CHATBOT DOBEM
+Automatização do atendimento ao cliente de forma interativa para que ele possa ter a melhor experiência durante o atendimento.
+
+#### ÁREA DA EMPRESA
+Plataforma digital que oferece serviços mais fáceis, dinâmicos e acessíveis para pequenas e microempresas.
+
+#### ERP
+Sistema de gestão empresarial completo.
+
+---
+
+## 📞 16. CONTATO E INFORMAÇÕES
 
 **Dobem Tecnologia**  
 Ed. Vitta Office  
