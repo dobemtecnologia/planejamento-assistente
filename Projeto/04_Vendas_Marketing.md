@@ -29,19 +29,20 @@ Cada etapa possui suas ações específicas, ferramentas recomendadas e KPIs par
 
 - **Criação de Conteúdo e Presença nas Redes Sociais:**
   - Criação de conteúdos ricos (posts, vídeos, e-books, infográficos) com o Canva e Adobe Spark
-  - Postagens programadas com Buffer ou Hootsuite para presença consistente
-  - Conteúdo educativo em vídeo no YouTube explicando conceitos de automação
-  - Conteúdo de SEO otimizado usando SEMrush ou Ahrefs
+  - Esses conteúdos abordam as dores do público-alvo e oferecem insights sobre como a automação pode ser uma solução viável
+  - Postagens programadas com Buffer ou Hootsuite para garantir uma presença consistente e maximizar o alcance das mensagens nas redes sociais LinkedIn, Instagram e Facebook
+  - Investir em conteúdos educativos em vídeo, hospedados no YouTube, que podem explicar conceitos de automação, mostrando a Dobem como referência no setor
+  - **Conteúdo de SEO Otimizado:** Criar artigos e posts de blog com foco em SEO utilizando ferramentas como SEMrush ou Ahrefs para identificar palavras-chave relevantes. Esse conteúdo deve abordar problemas comuns que as PMEs enfrentam e como as soluções da Dobem podem resolvê-los, aumentando o tráfego orgânico ao site
 
 - **Anúncios Digitais e Remarketing:**
-  - Facebook Ads e LinkedIn Ads para campanhas direcionadas
-  - Google Ads (Pesquisa e Display) para leads com alta intenção de busca
-  - Campanhas de remarketing sequenciais conforme estágio do lead
+  - Facebook Ads e LinkedIn Ads para campanhas direcionadas. Utilizar técnicas de remarketing para reengajar visitantes do site que não converteram em leads, criando uma jornada que os leve de volta ao site
+  - Google Ads (Pesquisa e Display) para capturar leads com alta intenção de busca. Termos como "soluções de automação para PMEs" devem ser utilizados para atrair quem já está buscando por soluções específicas
+  - **Campanhas de Remarketing Sequenciais:** Criar campanhas de remarketing que apresentem conteúdos diferentes conforme o estágio do lead, levando em consideração o comportamento do usuário. Por exemplo, primeiro um vídeo educativo, depois um case de sucesso e, por fim, um convite para um webinar
 
 - **Captação de Leads e Materiais Gratuitos:**
-  - Typeform ou Google Forms para capturar informações em troca de materiais ricos
-  - Landing pages criadas com Unbounce ou Instapage
-  - Chatbot no site para qualificação automatizada
+  - Typeform ou Google Forms para capturar informações dos leads em troca de materiais ricos, como o e-book "5 Soluções Tecnológicas para Automatizar Sua PME"
+  - Landing pages criadas com Unbounce ou Instapage para maximizar as conversões dos anúncios. Essas landing pages são otimizadas para converter visitantes em leads com uma proposta clara e benefícios tangíveis
+  - **Chatbot no Site:** Implementar um chatbot, como o Intercom ou Drift, para qualificar leads de maneira automatizada e fornecer respostas rápidas, permitindo a coleta de informações iniciais dos leads e o redirecionamento para materiais relevantes
 
 **KPIs:**
 - Número de visitantes únicos no site
@@ -61,13 +62,15 @@ Cada etapa possui suas ações específicas, ferramentas recomendadas e KPIs par
   - Automação do acompanhamento inicial
 
 - **Nutrição de Leads e E-mails Personalizados:**
-  - Campanhas de e-mail automatizadas pelo HubSpot
-  - WhatsApp Business integrado ao CRM
-  - Nutrição dinâmica baseada no comportamento do lead
+  - Campanhas de e-mail automatizadas pelo HubSpot para nutrir leads com conteúdo segmentado
+  - Essas campanhas incluem estudos de caso, dicas práticas e convites para eventos como webinars
+  - WhatsApp Business integrado ao CRM para manter uma comunicação mais direta e personalizada, utilizando etiquetas para categorizar e priorizar leads qualificados
+  - **Nutrição Dinâmica Baseada no Comportamento:** Implementar uma estratégia de nutrição que reaja ao comportamento do lead. Por exemplo, se um lead abrir um e-mail sobre automação financeira, o próximo conteúdo enviado deve ser relacionado a esse tópico, reforçando o interesse específico do lead
 
-- **Webinars e Eventos Online:**
-  - Webinars educacionais sobre automação e eficiência
-  - Eventos virtuais para demonstrar valor das soluções
+- **Webinars e Demonstrações Interativas:**
+  - Utilização do Zoom ou WebinarJam para webinars periódicos focados em educar sobre os benefícios da automação e, ao mesmo tempo, capturar leads com maior propensão de compra
+  - Realizar demonstrações interativas ao vivo, onde os leads possam visualizar na prática como a solução da Dobem funciona e pode ser personalizada para suas necessidades
+  - **Vídeos Personalizados com Loom:** Enviar vídeos curtos e personalizados utilizando o Loom para mostrar ao lead como a solução da Dobem pode resolver especificamente suas necessidades, criando uma conexão mais direta e pessoal
 
 **KPIs:**
 - Taxa de abertura de e-mails
