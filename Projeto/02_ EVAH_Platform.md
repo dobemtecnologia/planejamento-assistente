@@ -11,9 +11,11 @@
 Vivemos um paradoxo: as empresas nunca tiveram tantas ferramentas à disposição, mas nunca foram tão improdutivas.
 
 Dados de mercado revelam um cenário alarmante para Pequenas e Médias Empresas (PMEs) que operam com sistemas isolados:
-* **Perda de Vendas:** 60% dos clientes desistem se não recebem resposta em até 1 hora.
-* **Desperdício Operacional:** Equipes gastam 60% do tempo em tarefas repetitivas e perdem 30% do dia apenas alternando entre ferramentas desconectadas.
-* **Cegueira Estratégica:** Sem CRM integrado, 79% dos leads se perdem no caminho, e decisões são tomadas "no escuro".
+
+* **Perda de Vendas:** 60% dos clientes desistem se não recebem resposta em até 1 hora.¹
+* **Desperdício Operacional:** Equipes gastam 60% do tempo em tarefas repetitivas e perdem 30% do dia apenas alternando entre ferramentas desconectadas.²
+* **Cegueira Estratégica:** Sem CRM integrado, 79% dos leads se perdem no caminho, e decisões são tomadas "no escuro".³
+* **Conversão:** Atrasar apenas 5 minutos na resposta reduz em 400% as chances de qualificar um lead.⁴
 
 O problema não é a falta de software. É a falta de **conexão**.
 
@@ -128,9 +130,9 @@ A EVAH se adapta a diferentes segmentos de negócio através de sua arquitetura 
 - Agendamento automático com vendedores
 
 **Resultados:**
-* 📈 **+40%** em agendamentos de visitas
-* ⚡ **-60%** no tempo médio de resposta
-* 🎯 Qualificação automática de 100% dos leads
+* 📈 **+40%** em agendamentos de visitas.
+* ⚡ **-60%** no tempo médio de resposta.
+* 🎯 **100%** de qualificação automática de leads.
 
 #### 🏠 Setor Imobiliário
 **Cenário:** Imobiliária recebia consultas por WhatsApp sobre imóveis, mas perdia oportunidades por demora na resposta.
@@ -142,9 +144,8 @@ A EVAH se adapta a diferentes segmentos de negócio através de sua arquitetura 
 - Integração com corretores via direcionamento inteligente
 
 **Resultados Esperados:**
-* 📞 **+200%** em leads qualificados
-* 🏡 **-50%** no tempo para primeira resposta
-* 💰 **+30%** em conversão de visitas
+* 📞 **+200%** em leads qualificados.
+* 💰 **+30%** em conversão de visitas.
 
 #### 🛍️ E-commerce e Varejo
 **Cenário:** Loja online precisava reduzir abandono de carrinho e melhorar atendimento pós-venda.
@@ -177,7 +178,7 @@ Implementação da **Evah Assistant** configurada como especialista automotiva.
 
 ---
 
-## 6. Diferenciais Competitivos (Por que EVAH?)
+## 6. Diferenciais Competitivos
 
 | Característica | Chatbots Comuns | Plataforma EVAH |
 | :--- | :--- | :--- |
@@ -189,41 +190,17 @@ Implementação da **Evah Assistant** configurada como especialista automotiva.
 
 ---
 
-## 7. Arquitetura Técnica e Tecnologias
+## 7. Arquitetura Técnica
 
-### Stack Tecnológico Completo
+A EVAH é construída sobre tecnologias consolidadas e open source, garantindo estabilidade, segurança e custo-efetividade.
 
-A EVAH é construída sobre tecnologias consolidadas e open source, garantindo estabilidade e custo-efetividade:
+* **Orquestração:** n8n, Typebot, Flowise.
+* **Inteligência Artificial:** OpenAI GPT-4, Google Gemini, Whisper API.
+* **Infraestrutura:** Docker Swarm/Kubernetes, PostgreSQL, AWS Cloud.
+* **Segurança:** Criptografia ponta-a-ponta, Bancos isolados, Conformidade LGPD.
 
-**🎼 Orquestração e Automação:**
-* **n8n:** Motor de workflows visuais para automação complexa
-* **Typebot:** Plataforma no-code para atendimento guiado
-* **Flowise:** Framework para construção de fluxos de IA
+> **[NOTA DE PRODUÇÃO: Inserir aqui diagrama visual profissional das camadas: Interface (Chat) → Inteligência (Assistant) → Orquestração (Maestro) → Backend (ERP/Omni)]**
 
-**🤖 Inteligência Artificial:**
-* **OpenAI GPT-4:** Processamento de linguagem natural avançado
-* **Google Gemini:** IA multimodal alternativa
-* **Whisper API:** Transcrição de áudio de alta precisão
-
-**🔗 Integrações e APIs:**
-* **Evolution API:** WhatsApp flexível e acessível
-* **Meta APIs:** WhatsApp oficial, Instagram, Messenger
-* **Google Workspace:** Calendar, Drive, Maps
-* **Odoo ERP:** CRM e gestão empresarial completa
-
-**☁️ Infraestrutura:**
-* **Docker Swarm/Kubernetes:** Orquestração containerizada
-* **PostgreSQL:** Banco de dados robusto e escalável
-* **MinIO/S3:** Armazenamento de arquivos seguro
-* **Node.js/Python:** Backends flexíveis e performáticos
-
-**🔍 Ferramentas de Extração:**
-* **Playwright/Puppeteer:** Web scraping headless
-* **Cheerio:** Parsing HTML eficiente
-
-### Arquitetura Modular em Camadas
-
-> **[NOTA DE PRODUÇÃO: Substituir este diagrama abaixo por uma versão visual profissional desenvolvida no Figma ou Canva para a versão final do PDF]**
 
 ```
 ┌─────────────────┐
@@ -243,64 +220,52 @@ A EVAH é construída sobre tecnologias consolidadas e open source, garantindo e
 └─────────────────┘
 ```
 
-### Segurança e Conformidade
-
-* **Criptografia:** Dados em trânsito e repouso com padrões bancários
-* **Isolamento:** Bancos de dados segregados por cliente
-* **Auditoria:** Logs detalhados de todas as interações para compliance
-* **Backup:** Estratégia multi-região com recuperação automática
-* **LGPD:** Conformidade total com regulamentação brasileira de dados
-
 ---
 
 ## 8. Investimento e ROI: Planos Estratégicos
-
-### Modelos de Contratação
 
 Nossa estrutura de preços foi desenhada para acompanhar o crescimento da sua empresa, eliminando custos surpresa e simplificando a gestão financeira.
 
 #### 🚀 Plano START
 *Ideal para pequenas empresas iniciando a automação do atendimento.*
-* **Evah Assistant:** Configuração Essencial
-* **Canais:** WhatsApp (1 número) + WebChat
-* **Omnichannel:** Acesso para até 3 atendentes
-* **Agentes Inclusos:** Transcrição de Áudio + Wiki Empresarial
-* **Suporte:** Horário Comercial
+* **Evah Assistant:** Configuração Essencial.
+* **Canais:** WhatsApp (1 número) + WebChat.
+* **Omnichannel:** Acesso para até 3 atendentes.
+* **Agentes:** Transcrição + Wiki Empresarial.
+* **Investimento Estimado:** A partir de **R$ 900,00 / mês**.
 
 #### 📈 Plano GROWTH
 *Para empresas em expansão que precisam de inteligência de vendas e CRM.*
-* **Evah Assistant:** Configuração Avançada (IA + Guiado)
-* **Canais:** WhatsApp, Instagram e Facebook
-* **Integração:** Conexão nativa com **EVAH ERP** e **CRM**
-* **Agentes Inclusos:** Todos do Start + **Agente CRM**, **Calendar** e **Qualificação de Leads**
-* **Suporte:** Prioritário 12/7
+* **Evah Assistant:** Configuração Avançada (IA + Guiado).
+* **Canais:** WhatsApp, Instagram e Facebook.
+* **Integração:** Conexão nativa com **EVAH ERP** e **CRM**.
+* **Agentes:** Todos do Start + **Agente CRM** e **Calendar**.
+* **Investimento Estimado:** A partir de **R$ 1.500,00 / mês**.
 
 #### 🏢 Plano SCALE (Enterprise)
-*Para operações robustas que exigem personalização total e alto volume.*
-* **Evah Assistant:** Full Custom (Treinamento dedicado)
-* **Canais:** Ilimitados (Múltiplos números)
-* **Orquestração:** Acesso ao **EVAH Maestro** para automações complexas
-* **Agentes Inclusos:** Todos + **Gateway de Pagamento**, **Web Scraping** e **Direcionamento Inteligente**
-* **Infraestrutura:** Servidor Dedicado e Banco de Dados Isolado
-* **Suporte:** Gerente de Conta Dedicado
-
-> *Consulte nossa equipe comercial para valores detalhados de setup e mensalidade de cada plano.*
-
-### Cálculo de ROI Típico
-
-**Cenário:** Empresa de médio porte (50 funcionários) com atendimento atual custando R$ 15.000/mês.
-
-**Investimento EVAH (Estimado):** R$ 2.500/mês
-**Economia Projetada:**
-- **Redução de equipe:** R$ 8.000/mês (40% das tarefas automatizadas)
-- **Aumento de vendas:** R$ 12.000/mês (+25% conversão por resposta rápida)
-- **Redução de perdas:** R$ 3.000/mês (leads não perdidos)
-
-**Resultado:** **ROI de 920% no primeiro ano** | Payback em **30 dias**
+*Para operações robustas que exigem personalização total.*
+* **Evah Assistant:** Full Custom (Treinamento dedicado).
+* **Canais:** Ilimitados (Múltiplos números).
+* **Orquestração:** **EVAH Maestro** para automações complexas.
+* **Agentes:** Todos + **Gateway Pagamento** e **Web Scraping**.
+* **Investimento:** **Sob Consulta** (Projeto Personalizado).
 
 ---
 
-## 9. Conclusão
+## 9. Cálculo de ROI e Viabilidade
+
+**Cenário Típico:** Empresa de médio porte (50 funcionários).
+**Investimento EVAH:** ~R$ 2.500/mês.
+
+**Economia Projetada:**
+* **Redução de Custo Operacional:** R$ 8.000/mês (Automação de tarefas repetitivas).
+* **Recuperação de Vendas:** R$ 12.000/mês (Conversão imediata de leads).
+* **Payback:** Menor que **30 dias**.
+* **ROI Anual:** Superior a **900%**.
+
+---
+
+## 10. Conclusão
 
 A **EVAH** democratiza a tecnologia de elite.
 Entregamos para pequenas e médias empresas o poder de automação que antes era restrito a gigantes corporativos.
@@ -312,30 +277,31 @@ Não vendemos software. Vendemos **tempo**, **eficiência** e **crescimento**.
 
 ---
 
-## 10. Próximos Passos e Garantias
+## 11. Próximos Passos e Garantia Total
 
-### Nossa Garantia
-* **Setup Garantido:** Se não funcionar em 30 dias, devolvemos o investimento.
-* **SLA Empresarial:** 99,9% de disponibilidade garantida.
+### 🛡️ Nossa Garantia de Risco Zero
+* **30 Dias de Teste:** Se a solução não trouxer eficiência, devolvemos 100% do valor do setup.
+* **SLA 99,9%:** Disponibilidade garantida em contrato.
 * **Suporte Dedicado:** Equipe técnica especializada pronta para atender.
+
+### 🎯 Pronto para transformar sua operação?
+Não deixe mais 60% dos seus clientes desistirem por falta de resposta.
 
 ### Como Começar
 1. **Diagnóstico Gratuito:** Avaliação da sua operação atual.
 2. **Prova de Conceito:** Teste prático do impacto na sua empresa.
 3. **Setup Completo:** Sua operação automatizada em semanas.
 
-### Fale Conosco
 **Agende uma demonstração gratuita hoje mesmo:**
 
 📱 **WhatsApp:** +55 91 98353-8941
 📧 **E-mail:** [email protected]
 🌐 **Site:** www.dobemtecnologia.com
-
 📍 **Endereço:** Ed. Vitta Office - Av. Rômulo Maiorana, 700 - Marco, Belém - PA
 
 ---
-**Referências de Mercado:**
-* *Zendesk: Relatório de Tendências da Experiência do Cliente.*
-* *Harvard Business Review (HBR): The Short Life of Online Leads.*
-* *McKinsey & Company: The social economy: Unlocking value and productivity through social technologies.*
-* *Salesforce: State of the Connected Customer.*
+**Referências Bibliográficas:**
+¹ *Zendesk: Relatório de Tendências da Experiência do Cliente.*
+² *McKinsey & Company: The social economy: Unlocking value and productivity through social technologies.*
+³ *HubSpot: Marketing Statistics and Trends.*
+⁴ *Harvard Business Review (HBR): The Short Life of Online Leads.*
