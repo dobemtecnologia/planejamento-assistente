@@ -1731,6 +1731,129 @@ Conforme escalar, ampliar:
 
 ---
 
+## 🎯 MODELO DE NEGÓCIO: VERTICAL AI (Análise dos Fluxogramas Miro)
+
+### Definição Estratégica
+
+A Dobem Tecnologia adota um **modelo de negócio Vertical AI**, que representa uma mudança fundamental de paradigma:
+
+**Não é SaaS tradicional:**
+- ❌ Não vende software como serviço genérico
+- ✅ Vende **fluxos de otimização de operação** especializados
+
+**Diferencial:**
+- Especialização em nichos específicos de mercado
+- Uso de Inteligência Artificial para automatizar processos únicos de cada setor
+- Adaptação a qualquer negócio, mas com profundidade vertical
+
+### Aplicação Prática: Caso Bira Veículos
+
+**O Problema:**
+No fluxo de operação de uma concessionária, existem várias tarefas repetitivas que são feitas por humanos porque não existe software capaz de atender aquela demanda específica.
+
+**A Solução:**
+Uma IA pode ser treinada para executar essas atividades, dividindo em pequenos agentes especializados que se integram para atender totalmente a demanda.
+
+**Exemplo Concreto:**
+- Extração de dados de uma carteira de habilitação
+- Salvar no banco de dados
+- Utilizar para formalizar contrato
+- Utilizar para financiamento
+- Utilizar para transferência do veículo
+
+**Requisito Fundamental:**
+Criar um fluxo de operação bem definido, onde a tarefa passa a ser previsível → logo mais possível de ser desenvolvida por uma IA.
+
+### Estratégia de Venda
+
+**Abordagem:**
+- Criar várias soluções integradas utilizando IA
+- Esse conjunto forma uma solução em um nicho específico de mercado
+- As possibilidades são infinitas
+
+**Valor Proposto:**
+"Fluxos de otimização de operação" ao invés de "software"
+
+### Diferenciação Estratégica
+
+**1. Vertical AI vs. SaaS Horizontal:**
+- **Concorrentes tradicionais:** Oferecem soluções genéricas (chatbot, CRM, ERP)
+- **Dobem:** Oferece **fluxos de otimização** especializados por setor
+- **Vantagem:** Profundidade > Amplitude
+
+**2. Personalização Profunda:**
+- Não é "configuração" de software
+- É **criação de agentes especializados** para processos únicos do cliente
+- Cada cliente recebe uma solução adaptada ao seu negócio
+
+**3. Ecossistema vs. Produto:**
+- Não vende produtos isolados
+- Vende **ecossistemas integrados** (ERP + Assistente + Automação + Atendimento)
+- Valor agregado muito maior
+
+### Proposta de Valor Única
+
+**Para o Cliente:**
+- "Não vendemos software, vendemos otimização de operação"
+- "Automatizamos processos que só humanos faziam"
+- "Criamos agentes especializados para seu negócio"
+
+**Diferencial:**
+- Entendimento profundo do negócio do cliente
+- Mapeamento completo de processos
+- Automação de tarefas que pareciam impossíveis de automatizar
+
+---
+
+## 💰 ANÁLISE DE PREÇOS E ESTRUTURA COMERCIAL (Fluxogramas Miro)
+
+### Kits de Produtos
+
+**Estratégia Identificada:**
+- **KIT SETUP STARTUP:** R$ 3.000,00
+- **KIT VENDA ATENDIMENTO:** R$ 3.000,00
+- **KIT SETUP PET:** R$ 3.000,00
+
+**Análise:**
+- **Preço de entrada:** R$ 3.000 é acessível para PMEs
+- **Pacotes temáticos:** Por setor/necessidade
+- **Valor percebido:** "Kit completo" soa melhor que "serviços avulsos"
+
+### Estrutura de Preços Modular
+
+**Componentes Identificados:**
+- OpenAI: Custo variável (uso)
+- Zepli: Custo variável
+- Licença Odoo: Custo variável
+- Número de workflows: Custo variável
+- Número de assistentes IA: Custo variável
+
+**Análise:**
+- **Modelo híbrido:** Setup fixo + uso variável
+- **Escalabilidade:** Cliente paga conforme cresce
+- **Transparência:** Custo por componente
+- **Flexibilidade:** Cliente escolhe o que precisa
+
+### Cálculo Dinâmico de Planos
+
+**Fluxo Identificado:**
+```
+Evolution API (recebe dados do cliente)
+    ↓
+JHIPSTER (sistema de cálculo)
+    ↓
+Cálculo de plano personalizado
+    ↓
+Retorna valores do plano
+```
+
+**Análise:**
+- **Personalização:** Plano calculado dinamicamente
+- **Automação:** Cálculo automático baseado em necessidades
+- **Transparência:** Cliente vê exatamente o que está pagando
+
+---
+
 *Documento consolidado sobre modelo de negócio e estratégia*
 *Última atualização: Dezembro 2025*
 *Versão: 3.0 - Estratégico*

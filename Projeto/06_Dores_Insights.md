@@ -11,6 +11,44 @@
 
 ## 🚨 Problemas Resolvidos
 
+### Dores do Cliente Mapeadas (Análise dos Fluxogramas Miro)
+
+#### Problemas Operacionais Identificados
+
+**1. Falta de Visibilidade:**
+- Empresas não sabem como vendedores se relacionam com clientes
+- Não sabem se vendedores passam valores da empresa
+- Não sabem se vendedor está atendendo bem
+
+**2. Falta de Histórico:**
+- Histórico de negociações fica com o vendedor
+- Perda de informações importantes
+- Dificuldade em resgatar oportunidades perdidas
+
+**3. Falta de Gestão:**
+- Sem gestão de atendimento centralizada
+- Sem CRM para gerenciar oportunidades
+- Sem gestão de funil automatizada
+
+**4. Falta de Métricas:**
+- Não sabe quais campanhas convertem mais
+- Decisões sem base de dados
+- Sem controle automático de leads
+
+#### Oportunidade de Mercado
+
+**Conclusão:**
+As empresas não precisam apenas de "um chatbot" ou "um CRM". Elas precisam de:
+- **Visibilidade** sobre o que acontece no atendimento
+- **Histórico** de todas as interações
+- **Automação** de processos repetitivos
+- **Métricas** para tomar decisões
+- **Controle** sobre leads e oportunidades
+
+**A Dobem resolve isso com um ecossistema integrado.**
+
+---
+
 ### Dores Resolvidas pelo Evah Assistant
 
 #### Problemas Operacionais

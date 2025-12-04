@@ -608,5 +608,108 @@ Evah Assistant, apresentado aos clientes como **BiraBot**, é um assistente virt
 
 ---
 
+## 🔄 FLUXOS OPERACIONAIS COMPLETOS - CASO BIRA VEÍCULOS
+
+### Mapeamento Completo do Processo
+
+A análise dos fluxogramas Miro revela um **mapeamento completo do processo de negócio** de uma concessionária, dividido em 4 quadros principais:
+
+#### **QUADRO 1: Plataforma (Cegonha) - Preparação de Veículos**
+
+**Processo Mapeado:**
+- Revisão mecânica
+- Pintura veicular
+- Martelinho de ouro
+- Lavagem
+- Polimento
+- Entrada no sistema (Autoconfiguração)
+
+**Insight de Negócio:**
+A Dobem não apenas automatiza atendimento, mas **mapeia processos completos** do cliente para criar automações end-to-end.
+
+#### **QUADRO 2: Compra - Pré-compra, Avaliação e Precificação**
+
+**Fluxo Detalhado:**
+
+1. **Solicitação de avaliação:**
+   - Verificação: Tem chave reserva?
+   - Coleta de dados: Nome, telefone, CRLV, manual e chave
+   - Lançamento no custo do carro
+   - Identificação dos custos do veículo
+
+2. **Tipo de operação:**
+   - Carro novo: SIM → Troca ou Compra
+
+**Insight de Negócio:**
+O sistema precisa entender **lógica de negócio complexa** do cliente, não apenas responder perguntas.
+
+#### **QUADRO 3: Captura de Mídia, Anúncios, Leads e Pré-atendimento**
+
+**Processos:**
+- Captura de mídia do carro
+- Anúncios
+- Captura de Lead
+- Pré-atendimento
+
+**Insight de Negócio:**
+A Dobem automatiza desde a **captura inicial** até o **pré-atendimento**, criando um funil completo.
+
+#### **QUADRO 4: Venda na Loja - Processo Completo de Venda**
+
+**Fluxo Completo Identificado:**
+
+**Fase 1: Análise e Simulação**
+- Faz análise em todos os bancos
+- Simulação de taxa
+- Avaliar potencial de financiamento do cliente
+
+**Fase 2: Negociação**
+- Atendimento
+- Somente em 5 ou mais (regra de negócio)
+- Verifica se tem carro na troca
+- Avalia o valor do carro
+
+**Fase 3: Financiamento Aprovado**
+- **SIM:**
+  - Realiza pagamento da transferência
+  - Assina recibo
+  - Assina doc de procuração para funcionamento
+  - Assina checklist de entrega
+  - Realiza entrega do carro
+- **NÃO:**
+  - Verifica se caiu na conta
+  - Transferência da entrada (Priscila - pessoa específica)
+  - Recebimento dos docs
+  - Docs pendentes
+
+**Análise Estratégica:**
+Este fluxo mostra que a Dobem não está apenas criando um chatbot, mas **automatizando processos complexos de negócio** que envolvem:
+- Múltiplas etapas
+- Decisões condicionais
+- Integração com sistemas externos (bancos)
+- Gestão de documentos
+- Rastreamento de status
+- Pessoas específicas (Priscila)
+
+### Aplicação Prática: Caso Bira Veículos
+
+**O Problema:**
+No fluxo de operação de uma concessionária, existem várias tarefas repetitivas que são feitas por humanos porque não existe software capaz de atender aquela demanda específica.
+
+**A Solução:**
+Uma IA pode ser treinada para executar essas atividades, dividindo em pequenos agentes especializados que se integram para atender totalmente a demanda.
+
+**Exemplo Concreto:**
+- Extração de dados de uma carteira de habilitação
+- Salvar no banco de dados
+- Utilizar para formalizar contrato
+- Utilizar para financiamento
+- Utilizar para transferência do veículo
+
+**Requisito Fundamental:**
+Criar um fluxo de operação bem definido, onde a tarefa passa a ser previsível → logo mais possível de ser desenvolvida por uma IA.
+
+---
+
 *Documento consolidado de documentação técnica*
 *Última atualização: Dezembro 2025*

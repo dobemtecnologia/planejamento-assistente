@@ -138,6 +138,47 @@ Enviar notificação (email, SMS)
 - **Integração:** Google Calendar nativo
 - **Notificações:** Múltiplos canais
 
+### Fluxo de Captura e Qualificação de Lead
+
+**Fluxo Identificado:**
+```
+Mensagem recebida
+    ↓
+Identificar origem do Lead (WhatsApp, Instagram, etc.)
+    ↓
+Salvar Lead no CRM (Odoo)
+    ↓
+Verificar se contato já existe
+    ↓
+Atribuir lead?
+    ├─ SIM → Qualificar no CRM
+    └─ NÃO → Criar oportunidade no Odoo
+```
+
+**Análise:**
+- **Rastreamento:** Origem do lead é sempre registrada
+- **Inteligência:** Evita duplicação de contatos
+- **Automação:** Criação automática de oportunidades
+- **Integração:** Direta com CRM
+
+### Fluxo de Agendamento
+
+**Fluxo Identificado:**
+```
+Agente Orquestrador
+    ↓
+Agente verifica disponibilidade (Google Calendar)
+    ↓
+Agente cria evento
+    ↓
+Enviar notificação (email, SMS)
+```
+
+**Análise:**
+- **Automação completa:** Do pedido à confirmação
+- **Integração:** Google Calendar nativo
+- **Notificações:** Múltiplos canais
+
 ### Fluxos Operacionais Completos - Caso Bira Veículos
 
 #### QUADRO 1: Plataforma (Cegonha) - Preparação de Veículos
@@ -707,9 +748,9 @@ As empresas não precisam apenas de "um chatbot" ou "um CRM". Elas precisam de:
 ### Infraestrutura Cloud
 
 **Serviços AWS:**
-- EC2 (servidores virtuais)
+- EC2 (servidores virtuais) - Large
 - ECS (containers)
-- RDS (banco de dados)
+- RDS (banco de dados) - PostgreSQL
 - S3 (armazenamento)
 
 **Orquestração:**
@@ -723,19 +764,45 @@ As empresas não precisam apenas de "um chatbot" ou "um CRM". Elas precisam de:
 - Logs centralizados
 - Alertas automáticos
 
+**Stack Tecnológico Identificado:**
+- AWS EC2 (Large)
+- Docker Swarm
+- Traefik (Proxy reverso)
+- Portainer (Gerenciamento)
+- REDIS (Cache e filas)
+- PostgreSQL (RDS)
+
+**Conclusão:**
+Stack moderna, escalável e baseada em containers. Permite:
+- Deploy rápido
+- Escalabilidade horizontal
+- Isolamento de recursos
+- Facilidade de manutenção
+
 ### Modelos de Hospedagem
 
-**SaaS (Compartilhado):**
-- Infraestrutura gerenciada pela Dobem
-- Custo fixo mensal
-- Escalabilidade automática
-- Manutenção incluída
-
-**Onpremise (Dedicado):**
-- Infraestrutura dedicada ao cliente
+**Modelo 1: Servidor Dedicado (Onpremisse)**
+- Cada empresa tem seu próprio servidor
+- Isolamento total
 - Maior controle e segurança
+- Custo mais alto
 - Customização avançada
 - Custo variável conforme recursos
+
+**Modelo 2: Servidor Compartilhado (SaaS)**
+- Múltiplas empresas compartilham infraestrutura
+- Odoo compartilhado
+- Modelo multi-tenant
+- Custo mais baixo
+- Escalabilidade automática
+- Manutenção incluída
+- Custo fixo mensal
+
+**Análise Estratégica:**
+A Dobem oferece **flexibilidade** ao cliente:
+- Pequenas empresas: SaaS (menor custo)
+- Grandes empresas: Onpremisse (maior controle)
+- Permite migração conforme crescimento
 
 ---
 
