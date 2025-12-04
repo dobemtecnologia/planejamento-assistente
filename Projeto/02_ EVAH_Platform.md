@@ -76,41 +76,35 @@ A **Evah Assistant** atua como uma funcionária digital incansável, capaz de:
     * **Gestão de CRM:** Cria, qualifica e move cards de leads no funil de vendas automaticamente.
 
 3.  **Processamento Multimídia Avançado:**
-    * **Transcrição de Áudio:** Converte mensagens de voz em texto automaticamente usando tecnologias como Whisper API, facilitando atendimento sem digitação manual.
-    * **Análise de Imagens:** Identifica conteúdo visual, extrai texto via OCR, reconhece produtos e consulta banco de dados para sugestões similares.
-    * **Processamento de PDFs:** Extrai informações de documentos para integração direta nos fluxos de atendimento.
-    * **Conversão Texto-Áudio:** Transforma mensagens escritas em áudio para envio via WhatsApp, ampliando acessibilidade.
+    * **Transcrição de Áudio:** Converte mensagens de voz em texto automaticamente usando tecnologias como Whisper API.
+    * **Análise de Imagens:** Identifica conteúdo visual, extrai texto via OCR e reconhece produtos.
+    * **Processamento de PDFs:** Extrai informações de documentos para integração direta nos fluxos.
 
 4.  **Integrações Especializadas:**
-    * **Consulta Tabela FIPE:** Acesso direto a dados atualizados para negociações automotivas precisas.
-    * **Web Scraping Inteligente:** Extrai preços, status e informações de sites externos em tempo real para enriquecer o atendimento.
-    * **Gateway de Pagamento:** Processa transações dentro da conversa, com suporte a Pix, cartão, boleto e integrações bancárias.
-    * **Cálculo de Financiamento:** Simula condições de pagamento com regras personalizadas por instituição financeira.
+    * **Gateway de Pagamento:** Processa transações dentro da conversa (Pix, cartão, boleto).
+    * **Cálculo de Financiamento:** Simula condições de pagamento com regras personalizadas.
+    * **Dados Externos:** Consulta Tabela FIPE e sites externos em tempo real.
 
 ---
 
-## 4. Agentes Especializados: Capacidades Modulares Avançadas
+## 4. Agentes Especializados: Capacidades Modulares
 
 A Evah Assistant conta com **15+ agentes especializados** que podem ser ativados conforme a necessidade do negócio, garantindo flexibilidade e escalabilidade:
 
 ### Agentes de Gestão e Qualificação
-* **Agente CRM:** Cria leads automaticamente, qualifica por prioridade (Quente/Morno/Frio), enriquece dados e move no funil de vendas.
-* **Agente Calendar:** Gerencia agendas no Google Calendar, evita conflitos e envia lembretes automáticos.
-* **Agente Qualificar Lead:** Classifica leads por interesse e potencial automaticamente.
+* **Agente CRM:** Cria leads automaticamente, qualifica por prioridade (Quente/Morno/Frio) e move no funil.
+* **Agente Calendar:** Gerencia agendas no Google Calendar e envia lembretes.
+* **Agente Qualificar Lead:** Classifica leads por interesse e potencial.
 
 ### Agentes de Consulta e Inteligência
-* **Agente Consulta SQL Odoo:** Acessa dados do ERP em tempo real para verificar estoque, pedidos e informações de clientes.
-* **Agente Detalhes do Produto:** Apresenta especificações técnicas, preços, variantes e mídias dos produtos.
-* **Agente Wiki Empresarial:** Responde baseado na base de conhecimento institucional da empresa.
+* **Agente Consulta SQL Odoo:** Acessa dados do ERP em tempo real (estoque/pedidos).
+* **Agente Detalhes do Produto:** Apresenta especificações, preços e mídias.
+* **Agente Wiki Empresarial:** Responde baseado na base de conhecimento institucional.
 
 ### Agentes de Automação Avançada
-* **Agente Transcrição (Texto ↔ Áudio):** Converte mensagens entre formatos para máxima acessibilidade.
-* **Agente Web Scraping:** Extrai dados externos para consultas de preços, anúncios e comparações.
-* **Agente Gateway de Pagamento:** Processa transações seguras dentro do fluxo conversacional.
-
-### Agentes de Distribuição Inteligente
-* **Agente Direcionamento para Atendentes:** Rotaciona leads entre vendedores por ordem programada, garantindo distribuição equitativa.
-* **Agente Assistente Corporativo:** Permite que empresas gerenciem áreas próprias via assistente inteligente.
+* **Agente Transcrição (Texto ↔ Áudio):** Máxima acessibilidade.
+* **Agente Web Scraping:** Extração de dados externos para comparação.
+* **Agente Gateway de Pagamento:** Vendas seguras no chat.
 
 ---
 
@@ -118,63 +112,29 @@ A Evah Assistant conta com **15+ agentes especializados** que podem ser ativados
 
 ### Casos de Uso por Setor
 
-A EVAH se adapta a diferentes segmentos de negócio através de sua arquitetura modular:
-
 #### 🚗 Setor Automotivo (Bira Veículos)
-**Cenário:** Concessionária precisava atender leads 24/7 e qualificar prospects automaticamente.
-
-**Solução Implementada:**
-- Evah Assistant especializada em vendas automotivas
-- Agente de consulta FIPE integrado
-- Web scraping para avaliação de usados na troca
-- Agendamento automático com vendedores
-
+**Cenário:** Concessionária precisava atender leads 24/7 e qualificar prospects.
+**Solução:** Evah Assistant especializada + Consulta FIPE + Web Scraping de usados.
 **Resultados:**
 * 📈 **+40%** em agendamentos de visitas.
 * ⚡ **-60%** no tempo médio de resposta.
 * 🎯 **100%** de qualificação automática de leads.
 
 #### 🏠 Setor Imobiliário
-**Cenário:** Imobiliária recebia consultas por WhatsApp sobre imóveis, mas perdia oportunidades por demora na resposta.
-
-**Solução Implementada:**
-- Atendimento guiado para coleta de preferências (tipo imóvel, localização, orçamento)
-- Consulta em tempo real ao banco de imóveis
-- Agendamento de visitas e envio automático de propostas
-- Integração com corretores via direcionamento inteligente
-
+**Cenário:** Perda de oportunidades por demora na resposta de corretores.
+**Solução:** Atendimento guiado para coleta de perfil + Agendamento de visitas.
 **Resultados Esperados:**
 * 📞 **+200%** em leads qualificados.
+* 🏡 **-50%** no tempo para primeira resposta.
 * 💰 **+30%** em conversão de visitas.
 
 #### 🛍️ E-commerce e Varejo
-**Cenário:** Loja online precisava reduzir abandono de carrinho e melhorar atendimento pós-venda.
-
-**Solução Implementada:**
-- Consulta de estoque em tempo real via ERP
-- Recuperação automática de carrinhos abandonados
-- Atendimento com IA para dúvidas sobre produtos
-- Processamento de pedidos e pagamentos via chat
-
+**Cenário:** Abandono de carrinho e dúvidas repetitivas sobre produtos.
+**Solução:** Consulta de estoque ERP + Recuperação de carrinho via WhatsApp.
 **Resultados Esperados:**
-* 🛒 **-25%** em taxa de abandono de carrinho
-* ⭐ **+40%** em satisfação do cliente
-* 💳 **+60%** em vendas via WhatsApp
-
-### Case de Sucesso Detalhado: Bira Veículos
-**O Problema:** A concessionária perdia vendas à noite e nos fins de semana. O tempo de resposta era alto e leads esfriavam.
-
-**A Solução EVAH:**
-Implementação da **Evah Assistant** configurada como especialista automotiva.
-1.  **Atende 24/7:** Responde leads do Webmotors e OLX instantaneamente, mesmo de madrugada.
-2.  **Qualifica:** Pergunta modelo de interesse, ano e faixa de preço.
-3.  **Avalia:** Usa *scraping* para consultar preços de mercado de usados na troca.
-4.  **Agenda:** Marca a visita do cliente diretamente na agenda dos vendedores.
-
-**Resultados Comprovados:**
-* 📈 **+40%** em agendamentos de visitas.
-* ⚡ **-60%** no tempo médio de resposta.
-* 🎯 **Qualificação Automática** de leads no CRM antes de chegar ao vendedor.
+* 🛒 **-25%** em taxa de abandono de carrinho.
+* ⭐ **+40%** em satisfação do cliente.
+* 💳 **+60%** em vendas via canais conversacionais.
 
 ---
 
@@ -190,13 +150,32 @@ Implementação da **Evah Assistant** configurada como especialista automotiva.
 
 ---
 
-## 7. Arquitetura Técnica
+## 7. Arquitetura Técnica e Tecnologias
+
+### Stack Tecnológico Detalhado
 
 A EVAH é construída sobre tecnologias consolidadas e open source, garantindo estabilidade, segurança e custo-efetividade.
 
-* **Orquestração:** n8n, Typebot, Flowise.
-* **Inteligência Artificial:** OpenAI GPT-4, Google Gemini, Whisper API.
-* **Infraestrutura:** Docker Swarm/Kubernetes, PostgreSQL, AWS Cloud.
+**🎼 Orquestração e Automação:**
+* **n8n:** Motor de workflows visuais para automação complexa.
+* **Typebot:** Plataforma no-code para atendimento guiado.
+* **Flowise:** Framework para construção de fluxos de IA.
+
+**🤖 Inteligência Artificial:**
+* **OpenAI GPT-4:** Processamento de linguagem natural avançado.
+* **Google Gemini:** IA multimodal alternativa.
+* **IBM Watson:** Opção enterprise para grandes volumes.
+* **Whisper API:** Transcrição de áudio de alta precisão.
+
+**🔗 Integrações e APIs:**
+* **Evolution API:** WhatsApp flexível e acessível.
+* **Meta APIs:** WhatsApp oficial, Instagram, Messenger.
+* **Google Workspace:** Calendar, Drive, Maps.
+* **Odoo ERP:** CRM e gestão empresarial completa.
+
+**☁️ Infraestrutura:**
+* **Docker Swarm/Kubernetes:** Orquestração containerizada.
+* **PostgreSQL:** Banco de dados robusto e escalável.
 * **Segurança:** Criptografia ponta-a-ponta, Bancos isolados, Conformidade LGPD.
 
 > **[NOTA DE PRODUÇÃO: Inserir aqui diagrama visual profissional das camadas: Interface (Chat) → Inteligência (Assistant) → Orquestração (Maestro) → Backend (ERP/Omni)]**
@@ -284,13 +263,14 @@ Não vendemos software. Vendemos **tempo**, **eficiência** e **crescimento**.
 * **SLA 99,9%:** Disponibilidade garantida em contrato.
 * **Suporte Dedicado:** Equipe técnica especializada pronta para atender.
 
+### 📅 Timeline de Implementação
+* **Semana 1:** Diagnóstico e planejamento.
+* **Semanas 2-3:** Configuração e integração.
+* **Semana 4:** Treinamento e testes.
+* **Semana 5:** Go-live e otimização.
+
 ### 🎯 Pronto para transformar sua operação?
 Não deixe mais 60% dos seus clientes desistirem por falta de resposta.
-
-### Como Começar
-1. **Diagnóstico Gratuito:** Avaliação da sua operação atual.
-2. **Prova de Conceito:** Teste prático do impacto na sua empresa.
-3. **Setup Completo:** Sua operação automatizada em semanas.
 
 **Agende uma demonstração gratuita hoje mesmo:**
 
