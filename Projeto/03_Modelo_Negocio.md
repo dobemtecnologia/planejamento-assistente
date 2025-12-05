@@ -1,7 +1,8 @@
+
 # 💼 MODELO DE NEGÓCIO - Dobem Tecnologia
 
 > **Documento Estratégico Executivo**
-> **Versão:** 5.0 - Gold Standard (Final)
+> **Versão:** 6.0 - Platinum (Final Definitivo)
 > **Data:** Dezembro 2025
 
 ---
@@ -21,7 +22,7 @@ Um ecossistema unificado que substitui ferramentas isoladas.
 ### 💰 O Modelo
 **B2B SaaS Híbrido.**
 Combinamos **Setup Consultivo** (Caixa Imediato) + **Assinatura Recorrente** (Valuation Longo Prazo).
-* **Unit Economics:** LTV projetado de R$ 28k+ com CAC coberto no Dia 0.
+* **Unit Economics:** LTV projetado de R$ 28k+ com CAC coberto no Dia 0 (Payback Imediato).
 
 ---
 
@@ -36,7 +37,19 @@ O mercado de PMEs vive um colapso operacional silencioso:
 
 ---
 
-## 3. PERFIL DO CLIENTE IDEAL (ICP)
+## 3. MERCADO E POTENCIAL (TAM, SAM, SOM)
+
+Estamos atacando um mercado gigante e mal atendido.
+
+| Mercado | Definição | Estimativa (Brasil) |
+| :--- | :--- | :--- |
+| **TAM (Total Addressable Market)** | Todas as PMEs ativas no Brasil. | ~6 Milhões de empresas |
+| **SAM (Serviceable Available Market)** | PMEs de Serviço/Varejo com 5-100 func. | ~1.2 Milhões de empresas |
+| **SOM (Serviceable Obtainable Market)** | Meta de captura em 3-5 anos (0.5% do SAM). | **~6.000 clientes** |
+
+---
+
+## 4. PERFIL DO CLIENTE IDEAL (ICP)
 
 Focamos onde a dor é aguda e o orçamento existe.
 
@@ -49,7 +62,7 @@ Focamos onde a dor é aguda e o orçamento existe.
 
 ---
 
-## 4. ESTRUTURA DO ECOSSISTEMA (MODULARIDADE)
+## 5. ESTRUTURA DO ECOSSISTEMA (MODULARIDADE)
 
 A EVAH é construída em blocos. O cliente pode começar pequeno e expandir.
 
@@ -63,7 +76,7 @@ A EVAH é construída em blocos. O cliente pode começar pequeno e expandir.
 
 ---
 
-## 5. MATRIZ DE DIFERENCIAÇÃO COMPETITIVA
+## 6. MATRIZ DE DIFERENCIAÇÃO COMPETITIVA
 
 Por que a Dobem vence a concorrência?
 
@@ -75,11 +88,9 @@ Por que a Dobem vence a concorrência?
 | **Inteligência** | Script Rígido | Depende do Escopo | **Vertical AI Treinada** |
 | **Custo Inicial** | Baixo | Altíssimo | **Moderado (Cobre CAC)** |
 
-> **O Pulo do Gato:** Nós não competimos com o ManyChat no preço. Competimos na **capacidade de resolver problemas reais de negócio** (estoque, boleto, agendamento) que o ManyChat não toca.
-
 ---
 
-## 6. MODELO DE PRECIFICAÇÃO (PLANS & PRICING)
+## 7. MODELO DE PRECIFICAÇÃO (PLANS & PRICING)
 
 Nossa estratégia comercial é simplificada para reduzir atrito e acelerar o fechamento.
 
@@ -101,7 +112,7 @@ Nossa estratégia comercial é simplificada para reduzir atrito e acelerar o fec
 
 ---
 
-## 7. UNIT ECONOMICS (VIABILIDADE)
+## 8. UNIT ECONOMICS (VIABILIDADE)
 
 A saúde financeira do modelo é baseada em eficiência de capital.
 
@@ -113,7 +124,19 @@ A saúde financeira do modelo é baseada em eficiência de capital.
 
 ---
 
-## 8. ESTRATÉGIA DE GO-TO-MARKET (GTM)
+## 9. MATRIZ DE RISCOS E MITIGAÇÃO
+
+Demonstramos maturidade ao antecipar desafios.
+
+| Risco | Impacto | Estratégia de Mitigação |
+| :--- | :--- | :--- |
+| **Entrada de Big Techs** | Alto | Focar em nichos verticais onde Big Techs não personalizam (Ex: Concessionárias locais). |
+| **Alucinação da IA** | Médio | Usar "Modo Híbrido" (IA + Fluxos Guiados) para processos críticos. |
+| **Dependência de APIs** | Médio | Arquitetura agnóstica (podemos trocar OpenAI por Llama/Anthropic facilmente). |
+
+---
+
+## 10. ESTRATÉGIA DE GO-TO-MARKET (GTM)
 
 ### Fase 1: O "Aparelho de Ponta" (Atual)
 * **Alvo:** Concessionárias e Varejo de alto ticket.
@@ -132,7 +155,7 @@ A saúde financeira do modelo é baseada em eficiência de capital.
 
 ---
 
-## 9. MVP E ROADMAP TÉCNICO
+## 11. MVP E ROADMAP TÉCNICO
 
 **O MVP (Disponível Hoje):**
 * ✅ **Canais:** WhatsApp (Evolution API).
@@ -147,9 +170,9 @@ A saúde financeira do modelo é baseada em eficiência de capital.
 
 ---
 
-## 10. VISÃO DE FUTURO (ASPIRACIONAL)
+## 12. VISÃO DE FUTURO (ASPIRACIONAL)
 
-**Para onde estamos indo?**
+**Para onde estamos indo? (Visão 2030)**
 
 Acreditamos que em 5 anos, **toda PME terá mais "funcionários digitais" do que humanos**.
 A Dobem Tecnologia não será apenas uma ferramenta de software. Seremos a **Agência de Recursos Humanos Digitais** dessas empresas.
