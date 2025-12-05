@@ -1,7 +1,7 @@
 # 🎯 ESTRATÉGIA DE GO-TO-MARKET (GTM) - Dobem Tecnologia
 
 > **Documento Estratégico de Vendas e Marketing**
-> **Versão:** 3.0 - Plano de Batalha Operacional (Final)
+> **Versão:** 4.0 - Playbook Operacional Definitivo
 > **Objetivo:** 10 Clientes (Validação) -> 50 Clientes (Tração) -> Expansão Nacional.
 
 ---
@@ -34,7 +34,19 @@ Entender a cabeça do dono da PME para abordá-lo no momento certo.
 
 ---
 
-## 3. FASE 1: CAÇA AOS "CLONES" (OUTBOUND SNIPER) - Mês 1
+## 3. ESTRUTURA DE TIME MÍNIMO (QUEM FAZ O QUÊ)
+
+Para executar sem inchar a folha de pagamento.
+
+| Papel | Responsável | Função Principal |
+| :--- | :--- | :--- |
+| **SDR / Closer** | **CEO (Elton)** | Prospecção ativa, qualificação e fechamento de vendas. |
+| **Tech Lead** | **CTO (Reinaldo)** | Configuração do Setup, suporte técnico e estabilidade. |
+| **Implementador** | **Analista (Luci)** | Onboarding do cliente, treinamento da equipe e "Sucesso do Cliente". |
+
+---
+
+## 4. FASE 1: CAÇA AOS "CLONES" (OUTBOUND SNIPER) - Mês 1
 **Objetivo:** 10 Primeiros Clientes Pagantes.
 **Custo:** Zero (Apenas tempo do CEO/SDR).
 **Canal:** WhatsApp / Direct Instagram / Telefone.
@@ -57,7 +69,7 @@ Entender a cabeça do dono da PME para abordá-lo no momento certo.
 
 ---
 
-## 4. FASE 2: MÁQUINA DE TRÁFEGO PAGO (INBOUND) - Mês 2 e 3
+## 5. FASE 2: MÁQUINA DE TRÁFEGO PAGO (INBOUND) - Mês 2 e 3
 **Objetivo:** Escalar para 50 Clientes.
 **Orçamento Sugerido:** R$ 1.500/mês (Reinvestimento de 50% de 1 Setup).
 **Canal:** Meta Ads (Instagram/Facebook) + Google Ads.
@@ -78,7 +90,7 @@ Entender a cabeça do dono da PME para abordá-lo no momento certo.
 
 ---
 
-## 5. FASE 3: INFLUÊNCIA E PARCERIAS (ECOSSISTEMA) - Mês 4+
+## 6. FASE 3: INFLUÊNCIA E PARCERIAS (ECOSSISTEMA) - Mês 4+
 **Objetivo:** Autoridade e Escala Massiva (Nacional).
 **Estratégia:** Usar a audiência dos outros.
 
@@ -92,7 +104,7 @@ Agências geram leads (tráfego), mas o cliente (PME) não sabe atender e reclam
 
 ---
 
-## 6. MATRIZ DE QUEBRA DE OBJEÇÕES (BATTLECARD)
+## 7. MATRIZ DE QUEBRA DE OBJEÇÕES (BATTLECARD)
 
 O que o vendedor deve responder quando ouvir um "não".
 
@@ -105,17 +117,28 @@ O que o vendedor deve responder quando ouvir um "não".
 
 ---
 
-## 7. MATERIAIS DE APOIO (SALES ENABLEMENT)
+## 8. CADÊNCIA DE FOLLOW-UP (NUTRIÇÃO)
 
-O que o time de vendas precisa ter na mão para fechar negócio:
+O dinheiro está no acompanhamento. Não aceite o "vou pensar" como fim.
 
-1.  **O Vídeo Demo (30s a 60s):** Gravação da tela do celular mostrando o BiraBot atendendo, consultando a FIPE e agendando. Sem "falar" de tecnologia, mostrando o resultado.
-2.  **Calculadora de ROI (PDF ou Excel):** Uma planilha simples onde o cliente coloca "Quantos leads recebe" e "Ticket Médio", e a planilha mostra "Quanto dinheiro ele está perdendo hoje".
-3.  **One-Pager (PDF):** O Resumo Executivo do Modelo de Negócio (que já criamos) diagramado visualmente.
+* **Dia 1 (Pós-Demo):** Enviar proposta PDF + Vídeo do BiraBot (para ele mostrar ao sócio).
+* **Dia 3 (O Lembrete):** "Oi Fulano, surgiu alguma dúvida técnica sobre a integração? Estou fechando a agenda de implementações da semana."
+* **Dia 7 (A Dor):** Enviar notícia/artigo sobre "PMEs perdendo vendas no WhatsApp".
+* **Dia 15 (O Ultimato):** "Fulano, vou encerrar seu processo por aqui. Se decidir priorizar a automação no futuro, me avise." (Gatilho de Desapego).
 
 ---
 
-## 8. MÉTRICAS E KPIs (O QUE IMPORTA)
+## 9. RETENÇÃO E SUCESSO DO CLIENTE (CS)
+
+Como garantir que os 10 primeiros não cancelem.
+
+1.  **Onboarding Assistido:** Reunião de 1h para configurar tudo junto com o cliente. Não mande apenas o manual.
+2.  **Check-in Semanal (Mês 1):** Toda sexta-feira, mandar um WhatsApp: "Como foi a semana? A IA atendeu bem?".
+3.  **Relatório de Vitória (Mensal):** Enviar um print do dashboard: "A EVAH atendeu 500 pessoas e agendou 40 visitas este mês. Isso economizou 40 horas da sua equipe."
+
+---
+
+## 10. MÉTRICAS E KPIs (O QUE IMPORTA)
 
 Esqueça "curtidas" e "seguidores". Vamos medir dinheiro.
 
@@ -128,7 +151,7 @@ Esqueça "curtidas" e "seguidores". Vamos medir dinheiro.
 
 ---
 
-## 9. CRONOGRAMA DE EXECUÇÃO (90 DIAS)
+## 11. CRONOGRAMA DE EXECUÇÃO (90 DIAS)
 
 **Mês 1: Validação (Outbound)**
 * Semana 1: Gravar Demo e Listar 50 Prospects.
