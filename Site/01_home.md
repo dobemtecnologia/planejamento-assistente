@@ -103,6 +103,10 @@ Não vendemos robôs genéricos. Entregamos especialistas digitais.
     * Recuperação de carrinho, consulta de status de pedido, catálogo no WhatsApp.
     * [Ver Solução Varejo →](./04_Solucoes.md)
 
+4.  **🏥 Serviços & Clínicas**
+    * Confirmação de consulta, triagem de pacientes, envio de lembretes automáticos.
+    * [Ver Solução Serviços →](./04_Solucoes.md)
+
 ---
 
 ## 5. RESULTADOS (Prova Social - Case Bira)
@@ -135,7 +139,21 @@ Não vendemos robôs genéricos. Entregamos especialistas digitais.
 
 ---
 
-## 7. RODAPÉ DE CONVERSÃO (Final CTA)
+## 7. FAQ (Tire suas dúvidas)
+*Matando objeções antes do clique final.*
+
+**1. Preciso ter um programador na equipe?**
+Não! Nossa equipe cuida de todo o setup técnico para você.
+
+**2. Funciona com o sistema que eu já uso?**
+A EVAH é agnóstica. Integramos com a maioria dos ERPs e CRMs do mercado via API.
+
+**3. E se eu não gostar?**
+Oferecemos 30 dias de garantia total. Se não gerar resultado, devolvemos seu investimento.
+
+---
+
+## 8. RODAPÉ DE CONVERSÃO (Final CTA)
 *A última chance de converter.*
 
 **Título:**
