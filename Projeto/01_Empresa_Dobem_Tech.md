@@ -27,6 +27,21 @@ Nosso compromisso é reduzir o tempo, o custo e a complexidade que normalmente i
 
 A Dobem Tecnologia é a **Especialista em Transformação Digital** que acelera o crescimento de PMEs. Fazemos isso por meio do **Ecossistema EVAH**, nossa plataforma integrada que une ERP, Omnichannel e o poder da **Evah Assistant** – uma Inteligência Artificial Vertical que **executa ações reais** nos sistemas, garantindo eficiência, redução de custos e maior competitividade para o seu negócio.
 
+### Missões e Apresentações
+
+**Missão (Versão Impactante):**
+Transformar empresas através de um **ecossistema integrado** que conecta **soluções consolidadas** à **Inteligência Artificial**. Nossa missão é potencializar cada área do negócio: produzir com mais eficiência, atender com mais qualidade, gerir com mais inteligência, vender com mais eficácia e, no fim, conquistar resultados muito maiores.
+
+**Missão (Versão Concisa):**
+Transformar empresas por meio de um **ecossistema integrado** que une **soluções consolidadas** à **Inteligência Artificial**. Nossa missão é potencializar cada área do negócio: produzir com mais eficiência, atender com mais qualidade, gerir com mais inteligência, vender com mais eficácia e, no fim, conquistar resultados muito maiores.
+
+**Quem Somos (Apresentação Institucional):**
+Somos um hub de soluções que une inovação, paixão por tecnologia e evolução constante. Nosso foco? Transformar o agora com impacto positivo e real. Porque quem inova com propósito, transforma de verdade.
+
+"Acreditamos que o futuro não pertence a sistemas isolados, mas a ecossistemas integrados."
+
+Somos um Hub de Soluções Tecnológicas que tem como missão entregar inovação prática, ágil e funcional, conectando talentos e ideias com propósito. Trabalhamos para transformar empresas em todas as fases da jornada: ajudamos as pequenas a crescerem com solidez e consistência, e apoiamos as grandes a manterem sua relevância e impacto em um mercado em constante mudança.
+
 ---
 
 ## 🌱 Nossa Origem e Propósito
