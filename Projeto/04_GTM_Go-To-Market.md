@@ -1,23 +1,23 @@
 # 🎯 ESTRATÉGIA DE GO-TO-MARKET (GTM) - Dobem Tecnologia
 
 > **Documento Estratégico de Vendas e Marketing**
-> **Versão:** 2.0 - Plano de Batalha Digital & Outbound
-> **Objetivo:** Adquirir os primeiros 10 clientes (Validação) e escalar para 100 (Tração).
+> **Versão:** 3.0 - Plano de Batalha Operacional (Final)
+> **Objetivo:** 10 Clientes (Validação) -> 50 Clientes (Tração) -> Expansão Nacional.
 
 ---
 
 ## 1. POSICIONAMENTO E TESE DE MERCADO
 
-Para vender a **EVAH**, precisamos parar de vender "tecnologia" e começar a vender "lucro".
+Para vender a **EVAH**, paramos de vender "tecnologia" e vendemos "lucro".
 
 * **Não somos:** Uma agência de marketing ou uma fábrica de software genérica.
 * **Somos:** Parceiros de **Eficiência Operacional**.
-* **A Promessa:** "Transformamos seu atendimento caótico em uma máquina de vendas automática usando a mesma tecnologia das grandes empresas, por uma fração do custo."
+* **A Promessa:** "Transformamos seu atendimento caótico em uma máquina de vendas automática, reduzindo 60% do custo operacional."
 
 ### O Alvo (Beachhead Market)
 Focaremos toda a energia inicial em **um nicho** para dominar e criar reputação rápida.
 * **Nicho Primário:** **Concessionárias e Lojas de Veículos** (Clone do Case Bira).
-* **Por que?** Ticket médio alto, dor latente (perdem leads no WhatsApp), dinheiro disponível.
+* **Geografia:** Belém e Região (Fase 1) -> Brasil via Inbound (Fase 2).
 
 ---
 
@@ -34,12 +34,10 @@ Entender a cabeça do dono da PME para abordá-lo no momento certo.
 
 ---
 
-## 3. FASE 1: CAÇA AOS "CLONES" (OUTBOUND SNIPER)
+## 3. FASE 1: CAÇA AOS "CLONES" (OUTBOUND SNIPER) - Mês 1
 **Objetivo:** 10 Primeiros Clientes Pagantes.
-**Custo:** Zero (Apenas tempo).
+**Custo:** Zero (Apenas tempo do CEO/SDR).
 **Canal:** WhatsApp / Direct Instagram / Telefone.
-
-Nesta fase, não esperamos o cliente vir. Nós vamos buscar quem tem o perfil exato do nosso melhor case.
 
 ### O Playbook da Caça
 1.  **Listagem:** Abrir o Google Maps e listar 50 lojas de veículos/concessionárias da região.
@@ -59,14 +57,12 @@ Nesta fase, não esperamos o cliente vir. Nós vamos buscar quem tem o perfil ex
 
 ---
 
-## 4. FASE 2: MÁQUINA DE TRÁFEGO PAGO (INBOUND)
+## 4. FASE 2: MÁQUINA DE TRÁFEGO PAGO (INBOUND) - Mês 2 e 3
 **Objetivo:** Escalar para 50 Clientes.
+**Orçamento Sugerido:** R$ 1.500/mês (Reinvestimento de 50% de 1 Setup).
 **Canal:** Meta Ads (Instagram/Facebook) + Google Ads.
-**Estratégia:** Anúncios focados em DOR, não em funcionalidades.
 
 ### Estrutura de Campanhas (Onde investir o dinheiro)
-
-Não vamos gastar R$ 10 para "ganhar seguidores". Vamos investir em **Conversão (Leads no WhatsApp)**.
 
 #### Campanha A: A Dor da Perda (Fundo de Funil)
 * **Público:** Donos de Pequenas Empresas, Administradores de páginas comerciais (Interesses: Gestão, Vendas, Sebrae).
@@ -80,14 +76,10 @@ Não vamos gastar R$ 10 para "ganhar seguidores". Vamos investir em **Conversão
 * **Headline:** "Como esta concessionária aumentou em 40% os agendamentos sem contratar ninguém."
 * **CTA:** "Quero ter esse resultado."
 
-#### Campanha C: Google Sniper (Intenção de Busca)
-* **Palavras-Chave:** "Chatbot para WhatsApp", "Automação de vendas", "CRM para concessionária".
-* **Anúncio:** "Não contrate um Chatbot Burro. Conheça a EVAH: A IA que vende e agenda sozinha."
-
 ---
 
-## 5. FASE 3: INFLUÊNCIA E PARCERIAS (ECOSSISTEMA)
-**Objetivo:** Autoridade e Escala Massiva.
+## 5. FASE 3: INFLUÊNCIA E PARCERIAS (ECOSSISTEMA) - Mês 4+
+**Objetivo:** Autoridade e Escala Massiva (Nacional).
 **Estratégia:** Usar a audiência dos outros.
 
 ### 1. O Consultor "Guru"
@@ -100,7 +92,20 @@ Agências geram leads (tráfego), mas o cliente (PME) não sabe atender e reclam
 
 ---
 
-## 6. MATERIAIS DE APOIO (SALES ENABLEMENT)
+## 6. MATRIZ DE QUEBRA DE OBJEÇÕES (BATTLECARD)
+
+O que o vendedor deve responder quando ouvir um "não".
+
+| Objeção | Resposta Matadora |
+| :--- | :--- |
+| **"Está caro / Não tenho orçamento."** | "Caro é perder venda. Se a IA recuperar apenas 2 vendas no mês que você perderia por demora, ela já se pagou. O resto é lucro puro." |
+| **"Já tenho um sistema (ERP)."** | "Ótimo! A EVAH não substitui seu ERP, ela é a 'funcionária' que opera ele. Hoje sua equipe perde tempo digitando dados. A IA vai fazer isso automaticamente." |
+| **"Robô atrapalha o atendimento."** | "Concordo, robô burro atrapalha. Por isso usamos IA Vertical. Veja este vídeo do BiraBot: parece um humano falando. E se o cliente quiser falar com gente, a IA transfere na hora." |
+| **"Não confio em IA."** | "Entendo. Por isso oferecemos uma Prova de Conceito. Vamos rodar por 15 dias. Se não aumentar seus agendamentos, devolvemos seu dinheiro. Risco zero." |
+
+---
+
+## 7. MATERIAIS DE APOIO (SALES ENABLEMENT)
 
 O que o time de vendas precisa ter na mão para fechar negócio:
 
@@ -110,7 +115,7 @@ O que o time de vendas precisa ter na mão para fechar negócio:
 
 ---
 
-## 7. MÉTRICAS E KPIs (O QUE IMPORTA)
+## 8. MÉTRICAS E KPIs (O QUE IMPORTA)
 
 Esqueça "curtidas" e "seguidores". Vamos medir dinheiro.
 
@@ -123,12 +128,25 @@ Esqueça "curtidas" e "seguidores". Vamos medir dinheiro.
 
 ---
 
-## 8. RESUMO DO PLANO DE AÇÃO (NEXT STEPS)
+## 9. CRONOGRAMA DE EXECUÇÃO (90 DIAS)
 
-1.  **Semana 1:** Gravar o "Vídeo Demo" do Case Bira (focado no resultado).
-2.  **Semana 2:** Listar 50 Concessionárias/Lojas no Google Maps e iniciar abordagem Outbound (Script WhatsApp).
-3.  **Semana 3:** Fechar os primeiros 3 pilotos pagos.
-4.  **Semana 4:** Reinvestir o lucro dos Setups iniciais para ligar os anúncios (Fase 2) focados em Dor.
+**Mês 1: Validação (Outbound)**
+* Semana 1: Gravar Demo e Listar 50 Prospects.
+* Semana 2: Iniciar contato WhatsApp (10/dia).
+* Semana 3: Fechar 3 Pilotos Pagos.
+* Semana 4: Onboarding e Garantia de Sucesso dos Pilotos.
+
+**Mês 2: Tração (Mídia Paga)**
+* Semana 5: Criar Anúncios (Criativos de Dor).
+* Semana 6: Iniciar Campanhas (R$ 50/dia).
+* Semana 7: Otimizar Campanhas (Cortar o que não converte).
+* Semana 8: Fechar 5 a 8 Clientes via Inbound.
+
+**Mês 3: Escala (Parcerias)**
+* Semana 9: Mapear 20 Agências/Consultores.
+* Semana 10: Apresentar proposta de Parceria.
+* Semana 11: Treinar parceiros.
+* Semana 12: Iniciar expansão geográfica (Campanhas Nacionais).
 
 ---
 **Estratégia de Crescimento Acelerado - Dobem Tecnologia**
