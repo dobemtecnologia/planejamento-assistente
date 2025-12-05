@@ -1,7 +1,7 @@
 # 🎯 ESTRATÉGIA DE GO-TO-MARKET (GTM) - Dobem Tecnologia
 
 > **Documento Estratégico de Vendas e Marketing**
-> **Versão:** 4.0 - Playbook Operacional Definitivo
+> **Versão:** 5.0 - Playbook Operacional de Elite (Final)
 > **Objetivo:** 10 Clientes (Validação) -> 50 Clientes (Tração) -> Expansão Nacional.
 
 ---
@@ -46,7 +46,18 @@ Para executar sem inchar a folha de pagamento.
 
 ---
 
-## 4. FASE 1: CAÇA AOS "CLONES" (OUTBOUND SNIPER) - Mês 1
+## 4. FERRAMENTAS DE GESTÃO COMERCIAL (STACK DE VENDAS)
+
+Para não perder o controle do pipeline.
+
+* **CRM de Vendas:** **Odoo CRM** (Usar o próprio produto para validar).
+    * *Fases do Pipeline:* Prospecção -> Qualificação (Demo) -> Negociação -> Fechado Ganho.
+* **Reuniões:** Google Meet (Gravado para análise posterior).
+* **Proposta:** Modelo PDF padrão (Canva/Google Docs) para envio rápido.
+
+---
+
+## 5. FASE 1: CAÇA AOS "CLONES" (OUTBOUND SNIPER) - Mês 1
 **Objetivo:** 10 Primeiros Clientes Pagantes.
 **Custo:** Zero (Apenas tempo do CEO/SDR).
 **Canal:** WhatsApp / Direct Instagram / Telefone.
@@ -69,7 +80,7 @@ Para executar sem inchar a folha de pagamento.
 
 ---
 
-## 5. FASE 2: MÁQUINA DE TRÁFEGO PAGO (INBOUND) - Mês 2 e 3
+## 6. FASE 2: MÁQUINA DE TRÁFEGO PAGO (INBOUND) - Mês 2 e 3
 **Objetivo:** Escalar para 50 Clientes.
 **Orçamento Sugerido:** R$ 1.500/mês (Reinvestimento de 50% de 1 Setup).
 **Canal:** Meta Ads (Instagram/Facebook) + Google Ads.
@@ -90,7 +101,7 @@ Para executar sem inchar a folha de pagamento.
 
 ---
 
-## 6. FASE 3: INFLUÊNCIA E PARCERIAS (ECOSSISTEMA) - Mês 4+
+## 7. FASE 3: INFLUÊNCIA E PARCERIAS (ECOSSISTEMA) - Mês 4+
 **Objetivo:** Autoridade e Escala Massiva (Nacional).
 **Estratégia:** Usar a audiência dos outros.
 
@@ -104,7 +115,7 @@ Agências geram leads (tráfego), mas o cliente (PME) não sabe atender e reclam
 
 ---
 
-## 7. MATRIZ DE QUEBRA DE OBJEÇÕES (BATTLECARD)
+## 8. MATRIZ DE QUEBRA DE OBJEÇÕES (BATTLECARD)
 
 O que o vendedor deve responder quando ouvir um "não".
 
@@ -117,7 +128,7 @@ O que o vendedor deve responder quando ouvir um "não".
 
 ---
 
-## 8. CADÊNCIA DE FOLLOW-UP (NUTRIÇÃO)
+## 9. CADÊNCIA DE FOLLOW-UP (NUTRIÇÃO)
 
 O dinheiro está no acompanhamento. Não aceite o "vou pensar" como fim.
 
@@ -128,19 +139,24 @@ O dinheiro está no acompanhamento. Não aceite o "vou pensar" como fim.
 
 ---
 
-## 9. RETENÇÃO E SUCESSO DO CLIENTE (CS)
+## 10. RETENÇÃO E SUCESSO DO CLIENTE (CS)
 
-Como garantir que os 10 primeiros não cancelem.
+Como garantir que os 10 primeiros não cancelem e comprem mais (LTV Expansion).
 
-1.  **Onboarding Assistido:** Reunião de 1h para configurar tudo junto com o cliente. Não mande apenas o manual.
+### Ações de Retenção
+1.  **Onboarding Assistido:** Reunião de 1h para configurar tudo junto com o cliente.
 2.  **Check-in Semanal (Mês 1):** Toda sexta-feira, mandar um WhatsApp: "Como foi a semana? A IA atendeu bem?".
-3.  **Relatório de Vitória (Mensal):** Enviar um print do dashboard: "A EVAH atendeu 500 pessoas e agendou 40 visitas este mês. Isso economizou 40 horas da sua equipe."
+3.  **Relatório de Vitória (Mensal):** Enviar um print do dashboard: "A EVAH atendeu 500 pessoas e economizou 40 horas da sua equipe."
+
+### Estratégia de Upsell (Vender Mais)
+* **Gatilho:** Quando o cliente atingir 1.000 atendimentos ou pedir uma função nova.
+* **Oferta:** "Fulano, sua operação cresceu. Que tal adicionar o **Agente de Cobrança** para recuperar boletos atrasados automaticamente? Custa só +R$ 200/mês."
 
 ---
 
-## 10. MÉTRICAS E KPIs (O QUE IMPORTA)
+## 11. MÉTRICAS E KPIs (O QUE IMPORTA)
 
-Esqueça "curtidas" e "seguidores". Vamos medir dinheiro.
+Esqueça "curtidas". Vamos medir dinheiro e satisfação.
 
 | Métrica | Definição | Meta Inicial |
 | :--- | :--- | :--- |
@@ -148,10 +164,12 @@ Esqueça "curtidas" e "seguidores". Vamos medir dinheiro.
 | **Taxa de Agendamento** | % de leads que aceitam ver a demo. | > 20% |
 | **CAC (Custo de Aquisição)** | Quanto gastamos (Ads + Tempo) para fechar 1 cliente. | < R$ 500 (Inicial) |
 | **Payback do Setup** | O valor do Setup paga o CAC? | **Sim (Obrigatório)** |
+| **Churn Rate (Cancelamento)** | % de clientes que cancelam por mês. | **< 3%** |
+| **NPS (Satisfação)** | "De 0 a 10, quanto você indicaria a Dobem?". | **> 70 (Zona de Excelência)** |
 
 ---
 
-## 11. CRONOGRAMA DE EXECUÇÃO (90 DIAS)
+## 12. CRONOGRAMA DE EXECUÇÃO (90 DIAS)
 
 **Mês 1: Validação (Outbound)**
 * Semana 1: Gravar Demo e Listar 50 Prospects.
