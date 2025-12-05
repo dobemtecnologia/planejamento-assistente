@@ -36,6 +36,22 @@ A Dobem entrega um **Ecossistema Verticalizado** (Kit Concessionária, Kit Imobi
 
 ---
 
+## 3. PERFIL DO CLIENTE IDEAL E MERCADO
+
+### ICP (Ideal Customer Profile)
+**Quem é nosso cliente perfeito:**
+- **Tamanho:** 5-100 funcionários | Receita: R$ 500 mil - R$ 50 milhões/ano
+- **Setor:** Automotivo, Imobiliário, Varejo, Serviços B2B/B2C
+- **Maturidade:** Já usa CRM/ERP básico | Precisa de automação inteligente
+- **Problema:** Perde vendas por demora | Tem processos repetitivos manuais
+
+### Buyer Persona
+**Decisor:** CEO/Diretor/Proprietário (40-60 anos, focado em crescimento)
+**Influenciador:** Gerente de Vendas/Atendimento (prioriza eficiência operacional)
+**Usuário:** Equipe de atendimento (quer ferramentas que facilitem o trabalho)
+
+---
+
 ## 3. PROPOSTA DE VALOR E DIFERENCIAÇÃO
 
 ### Value Proposition Canvas
@@ -107,6 +123,12 @@ Custos variáveis e expansão da conta.
 * **Custos de IA/Mensageria:** Embutidos na mensalidade até um limite (franquia), cobrados como excedente ou repassados diretamente (modelo transparente).
 * **Novos Agentes:** Venda de agentes extras (ex: adicionar um "Agente de Cobrança" por +R$ 200/mês).
 
+### Métricas SaaS Essenciais
+**MRR (Monthly Recurring Revenue):** Receita recorrente mensal por cliente
+**ARR (Annual Recurring Revenue):** MRR × 12 (valor anual contratado)
+**Churn Rate:** Taxa mensal de cancelamento (meta: <5%)
+**NRR (Net Revenue Retention):** Expansão da conta (meta: 110%+)
+
 ---
 
 ## 6. UNIT ECONOMICS E VIABILIDADE
@@ -123,9 +145,31 @@ Para manter a margem saudável, monitoramos os custos diretos do serviço:
 * **Payback Time:** Imediato (D0) devido à taxa de Setup.
 * **LTV (Lifetime Value):** Projetado para 24 meses = R$ 28.800,00.
 
+### Projeções de Crescimento
+**12 meses:** 20-30 clientes | MRR: R$ 10k-15k | Foco: Validação do modelo
+**24 meses:** 80-120 clientes | MRR: R$ 50k-80k | Foco: Escala operacional
+**36 meses:** 300-500 clientes | MRR: R$ 200k-350k | Foco: Expansão geográfica
+
 ---
 
-## 7. GO-TO-MARKET (GTM)
+## 7. POR QUE AGORA? (TIMING DE MERCADO)
+
+### Mudanças Tecnológicas
+- **IA Generativa acessível:** ChatGPT/Gemini democratizou agentes inteligentes
+- **APIs padronizadas:** Integração entre sistemas nunca foi tão fácil
+- **Open Source consolidado:** Blocos prontos (Odoo, Chatwoot, n8n) aceleram desenvolvimento
+
+### Mudanças Comportamentais
+- **WhatsApp como canal principal:** Clientes exigem respostas instantâneas
+- **Automação como commodity:** Empresas entendem que precisam automatizar ou ficam para trás
+- **ROI de automação melhorou:** Custo-benefício de IA caiu drasticamente
+
+### Janela de Oportunidade
+**Primeiros movers vencem:** Quem adotar Vertical AI primeiro cria barreira competitiva intransponível. O mercado está maduro para soluções práticas, não teóricas.
+
+---
+
+## 8. GO-TO-MARKET (GTM)
 
 ### Fase 1: Validação e Nicho (Atual)
 * **Foco:** Concessionárias e Varejo de alto ticket.
@@ -142,7 +186,42 @@ Para manter a margem saudável, monitoramos os custos diretos do serviço:
 
 ---
 
-## 8. DEFINIÇÃO DO MVP E ROADMAP
+## 8. ANÁLISE COMPETITIVA E POSICIONAMENTO
+
+### Matriz SWOT
+**Forças (Strengths):**
+- Arquitetura diferenciada (multiagente com operacionalização real)
+- Conhecimento profundo de Open Source consolidado
+- Produto funcional com case real (Bira Veículos)
+- Modelo híbrido (Setup + MRR) garante saúde financeira
+
+**Fraquezas (Weaknesses):**
+- Startup inicial (pouca tração de mercado ainda)
+- Vendas B2B complexas (ciclo de decisão longo)
+- Necessidade de educar mercado sobre Vertical AI
+
+**Oportunidades (Opportunities):**
+- Mercado de automação em explosão no Brasil
+- Demanda por eficiência operacional em PMEs
+- Janela de oportunidade como primeiros movers
+- Parcerias com agências de marketing
+
+**Ameaças (Threats):**
+- Concorrentes internacionais entrando no mercado
+- Commoditização de chatbots básicos
+- Regulamentação de dados e IA no Brasil
+
+### Mapa de Posicionamento
+**Eixo X:** Integração Profunda ←→ Integração Superficial
+**Eixo Y:** Operacionalização ←→ Apenas Informação
+
+**Posicionamento Dobem:** Alto em ambos os eixos
+- **Integração:** Ecossistema unificado desde o início
+- **Operacionalização:** Agentes que executam ações reais (não só informam)
+
+---
+
+## 9. DEFINIÇÃO DO MVP E ROADMAP
 
 Para garantir foco, definimos o que entra no MVP (Produto Mínimo Viável) e o que fica para o futuro.
 
@@ -160,7 +239,7 @@ Para garantir foco, definimos o que entra no MVP (Produto Mínimo Viável) e o q
 
 ---
 
-## 9. CONCLUSÃO ESTRATÉGICA
+## 10. CONCLUSÃO ESTRATÉGICA
 
 A Dobem Tecnologia está posicionada para capturar a onda da "IA Prática". Enquanto o mercado está deslumbrado com a geração de texto, nós estamos focados na **geração de resultado**.
 
