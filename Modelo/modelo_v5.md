@@ -1,4 +1,3 @@
-
 # 💼 MODELO DE NEGÓCIO - Dobem Tecnologia
 
 > **Documento Estratégico Executivo**
@@ -11,19 +10,13 @@
 
 ### 🏢 A Empresa: Dobem Tecnologia
 Somos um Hub de Inovação focado em **Vertical AI** (Inteligência Artificial especializada por setor).
-
-**Missão:** Transformar PMEs caóticas em organizações inteligentes, onde a IA opera o negócio como um "funcionário digital".
-
-**Visão:** Ser a referência nacional em **Inteligência Operacional** para o mercado de médio porte.
-
-**Valores:** Caráter, Fé, Legado. Construímos soluções que impactam gerações, honrando nossa fé através do trabalho que transforma vidas empresariais.
-
-**Propósito:** Acelerar a transformação digital de PMEs através de soluções acessíveis, inteligentes e integradas que aumentam eficiência, competitividade e inovação.
+* **Missão:** Transformar PMEs caóticas em organizações inteligentes, onde a IA opera o negócio como um "funcionário digital".
+* **Visão:** Ser a referência nacional em **Inteligência Operacional** para o mercado de médio porte.
 
 ### 📦 O Produto: EVAH Platform
 Um ecossistema unificado que substitui ferramentas isoladas.
 * **O Que É:** Uma plataforma que integra Gestão (ERP), Atendimento (Omni) e Inteligência (Assistant).
-* **A Diferença:** Não vendemos software de chat. Vendemos **Execução**. Nossos Assistentes não apenas respondem, eles agendam, vendem e cobram.
+* **A Diferença:** Não vendemos software de chat. Vendemos **Execução**. Nossos agentes não apenas respondem, eles agendam, vendem e cobram.
 
 ### 💰 O Modelo
 **B2B SaaS Híbrido.**
@@ -40,17 +33,6 @@ O mercado de PMEs vive um colapso operacional silencioso:
 3.  **Hemorragia de Vendas:** 60% dos leads são perdidos por demora no atendimento ou falta de follow-up.
 
 **A Oportunidade:** Existe um oceano azul para uma solução que funcione como o "Sistema Operacional" da empresa, unindo todos os pontos.
-
-### Dados de Mercado que Validam a Dor
-**Estatísticas que comprovam a urgência da transformação:**
-
-| Aspecto | Estatística | Fonte |
-|---------|-------------|--------|
-| **Perda de Vendas** | 60% dos clientes desistem se resposta > 1h | Zendesk |
-| **Produtividade** | 60% do tempo gasto em tarefas repetitivas | McKinsey |
-| **Automação** | 80% das perguntas podem ser automatizadas | IBM |
-| **ROI de Dados** | Empresas orientadas crescem 23x mais rápido | McKinsey |
-| **Sistemas Isolados** | Até 20% da receita perdida | Forrester |
 
 ---
 
@@ -172,32 +154,7 @@ Demonstramos maturidade ao antecipar desafios.
 
 ---
 
-## 11. FUNIL DE VENDAS E CONVERSÃO
-
-### Estratégia de Geração de Leads
-**Tráfego Pago:** Facebook/Instagram Ads, LinkedIn Ads, Google Ads para segmentação precisa de PMEs
-**Conteúdo SEO:** Blog posts sobre "automação para PMEs" e "como reduzir tempo de resposta"
-**Webinars:** Eventos sobre "IA para atendimento ao cliente" com demonstrações ao vivo
-**Remarketing:** Sequências automatizadas para visitantes que não converteram
-
-### Qualificação de Leads
-**MQL (Marketing Qualified Leads):** Pontuação baseada em comportamento online
-**SQL (Sales Qualified Leads):** Demonstração personalizada e orçamento solicitado
-**Conversão Esperada:** 2-3% CTR em anúncios, 15-25% conversão para demo
-
-### Processo de Vendas
-**Ciclo de Vendas:** 30-45 dias (B2B médio porte)
-**Equipe:** SDRs para qualificação + Closer para fechamento
-**Ferramentas:** HubSpot CRM, Zoom para demos, Typeform para propostas
-
-### KPIs de Vendas
-**CAC Meta:** R$ 2.500 (coberto pelo setup)
-**Taxa de Conversão:** 15-20% SQL para cliente
-**LTV/CAC Ratio:** 11.5x (excelente saúde)
-
----
-
-## 12. MVP E ROADMAP TÉCNICO
+## 11. MVP E ROADMAP TÉCNICO
 
 **O MVP (Disponível Hoje):**
 * ✅ **Canais:** WhatsApp (Evolution API).
@@ -220,54 +177,6 @@ Acreditamos que em 5 anos, **toda PME terá mais "funcionários digitais" do que
 A Dobem Tecnologia não será apenas uma ferramenta de software. Seremos a **Agência de Recursos Humanos Digitais** dessas empresas.
 
 Nós forneceremos a força de trabalho inteligente (Agentes EVAH) que executará o trabalho burocrático, permitindo que os humanos voltem a fazer o que sabem fazer de melhor: criar, relacionar e estrategizar. Estamos construindo o **Sistema Operacional do Futuro do Trabalho**.
-
----
-
-## 13. CONTATO E PRÓXIMOS PASSOS
-
-### Informações da Empresa
-**Dobem Tecnologia**
-- **Endereço:** Ed. Vitta Office - Av. Rômulo Maiorana, 700 - Marco, Belém - PA
-- **WhatsApp:** +55 91 98353-8941
-- **E-mail:** [email protected]
-- **Site:** www.dobemtecnologia.com
-
-### Como Avançar
-1. **Agende uma demonstração gratuita** do EVAH Platform
-2. **Conheça o case Bira Veículos** em detalhes
-3. **Avalie a implementação** no seu negócio específico
-4. **Inicie com o plano START** e escale conforme cresce
-
-### Garantia Total
-- **30 dias de teste** - Se não funcionar, devolvemos 100% do investimento
-- **SLA 99,9%** de disponibilidade garantida
-- **Suporte dedicado** da equipe técnica
-
-### Cronograma de Implementação
-1️⃣ **Semana 1:** Diagnóstico e Planejamento
-2️⃣ **Semanas 2-3:** Configuração e Integração
-3️⃣ **Semana 4:** Treinamento e Testes
-4️⃣ **Semana 5:** Go-live e Otimização
-
----
-
-## 📊 ANEXO: MÉTRICAS E INDICADORES DE SUCESSO
-
-### KPIs de Produto
-- **Taxa de Ativação:** % de clientes que usam o assistente diariamente
-- **Tempo Médio de Resposta:** Meta < 5 segundos para respostas automáticas
-- **Conversão de Leads:** % de leads qualificados automaticamente
-- **Satisfação do Cliente:** NPS > 70 pontos
-
-### KPIs de Negócio
-- **MRR (Monthly Recurring Revenue):** Receita recorrente mensal
-- **CAC (Customer Acquisition Cost):** Custo para adquirir cada cliente
-- **LTV (Lifetime Value):** Valor do cliente ao longo da vida
-- **Payback Time:** Tempo para recuperar investimento inicial
-
----
-
-**Este documento representa o modelo de negócio estratégico consolidado da Dobem Tecnologia e está pronto para uso em apresentações executivas, captação de investimento e decisões estratégicas.** 🚀
 
 ---
 **Documento Estratégico Confidencial - Dobem Tecnologia**
