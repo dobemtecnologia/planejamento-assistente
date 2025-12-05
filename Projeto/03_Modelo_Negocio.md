@@ -1,191 +1,160 @@
 # 💼 MODELO DE NEGÓCIO - Dobem Tecnologia
 
 > **Documento Estratégico Executivo**
-> **Versão:** 4.0 - Consolidado Final & Refinado
+> **Versão:** 5.0 - Gold Standard (Final)
 > **Data:** Dezembro 2025
 
 ---
 
-## 1. SUMÁRIO EXECUTIVO
+## 1. SUMÁRIO EXECUTIVO (THE ONE-PAGER)
 
-### A Empresa: Dobem Tecnologia
-A **Dobem Tecnologia** é um Hub de Soluções Tecnológicas focado em **Vertical AI** (Inteligência Artificial especializada por setor).
-**Nossa Missão:** Democratizar a eficiência operacional para PMEs, transformando empresas caóticas em organizações inteligentes, conectadas e automatizadas.
+### 🏢 A Empresa: Dobem Tecnologia
+Somos um Hub de Inovação focado em **Vertical AI** (Inteligência Artificial especializada por setor).
+* **Missão:** Transformar PMEs caóticas em organizações inteligentes, onde a IA opera o negócio como um "funcionário digital".
+* **Visão:** Ser a referência nacional em **Inteligência Operacional** para o mercado de médio porte.
 
-### O Produto: EVAH Platform
-A **EVAH** é o nosso ecossistema de produtos. É uma plataforma modular que integra Gestão (ERP), Atendimento (Omni) e Inteligência (Assistant).
-**A Diferença:** Enquanto o mercado vende "chatbots que conversam", a EVAH entrega **agentes que trabalham**. Ela conecta sistemas isolados e executa ações reais (vende, agenda, cobra).
+### 📦 O Produto: EVAH Platform
+Um ecossistema unificado que substitui ferramentas isoladas.
+* **O Que É:** Uma plataforma que integra Gestão (ERP), Atendimento (Omni) e Inteligência (Assistant).
+* **A Diferença:** Não vendemos software de chat. Vendemos **Execução**. Nossos agentes não apenas respondem, eles agendam, vendem e cobram.
+
+### 💰 O Modelo
+**B2B SaaS Híbrido.**
+Combinamos **Setup Consultivo** (Caixa Imediato) + **Assinatura Recorrente** (Valuation Longo Prazo).
+* **Unit Economics:** LTV projetado de R$ 28k+ com CAC coberto no Dia 0.
 
 ---
 
-## 2. OPORTUNIDADE E PROBLEMA
+## 2. O PROBLEMA: A FADIGA DE SOFTWARE
 
-### O Cenário: A "Fadiga de Software"
-PMEs brasileiras estão afogadas em ferramentas desconectadas.
-* **O Caos:** Usam um CRM, um ERP, WhatsApp Web e Excel. Nada conversa entre si.
-* **O Custo:** Equipes perdem 30% do tempo copiando dados de uma tela para outra.
-* **A Perda:** 60% das vendas são perdidas por demora na resposta ou falta de follow-up.
+O mercado de PMEs vive um colapso operacional silencioso:
+1.  **Fragmentação:** O CRM não fala com o ERP, que não fala com o WhatsApp.
+2.  **Desperdício Humano:** Equipes talentosas gastam 30% do tempo copiando e colando dados entre abas.
+3.  **Hemorragia de Vendas:** 60% dos leads são perdidos por demora no atendimento ou falta de follow-up.
 
-### A Solução: Um Sistema Operacional Unificado
-A Dobem não vende mais uma ferramenta para a pilha. Nós vendemos a **cola** que une tudo. Entregamos um ecossistema onde a IA é o motor que opera o ERP e atende o cliente.
+**A Oportunidade:** Existe um oceano azul para uma solução que funcione como o "Sistema Operacional" da empresa, unindo todos os pontos.
 
 ---
 
 ## 3. PERFIL DO CLIENTE IDEAL (ICP)
 
-Para garantir escalabilidade e eficiência nas vendas, definimos nosso foco:
+Focamos onde a dor é aguda e o orçamento existe.
 
-### Quem Atendemos (Target)
-* **Porte:** Pequenas e Médias Empresas (5 a 100 funcionários).
-* **Faturamento:** R$ 500k a R$ 50M / ano.
-* **Maturidade Digital:** Já utilizam alguma ferramenta (ERP ou CRM básico), mas sofrem com processos manuais.
-* **Setores Prioritários (Vertical AI):**
-    1.  **Automotivo:** Concessionárias e lojas de seminovos.
-    2.  **Imobiliário:** Imobiliárias e construtoras.
-    3.  **Varejo/E-commerce:** Lojas com alto volume de atendimento.
-    4.  **Serviços B2B:** Consultorias, clínicas e escritórios.
-
-### Quem NÃO Atendemos
-* **Microempreendedores (MEI):** Baixa capacidade de investimento e pouca complexidade operacional.
-* **Grandes Corporações:** Exigem customizações legadas extremas e ciclos de venda muito longos.
+| Critério | Definição do Alvo |
+| :--- | :--- |
+| **Porte** | 5 a 100 funcionários (Pequenas e Médias). |
+| **Faturamento** | R$ 500k a R$ 50M / ano. |
+| **Dor Principal** | Alto volume de atendimento/vendas travado por processos manuais. |
+| **Setores (Verticais)** | **1. Automotivo:** Concessionárias.<br>**2. Imobiliário:** Construtoras/Imobiliárias.<br>**3. Varejo:** E-commerce e Lojas Físicas.<br>**4. Serviços:** Clínicas e Consultorias. |
 
 ---
 
-## 4. ESTRUTURA DO PRODUTO (MODULARIDADE)
+## 4. ESTRUTURA DO ECOSSISTEMA (MODULARIDADE)
 
-A plataforma EVAH é composta por módulos independentes mas totalmente integrados.
+A EVAH é construída em blocos. O cliente pode começar pequeno e expandir.
 
-| Módulo | O que faz | Para quem serve |
+| Módulo | Função | Benefício Chave |
 | :--- | :--- | :--- |
-| **Evah Assistant** | **Inteligência:** O cérebro que atende, qualifica e opera sistemas. | Empresas que querem automatizar atendimento e vendas. |
-| **EVAH Omni** | **Centralização:** Hub que une WhatsApp, Instagram e Webchat numa tela. | Negócios com atendimento diário multicanal. |
-| **EVAH ERP** | **Gestão:** Sistema completo de pedidos, estoque, financeiro e RH. | PMEs que precisam profissionalizar a gestão. |
-| **EVAH Maestro** | **Automação:** O motor que conecta APIs e cria fluxos complexos. | Empresas que querem integrar sistemas diferentes. |
-| **EVAH Code** | **Customização:** Desenvolvimento sob medida para necessidades únicas. | Projetos específicos que fogem do padrão. |
+| **🧠 Evah Assistant** | **Inteligência** | O "cérebro" que atende, qualifica e opera os sistemas 24/7. |
+| **🗣️ EVAH Omni** | **Centralização** | Hub que une WhatsApp, Instagram e Webchat numa tela só. |
+| **🏛️ EVAH ERP** | **Gestão** | Backend robusto (Odoo) para pedidos, estoque e financeiro. |
+| **🎼 EVAH Maestro** | **Automação** | O motor invisível que conecta APIs e cria fluxos complexos. |
+| **💻 EVAH Code** | **Customização** | Camada de desenvolvimento para regras de negócio únicas. |
 
 ---
 
-## 5. PROPOSTA DE VALOR E DIFERENCIAÇÃO
+## 5. MATRIZ DE DIFERENCIAÇÃO COMPETITIVA
 
-Por que o cliente escolhe a Dobem e não a concorrência?
+Por que a Dobem vence a concorrência?
 
-| Concorrente Típico | A Falha deles | A Solução Dobem (EVAH) |
-| :--- | :--- | :--- |
-| **Chatbots Genéricos** (ManyChat, Zenvia) | Apenas "conversam" e tiram dúvidas. Não acessam dados profundos. | **Execução Real:** A EVAH consulta estoque, emite boleto e agenda visita. |
-| **Software Houses** | Projetos demorados, caros e feitos do zero. | **Agilidade:** Usamos blocos prontos (Open Source) para entregar em semanas. |
-| **ERPs Tradicionais** (Totvs, SAP) | Complexos, caros e difíceis de operar. | **Usabilidade:** A IA opera o sistema pelo usuário através do chat. |
+| Recurso | 🤖 Chatbots Genéricos<br>*(ManyChat, Zenvia)* | 🏭 Software Houses<br>*(Devs Tradicionais)* | 🚀 EVAH Platform<br>*(Dobem Tecnologia)* |
+| :--- | :---: | :---: | :---: |
+| **Foco Principal** | Conversa / FAQ | Código Sob Medida | **Execução / Ação** |
+| **Tempo de Setup** | Imediato (mas raso) | 3 a 6 meses | **3 a 5 Semanas** |
+| **Integração ERP** | Limitada / Nula | Complexa / Cara | **Nativa / Bidirecional** |
+| **Inteligência** | Script Rígido | Depende do Escopo | **Vertical AI Treinada** |
+| **Custo Inicial** | Baixo | Altíssimo | **Moderado (Cobre CAC)** |
+
+> **O Pulo do Gato:** Nós não competimos com o ManyChat no preço. Competimos na **capacidade de resolver problemas reais de negócio** (estoque, boleto, agendamento) que o ManyChat não toca.
 
 ---
 
-## 6. MODELO DE RECEITA (REVENUE MODEL)
+## 6. MODELO DE PRECIFICAÇÃO (PLANS & PRICING)
 
-Adotamos um modelo híbrido que garante fluxo de caixa imediato e valor a longo prazo.
+Nossa estratégia comercial é simplificada para reduzir atrito e acelerar o fechamento.
 
 ### 1. Setup & Onboarding (Cashflow)
-Não é apenas uma "taxa", é uma **Consultoria de Implementação**. Garantimos que o cliente comece com sucesso.
-* **Valor:** R$ 3.000,00 a R$ 5.000,00 (Pagamento único).
-* **O que entregamos:**
-    1.  Diagnóstico do fluxo atual.
-    2.  Configuração do ambiente e integrações.
-    3.  Treinamento da IA com dados da empresa.
-    4.  Treinamento da equipe humana.
-    5.  Acompanhamento do Go-Live (Estreia).
+**Valor: R$ 3.000,00 a R$ 5.000,00** (Pagamento Único)
+*Inclui: Diagnóstico, Configuração, Treinamento da IA e Go-Live.*
+*Objetivo:* Cobrir 100% do CAC e garantir engajamento.
 
-### 2. Assinatura Recorrente (MRR)
-O "aluguel" da inteligência e da plataforma.
+### 2. Assinatura Recorrente (SaaS)
 
-#### 🚀 Plano START (R$ 900 - R$ 1.200/mês)
-* **Foco:** Atendimento Inteligente 24/7.
-* *Ancoragem de Valor:* "Custa menos que 1/3 de um estagiário, mas trabalha 24h por dia."
-
-#### 📈 Plano GROWTH (R$ 1.500 - R$ 2.000/mês)
-* **Foco:** Vendas, CRM e Integração Total.
-* *Ancoragem de Valor:* "Equivale a contratar um assistente comercial e um analista de dados."
-
-#### 🏢 Plano SCALE (Sob Consulta)
-* **Foco:** Operações complexas, volumetria alta e customização.
-
-### 3. Expansão (Upsell)
-* **Novos Agentes:** Venda de agentes especialistas (ex: Agente de Cobrança).
-* **Consumo Extra:** Pacotes de mensagens ou processamento de IA acima da franquia.
+| Recurso | **🚀 START** | **📈 GROWTH** | **🏢 SCALE** |
+| :--- | :--- | :--- | :--- |
+| **Mensalidade Estimada** | **R$ 900 - R$ 1.200** | **R$ 1.500 - R$ 2.000** | **Sob Consulta** |
+| **Foco** | Atendimento 24/7 | Vendas & CRM | Operação Complexa |
+| **Canais** | 1 WhatsApp + Web | Multi-WhatsApp + Insta | Ilimitados |
+| **Usuários Omni** | Até 3 | Até 10 | Ilimitados |
+| **Módulos** | IA + Omni | IA + Omni + CRM + ERP | Full Stack + Maestro |
+| **Ancoragem** | *"Menos que 1/3 de estagiário"* | *"Sua equipe comercial completa"* | *"Automação Enterprise"* |
 
 ---
 
-## 7. UNIT ECONOMICS E VIABILIDADE
+## 7. UNIT ECONOMICS (VIABILIDADE)
 
-Nosso modelo é desenhado para ser saudável desde o primeiro cliente.
+A saúde financeira do modelo é baseada em eficiência de capital.
 
-* **CAC (Custo de Aquisição):** ~R$ 2.500.
-    * *Cobertura:* O valor do **Setup (R$ 3k+)** cobre 100% do CAC imediatamente.
-* **Payback Time:** **D0 (Imediato)**. O cliente se paga na entrada.
-* **LTV (Lifetime Value):** Projetado em R$ 28.800 (24 meses de retenção).
-* **Margem:** O uso de Open Source (Odoo, n8n) reduz drasticamente o custo de licenças de terceiros, aumentando a margem bruta.
+* **Ticket Médio (ARPU):** R$ 1.200/mês.
+* **CAC (Custo de Aquisição):** ~R$ 2.500 (Marketing + Vendas).
+    * *Insight:* Como cobramos Setup de R$ 3k+, o **Payback é Imediato (D0)**.
+* **LTV (Lifetime Value):** R$ 28.800 (Baseado em retenção conservadora de 24 meses).
+* **Ratio LTV:CAC:** **11.5x** (Excelente saúde financeira).
 
 ---
 
 ## 8. ESTRATÉGIA DE GO-TO-MARKET (GTM)
 
-### Fase 1: Validação de Nicho (Atual)
-* **Ação:** Venda direta (Outbound) para Concessionárias e Varejo.
-* **Arma:** Usar o case **Bira Veículos** como prova social irrefutável.
-* **Meta:** 10 primeiros clientes pagantes (Early Adopters).
+### Fase 1: O "Aparelho de Ponta" (Atual)
+* **Alvo:** Concessionárias e Varejo de alto ticket.
+* **Tática:** Venda direta usando o case **Bira Veículos** como prova social. "Copie o modelo que cresceu 40% os agendamentos."
+* **Meta:** 10 Clientes Pagantes.
 
-### Fase 2: Máquina de Vendas (6-12 meses)
-* **Ação:** Marketing de Conteúdo e Tráfego Pago.
-* **Arma:** SEO focado em dores ("como automatizar agendamento", "CRM para imobiliária").
-* **Meta:** Escalar para 50 clientes.
+### Fase 2: A Máquina de Conteúdo (Ano 1)
+* **Alvo:** Imobiliárias e Serviços B2B.
+* **Tática:** Inbound Marketing focado em dor ("Como não perder leads no WhatsApp").
+* **Meta:** 50 Clientes Pagantes.
 
-### Fase 3: Canais e Parceiros (12-24 meses)
-* **Ação:** Programa de Revenda White-label.
-* **Arma:** Agências de Marketing vendendo EVAH para seus próprios clientes.
-
----
-
-## 9. DEFINIÇÃO DO MVP (O QUE VENDEMOS HOJE)
-
-Para garantir foco e entrega rápida, o MVP é enxuto mas funcional.
-
-**O que ESTÁ no MVP:**
-1.  **Canal:** WhatsApp (via Evolution API).
-2.  **Cérebro:** Evah Assistant (OpenAI) para triagem e dúvidas.
-3.  **Ação:** Agendamento (Google Calendar) e Consulta de Tabela/Preço.
-4.  **Gestão:** CRM Básico (Odoo) para cadastrar leads.
-5.  **Humano:** Transbordo para Chatwoot.
-
-**O que NÃO está no MVP (Roadmap Futuro):**
-1.  App mobile próprio (usamos responsivo web).
-2.  Dashboard financeiro complexo (usamos nativo do Odoo).
-3.  Atendimento por voz/telefonia.
+### Fase 3: Ecossistema de Parceiros (Ano 2)
+* **Alvo:** Escala Nacional.
+* **Tática:** Agências de Marketing revendendo EVAH para seus clientes (White-label).
+* **Meta:** 200+ Clientes.
 
 ---
 
-## 10. ANÁLISE SWOT (MATRIZ ESTRATÉGICA)
+## 9. MVP E ROADMAP TÉCNICO
 
-### Forças (Strengths)
-* **Vertical AI:** Produto especialista, não genérico.
-* **Modelo Híbrido:** Setup garante caixa, MRR garante valor.
-* **Agilidade:** Uso de Stack Open Source permite desenvolvimento rápido.
+**O MVP (Disponível Hoje):**
+* ✅ **Canais:** WhatsApp (Evolution API).
+* ✅ **IA:** OpenAI integrada ao n8n para triagem e dúvidas.
+* ✅ **Ação:** Agendamento (Calendar) e Tabela de Preço.
+* ✅ **Gestão:** CRM Odoo Básico.
 
-### Fraquezas (Weaknesses)
-* **Marca:** Startup ainda desconhecida no mercado nacional.
-* **Equipe Enxuta:** Capacidade limitada de implementação simultânea (gargalo no Setup).
-
-### Oportunidades (Opportunities)
-* **Mercado PME:** 6 milhões de empresas carentes de digitalização real.
-* **Custo da IA:** Barateamento constante das APIs de LLM aumenta a margem.
-
-### Ameaças (Threats)
-* **Big Players:** Entrada de Microsoft/Salesforce no nicho PME.
-* **Qualidade da IA:** Risco de "alucinação" (mitigado pelo modo Híbrido Guiado).
+**O Futuro (Vision):**
+* 🔜 **Marketplace de Agentes:** Loja de apps para baixar "funcionários digitais".
+* 🔜 **Voice AI:** Atendimento telefônico nativo.
+* 🔜 **App Proprietário:** Interface administrativa 100% Dobem.
 
 ---
 
-## 11. CONCLUSÃO
+## 10. VISÃO DE FUTURO (ASPIRACIONAL)
 
-A **Dobem Tecnologia** não é uma "empresa de chatbot". Somos uma parceira de eficiência operacional.
-Nosso modelo de negócio resolve a dor financeira da startup (caixa rápido via Setup) e a dor operacional do cliente (sistemas desconectados).
+**Para onde estamos indo?**
 
-Com um ICP claro e um produto modular, estamos prontos para sair da fase de validação e entrar na fase de tração.
+Acreditamos que em 5 anos, **toda PME terá mais "funcionários digitais" do que humanos**.
+A Dobem Tecnologia não será apenas uma ferramenta de software. Seremos a **Agência de Recursos Humanos Digitais** dessas empresas.
+
+Nós forneceremos a força de trabalho inteligente (Agentes EVAH) que executará o trabalho burocrático, permitindo que os humanos voltem a fazer o que sabem fazer de melhor: criar, relacionar e estrategizar. Estamos construindo o **Sistema Operacional do Futuro do Trabalho**.
 
 ---
-**Documento Confidencial - Uso Interno e Estratégico**
+**Documento Estratégico Confidencial - Dobem Tecnologia**
