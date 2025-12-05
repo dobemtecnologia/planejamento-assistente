@@ -1,6 +1,6 @@
 # 🗂️ ÍNDICE MESTRE - DOBEM TECNOLOGIA
 
-> **Central de Navegação Estratégica**
+> **[🏠 Voltar ao Índice Mestre](./README.md)** | **Central de Navegação Estratégica**
 > **Objetivo:** Organizar todo o conhecimento da empresa em uma estrutura lógica de acesso.
 > **Última Atualização:** Dezembro 2025
 

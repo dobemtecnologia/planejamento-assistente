@@ -1,8 +1,5 @@
 # 📚 DOCUMENTAÇÃO TÉCNICA
-
-## 📋 Índice
-- [Guias de Implementação](#guias-de-implementação)
-- [APIs e Integrações](#apis-e-integrações)
+> **[🏠 Voltar ao Índice Mestre](../README.md)**
 - [Casos de Uso](#casos-de-uso)
 - [Troubleshooting](#troubleshooting)
 

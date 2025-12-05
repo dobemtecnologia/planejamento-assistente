@@ -1,4 +1,5 @@
 # 🛠️ BACKLOG DO MVP - EVAH Platform
+> **[🏠 Voltar ao Índice Mestre](../README.md)**
 
 > **Documento Técnico de Desenvolvimento**
 > **Objetivo:** Entregar a versão 1.0 vendável (Foco: Concessionárias/Varejo - Case Bira)

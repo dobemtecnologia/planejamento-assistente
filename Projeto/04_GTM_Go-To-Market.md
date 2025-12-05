@@ -1,6 +1,10 @@
 # 🎯 ESTRATÉGIA DE GO-TO-MARKET (GTM) - Dobem Tecnologia
 > **[🏠 Voltar ao Índice Mestre](../README.md)**
 
+> **Documento Estratégico de Vendas e Marketing**
+> **Versão:** 5.0 - Playbook Operacional de Elite (Final)
+> **Objetivo:** 10 Clientes (Validação) -> 50 Clientes (Tração) -> Expansão Nacional.
+
 ---
 
 ## 1. POSICIONAMENTO E TESE DE MERCADO

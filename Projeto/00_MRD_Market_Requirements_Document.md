@@ -1,5 +1,7 @@
 # 📊 DORES E INSIGHTS ESTRATÉGICOS - A Base do EVAH
 
+> **[🏠 Voltar ao Índice Mestre](../README.md)** | 
+
 > **Documento de Inteligência de Mercado**
 > **Versão:** 2.0 - Consolidada e Verificada
 > **Objetivo:** Fundamentar o desenvolvimento do MVP e os argumentos de vendas.

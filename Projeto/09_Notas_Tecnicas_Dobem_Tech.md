@@ -1,4 +1,5 @@
 # 📝 Observações e Notas Técnicas - Dobem Tecnologia
+> **[🏠 Voltar ao Índice Mestre](../README.md)**
 
 *Documento com observações técnicas, notas de infraestrutura e informações operacionais*
 

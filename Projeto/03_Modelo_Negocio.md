@@ -1,8 +1,8 @@
-
 # 💼 MODELO DE NEGÓCIO - Dobem Tecnologia
 
-> **Documento Estratégico Executivo**
+> **[🏠 Voltar ao Índice Mestre](../README.md)**
 > **Versão:** 6.0 - Platinum (Final Definitivo)
+
 > **Data:** Dezembro 2025
 
 ---

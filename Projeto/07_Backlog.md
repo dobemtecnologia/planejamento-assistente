@@ -1,4 +1,5 @@
 # 📋 Tarefas e Backlog - Dobem Tecnologia
+> **[🏠 Voltar ao Índice Mestre](../README.md)**
 
 *Documento operacional com tarefas pendentes e melhorias necessárias*
 

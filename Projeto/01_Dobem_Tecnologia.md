@@ -1,6 +1,6 @@
 # 🏢 Dobem Tecnologia - Documento Institucional Consolidado
 
-**Versão Refinada para Impacto Estratégico**
+> **[🏠 Voltar ao Índice Mestre](../README.md)** | **Versão Refinada para Impacto Estratégico**
 
 ---
 

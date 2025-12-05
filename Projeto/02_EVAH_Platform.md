@@ -1,5 +1,6 @@
 # 🚀 EVAH Platform
 **Ecossistema de Valor Automatizado para Humanos**
+> **[🏠 Voltar ao Índice Mestre](../README.md)** | 
 
 > **Whitepaper do Produto**
 > *Transformando operações caóticas em ecossistemas inteligentes.*
