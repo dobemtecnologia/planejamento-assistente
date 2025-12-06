@@ -2,8 +2,8 @@
 
 > **Arquivo:** `03_Plataforma.md`
 > **Pasta:** `/site`
-> **Objetivo:** Detalhar os 4 módulos técnicos (Assistant, Omni, ERP, Maestro), provando que é uma solução completa e integrada ("Sistema Operacional").
-> **Público:** O decisor técnico ou o dono de empresa que quer entender "como funciona".
+> **Objetivo:** Detalhar a profundidade técnica da plataforma, provando que é um "Sistema Operacional" completo com 15+ agentes especializados.
+> **Público:** Decisor Técnico (CTO) e Dono de Negócio focado em ROI.
 
 ---
 
@@ -13,141 +13,127 @@
 # De ferramentas desconectadas para uma IA que vende sozinha.
 
 **Subheadline (H2):**
-A primeira **Vertical AI brasileira** que não apenas conversa com seu cliente, mas **executa vendas reais** no seu sistema. 40% mais agendamentos em 30 dias.
+A primeira **Vertical AI brasileira** que não apenas conversa, mas **executa vendas reais**. Processe áudio, imagem e pagamentos dentro do WhatsApp.
 
 **Visual (Fluxograma Interativo):**
-> *Animação:* Cliente → WhatsApp → **IA Triagem** → Agendamento → **ERP** → Confirmação
-> *Legenda:* "Processado em 2.5 segundos."
+> *Animação:* Cliente (Áudio) → **Whisper API** → **IA Triagem** → Agendamento → **ERP** → Confirmação
+> *Legenda:* "Processado em 2.5 segundos. Sem intervenção humana."
 
 ---
 
-## 2. MÓDULO 1: EVAH ASSISTANT (O Cérebro)
+## 2. ARQUITETURA DE AGENTES (O Diferencial)
+*Não é um bot. É um exército de especialistas.*
+
+**Headline:**
+### 🤖 Um ecossistema com 15+ Agentes Especializados.
+Sua operação é complexa. Nossos agentes também são. Ative apenas o que precisar.
+
+| Categoria | Agentes Disponíveis |
+| :--- | :--- |
+| **Gestão & Vendas** | • **Agente CRM:** Cria e qualifica leads (A/B/C).<br>• **Agente Calendar:** Agenda sem conflitos.<br>• **Agente Lead Scoring:** Avalia potencial de compra. |
+| **Inteligência** | • **Agente SQL:** Consulta seu banco de dados em linguagem natural.<br>• **Agente Scraper:** Busca preço na FIPE ou concorrentes.<br>• **Agente Wiki:** Responde dúvidas institucionais. |
+| **Multimídia** | • **Agente Voice:** Transcreve áudio do WhatsApp (Whisper).<br>• **Agente OCR:** Lê PDFs e fotos de documentos.<br>• **Agente Vision:** Identifica produtos por foto. |
+| **Financeiro** | • **Agente Gateway:** Processa pagamentos (Pix/Cartão) no chat.<br>• **Agente Financiamento:** Calcula parcelas em tempo real. |
+
+---
+
+## 3. MÓDULO 1: EVAH ASSISTANT (O Cérebro)
 *Inteligência Artificial Vertical.*
 
 **Headline:**
 ### 🧠 Evah Assistant: A IA que trabalha, não apenas conversa.
 
 **Descrição:**
-Diferente de chatbots genéricos que apenas respondem perguntas frequentes, a Evah Assistant é uma **Vertical AI** treinada nas regras de negócio do seu setor. Ela tem permissão (controlada) para executar tarefas dentro do sistema.
+Diferente de chatbots genéricos, a Evah Assistant é uma **Vertical AI** treinada nas regras de negócio do seu setor.
 
-**Funcionalidades Chave:**
-* ✅ **Triagem Inteligente:** Qualifica **80% dos leads** automaticamente (Renda, Interesse, Urgência).
+**Capacidades Avançadas:**
+* ✅ **Triagem Inteligente:** Qualifica **80% dos leads** automaticamente.
 * ✅ **Agendamento Autônomo:** Reduz o tempo de agendamento de 4h para **3 segundos**.
-* ✅ **Consulta FIPE/Estoque:** Respostas precisas em tempo real direto do banco de dados.
-* ✅ **Memória de Contexto:** Lembra interações de 6 meses atrás para personalizar o atendimento.
-
-**Agentes Especializados:**
-* *Agente CRM Automation*
-* *Agente Calendar Management*
-* *Agente SQL Query Engine*
-* *Agente Voice Transcription*
+* ✅ **Memória Infinita:** Lembra interações de 6 meses atrás para personalizar o atendimento.
 
 **Visual Sugerido:**
-> *GIF:* Chat mostrando a IA negociando um horário.
-> *Timestamp:* "Cliente: 14:30 | IA: 14:30 (+2s)"
-> *Ação:* Notificação de calendário aparecendo na tela.
-
-[ **Ver Demonstração em Ação →** ](./05_Cases.md)
+> *GIF:* Chat mostrando a IA recebendo um áudio, transcrevendo e agendando a reunião.
 
 ---
 
-## 3. MÓDULO 2: EVAH OMNI (A Voz)
+## 4. MÓDULO 2: EVAH OMNI (A Voz)
 *Centralização de Atendimento.*
 
 **Headline:**
 ### 🗣️ EVAH Omni: Todos os seus canais em uma única tela.
 
 **Descrição:**
-Seus vendedores usam WhatsApp pessoal? Isso é um risco. O Omni centraliza WhatsApp, Instagram Direct, Facebook Messenger e Webchat em um painel corporativo unificado.
+Centralize WhatsApp, Instagram, Telegram e Webchat em um painel unificado.
 
-**Funcionalidades Chave:**
+**Métricas de Impacto:**
 * ✅ **Caixa Unificada:** Centraliza 5+ canais em 1 tela.
-* ✅ **Transbordo Híbrido:** **95% das dúvidas** resolvidas pela IA antes de chegar ao humano.
+* ✅ **Transbordo Híbrido:** **95% das dúvidas** resolvidas pela IA.
 * ✅ **Gestão de Equipe:** Monitore **50 conversas simultâneas** em tempo real.
 
 **Visual Sugerido:**
-> *Print:* Interface do Chatwoot (Modo Dark) mostrando a lista de conversas.
-> *Destaque:* Badge "IA Atendendo" vs "Humano Atendendo".
-> *Contador:* "23 conversas ativas".
-
-[ **Ver Demonstração em Ação →** ](./05_Cases.md)
+> *Print:* Interface do Chatwoot com badge "IA Atendendo" e contador de conversas ativas.
 
 ---
 
-## 4. MÓDULO 3: EVAH ERP (A Base)
+## 5. MÓDULO 3: EVAH ERP (A Base)
 *Gestão Empresarial Sólida.*
 
 **Headline:**
 ### 🏛️ EVAH ERP: Onde a venda se concretiza.
 
 **Descrição:**
-A inteligência precisa de dados reais. O EVAH ERP (powered by Odoo) é o sistema de gestão que alimenta a IA com informações de estoque, financeiro e clientes.
+A inteligência precisa de dados reais. O EVAH ERP (Odoo) alimenta a IA com estoque e financeiro.
 
 **Funcionalidades Chave:**
-* ✅ **Gestão de Estoque:** Elimina em **50% o retrabalho** manual de conferência.
-* ✅ **CRM Nativo:** Leads do WhatsApp são cadastrados automaticamente no funil.
-* ✅ **Financeiro:** Emissão de boletos e notas fiscais integrados.
-* ✅ **Contratos Digitais:** Assinatura eletrônica direto na plataforma.
+* ✅ **Gestão de Estoque:** Elimina em **50% o retrabalho** manual.
+* ✅ **CRM Nativo:** Leads do WhatsApp cadastrados automaticamente.
+* ✅ **Financeiro:** Emissão de boletos e NFs integrados.
 
 **Visual Sugerido:**
 > *Print:* Dashboard financeiro do Odoo e visão Kanban do CRM.
 
 ---
 
-## 5. MÓDULO 4: EVAH MAESTRO (A Regência)
+## 6. MÓDULO 4: EVAH MAESTRO (A Regência)
 *Orquestração e Automação.*
 
 **Headline:**
 ### 🎼 EVAH Maestro: O motor invisível da sua operação.
 
 **Descrição:**
-Para fluxos complexos que exigem lógica avançada, o Maestro entra em cena. Ele é o integrador que conecta APIs, bancos de dados e sistemas externos sem que você precise digitar código.
+O integrador que conecta APIs, bancos de dados e sistemas externos sem código (n8n).
 
 **Funcionalidades Chave:**
-* ✅ **Conectividade Total:** Liga a EVAH ao seu banco legado, Salesforce ou HubSpot.
-* ✅ **Gatilhos Automáticos:** Automatiza **80% das tarefas repetitivas** (ex: Enviar NF após venda).
-* ✅ **Web Scraping:** Busca dados em sites externos (Detran, Portais) para enriquecer o atendimento.
+* ✅ **Conectividade Total:** Liga a EVAH ao seu banco legado ou Salesforce.
+* ✅ **Gatilhos Automáticos:** Automatiza **80% das tarefas repetitivas**.
+* ✅ **Web Scraping:** Busca dados em sites externos para enriquecer o atendimento.
 
 **Visual Sugerido:**
-> *Print:* Um fluxo visual do n8n mostrando a lógica de automação rodando.
+> *Print:* Fluxo visual do n8n rodando uma automação complexa.
 
 ---
 
-## 6. SEGURANÇA E INFRAESTRUTURA (Tech Specs)
-*Construído para escala e segurança empresarial.*
+## 7. ROI COMPROVADO (Por Setor)
 
-### 🛡️ Segurança Empresarial
-* **Criptografia:** AES-256 em trânsito e repouso.
-* **Backup:** Redundância 3-2-1 com recuperação em 15 min.
-* **Auditoria:** Logs detalhados para conformidade total com LGPD.
+**🚗 Automotivo (Case Bira):**
+* **+300%** leads qualificados via WhatsApp.
+* Consulta FIPE em **2 segundos** (vs 5 min manual).
 
-### ☁️ Infraestrutura Cloud
-* **AWS Enterprise:** 99.9% de uptime garantido.
-* **Escalabilidade:** Suporta de 1 para 1000 usuários automaticamente.
-* **Latência:** <50ms (Brasil-EUA).
+**🏠 Imobiliário:**
+* **+200%** eficiência na triagem de locação.
+* Agendamento de visitas com **zero conflito**.
 
-[ **Agendar Consultoria Técnica →** ](./08_Contato.md)
-
----
-
-## 7. INTEGRAÇÕES NATIVAS
-*Seu ecossistema conectado.*
-
-* ✅ **Mensageria:** WhatsApp, Instagram, Telegram.
-* ✅ **Produtividade:** Google Workspace (Calendar, Drive, Gmail).
-* ✅ **Pagamentos:** Stripe, PagSeguro, Mercado Pago.
-* ✅ **Sistemas:** Odoo, Salesforce, HubSpot.
+**🛒 Varejo:**
+* **+45%** recuperação de carrinho abandonado.
+* **+60%** vendas conversacionais via Catálogo WhatsApp.
 
 ---
 
-## 8. POR QUE EVAH VS. CONCORRÊNCIA?
+## 8. SEGURANÇA E INFRAESTRUTURA (Enterprise Grade)
 
-| Feature | 🤖 Chatbots Comuns | 🏛️ Sistemas ERP | 🚀 **EVAH** |
-| :--- | :---: | :---: | :---: |
-| **Executa Ações** | ❌ Apenas conversa | ⚠️ Limitado | ✅ **Total** |
-| **Vertical AI** | ❌ Genérico | ❌ Não tem IA | ✅ **Especializada** |
-| **Tempo de Setup** | ⚠️ Semanas | ❌ Meses | ✅ **Dias** |
-| **Custo** | 💰💰💰 | 💰💰💰💰 | 💰 |
+* **🛡️ Segurança:** Criptografia AES-256, Backup 3-2-1, Conformidade LGPD.
+* **☁️ Infraestrutura:** AWS Enterprise, SLA 99.9%, Latência <50ms.
+* **🔌 Integrações:** WhatsApp Oficial, Google Workspace, Stripe, HubSpot.
 
 ---
 
@@ -161,6 +147,6 @@ Não precisa contratar um time de TI. Nós entregamos tudo configurado.
 
 **Botões:**
 [ **Começar Teste Gratuito** ] (Link para Preços)
-[ **Agendar Demo Personalizada** ] (Link para Contato)
+[ **Agendar Demo Técnica** ] (Link para Contato)
 
 ---
