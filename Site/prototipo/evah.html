@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVAH - Ecossistema de Valor Automatizado para Humanos | Dobem Tecnologia</title>
+    <meta name="description" content="Não perca mais vendas por demora no atendimento. A EVAH é a primeira IA Vertical que executa ações reais no seu sistema. Atenda, qualifique e vende 24/7.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        doberm: {
+                            blue: '#1e40af',
+                            'blue-light': '#3b82f6',
+                            'blue-dark': '#1e3a8a',
+                            'blue-soft': '#eff6ff',
+                            accent: '#06b6d4'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .hero-bg {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+        }
+        .fade-in {
+            animation: fadeIn 0.8s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-3">
+                    <img src="imagens/logo_dobem.png" alt="Dobem Tecnologia Logo" class="h-8 w-auto">
+                    <div class="h-6 w-px bg-gray-300"></div>
+                    <span class="text-lg font-semibold text-doberm-blue">EVAH Platform</span>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#plataforma" class="text-gray-600 hover:text-doberm-blue transition-colors">Plataforma</a>
+                    <a href="#solucoes" class="text-gray-600 hover:text-doberm-blue transition-colors">Soluções</a>
+                    <a href="#cases" class="text-gray-600 hover:text-doberm-blue transition-colors">Cases</a>
+                    <a href="#sobre" class="text-gray-600 hover:text-doberm-blue transition-colors">Sobre</a>
+                </nav>
+                <button class="bg-doberm-blue text-white px-6 py-2 rounded-lg hover:bg-doberm-blue-dark transition-colors font-medium">
+                    Agendar Demo
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="fade-in">
+                    <div class="flex items-center space-x-3 mb-6">
+                        <img src="imagens/logo-dobem-tech_branca.png" alt="Dobem Tecnologia" class="h-10 w-auto opacity-90">
+                        <span class="text-sm bg-white/20 px-3 py-1 rounded-full">Ecossistema de Valor Automatizado</span>
+                    </div>
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+                        Não perca mais vendas por demora no atendimento.
+                    </h1>
+                    <p class="text-xl mb-8 text-blue-100">
+                        A <strong class="text-white">EVAH</strong> é a primeira Inteligência Artificial Vertical que não apenas conversa com seu cliente, mas <strong>executa ações reais</strong> no seu sistema.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="bg-white text-doberm-blue hover:bg-gray-50 px-8 py-3 rounded-lg font-semibold transition-colors shadow-lg">
+                            Agendar Demonstração
+                        </button>
+                        <button class="border border-white text-white hover:bg-white hover:text-doberm-blue px-8 py-3 rounded-lg font-semibold transition-colors">
+                            Ver em Ação
+                        </button>
+                    </div>
+                </div>
+                <div class="fade-in">
+                    <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+                        <div class="flex items-center space-x-2 mb-4">
+                            <div class="w-3 h-3 bg-green-400 rounded-full"></div>
+                            <div class="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                            <div class="w-3 h-3 bg-red-400 rounded-full"></div>
+                            <span class="text-xs text-blue-100 ml-2">WhatsApp Business API</span>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="bg-white/20 p-3 rounded">
+                                <p class="text-sm">👤 Cliente: Olá, tenho interesse em um veículo usado.</p>
+                            </div>
+                            <div class="bg-doberm-blue-light p-3 rounded ml-8">
+                                <p class="text-sm">🤖 EVAH: Claro! Posso ajudar você. Qual modelo está procurando?</p>
+                            </div>
+                            <div class="bg-white/20 p-3 rounded">
+                                <p class="text-sm">👤 Cliente: Um Honda Civic 2018</p>
+                            </div>
+                            <div class="bg-doberm-blue p-3 rounded ml-8">
+                                <p class="text-sm">🤖 EVAH: Consultando estoque... Temos 2 unidades! R$ 89.900. Quer agendar visita?</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 text-center text-xs text-blue-100">
+                            Agendamento confirmado em 45 segundos
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nossa Missão Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                    Nossa Missão, Visão e Valores
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Os princípios que guiam a Dobem Tecnologia na criação da EVAH
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                    <img src="imagens/missao-1024x611.jpg" alt="Missão Dobem" class="w-full h-40 object-cover rounded-lg mb-6">
+                    <h3 class="text-2xl font-bold text-doberm-blue mb-4">Missão</h3>
+                    <p class="text-gray-700">Democratizar a tecnologia de ponta para PMEs, tornando sistemas complexos acessíveis e eficientes através da automação inteligente.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                    <img src="imagens/visão.png" alt="Visão Dobem" class="w-full h-40 object-cover rounded-lg mb-6">
+                    <h3 class="text-2xl font-bold text-doberm-blue mb-4">Visão</h3>
+                    <p class="text-gray-700">Ser a principal referência em soluções de IA vertical no Brasil, transformando como as empresas brasileiras operam e crescem.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                    <img src="imagens/valores.png" alt="Valores Dobem" class="w-full h-40 object-cover rounded-lg mb-6">
+                    <h3 class="text-2xl font-bold text-doberm-blue mb-4">Valores</h3>
+                    <p class="text-gray-700">Inovação, Ética, Excelência, Parceria e Foco no Cliente. Construímos relacionamentos duradouros baseados na confiança.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problema Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                    Sua operação está sofrendo de "Fadiga de Software"?
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Você contratou um CRM, um ERP e usa o WhatsApp Web. Mas nada conversa com nada e sua equipe perde tempo copiando dados.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-doberm-blue-soft p-8 rounded-xl border border-doberm-blue/20">
+                    <div class="text-5xl mb-6">🛑</div>
+                    <h3 class="text-xl font-semibold mb-4 text-doberm-blue-dark">O Cliente Desiste</h3>
+                    <p class="text-gray-700 mb-4">"60% dos clientes trocam de marca se não tiverem resposta em até 1 hora."</p>
+                    <p class="text-gray-600">Seu time só responde em horário comercial. A EVAH responde agora.</p>
+                </div>
+
+                <div class="bg-doberm-blue-soft p-8 rounded-xl border border-doberm-blue/20">
+                    <div class="text-5xl mb-6">📉</div>
+                    <h3 class="text-xl font-semibold mb-4 text-doberm-blue-dark">Desperdício Operacional</h3>
+                    <p class="text-gray-700 mb-4">"Equipes gastam 30% do tempo em tarefas repetitivas."</p>
+                    <p class="text-gray-600">Chega de copiar e colar. Deixe a IA preencher o CRM.</p>
+                </div>
+
+                <div class="bg-doberm-blue-soft p-8 rounded-xl border border-doberm-blue/20">
+                    <div class="text-5xl mb-6">🫣</div>
+                    <h3 class="text-xl font-semibold mb-4 text-doberm-blue-dark">Decisão no Escuro</h3>
+                    <p class="text-gray-700 mb-4">Sem dados integrados, você não sabe quanto vendeu pelo WhatsApp hoje.</p>
+                    <p class="text-gray-600">Acabe com a cegueira estratégica.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solução Section -->
+    <section id="plataforma" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                    Conheça a EVAH. O Sistema Operacional da sua Eficiência.
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Um ecossistema modular que une Inteligência, Atendimento e Gestão.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <div class="text-center mb-4">
+                        <div class="w-16 h-16 bg-doberm-blue-soft rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-3xl">🧠</span>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-3 text-doberm-blue-dark text-center">Evah Assistant</h3>
+                    <p class="text-gray-600 text-sm mb-4">A IA que entende seu nicho. Treinada para o seu negócio, ela tira dúvidas, consulta estoques e agenda reuniões.</p>
+                    <a href="#" class="text-doberm-blue font-medium hover:text-doberm-blue-dark text-center block">Saiba mais →</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <div class="text-center mb-4">
+                        <div class="w-16 h-16 bg-doberm-blue-soft rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-3xl">🗣️</span>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-3 text-doberm-blue-dark text-center">EVAH Omni</h3>
+                    <p class="text-gray-600 text-sm mb-4">Centralize WhatsApp, Instagram e Webchat em uma única tela. Se a IA não resolver, seu humano assume.</p>
+                    <a href="#" class="text-doberm-blue font-medium hover:text-doberm-blue-dark text-center block">Saiba mais →</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <div class="text-center mb-4">
+                        <div class="w-16 h-16 bg-doberm-blue-soft rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-3xl">🏛️</span>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-3 text-doberm-blue-dark text-center">EVAH ERP</h3>
+                    <p class="text-gray-600 text-sm mb-4">Gestão financeira, estoque e vendas integrada nativamente. Quando a IA vende, o estoque baixa automaticamente.</p>
+                    <a href="#" class="text-doberm-blue font-medium hover:text-doberm-blue-dark text-center block">Saiba mais →</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <div class="text-center mb-4">
+                        <div class="w-16 h-16 bg-doberm-blue-soft rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-3xl">🎼</span>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-3 text-doberm-blue-dark text-center">EVAH Maestro</h3>
+                    <p class="text-gray-600 text-sm mb-4">O motor invisível que conecta tudo. Automações complexas que rodam enquanto você dorme.</p>
+                    <a href="#" class="text-doberm-blue font-medium hover:text-doberm-blue-dark text-center block">Saiba mais →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipe Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                    Nossa Equipe
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Pessoas apaixonadas por tecnologia e inovação.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="text-center">
+                    <img src="imagens/perfis/Elton.png" alt="Elton Gonçalves" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover border-2 border-doberm-blue">
+                    <h3 class="text-lg font-semibold mb-2">Elton Gonçalves</h3>
+                    <p class="text-doberm-blue font-medium mb-2">CEO & Fundador</p>
+                    <p class="text-gray-600 text-sm">Liderança estratégica e visão técnica.</p>
+                </div>
+
+                <div class="text-center">
+                    <img src="imagens/perfis/Casseb.png" alt="Casseb Silva" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover border-2 border-doberm-blue">
+                    <h3 class="text-lg font-semibold mb-2">Casseb Silva</h3>
+                    <p class="text-doberm-blue font-medium mb-2">CTO</p>
+                    <p class="text-gray-600 text-sm">Arquitetura de sistemas e desenvolvimento.</p>
+                </div>
+
+                <div class="text-center">
+                    <img src="imagens/perfis/Luci.png" alt="Luci" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover border-2 border-doberm-blue">
+                    <h3 class="text-lg font-semibold mb-2">Luci</h3>
+                    <p class="text-doberm-blue font-medium mb-2">Customer Success</p>
+                    <p class="text-gray-600 text-sm">Garante o sucesso de cada cliente.</p>
+                </div>
+
+                <div class="text-center">
+                    <img src="imagens/perfis/Reinaldo.png" alt="Reinaldo" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover border-2 border-doberm-blue">
+                    <h3 class="text-lg font-semibold mb-2">Reinaldo</h3>
+                    <p class="text-doberm-blue font-medium mb-2">Desenvolvimento</p>
+                    <p class="text-gray-600 text-sm">Especialista em IA e automação.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Verticais Section -->
+    <section id="solucoes" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                    Treinada especificamente para o seu setor
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Não vendemos robôs genéricos. Entregamos especialistas digitais.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <div class="text-4xl mb-4 text-center">🚗</div>
+                    <h3 class="text-lg font-semibold mb-3 text-doberm-blue-dark text-center">Automotivo</h3>
+                    <p class="text-gray-600 text-sm mb-4">Agendamento de Test-Drive, Consulta FIPE, Triagem de Leads.</p>
+                    <a href="#" class="text-doberm-blue font-medium hover:text-doberm-blue-dark text-center block">Ver solução →</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <div class="text-4xl mb-4 text-center">🏠</div>
+                    <h3 class="text-lg font-semibold mb-3 text-doberm-blue-dark text-center">Imobiliário</h3>
+                    <p class="text-gray-600 text-sm mb-4">Coleta de perfil, agendamento de visitas, integração com portais.</p>
+                    <a href="#" class="text-doberm-blue font-medium hover:text-doberm-blue-dark text-center block">Ver solução →</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <div class="text-4xl mb-4 text-center">🛒</div>
+                    <h3 class="text-lg font-semibold mb-3 text-doberm-blue-dark text-center">Varejo</h3>
+                    <p class="text-gray-600 text-sm mb-4">Recuperação de carrinho, consulta de pedidos, catálogo no WhatsApp.</p>
+                    <a href="#" class="text-doberm-blue font-medium hover:text-doberm-blue-dark text-center block">Ver solução →</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <div class="text-4xl mb-4 text-center">🏥</div>
+                    <h3 class="text-lg font-semibold mb-3 text-doberm-blue-dark text-center">Serviços</h3>
+                    <p class="text-gray-600 text-sm mb-4">Confirmação de consultas, triagem de pacientes, lembretes automáticos.</p>
+                    <a href="#" class="text-doberm-blue font-medium hover:text-doberm-blue-dark text-center block">Ver solução →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resultados Section -->
+    <section id="cases" class="py-20 bg-doberm-blue text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl md-text-4xl font-bold mb-6">
+                        Resultados reais, não promessas.
+                    </h2>
+                    <div class="bg-white/10 p-6 rounded-xl mb-6">
+                        <p class="text-lg italic mb-4">"A EVAH revolucionou nosso atendimento. É como ter uma equipe trabalhando 24 horas por dia."</p>
+                        <p class="font-semibold">— Direção Bira Veículos</p>
+                    </div>
+                    <div class="grid grid-cols-3 gap-4">
+                        <div class="text-center">
+                            <p class="font-bold text-2xl">-99%</p>
+                            <p class="text-blue-100 text-sm">Tempo de resposta</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="font-bold text-2xl">+40%</p>
+                            <p class="text-blue-100 text-sm">Agendamentos</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="font-bold text-2xl">100%</p>
+                            <p class="text-blue-100 text-sm">Qualificação</p>
+                        </div>
+                    </div>
+                    <button class="mt-6 border border-white text-white hover:bg-white hover:text-doberm-blue px-6 py-3 rounded-lg font-semibold transition-colors">
+                        Ler Case Completo
+                    </button>
+                </div>
+                <div class="text-center">
+                    <img src="imagens/Bira Veículos.jpeg" alt="Bira Veículos" class="rounded-xl shadow-lg max-w-sm mx-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tecnologias Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">
+                    Tecnologias que potencializam a EVAH
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-8 items-center justify-items-center">
+                <img src="imagens/ERP Odoo.png" alt="Odoo ERP" class="h-12 w-auto opacity-70 hover:opacity-100 transition-opacity">
+                <img src="imagens/evolution-painel.png" alt="Evolution API" class="h-12 w-auto opacity-70 hover:opacity-100 transition-opacity">
+                <img src="imagens/odoo-apps.png" alt="Odoo Apps" class="h-12 w-auto opacity-70 hover:opacity-100 transition-opacity">
+                <img src="imagens/n8n-01.png" alt="n8n" class="h-12 w-auto opacity-70 hover:opacity-100 transition-opacity">
+                <img src="imagens/hub_de_Integracao.png" alt="Hub de Integração" class="h-12 w-auto opacity-70 hover:opacity-100 transition-opacity">
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md-text-4xl font-bold text-gray-900 mb-6">
+                    Por que escolher a Dobem Tecnologia?
+                </h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-doberm-blue rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-2xl text-white">✓</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-doberm-blue-dark">Execução Real</h3>
+                    <p class="text-gray-600">Outros chatbots apenas conversam. Nós executamos tarefas no seu sistema.</p>
+                </div>
+
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-doberm-blue rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-2xl text-white">✓</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-doberm-blue-dark">Setup Consultivo</h3>
+                    <p class="text-gray-600">Não te entregamos um login e senha. Implementamos, treinamos e acompanhamos o sucesso.</p>
+                </div>
+
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-doberm-blue rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-2xl text-white">✓</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-doberm-blue-dark">Custo-Benefício</h3>
+                    <p class="text-gray-600">Tecnologia de Big Tech com preço de startup. O plano inicial custa menos de 1/3 de um estagiário.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md-text-4xl font-bold text-gray-900 mb-6">
+                    Tire suas dúvidas
+                </h2>
+            </div>
+
+            <div class="space-y-4">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                    <h3 class="text-lg font-semibold mb-3 text-gray-900">Preciso ter um programador na equipe?</h3>
+                    <p class="text-gray-600">Não! Nossa equipe cuida de todo o setup técnico para você.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                    <h3 class="text-lg font-semibold mb-3 text-gray-900">Funciona com o sistema que eu já uso?</h3>
+                    <p class="text-gray-600">A EVAH é agnóstica. Integramos com a maioria dos ERPs e CRMs do mercado via API.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                    <h3 class="text-lg font-semibold mb-3 text-gray-900">E se eu não gostar?</h3>
+                    <p class="text-gray-600">Oferecemos 30 dias de garantia total. Se não gerar resultado, devolvemos seu investimento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-20 bg-doberm-blue text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="mb-8">
+                <img src="imagens/logo_dobem.png" alt="Dobem Tecnologia" class="w-32 h-auto mx-auto mb-6 opacity-90">
+            </div>
+            <h2 class="text-3xl md-text-4xl font-bold mb-6">
+                Pronto para transformar sua operação?
+            </h2>
+            <p class="text-xl mb-8 text-blue-100">
+                Não deixe mais 60% dos seus clientes desistirem por falta de resposta.
+            </p>
+            <button class="bg-white text-doberm-blue hover:bg-gray-100 px-10 py-4 rounded-lg font-bold text-xl transition-colors shadow-lg">
+                Agendar Demonstração Gratuita
+            </button>
+            <p class="mt-4 text-sm text-blue-100">
+                Setup garantido: Se não funcionar em 30 dias, devolvemos seu investimento.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <img src="imagens/logo-dobem-tech_branca.png" alt="Dobem Tecnologia" class="h-8 w-auto">
+                        <span class="text-lg font-semibold">EVAH Platform</span>
+                    </div>
+                    <p class="text-gray-400 mb-4 text-sm">Ecossistema de Valor Automatizado para Humanos</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">LinkedIn</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">Instagram</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">YouTube</a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4">Produto</h4>
+                    <ul class="space-y-2 text-gray-400 text-sm">
+                        <li><a href="#" class="hover:text-white transition-colors">Evah Assistant</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">EVAH Omni</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">EVAH ERP</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">EVAH Maestro</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4">Empresa</h4>
+                    <ul class="space-y-2 text-gray-400 text-sm">
+                        <li><a href="#sobre" class="hover:text-white transition-colors">Sobre Nós</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Nossa Equipe</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Cases</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4">Contato</h4>
+                    <ul class="space-y-2 text-gray-400 text-sm">
+                        <li class="flex items-center space-x-2">
+                            <span>📱</span>
+                            <span>WhatsApp: +55 91 98353-8941</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span>📧</span>
+                            <span>contato@dobemtecnologia.com</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span>📍</span>
+                            <span>Belém - PA, Brasil</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-8 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-center md:text-left text-sm">
+                        &copy; 2025 Dobem Tecnologia. Todos os direitos reservados.
+                    </p>
+                    <div class="flex items-center space-x-4 mt-4 md:mt-0">
+                        <img src="imagens/smile-dobem.png" alt="Smile Dobem" class="w-6 h-6">
+                        <span class="text-xs text-gray-400">"Dando Bem com Tecnologia"</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, observerOptions);
+
+        // Add animation classes to sections
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Add loading animation to CTA buttons
+        document.querySelectorAll('button').forEach(button => {
+            button.addEventListener('click', function() {
+                if (this.textContent.includes('Agendar')) {
+                    this.innerHTML = '<span class="animate-spin">⏳</span> Processando...';
+                    setTimeout(() => {
+                        this.innerHTML = 'Agendar Demonstração Gratuita';
+                    }, 2000);
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
