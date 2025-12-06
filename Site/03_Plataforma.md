@@ -113,7 +113,31 @@ O integrador que conecta APIs, bancos de dados e sistemas externos sem código (
 
 ---
 
-## 7. ROI COMPROVADO (Por Setor)
+## 7. ARQUITETURA TÉCNICA DETALHADA
+*Como os dados fluem com segurança.*
+
+**Fluxo de Dados:**
+`Cliente` → **WhatsApp API** → `Typebot` (Fluxo Guiado) → **OpenAI GPT-4** → `n8n` (Orquestrador) → **Odoo ERP** (Dados) → `Google Calendar` / `Stripe`
+
+**Especificações Enterprise:**
+* **🛡️ Segurança:** Criptografia AES-256, Backup 3-2-1.
+* **☁️ Infraestrutura:** AWS Enterprise, SLA 99.9%, Latência <50ms.
+* **📜 Compliance:** LGPD Ready, Logs de Auditoria Completos.
+
+---
+
+## 8. POR QUE EVAH VS. CONCORRÊNCIA?
+
+| Capacidade | 🤖 Chatbots Comuns | 🏭 Software Houses | 🚀 **EVAH** |
+| :--- | :---: | :---: | :---: |
+| **Agentes de IA** | 1-2 (Básicos) | Personalizado (Caro) | **15+ Especializados** |
+| **Multimídia** | ❌ Texto apenas | ⚠️ Básico | ✅ **Áudio, Imagem, PDF** |
+| **Tempo de Setup** | ⚠️ Semanas | ❌ 3-6 Meses | ✅ **2-4 Semanas** |
+| **Custo** | 💰💰💰 | 💰💰💰💰 | 💰 |
+
+---
+
+## 9. ROI COMPROVADO (Por Setor)
 
 **🚗 Automotivo (Case Bira):**
 * **+300%** leads qualificados via WhatsApp.
@@ -129,15 +153,7 @@ O integrador que conecta APIs, bancos de dados e sistemas externos sem código (
 
 ---
 
-## 8. SEGURANÇA E INFRAESTRUTURA (Enterprise Grade)
-
-* **🛡️ Segurança:** Criptografia AES-256, Backup 3-2-1, Conformidade LGPD.
-* **☁️ Infraestrutura:** AWS Enterprise, SLA 99.9%, Latência <50ms.
-* **🔌 Integrações:** WhatsApp Oficial, Google Workspace, Stripe, HubSpot.
-
----
-
-## 9. CTA DE FINAL DE PÁGINA
+## 10. CTA DE FINAL DE PÁGINA
 
 **Headline:**
 ### Tecnologia de Big Tech, acessível para sua empresa.
